@@ -1,0 +1,241 @@
+stadium_id,stadium_name,city_name,country_name,stadium_capacity
+S-001,Estadio José Amalfitani,Buenos Aires,Argentina,49000
+S-002,Estadio Monumental,Buenos Aires,Argentina,75000
+S-003,Estadio Chateau Carreras,Córdoba,Argentina,47000
+S-004,Estadio José María Minella,Mar del Plata,Argentina,44000
+S-005,Estadio Ciudad de Mendoza,Mendoza,Argentina,35000
+S-006,Estadio Gigante de Arroyito,Rosario,Argentina,46000
+S-007,Estádio Independência,Belo Horizonte,Brazil,30000
+S-008,Estádio Mineirão,Belo Horizonte,Brazil,43000
+S-009,Estádio Nacional,Brasília,Brazil,70000
+S-010,Arena Pantanal,Cuiabá,Brazil,41000
+S-011,Arena da Baixada,Curitiba,Brazil,40000
+S-012,Estádio Vila Capanema,Curitiba,Brazil,10000
+S-013,Estádio Castelão,Fortaleza,Brazil,63000
+S-014,Arena da Amazônia,Manaus,Brazil,41000
+S-015,Arena das Dunas,Natal,Brazil,40000
+S-016,Estádio Beira-Rio,Porto Alegre,Brazil,43000
+S-017,Estádio dos Eucaliptos,Porto Alegre,Brazil,20000
+S-018,Arena Pernambuco,Recife,Brazil,43000
+S-019,Estádio Ilha do Retiro,Recife,Brazil,30000
+S-020,Estádio do Maracanã,Rio de Janeiro,Brazil,200000
+S-021,Arena Fonte Nova,Salvador,Brazil,52000
+S-022,Arena Corinthians,São Paulo,Brazil,63000
+S-023,Estádio do Pacaembu,São Paulo,Brazil,60000
+S-024,Commonwealth Stadium,Edmonton,Canada,56000
+S-025,Moncton Stadium,Moncton,Canada,13000
+S-026,Olympic Stadium,Montreal,Canada,56000
+S-027,TD Place Stadium,Ottawa,Canada,24000
+S-028,BC Place,Vancouver,Canada,54000
+S-029,Investors Group Field,Winnipeg,Canada,33000
+S-030,Estadio Carlos Dittborn,Arica,Chile,18000
+S-031,Estadio El Teniente,Rancagua,Chile,18000
+S-032,Estadio Nacional,Santiago,Chile,67000
+S-033,Estadio Sausalito,Viña del Mar,Chile,18000
+S-034,Chengdu Sports Center,Chengdu,China,40000
+S-035,New Plaza Stadium,Foshan,China,14000
+S-036,Gaungdong Provincial Stadium,Guangzhou,China,25000
+S-037,Guangdong Provincial Stadium,Guangzhou,China,25000
+S-038,Tainhe Stadium,Guangzhou,China,60000
+S-039,Tianhe Stadium,Guangzhou,China,60000
+S-040,Ying Tung Stadium,Guangzhou,China,15000
+S-041,Yellow Dragon Sports Center,Hangzhou,China,51000
+S-042,Jiangmen Stadium,Jiangmen,China,13000
+S-043,Hongkou Football Stadium,Shanghai,China,33000
+S-044,Tianjin Olympic Center,Tianjin,China,60000
+S-045,Wuhan Sports Center,Wuhan,China,60000
+S-046,Zhongshan Stadium,Zhongshan,China,12000
+S-047,Villa Park,Birmingham,England,52000
+S-048,Goodison Park,Liverpool,England,50000
+S-049,Wembley Stadium,London,England,99000
+S-050,White City Stadium,London,England,77000
+S-051,Old Trafford,Manchester,England,58000
+S-052,Ayresome Park,Middlesbrough,England,40000
+S-053,Hillsborough Stadium,Sheffield,England,43000
+S-054,Roker Park,Sunderland,England,40000
+S-055,Stade du Fort Carré,Antibes,France,7000
+S-056,Stade du Parc Lescure,Bordeaux,France,35000
+S-057,Stade des Alpes,Grenoble,France,18000
+S-058,Stade Jules Deschaseaux,Le Havre,France,22000
+S-059,Stade Océane,Le Havre,France,24000
+S-060,Stade Félix-Bollaert,Lens,France,41000
+S-061,Stade Victor Boucquey,Lille,France,15000
+S-062,Parc Olympique Lyonnais,Lyon,France,58000
+S-063,Stade de Gerland,Lyon,France,44000
+S-064,Stade Vélodrome,Marseille,France,60000
+S-065,Stade de la Mosson,Montpellier,France,34000
+S-066,Stade de la Beaujoire,Nantes,France,40000
+S-067,Allianz Riviera,Nice,France,35000
+S-068,Parc des Princes,Paris,France,49000
+S-069,Stade Olympique de Colombes,Paris,France,60000
+S-070,Stade Auguste-Delaune,Reims,France,21000
+S-071,Vélodrome Municipal,Reims,France,22000
+S-072,Roazhon Park,Rennes,France,29000
+S-073,Stade de France,Saint-Denis,France,80000
+S-074,Stade Geoffroy-Guichard,Saint-Étienne,France,36000
+S-075,Stade de la Meinau,Strasbourg,France,30000
+S-076,Stade de Toulouse,Toulouse,France,37000
+S-077,Stade du T.O.E.C.,Toulouse,France,15000
+S-078,Stade du Hainaut,Valenciennes,France,23000
+S-079,Impuls Arena,Augsburg,Germany,25000
+S-080,Olympiastadion,Berlin,Germany,86000
+S-081,Ruhrstadion,Bochum,Germany,21000
+S-082,RheinEnergieStadion,Cologne,Germany,45000
+S-083,Westfalenstadion,Dortmund,Germany,65000
+S-084,Rudolf-Harbig-Stadion,Dresden,Germany,26000
+S-085,Rheinstadion,Düsseldorf,Germany,70000
+S-086,Waldstadion,Frankfurt,Germany,62000
+S-087,Arena AufShalke,Gelsenkirchen,Germany,52000
+S-088,Parkstadion,Gelsenkirchen,Germany,72000
+S-089,Volksparkstadion,Hamburg,Germany,61000
+S-090,Niedersachsenstadion,Hanover,Germany,60000
+S-091,Fritz-Walter-Stadion,Kaiserslautern,Germany,46000
+S-092,Zentralstadion,Leipzig,Germany,43000
+S-093,BayArena,Leverkusen,Germany,30000
+S-094,Borussia-Park,Mönchengladbach,Germany,46000
+S-095,Allianz Arena,Munich,Germany,66000
+S-096,Olympiastadion,Munich,Germany,78000
+S-097,Frankenstadion,Nuremberg,Germany,41000
+S-098,Rhein-Neckar-Arena,Sinsheim,Germany,30000
+S-099,Neckarstadion,Stuttgart,Germany,72000
+S-100,Volkswagen Arena,Wolfsburg,Germany,26000
+S-101,Stadio San Nicola,Bari,Italy,51000
+S-102,Stadio Renato Dall'Ara,Bologna,Italy,50000
+S-103,Stadio Sant'Elia,Cagliari,Italy,35000
+S-104,Stadio Comunale,Florence,Italy,39000
+S-105,Stadio Giovanni Berta,Florence,Italy,47000
+S-106,Stadio Luigi Ferraris,Genoa,Italy,37000
+S-107,San Siro,Milan,Italy,75000
+S-108,Stadio Giorgio Ascarelli,Naples,Italy,40000
+S-109,Stadio San Paolo,Naples,Italy,60000
+S-110,Stadio La Favorita,Palermo,Italy,33000
+S-111,Stadio Nazionale PNF,Rome,Italy,47000
+S-112,Stadio Olimpico,Rome,Italy,74000
+S-113,Stadio Littorio,Trieste,Italy,8000
+S-114,Stadio Benito Mussolini,Turin,Italy,28000
+S-115,Stadio delle Alpi,Turin,Italy,63000
+S-116,Stadio Friuli,Udine,Italy,36000
+S-117,Stadio Marc'Antonio Bentegodi,Verona,Italy,36000
+S-118,Kashima Stadium,Ibaraki,Japan,42000
+S-119,Kobe Wing Stadium,Kobe,Japan,42000
+S-120,Miyagi Stadium,Miyagi,Japan,49000
+S-121,Niigata Stadium,Niigata,Japan,42000
+S-122,Ōita Stadium,Ōita,Japan,43000
+S-123,Nagai Stadium,Osaka,Japan,50000
+S-124,Saitama Stadium,Saitama,Japan,63000
+S-125,Sapporo Dome,Sapporo,Japan,42000
+S-126,Shizuoka Stadium ECOPA,Shizuoka,Japan,51000
+S-127,International Stadium Yokohama,Yokohama,Japan,72000
+S-128,Estadio Jalisco,Guadalajara,Mexico,71000
+S-129,Estadio Tres de Marzo,Guadalajara,Mexico,30000
+S-130,Estadio Sergio León Chavez,Irapuato,Mexico,31000
+S-131,Estadio Nou Camp,León,Mexico,31000
+S-132,Estadio Azteca,Mexico City,Mexico,115000
+S-133,Estadio Olímpico Universitario,Mexico City,Mexico,72000
+S-134,Estadio Tecnológico,Monterrey,Mexico,34000
+S-135,Estadio Universitario,Monterrey,Mexico,44000
+S-136,Estadio Neza 86,Nezahualcóyotl,Mexico,35000
+S-137,Estadio Cuauhtémoc,Puebla,Mexico,46000
+S-138,Estadio La Corregidora,Querétaro,Mexico,39000
+S-139,La Bombonera,Toluca,Mexico,33000
+S-140,Al Bayt Stadium,Al Khor,Qatar,69000
+S-141,Ahmad bin Ali Stadium,Al Rayyan,Qatar,45000
+S-142,Education City Stadium,Al Rayyan,Qatar,45000
+S-143,Khalifa International Stadium,Al Rayyan,Qatar,46000
+S-144,Al Janoub Stadium,Al Wakrah,Qatar,44000
+S-145,Al Thumama Stadium,Doha,Qatar,44000
+S-146,Stadium 974,Doha,Qatar,44000
+S-147,Lusail Stadium,Lusail,Qatar,89000
+S-148,Kaliningrad Stadium,Kaliningrad,Russia,34000
+S-149,Kazan Arena,Kazan,Russia,43000
+S-150,Luzhniki Stadium,Moscow,Russia,78000
+S-151,Otkritie Arena,Moscow,Russia,44000
+S-152,Nizhny Novgorod Stadium,Nizhny Novgorod,Russia,43000
+S-153,Rostov Arena,Rostov-on-Don,Russia,43000
+S-154,Krestovsky Stadium,Saint Petersburg,Russia,64000
+S-155,Samara Arena,Samara,Russia,42000
+S-156,Mordovia Arena,Saransk,Russia,42000
+S-157,Fisht Olympic Stadium,Sochi,Russia,44000
+S-158,Volgograd Arena,Volgograd,Russia,44000
+S-159,Central Stadium,Yekaterinburg,Russia,33000
+S-160,Free State Stadium,Bloemfontein,South Africa,41000
+S-161,Cape Town Stadium,Cape Town,South Africa,64000
+S-162,Moses Mabhida Stadium,Durban,South Africa,63000
+S-163,Ellis Park Stadium,Johannesburg,South Africa,56000
+S-164,Soccer City,Johannesburg,South Africa,84000
+S-165,Mbombela Stadium,Nelspruit,South Africa,41000
+S-166,Peter Mokaba Stadium,Polokwane,South Africa,42000
+S-167,Nelson Mandela Bay Stadium,Port Elizabeth,South Africa,42000
+S-168,Loftus Versfeld Stadium,Pretoria,South Africa,43000
+S-169,Royal Bafokeng Stadium,Rustenburg,South Africa,42000
+S-170,Busan Asiad Stadium,Busan,South Korea,56000
+S-171,Daegu World Cup Stadium,Daegu,South Korea,68000
+S-172,Daejeon World Cup Stadium,Daejeon,South Korea,40000
+S-173,Gwangju World Cup Stadium,Gwangju,South Korea,43000
+S-174,Incheon Munhak Stadium,Incheon,South Korea,52000
+S-175,Jeonju World Cup Stadium,Jeonju,South Korea,42000
+S-176,Jeju World Cup Stadium,Seogwipo,South Korea,42000
+S-177,Seoul World Cup Stadium,Seoul,South Korea,64000
+S-178,Suwon World Cup Stadium,Suwon,South Korea,43000
+S-179,Ulsan Munsu Football Stadium,Ulsan,South Korea,44000
+S-180,Estadio Riazor,A Coruña,Spain,34000
+S-181,Estadio José Rico Pérez,Alicante,Spain,33000
+S-182,Camp Nou,Barcelona,Spain,121000
+S-183,Estadi de Sarrià,Barcelona,Spain,40000
+S-184,Estadio San Mamés,Bilbao,Spain,46000
+S-185,Nuevo Estadio,Elche,Spain,53000
+S-186,Estadio El Molinón,Gijón,Spain,45000
+S-187,Estadio Santiago Bernabéu,Madrid,Spain,90000
+S-188,Vicente Calderón,Madrid,Spain,66000
+S-189,Estadio La Rosaleda,Málaga,Spain,45000
+S-190,Estadio Carlos Tartiere,Oviedo,Spain,24000
+S-191,Estadio Benito Villamarín,Seville,Spain,50000
+S-192,Estadio Ramón Sánchez Pizjuán,Seville,Spain,68000
+S-193,Estadio Luis Casanova,Valencia,Spain,50000
+S-194,Estadio José Zorrilla,Valladolid,Spain,30000
+S-195,Balaídos,Vigo,Spain,33000
+S-196,Estadio La Romareda,Zaragoza,Spain,42000
+S-197,Ryavallen,Borås,Sweden,15000
+S-198,Tunavallen,Eskilstuna,Sweden,22000
+S-199,Strömvallen,Gävle,Sweden,7000
+S-200,Ullevi,Gothenburg,Sweden,54000
+S-201,Örjans Vall,Halmstad,Sweden,15000
+S-202,Olympia,Helsingborg,Sweden,27000
+S-203,Tingvalla IP,Karlstad,Sweden,5000
+S-204,Malmö Stadion,Malmö,Sweden,30000
+S-205,Idrottsparken,Norrköping,Sweden,20000
+S-206,Eyravallen,Örebro,Sweden,13000
+S-207,Jernvallen,Sandviken,Sweden,20000
+S-208,Råsunda Stadium,Solna,Sweden,52000
+S-209,Rimnersvallen,Uddevalla,Sweden,18000
+S-210,Arosvallen,Västerås,Sweden,10000
+S-211,St. Jakob Stadium,Basel,Switzerland,55000
+S-212,Wankdorf Stadium,Bern,Switzerland,65000
+S-213,Charmilles Stadium,Geneva,Switzerland,36000
+S-214,Stade Olympique de la Pontaise,Lausanne,Switzerland,50000
+S-215,Cornaredo Stadium,Lugano,Switzerland,36000
+S-216,Hardturm Stadium,Zürich,Switzerland,35000
+S-217,Foxboro Stadium,Boston,United States,59000
+S-218,Home Depot Center,Carson,United States,28000
+S-219,Soldier Field,Chicago,United States,65000
+S-220,Columbus Crew Stadium,Columbus,United States,23000
+S-221,Cotton Bowl,Dallas,United States,64000
+S-222,Giants Stadium,East Rutherford,United States,76000
+S-223,Foxboro Stadium,Foxborough,United States,54000
+S-224,Gillette Stadium,Foxborough,United States,68000
+S-225,Rose Bowl,Los Angeles,United States,96000
+S-226,Giants Stadium,New York City,United States,78000
+S-227,Citrus Bowl,Orlando,United States,62000
+S-228,Rose Bowl,Pasadena,United States,94000
+S-229,Lincoln Financial Field,Philadelphia,United States,70000
+S-230,Pontiac Silverdome,Pontiac,United States,78000
+S-231,Civic Stadium,Portland,United States,27000
+S-232,PGE Park,Portland,United States,28000
+S-233,Stanford Stadium,San Fransisco,United States,85000
+S-234,Spartan Stadium,San Jose,United States,26000
+S-235,Stanford Stadium,Stanford,United States,84000
+S-236,Jack Kent Cooke Stadium,"Washington, D.C.",United States,80000
+S-237,RFK Stadium,"Washington, D.C.",United States,53000
+S-238,Estadio Centenario,Montevideo,Uruguay,90000
+S-239,Estadio Gran Parque Central,Montevideo,Uruguay,20000
+S-240,Estadio Pocitos,Montevideo,Uruguay,10000

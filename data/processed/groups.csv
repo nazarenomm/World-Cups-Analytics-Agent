@@ -1,4 +1,4 @@
-key_id,tournament_id,tournament_name,stage_number,stage_name,group_name,count_teams
+group_id,tournament_id,tournament_name,stage_number,stage_name,group_name,count_teams
 1,WC-1930,1930 FIFA Men's World Cup,1,group stage,Group 1,4
 2,WC-1930,1930 FIFA Men's World Cup,1,group stage,Group 2,3
 3,WC-1930,1930 FIFA Men's World Cup,1,group stage,Group 3,3
@@ -62,18 +62,12 @@ key_id,tournament_id,tournament_name,stage_number,stage_name,group_name,count_te
 61,WC-1990,1990 FIFA Men's World Cup,1,group stage,Group D,4
 62,WC-1990,1990 FIFA Men's World Cup,1,group stage,Group E,4
 63,WC-1990,1990 FIFA Men's World Cup,1,group stage,Group F,4
-64,WC-1991,1991 FIFA Women's World Cup,1,group stage,Group A,4
-65,WC-1991,1991 FIFA Women's World Cup,1,group stage,Group B,4
-66,WC-1991,1991 FIFA Women's World Cup,1,group stage,Group C,4
 67,WC-1994,1994 FIFA Men's World Cup,1,group stage,Group A,4
 68,WC-1994,1994 FIFA Men's World Cup,1,group stage,Group B,4
 69,WC-1994,1994 FIFA Men's World Cup,1,group stage,Group C,4
 70,WC-1994,1994 FIFA Men's World Cup,1,group stage,Group D,4
 71,WC-1994,1994 FIFA Men's World Cup,1,group stage,Group E,4
 72,WC-1994,1994 FIFA Men's World Cup,1,group stage,Group F,4
-73,WC-1995,1995 FIFA Women's World Cup,1,group stage,Group A,4
-74,WC-1995,1995 FIFA Women's World Cup,1,group stage,Group B,4
-75,WC-1995,1995 FIFA Women's World Cup,1,group stage,Group C,4
 76,WC-1998,1998 FIFA Men's World Cup,1,group stage,Group A,4
 77,WC-1998,1998 FIFA Men's World Cup,1,group stage,Group B,4
 78,WC-1998,1998 FIFA Men's World Cup,1,group stage,Group C,4
@@ -82,10 +76,6 @@ key_id,tournament_id,tournament_name,stage_number,stage_name,group_name,count_te
 81,WC-1998,1998 FIFA Men's World Cup,1,group stage,Group F,4
 82,WC-1998,1998 FIFA Men's World Cup,1,group stage,Group G,4
 83,WC-1998,1998 FIFA Men's World Cup,1,group stage,Group H,4
-84,WC-1999,1999 FIFA Women's World Cup,1,group stage,Group A,4
-85,WC-1999,1999 FIFA Women's World Cup,1,group stage,Group B,4
-86,WC-1999,1999 FIFA Women's World Cup,1,group stage,Group C,4
-87,WC-1999,1999 FIFA Women's World Cup,1,group stage,Group D,4
 88,WC-2002,2002 FIFA Men's World Cup,1,group stage,Group A,4
 89,WC-2002,2002 FIFA Men's World Cup,1,group stage,Group B,4
 90,WC-2002,2002 FIFA Men's World Cup,1,group stage,Group C,4
@@ -94,10 +84,6 @@ key_id,tournament_id,tournament_name,stage_number,stage_name,group_name,count_te
 93,WC-2002,2002 FIFA Men's World Cup,1,group stage,Group F,4
 94,WC-2002,2002 FIFA Men's World Cup,1,group stage,Group G,4
 95,WC-2002,2002 FIFA Men's World Cup,1,group stage,Group H,4
-96,WC-2003,2003 FIFA Women's World Cup,1,group stage,Group A,4
-97,WC-2003,2003 FIFA Women's World Cup,1,group stage,Group B,4
-98,WC-2003,2003 FIFA Women's World Cup,1,group stage,Group C,4
-99,WC-2003,2003 FIFA Women's World Cup,1,group stage,Group D,4
 100,WC-2006,2006 FIFA Men's World Cup,1,group stage,Group A,4
 101,WC-2006,2006 FIFA Men's World Cup,1,group stage,Group B,4
 102,WC-2006,2006 FIFA Men's World Cup,1,group stage,Group C,4
@@ -106,10 +92,6 @@ key_id,tournament_id,tournament_name,stage_number,stage_name,group_name,count_te
 105,WC-2006,2006 FIFA Men's World Cup,1,group stage,Group F,4
 106,WC-2006,2006 FIFA Men's World Cup,1,group stage,Group G,4
 107,WC-2006,2006 FIFA Men's World Cup,1,group stage,Group H,4
-108,WC-2007,2007 FIFA Women's World Cup,1,group stage,Group A,4
-109,WC-2007,2007 FIFA Women's World Cup,1,group stage,Group B,4
-110,WC-2007,2007 FIFA Women's World Cup,1,group stage,Group C,4
-111,WC-2007,2007 FIFA Women's World Cup,1,group stage,Group D,4
 112,WC-2010,2010 FIFA Men's World Cup,1,group stage,Group A,4
 113,WC-2010,2010 FIFA Men's World Cup,1,group stage,Group B,4
 114,WC-2010,2010 FIFA Men's World Cup,1,group stage,Group C,4
@@ -118,10 +100,6 @@ key_id,tournament_id,tournament_name,stage_number,stage_name,group_name,count_te
 117,WC-2010,2010 FIFA Men's World Cup,1,group stage,Group F,4
 118,WC-2010,2010 FIFA Men's World Cup,1,group stage,Group G,4
 119,WC-2010,2010 FIFA Men's World Cup,1,group stage,Group H,4
-120,WC-2011,2011 FIFA Women's World Cup,1,group stage,Group A,4
-121,WC-2011,2011 FIFA Women's World Cup,1,group stage,Group B,4
-122,WC-2011,2011 FIFA Women's World Cup,1,group stage,Group C,4
-123,WC-2011,2011 FIFA Women's World Cup,1,group stage,Group D,4
 124,WC-2014,2014 FIFA Men's World Cup,1,group stage,Group A,4
 125,WC-2014,2014 FIFA Men's World Cup,1,group stage,Group B,4
 126,WC-2014,2014 FIFA Men's World Cup,1,group stage,Group C,4
@@ -130,12 +108,6 @@ key_id,tournament_id,tournament_name,stage_number,stage_name,group_name,count_te
 129,WC-2014,2014 FIFA Men's World Cup,1,group stage,Group F,4
 130,WC-2014,2014 FIFA Men's World Cup,1,group stage,Group G,4
 131,WC-2014,2014 FIFA Men's World Cup,1,group stage,Group H,4
-132,WC-2015,2015 FIFA Women's World Cup,1,group stage,Group A,4
-133,WC-2015,2015 FIFA Women's World Cup,1,group stage,Group B,4
-134,WC-2015,2015 FIFA Women's World Cup,1,group stage,Group C,4
-135,WC-2015,2015 FIFA Women's World Cup,1,group stage,Group D,4
-136,WC-2015,2015 FIFA Women's World Cup,1,group stage,Group E,4
-137,WC-2015,2015 FIFA Women's World Cup,1,group stage,Group F,4
 138,WC-2018,2018 FIFA Men's World Cup,1,group stage,Group A,4
 139,WC-2018,2018 FIFA Men's World Cup,1,group stage,Group B,4
 140,WC-2018,2018 FIFA Men's World Cup,1,group stage,Group C,4
@@ -144,12 +116,6 @@ key_id,tournament_id,tournament_name,stage_number,stage_name,group_name,count_te
 143,WC-2018,2018 FIFA Men's World Cup,1,group stage,Group F,4
 144,WC-2018,2018 FIFA Men's World Cup,1,group stage,Group G,4
 145,WC-2018,2018 FIFA Men's World Cup,1,group stage,Group H,4
-146,WC-2019,2019 FIFA Women's World Cup,1,group stage,Group A,4
-147,WC-2019,2019 FIFA Women's World Cup,1,group stage,Group B,4
-148,WC-2019,2019 FIFA Women's World Cup,1,group stage,Group C,4
-149,WC-2019,2019 FIFA Women's World Cup,1,group stage,Group D,4
-150,WC-2019,2019 FIFA Women's World Cup,1,group stage,Group E,4
-151,WC-2019,2019 FIFA Women's World Cup,1,group stage,Group F,4
 152,WC-2022,2022 FIFA Men's World Cup,1,group stage,Group A,4
 153,WC-2022,2022 FIFA Men's World Cup,1,group stage,Group B,4
 154,WC-2022,2022 FIFA Men's World Cup,1,group stage,Group C,4

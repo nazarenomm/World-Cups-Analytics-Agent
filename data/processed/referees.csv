@@ -1,0 +1,494 @@
+referee_id,family_name,given_name,female,country_name,confederation_id
+R-001,Abdel-Fatah,Essam,0,Egypt,CF-2
+R-002,Abidoye,Bola Elizabeth,1,Nigeria,CF-2
+R-003,Adair,John,0,Northern Ireland,CF-6
+R-004,Adámková,Jana,1,Czech Republic,CF-6
+R-005,Agboyi,Xonam,1,Togo,CF-2
+R-006,Agnolin,Luigi,0,Italy,CF-6
+R-007,Aguilar,Joel,0,El Salvador,CF-3
+R-008,Aguilar Elizalde,Abel,0,Mexico,CF-3
+R-009,Ahlner,Sten,0,Sweden,CF-6
+R-010,Al-Doy,Ibrahim Youssef,0,Bahrain,CF-1
+R-011,Al-Ghamdi,Khalil,0,Saudi Arabia,CF-1
+R-012,Al-Ghandour,Gamal,0,Egypt,CF-2
+R-013,Al-Jassim,Abdulrahman,0,Qatar,CF-1
+R-014,Al-Shanar,Fallaj,0,Saudi Arabia,CF-1
+R-015,Al-Sharif,Jamal,0,Syria,CF-1
+R-016,Albon,Teodora,1,Romania,CF-6
+R-017,Alghoul,Yousef,0,Libya,CF-2
+R-018,Alvarado,Quetzalli,1,Mexico,CF-3
+R-019,Álvarez,Estela,1,Argentina,CF-4
+R-020,Alves Batista,Edina,1,Brazil,CF-4
+R-021,Amarilla,Carlos,0,Paraguay,CF-4
+R-022,Angeles,Arturo,0,United States,CF-3
+R-023,Angonese,Aurelio,0,Italy,CF-6
+R-024,Aquino,Ubaldo,0,Paraguay,CF-4
+R-025,Archundia,Benito,0,Mexico,CF-3
+R-026,Aristizábal,Gilberto,0,Colombia,CF-4
+R-027,Arppi Filho,Romualdo,0,Brazil,CF-4
+R-028,Asensi,Manuel,0,Spain,CF-6
+R-029,Ashkenazi,Menachem,0,Israel,CF-6
+R-030,Aston,Kenneth,0,England,CF-6
+R-031,Azón Romá,Ramón,0,Spain,CF-6
+R-032,Babacan,Doğan,0,Turkey,CF-6
+R-033,Badilla,Rodrigo,0,Costa Rica,CF-3
+R-034,Baert,Louis,0,Belgium,CF-6
+R-035,Baharmast,Esfandiar,0,United States,CF-3
+R-036,Bahramov,Tofiq,0,Soviet Union,CF-6
+R-037,Baldas,Fabio,0,Italy,CF-6
+R-038,Baldassi,Héctor,0,Argentina,CF-4
+R-039,Balvay,Thomas,0,France,CF-6
+R-040,Bambridge,Chris,0,Australia,CF-1
+R-041,Barlassina,Rinaldo,0,Italy,CF-6
+R-042,Barrancos,Luis,0,Bolivia,CF-4
+R-043,Barreto Ruíz,Ramón,0,Uruguay,CF-4
+R-044,Barton,Iván,0,El Salvador,CF-3
+R-045,Batres,Carlos Alberto,0,Guatemala,CF-3
+R-046,Batta,Marc,0,France,CF-6
+R-047,Beath,Chris,0,Australia,CF-1
+R-048,Beaudoin,Marie-Soleil,1,Canada,CF-3
+R-049,Beck,Christine,1,Germany,CF-6
+R-050,Belqola,Said,0,Morocco,CF-2
+R-051,Benkö,Günter,0,Austria,CF-6
+R-052,Bennett,Jennifer,1,United States,CF-3
+R-053,Benquerença,Olegário,0,Portugal,CF-6
+R-054,Beranek,Alois,0,Austria,CF-6
+R-055,Bin Nasser,Ali,0,Tunisia,CF-2
+R-056,Birlem,Alfred,0,Germany,CF-6
+R-057,Biwersi,Ferdinand,0,West Germany,CF-6
+R-058,Black,Linda May,1,New Zealand,CF-5
+R-059,Blavier,Antoine,0,Belgium,CF-6
+R-060,Borjas,Melissa,1,Honduras,CF-3
+R-061,Boskovic,Tony,0,Australia,CF-1
+R-062,Boucetta,Fethi,0,Tunisia,CF-2
+R-063,Bouchardeau,Lucien,0,Niger,CF-2
+R-064,Bouzo,Farouk,0,Syria,CF-1
+R-065,Braun,Eugen,0,Austria,CF-6
+R-066,Braz,Sandra,1,Portugal,CF-6
+R-067,Brizio Carter,Arturo,0,Mexico,CF-3
+R-068,Bronkhorst,Jan,0,Netherlands,CF-6
+R-069,Brummeier,Horst,0,Austria,CF-6
+R-070,Brych,Felix,0,Germany,CF-6
+R-071,Bujsaim,Ali,0,United Arab Emirates,CF-1
+R-072,Busacca,Massimo,0,Switzerland,CF-6
+R-073,Bustamante,Sergio,0,Chile,CF-4
+R-074,Butenko,Valeri,0,Soviet Union,CF-6
+R-075,Cáceres,Enrique,0,Paraguay,CF-4
+R-076,Çakır,Cüneyt,0,Turkey,CF-6
+R-077,Callaghan,Leo,0,Wales,CF-6
+R-078,Camara,Engage,0,Guinea,CF-2
+R-079,Campos,Joaquim,0,Portugal,CF-6
+R-080,Capdeville,Georges,0,France,CF-6
+R-081,Cardellino,Juan Daniel,0,Uruguay,CF-4
+R-082,Carraro,Albino,0,Italy,CF-6
+R-083,Carvajal,María,1,Chile,CF-4
+R-084,Casarin,Paolo,0,Italy,CF-6
+R-085,Castrilli,Javier,0,Argentina,CF-4
+R-086,Castro,Gastón,0,Chile,CF-4
+R-087,Cavani,Filippi,0,Uruguay,CF-4
+R-088,Cha,Sung-mi,1,South Korea,CF-1
+R-089,Chan,Tam Sun,0,Hong Kong,CF-1
+R-090,Chenard,Carol Anne,1,Canada,CF-3
+R-091,Christophe,Henri,0,Belgium,CF-6
+R-092,Christov,Vojtěch,0,Czechoslovakia,CF-6
+R-093,Claus,Raphael,0,Brazil,CF-4
+R-094,Codesal,Edgardo,0,Mexico,CF-3
+R-095,Codesal,José María,0,Uruguay,CF-4
+R-096,Codjia,Coffi,0,Benin,CF-1
+R-097,Coelho,Arnaldo Cézar,0,Brazil,CF-4
+R-098,Collina,Pierluigi,0,Italy,CF-6
+R-099,Conger,Matthew,0,New Zealand,CF-5
+R-100,Conrié,Roger,0,France,CF-6
+R-101,Contreras,Marisela,1,Venezuela,CF-4
+R-102,Correa,Adriana,1,Colombia,CF-4
+R-103,Corver,Charles,0,Netherlands,CF-6
+R-104,Coulibaly,Koman,0,Mali,CF-2
+R-105,Courtney,George,0,England,CF-6
+R-106,Cunha,Andrés,0,Uruguay,CF-4
+R-107,da Costa Vieira,Jose,0,Portugal,CF-6
+R-108,Daami,Mourad,0,Tunisia,CF-2
+R-109,Dagnall,Ken,0,England,CF-6
+R-110,Daina,André,0,Switzerland,CF-6
+R-111,Dallas,Hugh,0,Scotland,CF-6
+R-112,Damková,Dagmar,1,Czech Republic,CF-6
+R-113,Damon,Jerome,0,South Africa,CF-2
+R-114,Dattilo,Generoso,0,Italy,CF-6
+R-115,Davidson,Bobby,0,Scotland,CF-6
+R-116,de Almeida Rêgo,Gilberto,0,Brazil,CF-4
+R-117,De Bleeckere,Frank,0,Belgium,CF-6
+R-118,De Leo,Diego,0,Mexico,CF-3
+R-119,Delgado Gómez,Omar,0,Colombia,CF-4
+R-120,Denoncourt,Sonia,1,Canada,CF-3
+R-121,di Iorio,Salomé,1,Argentina,CF-4
+R-122,Díaz,Jesús,0,Colombia,CF-4
+R-123,Díaz Vega,Manuel,0,Spain,CF-6
+R-124,Diedhiou,Malang,0,Senegal,CF-2
+R-125,Dienst,Gottfried,0,Switzerland,CF-6
+R-126,Domka,Margaret,1,United States,CF-3
+R-127,Don,Philip,0,England,CF-6
+R-128,Dorogi,Andor,0,Hungary,CF-6
+R-129,Dotchev,Bogdan,0,Bulgaria,CF-6
+R-130,Doué,Noumandiez,0,Ivory Coast,CF-2
+R-131,Dubach,Jean,0,Switzerland,CF-6
+R-132,Durkin,Paul,0,England,CF-6
+R-133,Dusch,Albert,0,West Germany,CF-6
+R-134,Dwomoh,Benjamin,0,Ghana,CF-2
+R-135,Eklind,Ivan,0,Sweden,CF-6
+R-136,Elfath,Ismail,0,United States,CF-3
+R-137,Elizondo,Horacio,0,Argentina,CF-4
+R-138,Ellis,Arthur Edward,0,England,CF-6
+R-139,Elovirta,Katriina,1,Finland,CF-6
+R-140,Eriksson,Arne,0,Finland,CF-6
+R-141,Eriksson,Jonas,0,Sweden,CF-6
+R-142,Eriksson,Ulf,0,Sweden,CF-6
+R-143,Eschweiler,Walter,0,West Germany,CF-6
+R-144,Escobar,Mario,0,Guatemala,CF-3
+R-145,Espósito,Carlos,0,Argentina,CF-4
+R-146,Etzel Filho,João,0,Brazil,CF-4
+R-147,Faghani,Alireza,0,Iran,CF-1
+R-148,Faultless,Charlie,0,Scotland,CF-6
+R-149,Ferreira-James,Dianne,1,Guyana,CF-3
+R-150,Finney,Jim,0,England,CF-6
+R-151,Fortunato,Laura,1,Argentina,CF-4
+R-152,Franken,Laurent,0,Belgium,CF-6
+R-153,Frappart,Stéphanie,1,France,CF-6
+R-154,Fredriksson,Erik,0,Sweden,CF-6
+R-155,Frisk,Anders,0,Sweden,CF-6
+R-156,Fukano,Etsuko,1,Japan,CF-1
+R-157,Gaál,Gyöngyi,1,Hungary,CF-6
+R-158,Galba,Karol,0,Czechoslovakia,CF-6
+R-159,Galeati,Giovanni,0,Italy,CF-6
+R-160,Galler,Bruno,0,Switzerland,CF-6
+R-161,Gamboa,Eduardo,0,Chile,CF-4
+R-162,Gani,Rita,1,Malaysia,CF-1
+R-163,Garay Gardeazábal,Juan,0,Spain,CF-6
+R-164,García-Aranda,José María,0,Spain,CF-6
+R-165,Gardelli,Mário,0,Brazil,CF-4
+R-166,Garrido,António,0,Portugal,CF-6
+R-167,Gassama,Bakary,0,Gambia,CF-2
+R-168,Gaye,Fatou,1,Senegal,CF-2
+R-169,Geiger,Mark,0,United States,CF-3
+R-170,Ghorbal,Mustapha,0,Algeria,CF-2
+R-171,Glöckner,Rudi,0,East Germany,CF-6
+R-172,Goicoechea,Roberto,0,Argentina,CF-4
+R-173,Gomes,Victor,0,South Africa,CF-2
+R-174,Gonella,Sergio,0,Italy,CF-6
+R-175,González,Epifanio,0,Paraguay,CF-4
+R-176,González,Gabriel,0,Paraguay,CF-4
+R-177,González Archundía,Alfonso,0,Mexico,CF-3
+R-178,Gordon,John,0,Scotland,CF-6
+R-179,Griffiths,Sandy,0,Wales,CF-6
+R-180,Grisha,Gehad,0,Egypt,CF-2
+R-181,Guerrero Orosco,César,0,Peru,CF-4
+R-182,Guezzaz,Mohamed,0,Morocco,CF-2
+R-183,Guigue,Maurice,0,France,CF-6
+R-184,Günthner,Elke,1,Germany,CF-6
+R-185,Haimoudi,Djamel,0,Algeria,CF-2
+R-186,Hall,Brian,0,United States,CF-3
+R-187,Hamer,Alain,0,Luxembourg,CF-6
+R-188,Hassan Mohamed,Mohammed Abdulla,0,United Arab Emirates,CF-1
+R-189,Hauge,Terje,0,Norway,CF-6
+R-190,Heikkinen,Kirsi,1,Finland,CF-6
+R-191,Hepburn,Catherine Leann,1,United States,CF-3
+R-192,Hester,Michael,0,New Zealand,CF-5
+R-193,Heynemann,Bernd,0,Germany,CF-6
+R-194,Hormazábal Díaz,Rafael,0,Chile,CF-4
+R-195,Horn,Leo,0,Netherlands,CF-6
+R-196,Hunt,Sandra,1,United States,CF-3
+R-197,Hussein,Riem,1,Germany,CF-6
+R-198,Igna,Ioan,0,Romania,CF-6
+R-199,Im,Eun-ju,1,South Korea,CF-1
+R-200,Imperatore,Salvador,0,Chile,CF-4
+R-201,Ionescu,Cristina,1,Romania,CF-6
+R-202,Irmatov,Ravshan,0,Uzbekistan,CF-1
+R-203,Ithurralde,Arturo,0,Argentina,CF-4
+R-204,Ivanov,Valentin,0,Russia,CF-6
+R-205,Jacewicz,Kate,1,Australia,CF-1
+R-206,Jácome,Elías,0,Ecuador,CF-4
+R-207,Jarguz,Alojzy,0,Poland,CF-6
+R-208,Jonni,Cesare,0,Italy,CF-6
+R-209,Jonsson,Ingrid,1,Sweden,CF-6
+R-210,Jørgensen,Carl,0,Denmark,CF-6
+R-211,Jouini,Neji,0,Tunisia,CF-2
+R-212,Kamikawa,Toru,0,Japan,CF-1
+R-213,Kamnueng,Pannipar,1,Thailand,CF-1
+R-214,Kandil,Ali,0,United Arab Republic,CF-2
+R-215,Karasev,Sergei,0,Russia,CF-6
+R-216,Karlsson,Bo,0,Sweden,CF-6
+R-217,Kassai,Viktor,0,Hungary,CF-6
+R-218,Kazakov,Pavel,0,Soviet Union,CF-6
+R-219,Keighley,Anna-Marie,1,New Zealand,CF-5
+R-220,Keizer,Jan,0,Netherlands,CF-6
+R-221,Kim,Young-joo,0,South Korea,CF-1
+R-222,Kirschen,Siegfried,0,East Germany,CF-6
+R-223,Klein,Abraham,0,Israel,CF-6
+R-224,Kohl,Helmut,0,Austria,CF-6
+R-225,Kreitlein,Rudolf,0,West Germany,CF-6
+R-226,Krist,Augustin,0,Czechoslovakia,CF-6
+R-227,Krug,Hellmut,0,Germany,CF-6
+R-228,Kuipers,Björn,0,Netherlands,CF-6
+R-229,Kulcsár,Katalin,1,Hungary,CF-6
+R-230,Labo Revoredo,Enrique,0,Peru,CF-4
+R-231,Lacarne,Belaïd,0,Algeria,CF-2
+R-232,Lamo Castillo,Augusto,0,Spain,CF-6
+R-233,Lamolina,Francisco Oscar,0,Argentina,CF-4
+R-234,Landauer,Henry,0,United States,CF-3
+R-235,Lanese,Tullio,0,Italy,CF-6
+R-236,Langenus,John,0,Belgium,CF-6
+R-237,Lannoy,Stéphane,0,France,CF-6
+R-238,Larrionda,Jorge,0,Uruguay,CF-4
+R-239,Larsson,Pernilla,1,Sweden,CF-6
+R-240,Leafe,Reginald,0,England,CF-6
+R-241,Leclerq,Lucien,0,France,CF-6
+R-242,Lemesic,Leo,0,Yugoslavia,CF-6
+R-243,Lengwe,Gladys,1,Zambia,CF-2
+R-244,Lennie,Eddie,0,Australia,CF-1
+R-245,Levnikov,Nikolai,0,Soviet Union,CF-6
+R-246,Lim,Kee Chong,0,Mauritius,CF-2
+R-247,Linemayr,Erich,0,Austria,CF-6
+R-248,Ling,William,0,England,CF-6
+R-249,Llobregat,Vicente,0,Venezuela,CF-4
+R-250,Lo Bello,Concetto,0,Italy,CF-6
+R-251,Lombardi,Domingo,0,Uruguay,CF-4
+R-252,Lööw,Bertil,0,Sweden,CF-6
+R-253,López Nieto,Antonio,0,Spain,CF-6
+R-254,Loraux,Vital,0,Belgium,CF-6
+R-255,Loustau,Juan Carlos,0,Argentina,CF-4
+R-256,Lu,Jun,0,China,CF-1
+R-257,Lund-Sørensen,Henning,0,Denmark,CF-6
+R-258,Lutz,Jean,0,Switzerland,CF-6
+R-259,Machin,Roger,0,France,CF-6
+R-260,Macías,José,0,Argentina,CF-4
+R-261,Maciel,Carlos,0,Paraguay,CF-4
+R-262,Macko,Martin,0,Czechoslovakia,CF-6
+R-263,Maidin,Shamsul,0,Singapore,CF-1
+R-264,Maillet,Eddy,0,Seychelles,CF-2
+R-265,Makkelie,Danny,0,Netherlands,CF-6
+R-266,Maksimović,Dušan,0,Yugoslavia,CF-6
+R-267,Malcher,Alberto,0,Brazil,CF-4
+R-268,Mane,Saad,0,Kuwait,CF-1
+R-269,Marciniak,Szymon,0,Poland,CF-6
+R-270,Marino,Esteban,0,Uruguay,CF-4
+R-271,Marques,Armando,0,Brazil,CF-4
+R-272,Márquez Ramírez,Antonio,0,Mexico,CF-3
+R-273,Marrufo,Jair,0,United States,CF-3
+R-274,Marschall,Ferdinand,0,Austria,CF-6
+R-275,Marsiglia,Renato,0,Brazil,CF-4
+R-276,Martínez,Ángel Franco,0,Spain,CF-6
+R-277,Martínez,Yeimy,1,Colombia,CF-4
+R-278,Martínez Bazán,José Luis,0,Uruguay,CF-4
+R-279,Mateu Lahoz,Antonio,0,Spain,CF-6
+R-280,Mateucci,Francisco,0,Uruguay,CF-4
+R-281,Mathabela,Petros,0,South Africa,CF-2
+R-282,Matonte,Andrés,0,Uruguay,CF-4
+R-283,Matovinović,Damir,0,Yugoslavia,CF-6
+R-284,Mattea,Francesco,0,Italy,CF-6
+R-285,Mattus,William,0,Costa Rica,CF-3
+R-286,Mauro,Vincent,0,United States,CF-3
+R-287,Mažić,Milorad,0,Serbia,CF-6
+R-288,McCabe,George,0,England,CF-6
+R-289,McCluskey,Jim,0,Scotland,CF-6
+R-290,McLeod,Ian,0,South Africa,CF-2
+R-291,Medina Cantalejo,Luis,0,Spain,CF-6
+R-292,Meier,Urs,0,Switzerland,CF-6
+R-293,Melksham,Jacqui,1,Australia,CF-1
+R-294,Melo Pereira,Vítor,0,Portugal,CF-6
+R-295,Méndez,Rómulo,0,Guatemala,CF-3
+R-296,Mercet,René,0,Switzerland,CF-6
+R-297,Merk,Markus,0,Germany,CF-6
+R-298,Micheľ,Ľuboš,0,Slovakia,CF-6
+R-299,Mikkelsen,Peter,0,Denmark,CF-6
+R-300,Mitchell,George,0,Scotland,CF-6
+R-301,Mitsi,Efthalia,1,Greece,CF-6
+R-302,Moffat,Malcolm,0,Northern Ireland,CF-6
+R-303,Monzul,Kateryna,1,Ukraine,CF-6
+R-304,Moreno,Byron,0,Ecuador,CF-4
+R-305,Mottram,Leslie,0,Scotland,CF-6
+R-306,Mowat,Jack,0,Scotland,CF-6
+R-307,Mukansanga,Salima,1,Rwanda,CF-2
+R-308,Mustafa Kamel,Mahmoud,0,Egypt,CF-2
+R-309,N'Diaye,Youssou,0,Senegal,CF-2
+R-310,N'Doye,Falla,0,Senegal,CF-2
+R-311,Namdar,Jafar,0,Iran,CF-1
+R-312,Neguel,Thérèse,1,Cameroon,CF-2
+R-313,Németh,Lajos,0,Hungary,CF-6
+R-314,Nielsen,Gitte,1,Denmark,CF-6
+R-315,Nielsen,Kim Milton,0,Denmark,CF-6
+R-316,Nikakis,Vassilios,0,Greece,CF-6
+R-317,Nishimura,Yuichi,0,Japan,CF-1
+R-318,Niu,Huijun,1,China,CF-1
+R-319,Norberto Coerezza,Ángel,0,Argentina,CF-4
+R-320,O'Leary,Peter,0,New Zealand,CF-5
+R-321,Ödlund,Eva,1,Sweden,CF-6
+R-322,Ogston,Tammy,1,Australia,CF-1
+R-323,Oiwa,Mayumi,1,Japan,CF-1
+R-324,Okada,Masayoshi,0,Japan,CF-1
+R-325,Oliver,Michael,0,England,CF-6
+R-326,Orlandini,Vincenzo,0,Italy,CF-6
+R-327,Orsato,Daniele,0,Italy,CF-6
+R-328,Ortiz,Héctor,0,Paraguay,CF-4
+R-329,Ortiz de Mendíbil,José María,0,Spain,CF-6
+R-330,Ortubé,René,0,Bolivia,CF-4
+R-331,Osses,Enrique,0,Chile,CF-4
+R-332,Pairetto,Pierluigi,0,Italy,CF-6
+R-333,Palmqvist,Jenny,1,Sweden,CF-6
+R-334,Palotai,Károly,0,Hungary,CF-6
+R-335,Pardo,Martha Liliana,1,Colombia,CF-4
+R-336,Partridge,Pat,0,England,CF-6
+R-337,Paulino Siles,Luis,0,Costa Rica,CF-3
+R-338,Pedersen,Christina,1,Norway,CF-6
+R-339,Pedersen,Rune,0,Norway,CF-6
+R-340,Peréz Núñez,Edison,0,Peru,CF-4
+R-341,Pestarino,Luis,0,Argentina,CF-4
+R-342,Petignat,Nicole,1,Switzerland,CF-6
+R-343,Petrović,Zoran,0,Yugoslavia,CF-6
+R-344,Phillips,Hugh,0,Scotland,CF-6
+R-345,Picon-Ackong,Edwin,0,Mauritius,CF-2
+R-346,Pitana,Néstor,0,Argentina,CF-4
+R-347,Poll,Graham,0,England,CF-6
+R-348,Ponnet,Alexis,0,Belgium,CF-6
+R-349,Poulat,Éric,0,France,CF-6
+R-350,Pozo,Pablo,0,Chile,CF-4
+R-351,Prendergast,Peter,0,Jamaica,CF-3
+R-352,Proença,Pedro,0,Portugal,CF-6
+R-353,Prokop,Adolf,0,East Germany,CF-6
+R-354,Puhl,Sándor,0,Hungary,CF-6
+R-355,Pustovoitova,Anastasia,1,Russia,CF-6
+R-356,Qin,Liang,1,China,CF-1
+R-357,Quiniou,Joël,0,France,CF-6
+R-358,Rădulescu,Andrei,0,Romania,CF-6
+R-359,Rahman Al-Zeid,Abdul,0,Saudi Arabia,CF-1
+R-360,Rainea,Nicolae,0,Romania,CF-6
+R-361,Ramdhan,Ramesh,0,Trinidad and Tobago,CF-3
+R-362,Ramos,César Arturo,0,Mexico,CF-3
+R-363,Ramos,Felipe,0,Mexico,CF-3
+R-364,Rapallini,Fernando,0,Argentina,CF-4
+R-365,Reader,George,0,England,CF-6
+R-366,Regis Brozzi,Juan,0,Argentina,CF-4
+R-367,Reibelt,Casey,1,Australia,CF-1
+R-368,Reyes,Silvia,1,Peru,CF-4
+R-369,Rezende de Freitas,Márcio,0,Brazil,CF-4
+R-370,Ri,Hyang-ok,1,North Korea,CF-1
+R-371,Ribeiro Saldanha,Antonio,0,Portugal,CF-6
+R-372,Ricci,Sandro,0,Brazil,CF-4
+R-373,Rion,Francis,0,Belgium,CF-6
+R-374,Rizzoli,Nicola,0,Italy,CF-6
+R-375,Robles,Carlos,0,Chile,CF-4
+R-376,Rocchi,Gianluca,0,Italy,CF-6
+R-377,Rodríguez,Marco Antonio,0,Mexico,CF-3
+R-378,Rodríguez Medina,Rafael,0,El Salvador,CF-3
+R-379,Roldán,Wilmar,0,Colombia,CF-4
+R-380,Romano,Florencia,1,Argentina,CF-4
+R-381,Rosetti,Roberto,0,Italy,CF-6
+R-382,Roth,Volker,0,West Germany,CF-6
+R-383,Röthlisberger,Kurt,0,Switzerland,CF-6
+R-384,Ruiz,Óscar,0,Colombia,CF-4
+R-385,Rumenchev,Dimitar,0,Bulgaria,CF-6
+R-386,Sampaio,Wilton,0,Brazil,CF-4
+R-387,Sánchez,Ángel,0,Argentina,CF-4
+R-388,Sánchez Arminio,Victoriano,0,Spain,CF-6
+R-389,Sánchez Ibáñez,Pablo,0,Spain,CF-6
+R-390,Sánchez Yantén,Mario,0,Chile,CF-4
+R-391,Saucedo,Ulises,0,Bolivia,CF-4
+R-392,Sbardella,Antonio,0,Italy,CF-6
+R-393,Scarpi,Giuseppe,0,Italy,CF-6
+R-394,Scheurer,Rudolf,0,Switzerland,CF-6
+R-395,Schmetzer,Emil,0,West Germany,CF-6
+R-396,Schmidhuber,Aron,0,West Germany,CF-6
+R-397,Schulenburg,Gerhard,0,West Germany,CF-6
+R-398,Schwinte,Pierre,0,France,CF-6
+R-399,Seipelt,Fritz,0,Austria,CF-6
+R-400,Seitz,Kari,1,United States,CF-3
+R-401,Shield,Mark,0,Australia,CF-1
+R-402,Shrestha,Gyanu Raja,0,Nepal,CF-1
+R-403,Shukralla,Nawaf,0,Bahrain,CF-1
+R-404,Siebert,Daniel,0,Germany,CF-6
+R-405,Sikazwe,Janny,0,Zambia,CF-2
+R-406,Silva,Hernán,0,Chile,CF-4
+R-407,Silva Valente,Carlos,0,Portugal,CF-6
+R-408,Silvagno Cavanna,Juan,0,Chile,CF-4
+R-409,Simon,Carlos Eugênio,0,Brazil,CF-4
+R-410,Siqueira,Maria Edilene,1,Brazil,CF-4
+R-411,Skogvang,Bente,1,Norway,CF-6
+R-412,Skomina,Damir,0,Slovenia,CF-6
+R-413,Smith,George,0,Scotland,CF-6
+R-414,Snoddy,Alan,0,Northern Ireland,CF-6
+R-415,Socha,David,0,United States,CF-3
+R-416,Soriano Aladrén,Emilio,0,Spain,CF-6
+R-417,Spirin,Alexey,0,Soviet Union,CF-6
+R-418,Stark,Wolfgang,0,Germany,CF-6
+R-419,Staubli,Esther,1,Switzerland,CF-6
+R-420,Stefanovic,Vasa,0,Yugoslavia,CF-6
+R-421,Steiner,Carl Erich,0,Austria,CF-6
+R-422,Steinhaus,Bibiana,1,Germany,CF-6
+R-423,Stupar,Myroslav,0,Soviet Union,CF-6
+R-424,Suppiah,Govindasamy,0,Singapore,CF-1
+R-425,Tafesse,Lidya,1,Ethiopia,CF-2
+R-426,Takada,Shizuo,0,Japan,CF-1
+R-427,Tarekegn,Seyoum,0,Ethiopia,CF-2
+R-428,Taylor,Anthony,0,England,CF-6
+R-429,Taylor,Jack,0,England,CF-6
+R-430,Tejada,Aníbal,0,Uruguay,CF-4
+R-431,Tejada Noriega,Alberto,0,Peru,CF-4
+R-432,Tello,Facundo,0,Argentina,CF-4
+R-433,Tesanić,Branko,0,Yugoslavia,CF-6
+R-434,Thomas,Clive,0,Wales,CF-6
+R-435,Toro Rendón,John,0,Colombia,CF-4
+R-436,Torres Cadena,José,0,Colombia,CF-4
+R-437,Tortura,Sueli,1,Brazil,CF-4
+R-438,Tovar,Virginia,1,Mexico,CF-3
+R-439,Traoré,Idrissa,0,Mali,CF-2
+R-440,Tschenscher,Kurt,0,West Germany,CF-6
+R-441,Turpin,Clément,0,France,CF-6
+R-442,Ulloa Morera,Berny,0,Costa Rica,CF-3
+R-443,Umpiérrez,Claudia,1,Uruguay,CF-4
+R-444,Un-prasert,Pirom,0,Thailand,CF-1
+R-445,Undiano Mallenco,Alberto,0,Spain,CF-6
+R-446,Vágner,László,0,Hungary,CF-6
+R-447,Valentine,Bob,0,Scotland,CF-6
+R-448,Valenzuela,Jesús,0,Venezuela,CF-4
+R-449,Vallarino,Ricardo,0,Uruguay,CF-4
+R-450,van der Ende,Mario,0,Netherlands,CF-6
+R-451,van der Meer,Karel,0,Netherlands,CF-6
+R-452,van Gemert,Arie,0,Netherlands,CF-6
+R-453,van Langenhove,Marcel,0,Belgium,CF-6
+R-454,van Moorsel,Johannes,0,Netherlands,CF-6
+R-455,van Nuffel,Lucien,0,Belgium,CF-6
+R-456,van Ravens,Laurens,0,Netherlands,CF-6
+R-457,Vasconcelos,Cláudia,1,Brazil,CF-4
+R-458,Vassaras,Kyros,0,Greece,CF-6
+R-459,Vautrot,Michel,0,France,CF-6
+R-460,Vázquez,Mario Rubio,0,Mexico,CF-3
+R-461,Veissière,Gilles,0,France,CF-6
+R-462,Velasco Carballo,Carlos,0,Spain,CF-6
+R-463,Venegas,Lucila,1,Mexico,CF-3
+R-464,Vera,Carlos,0,Ecuador,CF-4
+R-465,Vianna,Mário,0,Brazil,CF-4
+R-466,Vieira de Moraes,Ayrton,0,Brazil,CF-4
+R-467,Vincenti,Raymond,0,France,CF-6
+R-468,Vinčić,Slavko,0,Slovenia,CF-6
+R-469,Vitulano,Carina,1,Italy,CF-6
+R-470,von Hertzka,Pál,0,Hungary,CF-6
+R-471,Vulivuli,Finau,1,Fiji,CF-5
+R-472,Warnken,Alberto,0,Chile,CF-4
+R-473,Webb,Howard,0,England,CF-6
+R-474,Wegereef,Jan,0,Netherlands,CF-6
+R-475,Weyland,Hans-Joachim,0,West Germany,CF-6
+R-476,White,Clive,0,England,CF-6
+R-477,Williams,Ben,0,Australia,CF-1
+R-478,Winsemann,Werner,0,Canada,CF-3
+R-479,Wöhrer,Franz,0,Austria,CF-6
+R-480,Wójcik,Ryszard,0,Poland,CF-6
+R-481,Wright,José Roberto,0,Brazil,CF-4
+R-482,Wurtz,Robert,0,France,CF-6
+R-483,Wüthrich,Hans,0,Switzerland,CF-6
+R-484,Wyssling,Raymond,0,Switzerland,CF-6
+R-485,Yamagishi,Sachiko,1,Japan,CF-1
+R-486,Yamasaki Maldonado,Arturo,0,Peru,CF-4
+R-487,Yamashita,Yoshimi,1,Japan,CF-1
+R-488,Yengo,Omer,0,Congo,CF-2
+R-489,Zečević,Konstantin,0,Yugoslavia,CF-6
+R-490,Zhang,Dongqing,1,China,CF-1
+R-491,Zhuk,Vadim,0,Soviet Union,CF-6
+R-492,Zsolt,István,0,Hungary,CF-6
+R-493,Zuo,Xiudi,1,China,CF-1

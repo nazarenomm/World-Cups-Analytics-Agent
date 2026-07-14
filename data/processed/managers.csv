@@ -1,0 +1,476 @@
+manager_id,family_name,given_name,female,country_name
+M-001,Acosta,Nelson,0,Uruguay
+M-002,Addo,Otto,0,Ghana
+M-003,Adshead,John,0,England
+M-004,Advocaat,Dick,0,Netherlands
+M-005,Afranie,Emmanual Kwasi,0,Ghana
+M-006,Aguirre,Javier,0,Mexico
+M-007,Al-Gohari,Mahmoud,0,Egypt
+M-008,Al-Johar,Nasser,0,Saudi Arabia
+M-009,Al-Kharashy,Mohammed,0,Brazil
+M-010,Álamos,Luis,0,Chile
+M-011,Alfaro,Gustavo,0,Argentina
+M-012,Alonso,Diego,0,Uruguay
+M-013,An,Jong-goan,0,South Korea
+M-014,Andersson,Janne,0,Sweden
+M-015,Andreoli,Franco,0,Switzerland
+M-016,Antić,Radomir,0,Serbia
+M-017,Appiah,James Kwesi,0,Ghana
+M-018,Aragonés,Luis,0,Spain
+M-019,Arauz,Vanessa,1,Ecuador
+M-020,Arena,Bruce,0,United States
+M-021,Argauer,Karl,0,Austria
+M-022,Arnold,Graham,0,Australia
+M-023,Arsenijević,Milorad,0,Yugoslavia
+M-024,Aryee,Oko,0,Ghana
+M-025,Azkargorta,Xabier,0,Spain
+M-026,Barcellos,Jorge,0,Brazil
+M-027,Baróti,Lajos,0,Hungary
+M-028,Barreau,Gaston,0,France
+M-029,Basile,Alfio,0,Argentina
+M-030,Batteux,Albert,0,France
+M-031,Bearzot,Enzo,0,Italy
+M-032,Beattie,Andy,0,Scotland
+M-033,Beckenbauer,Franz,0,Germany
+M-034,Beenhakker,Leo,0,Netherlands
+M-035,Béliveau,Sylvie,1,Canada
+M-036,Bento,Paulo,0,Portugal
+M-037,Bergeroo,Philippe,0,France
+M-038,Bergmark,Orvar,0,Sweden
+M-039,Berhalter,Gregg,0,United States
+M-040,Berntsen,Bjarne,0,Norway
+M-041,Bertolini,Milena,1,Italy
+M-042,Beskov,Konstantin,0,Soviet Union
+M-043,Bielsa,Marcelo,0,Argentina
+M-044,Bilardo,Carlos,0,Argentina
+M-045,Bingham,Billy,0,Northern Ireland
+M-046,Bini,Bruno,0,France
+M-047,Bisanz,Gero,0,Germany
+M-048,Blažević,Miroslav,0,Croatia
+M-049,Blinda,Abdellah,0,Morocco
+M-050,Blokhin,Oleg,0,Ukraine
+M-051,Boardman,Dave,0,England
+M-052,Bonev,Hristo,0,Bulgaria
+M-053,Bonfrère,Jo,0,Netherlands
+M-054,Borhy,Karol,0,Czechoslovakia
+M-055,Borrás,Omar,0,Uruguay
+M-056,Borrello,Carlos,0,Argentina
+M-057,Bozhkov,Stefan,0,Bulgaria
+M-058,Bradley,Bob,0,United States
+M-059,Brown,Craig,0,Scotland
+M-060,Brown,Greg,0,Australia
+M-061,Bru,Francisco,0,Spain
+M-062,Brückner,Karel,0,Czech Republic
+M-063,Buccicardi,Alberto,0,Chile
+M-064,Busby,Matt,0,Scotland
+M-065,Buschner,Georg,0,East Germany
+M-066,Butler,Jack,0,England
+M-067,Bystritsky,Yuri,0,Russia
+M-068,Calderón,Marcos,0,Peru
+M-069,Camacho,José Antonio,0,Spain
+M-070,Cap,Vladislao,0,Argentina
+M-071,Capello,Fabio,0,Italy
+M-072,Cárdenas,Raúl,0,Mexico
+M-073,Carpegiani,Paulo César,0,Brazil
+M-074,Carrasco,Hernán,0,Chile
+M-075,Caudron,Raoul,0,France
+M-076,Cha,Bum-kun,0,South Korea
+M-077,Charlton,Jack,0,England
+M-078,Cherchesov,Stanislav,0,Russia
+M-079,Chetali,Abdelmajid,0,Tunisia
+M-080,Chong,Tsu-pin,1,Chinese Taipei
+M-081,Cissé,Aliou,0,Senegal
+M-082,Clemente,Javier,0,Spain
+M-083,Copeland,Ted,0,England
+M-084,Corazzo,Juan Carlos,0,Uruguay
+M-085,Costa,Flávio,0,Brazil
+M-086,Coutinho,Cláudio,0,Brazil
+M-087,Cuéllar,Leonardo,0,Mexico
+M-088,Cúper,Héctor,0,Argentina
+M-089,Czeizler,Lajos,0,Hungary
+M-090,Dalić,Zlatko,0,Croatia
+M-091,de Carvalho Rodrigues,Píndaro,0,Brazil
+M-092,de la Paz Herrera,José,0,Honduras
+M-093,de Macedo,Evaristo,0,Brazil
+M-094,del Bosque,Vicente,0,Spain
+M-095,Dennerby,Thomas,0,Sweden
+M-096,Derwall,Jupp,0,Germany
+M-097,Deschamps,Didier,0,France
+M-098,Diacre,Corinne,1,France
+M-099,DiCicco,Tony,0,United States
+M-100,Didi,not applicable,0,Brazil
+M-101,Dietz,Károly,0,Hungary
+M-102,Djeumfa,Alain,0,Cameroon
+M-103,Doherty,Peter,0,Northern Ireland
+M-104,Domanski-Lyfors,Marika,1,Sweden
+M-105,Domenech,Raymond,0,France
+M-106,Dorrance,Anson,0,United States
+M-107,Dujković,Ratomir,0,Serbia
+M-108,Dunga,not applicable,0,Brazil
+M-109,Durand Laguna,José,0,Argentina
+M-110,Effiom,Ntiero,0,Nigeria
+M-111,Eizaguirre,Guillermo,0,Spain
+M-112,Ellis,Desiree,1,South Africa
+M-113,Ellis,Jill,1,United States
+M-114,Engel,Jerzy,0,Poland
+M-115,Enow,Carl,0,Cameroon
+M-116,Enrique,Luis,0,Spain
+M-117,Ericson,Georg,0,Sweden
+M-118,Eriksson,Sven-Göran,0,Sweden
+M-119,Fabbri,Edmondo,0,Italy
+M-120,Facchin,Carlo,0,Italy
+M-121,Faria,José,0,Brazil
+M-122,Feola,Vicente,0,Brazil
+M-123,Ferguson,Alex,0,Scotland
+M-124,Ferrari,Giovanni,0,Italy
+M-125,Finke,Volker,0,Germany
+M-126,Fleitas Solich,Manuel,0,Paraguay
+M-127,Flick,Hansi,0,Germany
+M-128,Foni,Alfredo,0,Italy
+M-129,Fonseca,Ademar,0,Brazil
+M-130,Frigério,Marcello,0,Italy
+M-131,Gansler,Bob,0,United States
+M-132,Gantzhorn,Keld,0,Denmark
+M-133,García,Amadeo,0,Spain
+M-134,Gareca,Ricardo,0,Argentina
+M-135,Gerhardsson,Peter,0,Sweden
+M-136,Glendenning,Bob,0,England
+M-137,Glória,Otto,0,Brazil
+M-138,Gmoch,Jacek,0,Poland
+M-139,Goethals,Raymond,0,Belgium
+M-140,Goetinck,Hector,0,Belgium
+M-141,Gómez,Hernán Darío,0,Colombia
+M-142,Gonçalves,Oliveira,0,Angola
+M-143,Gonçalves,Paulo,0,Brazil
+M-144,González,Aurelio,0,Paraguay
+M-145,Górski,Kazimierz,0,Poland
+M-146,Gould,David,0,United States
+M-147,Greenwood,Ron,0,England
+M-148,Guenza,Sergio,0,Italy
+M-149,Guérin,Henri,0,France
+M-150,Guimarães,Alexandre,0,Costa Rica
+M-151,Güneş,Şenol,0,Turkey
+M-152,Halilhodžić,Vahid,0,Bosnia and Herzegovina
+M-153,Hallgrímsson,Heimir,0,Iceland
+M-154,Halvorsen,Asbjørn,0,Norway
+M-155,Hamilton,Paul,0,Nigeria
+M-156,Hao,Wei,0,China
+M-157,Happel,Ernst,0,Austria
+M-158,Hareide,Åge,0,Norway
+M-159,Heiner-Møller,Kenneth,0,Denmark
+M-160,Heinrichs,April,1,United States
+M-161,Herberger,Sepp,0,Germany
+M-162,Herbert,Ricki,0,New Zealand
+M-163,Herdman,John,0,England
+M-164,Herrera,Helenio,0,Argentina
+M-165,Herrera,Miguel,0,Mexico
+M-166,Hickersberger,Josef,0,Austria
+M-167,Hidalgo,Michel,0,France
+M-168,Hiddink,Guus,0,Netherlands
+M-169,Hierro,Fernando,0,Spain
+M-170,Hitzfeld,Ottmar,0,Germany
+M-171,Hjulmand,Kasper,0,Denmark
+M-172,Hoddle,Glenn,0,England
+M-173,Hodgson,Roy,0,England
+M-174,Høgmo,Per-Mathias,0,Norway
+M-175,Hohberg,Juan,0,Uruguay
+M-176,Hong,Myung-bo,0,South Korea
+M-177,Huh,Jung-moo,0,South Korea
+M-178,Hvidemose,Jørgen,0,Denmark
+M-179,Iordănescu,Anghel,0,Romania
+M-180,Ismaila,Mabo,0,Nigeria
+M-181,Ivanković,Branko,0,Croatia
+M-182,Jacquet,Aimé,0,France
+M-183,Janas,Paweł,0,Poland
+M-184,Jeffrey,William,0,United States
+M-185,Jenei,Emerich,0,Romania
+M-186,Jia,Xiuquan,0,China
+M-187,Johansson,Bo,0,Sweden
+M-188,Jozić,Mirko,0,Croatia
+M-189,Kachalin,Gavriil,0,Soviet Union
+M-190,Kadri,Jalel,0,Tunisia
+M-191,Kałuża,Józef,0,Poland
+M-192,Kasperczak,Henryk,0,Poland
+M-193,Katanec,Srečko,0,Slovenia
+M-194,Kek,Matjaž,0,Slovenia
+M-195,Kerr,Shelley,1,Scotland
+M-196,Keshi,Stephen,0,Nigeria
+M-197,Khalef,Mahieddine,0,Algeria
+M-198,Kim,Ho,0,South Korea
+M-199,Kim,Jong-hun,0,North Korea
+M-200,Kim,Jung-nam,0,South Korea
+M-201,Kim,Kwang-min,0,North Korea
+M-202,Kim,Yong-sik,0,South Korea
+M-203,Kimpton,George,0,England
+M-204,Klinsmann,Jürgen,0,Germany
+M-205,Kolský,Karel,0,Czechoslovakia
+M-206,Kovač,Niko,0,Croatia
+M-207,Kranjčar,Zlatko,0,Croatia
+M-208,Krstajić,Mladen,0,Serbia
+M-209,Kubala,Ladislao,0,Spain
+M-210,Kuhn,Köbi,0,Switzerland
+M-211,La Volpe,Ricardo,0,Argentina
+M-212,Lagerbäck,Lars,0,Sweden
+M-213,Lamouchi,Sabri,0,France
+M-214,Landsem,Eli,1,Norway
+M-215,Lapuente,Manuel,0,Mexico
+M-216,Latzke,Felix,0,Austria
+M-217,Lazaroni,Sebastião,0,Brazil
+M-218,Le Guen,Paul,0,France
+M-219,Le Roy,Claude,0,France
+M-220,Lee,Hoe-taik,0,South Korea
+M-221,Leekens,Georges,0,Belgium
+M-222,Lemerre,Roger,0,France
+M-223,Letelier,José,0,Chile
+M-224,lima,Kleiton,0,Brazil
+M-225,Lippi,Marcello,0,Italy
+M-226,Livingstone,Doug,0,Scotland
+M-227,Lobanovsky,Valeri,0,Soviet Union
+M-228,Lobanovskyi,Valeriy,0,Soviet Union
+M-229,Loisel,Élisabeth,1,France
+M-230,López,Juan,0,Uruguay
+M-231,López Herranz,Antonio,0,Spain
+M-232,Lorenzo,Juan Carlos,0,Argentina
+M-233,Lovrić,Ljubomir,0,Yugoslavia
+M-234,Löw,Joachim,0,Germany
+M-235,Luque de Serrallonga,Juan,0,Mexico
+M-236,Ma,Liangxing,0,China
+M-237,Ma,Yuanan,0,China
+M-238,Maâloul,Nabil,0,Tunisia
+M-239,MacLeod,Ally,0,Scotland
+M-240,Maldini,Cesare,0,Italy
+M-241,Maradona,Diego,0,Argentina
+M-242,Marko,Jozef,0,Czechoslovakia
+M-243,Martínez,Roberto,0,Spain
+M-244,Martino,Gerardo,0,Argentina
+M-245,Mastenbroek,Johan,0,Netherlands
+M-246,Maturana,Francisco,0,Colombia
+M-247,Mazza,Paolo,0,Italy
+M-248,McCarthy,Mick,0,Republic of Ireland
+M-249,McCrae,James,0,Scotland
+M-250,Meisl,Hugo,0,Austria
+M-251,Meissner,Josef,0,Czechoslovakia
+M-252,Mejía Barón,Miguel,0,Mexico
+M-253,Mekhloufi,Rachid,0,Algeria
+M-254,Menotti,César Luis,0,Argentina
+M-255,Menzies,Hue,0,Jamaica
+M-256,Mészöly,Kálmán,0,Hungary
+M-257,Metsu,Bruno,0,France
+M-258,Mezey,György,0,Hungary
+M-259,Michel,Henri,0,France
+M-260,Michels,Rinus,0,Netherlands
+M-261,Michniewicz,Czesław,0,Poland
+M-262,Mihajlović,Prvoslav,0,Yugoslavia
+M-263,Milicic,Ante,0,Australia
+M-264,Miljanić,Miljan,0,Yugoslavia
+M-265,Millar,Robert,0,Scotland
+M-266,Milutinović,Bora,0,Yugoslavia
+M-267,Miyauchi,Satoshi,0,Japan
+M-268,Mladenov,Hristo,0,Bulgaria
+M-269,Mohajerani,Heshmat,0,Iran
+M-270,Morace,Carolina,1,Italy
+M-271,Moreira,Aymoré,0,Brazil
+M-272,Moreira,Zezé,0,Brazil
+M-273,Moriyasu,Hajime,0,Japan
+M-274,Morozov,Nikolai,0,Soviet Union
+M-275,Müller,Heinrich,0,Switzerland
+M-276,Muñoz,Miguel,0,Spain
+M-277,Murphy,Jimmy,0,Wales
+M-278,Myong,Dong-chan,0,North Korea
+M-279,Myung,Rye-hyun,0,North Korea
+M-280,Nádas,Ödön,0,Hungary
+M-281,Nagy,József,0,Hungary
+M-282,Nausch,Walter,0,Austria
+M-283,Nawałka,Adam,0,Poland
+M-284,Neid,Silvia,1,Germany
+M-285,Nepomnyashchy,Valery,0,Soviet Union
+M-286,Nerz,Otto,0,Germany
+M-287,Neville,Phil,0,England
+M-288,Niculescu,Angelo,0,Romania
+M-289,Nishino,Akira,0,Japan
+M-290,Nordin,Olle,0,Sweden
+M-291,Novo,Ferruccio,0,Italy
+M-292,Ohashi,Hiroshi,0,Japan
+M-293,Okada,Takeshi,0,Japan
+M-294,Okon,Edwin,0,Nigeria
+M-295,Okpodu,Samuel,0,Nigeria
+M-296,Olazar,Francisco,0,Argentina
+M-297,Oliveira,António,0,Portugal
+M-298,Olsen,Egil,0,Norway
+M-299,Olsen,Morten,0,Denmark
+M-300,Onigbinde,Festus,0,Nigeria
+M-301,Ormond,Willie,0,Scotland
+M-302,Orth,György,0,Hungary
+M-303,Osim,Ivica,0,Yugoslavia
+M-304,Osorio,Juan Carlos,0,Colombia
+M-305,Pachedzhiev,Georgi,0,Bulgaria
+M-306,Page,Rob,0,Wales
+M-307,Paha,Isaac,0,Ghana
+M-308,Paijkull,Gunilla,1,Sweden
+M-309,Panagoulias,Alketas,0,Greece
+M-310,Paquetá,Marcos,0,Brazil
+M-311,Parreira,Carlos Alberto,0,Brazil
+M-312,Pascucci,Felipe,0,Italy
+M-313,Passarella,Daniel,0,Argentina
+M-314,Pedernera,Adolfo,0,Argentina
+M-315,Pékerman,José,0,Argentina
+M-316,Pellerud,Even,0,Norway
+M-317,Penev,Dimitar,0,Bulgaria
+M-318,Petković,Ilija,0,Serbia and Montenegro
+M-319,Petković,Vladimir,0,Switzerland
+M-320,Petrů,Karel,0,Czechoslovakia
+M-321,Pettersson,John,0,Sweden
+M-322,Pfister,Otto,0,Germany
+M-323,Pibarot,Pierre,0,France
+M-324,Piechniczek,Antoni,0,Poland
+M-325,Pimenta,Adhemar,0,Brazil
+M-326,Pinto,Jorge Luis,0,Colombia
+M-327,Piontek,Sepp,0,Germany
+M-328,Pires,Fernando,0,Brazil
+M-329,Pizzi,Juan Antonio,0,Spain
+M-330,Porta,Roberto,0,Uruguay
+M-331,Postecoglou,Ange,0,Australia
+M-332,Powell,Hope,1,England
+M-333,Pozzo,Vittorio,0,Italy
+M-334,Prandelli,Cesare,0,Italy
+M-335,Pretto,Mario,0,Italy
+M-336,Prohaska,Herbert,0,Austria
+M-337,Púa,Víctor,0,Uruguay
+M-338,Puppo,Sandro,0,Italy
+M-339,Queiroz,Carlos,0,Portugal
+M-340,Quereda,Ignacio,0,Spain
+M-341,Rădulescu,Costel,0,Romania
+M-342,Rajevac,Milovan,0,Serbia
+M-343,Ramírez,Óscar,0,Costa Rica
+M-344,Ramsey,Alf,0,England
+M-345,Rappan,Karl,0,Austria
+M-346,Rasic,Rale,0,Yugoslavia
+M-347,Raynor,George,0,England
+M-348,Ré,Cayetano,0,Paraguay
+M-349,Readings,Tony,0,England
+M-350,Regragui,Walid,0,Morocco
+M-351,Rehhagel,Otto,0,Germany
+M-352,Reijners,Roger,0,Netherlands
+M-353,Renard,Hervé,0,France
+M-354,Ri,Song-gun,0,North Korea
+M-355,Riera,Fernando,0,Chile
+M-356,Robson,Bobby,0,England
+M-357,Roca,José Antonio,0,Mexico
+M-358,Rodríguez,Mauricio,0,El Salvador
+M-359,Rohr,Gernot,0,Germany
+M-360,Romantsev,Oleg,0,Russia
+M-361,Roxburgh,Andy,0,Scotland
+M-362,Rozo,Ricardo,0,Colombia
+M-363,Rueda,Reinaldo,0,Colombia
+M-364,Ruiz,Aníbal,0,Uruguay
+M-365,Ryan,Greg,0,United States
+M-366,Saâdane,Rabah,0,Algeria
+M-367,Sabella,Alejandro,0,Argentina
+M-368,Sacchi,Arrigo,0,Italy
+M-369,Sadyrin,Pavel,0,Russia
+M-370,Sampaoli,Jorge,0,Argentina
+M-371,Sampson,Mark,0,Wales
+M-372,Sampson,Steve,0,United States
+M-373,Sánchez,Félix,0,Spain
+M-374,Santamaría,José,0,Uruguay
+M-375,Santana,Telê,0,Brazil
+M-376,Santibáñez,Luis,0,Chile
+M-377,Santos,Fernando,0,Portugal
+M-378,Santrac,Adrian,0,Australia
+M-379,Santrač,Slobodan,0,Yugoslavia
+M-380,Sasaki,Norio,0,Japan
+M-381,Saucedo,Ulises,0,Bolivia
+M-382,Săvulescu,Alexandru,0,Romania
+M-383,Scaloni,Lionel,0,Argentina
+M-384,Schäfer,Winfried,0,Germany
+M-385,Schaffer,Alfréd,0,Hungary
+M-386,Scheffer,Emmanuel,0,Israel
+M-387,Schmidt,Georg,0,Austria
+M-388,Schön,Helmut,0,Germany
+M-389,Scolari,Luiz Felipe,0,Brazil
+M-390,Sebes,Gusztáv,0,Hungary
+M-391,Selmi,Ali,0,Poland
+M-392,Senekowitsch,Helmut,0,Austria
+M-393,Sermanni,Tom,0,Scotland
+M-394,Shang,Ruihua,0,China
+M-395,Shin,Tae-yong,0,South Korea
+M-396,Simões,Renê,0,Brazil
+M-397,Simonović,Boško,0,Yugoslavia
+M-398,Simonsson,Bengt,0,Sweden
+M-399,Sjögren,Martin,0,Sweden
+M-400,Söderberg,Tommy,0,Sweden
+M-401,Solari,Jorge,0,Argentina
+M-402,Song,Rigobert,0,Cameroon
+M-403,Sono,Jomo,0,South Africa
+M-404,Souayah,Ammar,0,Tunisia
+M-405,Southgate,Gareth,0,England
+M-406,Srathongvian,Nuengrutai,1,Thailand
+M-407,Stábile,Guillermo,0,Argentina
+M-408,Stajcic,Alen,0,Australia
+M-409,Steen,Åge,0,Norway
+M-410,Stein,Jock,0,Scotland
+M-411,Stojković,Dragan,0,Serbia
+M-412,Suárez,Luis,0,Spain
+M-413,Suárez,Luis Fernando,0,Colombia
+M-414,Sundhage,Pia,1,Sweden
+M-415,Suppici,Alberto,0,Uruguay
+M-416,Sušić,Safet,0,Bosnia and Herzegovina
+M-417,Suzuki,Tamotsu,0,Japan
+M-418,Svensson,Tommy,0,Sweden
+M-419,Tabárez,Óscar,0,Uruguay
+M-420,Taborda,Fabián,0,Colombia
+M-421,Takakura,Asako,1,Japan
+M-422,Talebi,Jalal,0,Iran
+M-423,Tapia,José,0,Cuba
+M-424,Tassy,Antoine,0,Haiti
+M-425,Theune-Meyer,Tina,1,Germany
+M-426,Thys,Guy,0,Belgium
+M-427,Tim,not applicable,0,Brazil
+M-428,Tirnanić,Aleksandar,0,Yugoslavia
+M-429,Tite,not applicable,0,Brazil
+M-430,Torres,José,0,Portugal
+M-431,Touré,Clémentine,1,Ivory Coast
+M-432,Tramutola,Juan José,0,Argentina
+M-433,Trapattoni,Giovanni,0,Italy
+M-434,Tréllez,Ignacio,0,Mexico
+M-435,Troussier,Philippe,0,France
+M-436,Turnbull,Neil,0,England
+M-437,Uche,Ngozi Eucharia,1,Nigeria
+M-438,Ueda,Eiji,0,Japan
+M-439,Uridil,Josef,0,Romania
+M-440,Vadão,not applicable,0,Brazil
+M-441,Valcareggi,Ferruccio,0,Italy
+M-442,Valverde,Amelia,1,Costa Rica
+M-443,van Basten,Marco,0,Netherlands
+M-444,van Gaal,Louis,0,Netherlands
+M-445,Van Himst,Paul,0,Belgium
+M-446,van Marwijk,Bert,0,Netherlands
+M-447,Vengloš,Jozef,0,Czechoslovakia
+M-448,Verbeek,Pim,0,Netherlands
+M-449,Vial,Octavio,0,Mexico
+M-450,Vicini,Azeglio,0,Italy
+M-451,Vidinić,Blagoje,0,Yugoslavia
+M-452,Viera,Ondino,0,Uruguay
+M-453,Vilda,Jorge,0,Spain
+M-454,Villalonga,José,0,Spain
+M-455,Vincent,Jean,0,France
+M-456,Vinhaes,Luiz,0,Brazil
+M-457,Vogts,Berti,0,Germany
+M-458,Völler,Rudi,0,Germany
+M-459,Voss-Tecklenburg,Martina,1,Germany
+M-460,Vutsov,Ivan,0,Bulgaria
+M-461,Vytlačil,Rudolf,0,Czechoslovakia
+M-462,Waiters,Tony,0,England
+M-463,Walker,Dawson,0,Scotland
+M-464,Waseige,Robert,0,Belgium
+M-465,Weiss,Vladimír,0,Slovakia
+M-466,Westerhof,Clemens,0,Netherlands
+M-467,Wiegman,Sarina,1,Netherlands
+M-468,Wilmots,Marc,0,Belgium
+M-469,Wilsinho,not applicable,0,Brazil
+M-470,Winterbottom,Walter,0,England
+M-471,Yakin,Murat,0,Switzerland
+M-472,Yoon,Deok-yeo,0,South Korea
+M-473,Zaccheroni,Alberto,0,Italy
+M-474,Zagallo,Mário,0,Brazil
+M-475,Zico,not applicable,0,Brazil

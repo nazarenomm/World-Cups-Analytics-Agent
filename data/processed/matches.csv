@@ -1,19 +1,19 @@
 match_id,tournament_id,group_id,match_name,stage_name,replay,match_date,match_time,stadium_id,home_team_id,away_team_id,home_team_score,away_team_score,extra_time,penalty_shootout,home_team_score_penalties,away_team_score_penalties
-M-1930-01,WC-1930,1.0,France vs Mexico,group stage,0,1930-07-13,15:00,S-240,T-30,T-46,4,1,0,0,0,0
-M-1930-02,WC-1930,4.0,United States vs Belgium,group stage,0,1930-07-13,15:00,S-239,T-83,T-06,3,0,0,0,0,0
-M-1930-03,WC-1930,2.0,Yugoslavia vs Brazil,group stage,0,1930-07-14,12:45,S-239,T-87,T-09,2,1,0,0,0,0
-M-1930-04,WC-1930,3.0,Romania vs Peru,group stage,0,1930-07-14,14:50,S-240,T-61,T-56,3,1,0,0,0,0
-M-1930-05,WC-1930,1.0,Argentina vs France,group stage,0,1930-07-15,16:00,S-239,T-03,T-30,1,0,0,0,0,0
-M-1930-06,WC-1930,1.0,Chile vs Mexico,group stage,0,1930-07-16,14:45,S-239,T-13,T-46,3,0,0,0,0,0
-M-1930-07,WC-1930,2.0,Yugoslavia vs Bolivia,group stage,0,1930-07-17,12:45,S-239,T-87,T-07,4,0,0,0,0,0
-M-1930-08,WC-1930,4.0,United States vs Paraguay,group stage,0,1930-07-17,14:45,S-239,T-83,T-55,3,0,0,0,0,0
-M-1930-09,WC-1930,3.0,Uruguay vs Peru,group stage,0,1930-07-18,14:30,S-238,T-84,T-56,1,0,0,0,0,0
-M-1930-10,WC-1930,1.0,Chile vs France,group stage,0,1930-07-19,12:50,S-238,T-13,T-30,1,0,0,0,0,0
-M-1930-11,WC-1930,1.0,Argentina vs Mexico,group stage,0,1930-07-19,15:00,S-238,T-03,T-46,6,3,0,0,0,0
-M-1930-12,WC-1930,2.0,Brazil vs Bolivia,group stage,0,1930-07-20,13:00,S-238,T-09,T-07,4,0,0,0,0,0
-M-1930-13,WC-1930,4.0,Paraguay vs Belgium,group stage,0,1930-07-20,15:00,S-238,T-55,T-06,1,0,0,0,0,0
-M-1930-14,WC-1930,3.0,Uruguay vs Romania,group stage,0,1930-07-21,14:50,S-238,T-84,T-61,4,0,0,0,0,0
-M-1930-15,WC-1930,1.0,Argentina vs Chile,group stage,0,1930-07-22,14:45,S-238,T-03,T-13,3,1,0,0,0,0
+M-1930-01,WC-1930,G-1,France vs Mexico,group stage,0,1930-07-13,15:00,S-240,T-30,T-46,4,1,0,0,0,0
+M-1930-02,WC-1930,G-4,United States vs Belgium,group stage,0,1930-07-13,15:00,S-239,T-83,T-06,3,0,0,0,0,0
+M-1930-03,WC-1930,G-2,Yugoslavia vs Brazil,group stage,0,1930-07-14,12:45,S-239,T-87,T-09,2,1,0,0,0,0
+M-1930-04,WC-1930,G-3,Romania vs Peru,group stage,0,1930-07-14,14:50,S-240,T-61,T-56,3,1,0,0,0,0
+M-1930-05,WC-1930,G-1,Argentina vs France,group stage,0,1930-07-15,16:00,S-239,T-03,T-30,1,0,0,0,0,0
+M-1930-06,WC-1930,G-1,Chile vs Mexico,group stage,0,1930-07-16,14:45,S-239,T-13,T-46,3,0,0,0,0,0
+M-1930-07,WC-1930,G-2,Yugoslavia vs Bolivia,group stage,0,1930-07-17,12:45,S-239,T-87,T-07,4,0,0,0,0,0
+M-1930-08,WC-1930,G-4,United States vs Paraguay,group stage,0,1930-07-17,14:45,S-239,T-83,T-55,3,0,0,0,0,0
+M-1930-09,WC-1930,G-3,Uruguay vs Peru,group stage,0,1930-07-18,14:30,S-238,T-84,T-56,1,0,0,0,0,0
+M-1930-10,WC-1930,G-1,Chile vs France,group stage,0,1930-07-19,12:50,S-238,T-13,T-30,1,0,0,0,0,0
+M-1930-11,WC-1930,G-1,Argentina vs Mexico,group stage,0,1930-07-19,15:00,S-238,T-03,T-46,6,3,0,0,0,0
+M-1930-12,WC-1930,G-2,Brazil vs Bolivia,group stage,0,1930-07-20,13:00,S-238,T-09,T-07,4,0,0,0,0,0
+M-1930-13,WC-1930,G-4,Paraguay vs Belgium,group stage,0,1930-07-20,15:00,S-238,T-55,T-06,1,0,0,0,0,0
+M-1930-14,WC-1930,G-3,Uruguay vs Romania,group stage,0,1930-07-21,14:50,S-238,T-84,T-61,4,0,0,0,0,0
+M-1930-15,WC-1930,G-1,Argentina vs Chile,group stage,0,1930-07-22,14:45,S-238,T-03,T-13,3,1,0,0,0,0
 M-1930-16,WC-1930,,Argentina vs United States,semi-finals,0,1930-07-26,14:45,S-238,T-03,T-83,6,1,0,0,0,0
 M-1930-17,WC-1930,,Uruguay vs Yugoslavia,semi-finals,0,1930-07-27,14:45,S-238,T-84,T-87,6,1,0,0,0,0
 M-1930-18,WC-1930,,Uruguay vs Argentina,final,0,1930-07-30,14:15,S-238,T-84,T-03,4,2,0,0,0,0
@@ -74,24 +74,24 @@ M-1950-19,WC-1950,,Brazil vs Spain,final round,0,1950-07-13,15:00,S-020,T-09,T-7
 M-1950-20,WC-1950,,Uruguay vs Sweden,final round,0,1950-07-13,15:00,S-023,T-84,T-74,3,2,0,0,0,0
 M-1950-21,WC-1950,,Sweden vs Spain,final round,0,1950-07-16,15:00,S-023,T-74,T-73,3,1,0,0,0,0
 M-1950-22,WC-1950,,Uruguay vs Brazil,final round,0,1950-07-16,15:00,S-020,T-84,T-09,2,1,0,0,0,0
-M-1954-01,WC-1954,10.0,Brazil vs Mexico,group stage,0,1954-06-16,18:00,S-213,T-09,T-46,5,0,0,0,0,0
-M-1954-02,WC-1954,10.0,Yugoslavia vs France,group stage,0,1954-06-16,18:00,S-214,T-87,T-30,1,0,0,0,0,0
-M-1954-03,WC-1954,12.0,Austria vs Scotland,group stage,0,1954-06-16,18:00,S-216,T-05,T-64,1,0,0,0,0,0
-M-1954-04,WC-1954,12.0,Uruguay vs Czechoslovakia,group stage,0,1954-06-16,18:00,S-212,T-84,T-21,2,0,0,0,0,0
-M-1954-05,WC-1954,13.0,Switzerland vs Italy,group stage,0,1954-06-17,17:50,S-214,T-75,T-41,2,1,0,0,0,0
-M-1954-06,WC-1954,11.0,Hungary vs South Korea,group stage,0,1954-06-17,18:00,S-216,T-36,T-71,9,0,0,0,0,0
-M-1954-07,WC-1954,11.0,West Germany vs Turkey,group stage,0,1954-06-17,18:00,S-212,T-86,T-80,4,1,0,0,0,0
-M-1954-08,WC-1954,13.0,England vs Belgium,group stage,0,1954-06-17,18:10,S-211,T-28,T-06,4,4,1,0,0,0
-M-1954-09,WC-1954,12.0,Uruguay vs Scotland,group stage,0,1954-06-19,16:50,S-211,T-84,T-64,7,0,0,0,0,0
-M-1954-10,WC-1954,10.0,Brazil vs Yugoslavia,group stage,0,1954-06-19,17:00,S-214,T-09,T-87,1,1,1,0,0,0
-M-1954-11,WC-1954,12.0,Austria vs Czechoslovakia,group stage,0,1954-06-19,17:00,S-216,T-05,T-21,5,0,0,0,0,0
-M-1954-12,WC-1954,10.0,France vs Mexico,group stage,0,1954-06-19,17:10,S-213,T-30,T-46,3,2,0,0,0,0
-M-1954-13,WC-1954,11.0,Hungary vs West Germany,group stage,0,1954-06-20,16:50,S-211,T-36,T-86,8,3,0,0,0,0
-M-1954-14,WC-1954,11.0,Turkey vs South Korea,group stage,0,1954-06-20,17:00,S-213,T-80,T-71,7,0,0,0,0,0
-M-1954-15,WC-1954,13.0,Italy vs Belgium,group stage,0,1954-06-20,17:00,S-215,T-41,T-06,4,1,0,0,0,0
-M-1954-16,WC-1954,13.0,England vs Switzerland,group stage,0,1954-06-20,17:10,S-212,T-28,T-75,2,0,0,0,0,0
-M-1954-17,WC-1954,11.0,West Germany vs Turkey,group stage,0,1954-06-23,18:00,S-216,T-86,T-80,7,2,0,0,0,0
-M-1954-18,WC-1954,13.0,Switzerland vs Italy,group stage,0,1954-06-23,18:00,S-211,T-75,T-41,4,1,0,0,0,0
+M-1954-01,WC-1954,G-10,Brazil vs Mexico,group stage,0,1954-06-16,18:00,S-213,T-09,T-46,5,0,0,0,0,0
+M-1954-02,WC-1954,G-10,Yugoslavia vs France,group stage,0,1954-06-16,18:00,S-214,T-87,T-30,1,0,0,0,0,0
+M-1954-03,WC-1954,G-12,Austria vs Scotland,group stage,0,1954-06-16,18:00,S-216,T-05,T-64,1,0,0,0,0,0
+M-1954-04,WC-1954,G-12,Uruguay vs Czechoslovakia,group stage,0,1954-06-16,18:00,S-212,T-84,T-21,2,0,0,0,0,0
+M-1954-05,WC-1954,G-13,Switzerland vs Italy,group stage,0,1954-06-17,17:50,S-214,T-75,T-41,2,1,0,0,0,0
+M-1954-06,WC-1954,G-11,Hungary vs South Korea,group stage,0,1954-06-17,18:00,S-216,T-36,T-71,9,0,0,0,0,0
+M-1954-07,WC-1954,G-11,West Germany vs Turkey,group stage,0,1954-06-17,18:00,S-212,T-86,T-80,4,1,0,0,0,0
+M-1954-08,WC-1954,G-13,England vs Belgium,group stage,0,1954-06-17,18:10,S-211,T-28,T-06,4,4,1,0,0,0
+M-1954-09,WC-1954,G-12,Uruguay vs Scotland,group stage,0,1954-06-19,16:50,S-211,T-84,T-64,7,0,0,0,0,0
+M-1954-10,WC-1954,G-10,Brazil vs Yugoslavia,group stage,0,1954-06-19,17:00,S-214,T-09,T-87,1,1,1,0,0,0
+M-1954-11,WC-1954,G-12,Austria vs Czechoslovakia,group stage,0,1954-06-19,17:00,S-216,T-05,T-21,5,0,0,0,0,0
+M-1954-12,WC-1954,G-10,France vs Mexico,group stage,0,1954-06-19,17:10,S-213,T-30,T-46,3,2,0,0,0,0
+M-1954-13,WC-1954,G-11,Hungary vs West Germany,group stage,0,1954-06-20,16:50,S-211,T-36,T-86,8,3,0,0,0,0
+M-1954-14,WC-1954,G-11,Turkey vs South Korea,group stage,0,1954-06-20,17:00,S-213,T-80,T-71,7,0,0,0,0,0
+M-1954-15,WC-1954,G-13,Italy vs Belgium,group stage,0,1954-06-20,17:00,S-215,T-41,T-06,4,1,0,0,0,0
+M-1954-16,WC-1954,G-13,England vs Switzerland,group stage,0,1954-06-20,17:10,S-212,T-28,T-75,2,0,0,0,0,0
+M-1954-17,WC-1954,G-11,West Germany vs Turkey,group stage,0,1954-06-23,18:00,S-216,T-86,T-80,7,2,0,0,0,0
+M-1954-18,WC-1954,G-13,Switzerland vs Italy,group stage,0,1954-06-23,18:00,S-211,T-75,T-41,4,1,0,0,0,0
 M-1954-19,WC-1954,,Austria vs Switzerland,quarter-finals,0,1954-06-26,17:00,S-214,T-05,T-75,7,5,0,0,0,0
 M-1954-20,WC-1954,,Uruguay vs England,quarter-finals,0,1954-06-26,17:00,S-211,T-84,T-28,4,2,0,0,0,0
 M-1954-21,WC-1954,,Hungary vs Brazil,quarter-finals,0,1954-06-27,17:00,S-212,T-36,T-09,4,2,0,0,0,0
@@ -100,33 +100,33 @@ M-1954-23,WC-1954,,Hungary vs Uruguay,semi-finals,0,1954-06-30,18:00,S-214,T-36,
 M-1954-24,WC-1954,,West Germany vs Austria,semi-finals,0,1954-06-30,18:00,S-211,T-86,T-05,6,1,0,0,0,0
 M-1954-25,WC-1954,,Austria vs Uruguay,third-place match,0,1954-07-03,17:00,S-216,T-05,T-84,3,1,0,0,0,0
 M-1954-26,WC-1954,,West Germany vs Hungary,final,0,1954-07-04,17:00,S-212,T-86,T-36,3,2,0,0,0,0
-M-1958-01,WC-1958,16.0,Sweden vs Mexico,group stage,0,1958-06-08,14:00,S-208,T-74,T-46,3,0,0,0,0,0
-M-1958-02,WC-1958,14.0,Argentina vs West Germany,group stage,0,1958-06-08,19:00,S-204,T-03,T-86,1,3,0,0,0,0
-M-1958-03,WC-1958,14.0,Northern Ireland vs Czechoslovakia,group stage,0,1958-06-08,19:00,S-201,T-52,T-21,1,0,0,0,0,0
-M-1958-04,WC-1958,15.0,France vs Paraguay,group stage,0,1958-06-08,19:00,S-205,T-30,T-55,7,3,0,0,0,0
-M-1958-05,WC-1958,15.0,Yugoslavia vs Scotland,group stage,0,1958-06-08,19:00,S-210,T-87,T-64,1,1,0,0,0,0
-M-1958-06,WC-1958,16.0,Hungary vs Wales,group stage,0,1958-06-08,19:00,S-207,T-36,T-85,1,1,0,0,0,0
-M-1958-07,WC-1958,17.0,Brazil vs Austria,group stage,0,1958-06-08,19:00,S-209,T-09,T-05,3,0,0,0,0,0
-M-1958-08,WC-1958,17.0,Soviet Union vs England,group stage,0,1958-06-08,19:00,S-200,T-72,T-28,2,2,0,0,0,0
-M-1958-09,WC-1958,14.0,Argentina vs Northern Ireland,group stage,0,1958-06-11,19:00,S-201,T-03,T-52,3,1,0,0,0,0
-M-1958-10,WC-1958,14.0,West Germany vs Czechoslovakia,group stage,0,1958-06-11,19:00,S-202,T-86,T-21,2,2,0,0,0,0
-M-1958-11,WC-1958,15.0,Paraguay vs Scotland,group stage,0,1958-06-11,19:00,S-205,T-55,T-64,3,2,0,0,0,0
-M-1958-12,WC-1958,15.0,Yugoslavia vs France,group stage,0,1958-06-11,19:00,S-210,T-87,T-30,3,2,0,0,0,0
-M-1958-13,WC-1958,16.0,Mexico vs Wales,group stage,0,1958-06-11,19:00,S-208,T-46,T-85,1,1,0,0,0,0
-M-1958-14,WC-1958,17.0,Brazil vs England,group stage,0,1958-06-11,19:00,S-200,T-09,T-28,0,0,0,0,0,0
-M-1958-15,WC-1958,17.0,Soviet Union vs Austria,group stage,0,1958-06-11,19:00,S-197,T-72,T-05,2,0,0,0,0,0
-M-1958-16,WC-1958,16.0,Sweden vs Hungary,group stage,0,1958-06-12,19:00,S-208,T-74,T-36,2,1,0,0,0,0
-M-1958-17,WC-1958,16.0,Sweden vs Wales,group stage,0,1958-06-15,14:00,S-208,T-74,T-85,0,0,0,0,0,0
-M-1958-18,WC-1958,14.0,Czechoslovakia vs Argentina,group stage,0,1958-06-15,19:00,S-202,T-21,T-03,6,1,0,0,0,0
-M-1958-19,WC-1958,14.0,West Germany vs Northern Ireland,group stage,0,1958-06-15,19:00,S-204,T-86,T-52,2,2,0,0,0,0
-M-1958-20,WC-1958,15.0,France vs Scotland,group stage,0,1958-06-15,19:00,S-206,T-30,T-64,2,1,0,0,0,0
-M-1958-21,WC-1958,15.0,Paraguay vs Yugoslavia,group stage,0,1958-06-15,19:00,S-198,T-55,T-87,3,3,0,0,0,0
-M-1958-22,WC-1958,16.0,Hungary vs Mexico,group stage,0,1958-06-15,19:00,S-207,T-36,T-46,4,0,0,0,0,0
-M-1958-23,WC-1958,17.0,Brazil vs Soviet Union,group stage,0,1958-06-15,19:00,S-200,T-09,T-72,2,0,0,0,0,0
-M-1958-24,WC-1958,17.0,England vs Austria,group stage,0,1958-06-15,19:00,S-197,T-28,T-05,2,2,0,0,0,0
-M-1958-25,WC-1958,14.0,Northern Ireland vs Czechoslovakia,group stage,0,1958-06-17,19:00,S-204,T-52,T-21,2,1,1,0,0,0
-M-1958-26,WC-1958,16.0,Wales vs Hungary,group stage,0,1958-06-17,19:00,S-208,T-85,T-36,2,1,0,0,0,0
-M-1958-27,WC-1958,17.0,Soviet Union vs England,group stage,0,1958-06-17,19:00,S-200,T-72,T-28,1,0,0,0,0,0
+M-1958-01,WC-1958,G-16,Sweden vs Mexico,group stage,0,1958-06-08,14:00,S-208,T-74,T-46,3,0,0,0,0,0
+M-1958-02,WC-1958,G-14,Argentina vs West Germany,group stage,0,1958-06-08,19:00,S-204,T-03,T-86,1,3,0,0,0,0
+M-1958-03,WC-1958,G-14,Northern Ireland vs Czechoslovakia,group stage,0,1958-06-08,19:00,S-201,T-52,T-21,1,0,0,0,0,0
+M-1958-04,WC-1958,G-15,France vs Paraguay,group stage,0,1958-06-08,19:00,S-205,T-30,T-55,7,3,0,0,0,0
+M-1958-05,WC-1958,G-15,Yugoslavia vs Scotland,group stage,0,1958-06-08,19:00,S-210,T-87,T-64,1,1,0,0,0,0
+M-1958-06,WC-1958,G-16,Hungary vs Wales,group stage,0,1958-06-08,19:00,S-207,T-36,T-85,1,1,0,0,0,0
+M-1958-07,WC-1958,G-17,Brazil vs Austria,group stage,0,1958-06-08,19:00,S-209,T-09,T-05,3,0,0,0,0,0
+M-1958-08,WC-1958,G-17,Soviet Union vs England,group stage,0,1958-06-08,19:00,S-200,T-72,T-28,2,2,0,0,0,0
+M-1958-09,WC-1958,G-14,Argentina vs Northern Ireland,group stage,0,1958-06-11,19:00,S-201,T-03,T-52,3,1,0,0,0,0
+M-1958-10,WC-1958,G-14,West Germany vs Czechoslovakia,group stage,0,1958-06-11,19:00,S-202,T-86,T-21,2,2,0,0,0,0
+M-1958-11,WC-1958,G-15,Paraguay vs Scotland,group stage,0,1958-06-11,19:00,S-205,T-55,T-64,3,2,0,0,0,0
+M-1958-12,WC-1958,G-15,Yugoslavia vs France,group stage,0,1958-06-11,19:00,S-210,T-87,T-30,3,2,0,0,0,0
+M-1958-13,WC-1958,G-16,Mexico vs Wales,group stage,0,1958-06-11,19:00,S-208,T-46,T-85,1,1,0,0,0,0
+M-1958-14,WC-1958,G-17,Brazil vs England,group stage,0,1958-06-11,19:00,S-200,T-09,T-28,0,0,0,0,0,0
+M-1958-15,WC-1958,G-17,Soviet Union vs Austria,group stage,0,1958-06-11,19:00,S-197,T-72,T-05,2,0,0,0,0,0
+M-1958-16,WC-1958,G-16,Sweden vs Hungary,group stage,0,1958-06-12,19:00,S-208,T-74,T-36,2,1,0,0,0,0
+M-1958-17,WC-1958,G-16,Sweden vs Wales,group stage,0,1958-06-15,14:00,S-208,T-74,T-85,0,0,0,0,0,0
+M-1958-18,WC-1958,G-14,Czechoslovakia vs Argentina,group stage,0,1958-06-15,19:00,S-202,T-21,T-03,6,1,0,0,0,0
+M-1958-19,WC-1958,G-14,West Germany vs Northern Ireland,group stage,0,1958-06-15,19:00,S-204,T-86,T-52,2,2,0,0,0,0
+M-1958-20,WC-1958,G-15,France vs Scotland,group stage,0,1958-06-15,19:00,S-206,T-30,T-64,2,1,0,0,0,0
+M-1958-21,WC-1958,G-15,Paraguay vs Yugoslavia,group stage,0,1958-06-15,19:00,S-198,T-55,T-87,3,3,0,0,0,0
+M-1958-22,WC-1958,G-16,Hungary vs Mexico,group stage,0,1958-06-15,19:00,S-207,T-36,T-46,4,0,0,0,0,0
+M-1958-23,WC-1958,G-17,Brazil vs Soviet Union,group stage,0,1958-06-15,19:00,S-200,T-09,T-72,2,0,0,0,0,0
+M-1958-24,WC-1958,G-17,England vs Austria,group stage,0,1958-06-15,19:00,S-197,T-28,T-05,2,2,0,0,0,0
+M-1958-25,WC-1958,G-14,Northern Ireland vs Czechoslovakia,group stage,0,1958-06-17,19:00,S-204,T-52,T-21,2,1,1,0,0,0
+M-1958-26,WC-1958,G-16,Wales vs Hungary,group stage,0,1958-06-17,19:00,S-208,T-85,T-36,2,1,0,0,0,0
+M-1958-27,WC-1958,G-17,Soviet Union vs England,group stage,0,1958-06-17,19:00,S-200,T-72,T-28,1,0,0,0,0,0
 M-1958-28,WC-1958,,Brazil vs Wales,quarter-finals,0,1958-06-19,19:00,S-200,T-09,T-85,1,0,0,0,0,0
 M-1958-29,WC-1958,,France vs Northern Ireland,quarter-finals,0,1958-06-19,19:00,S-205,T-30,T-52,4,0,0,0,0,0
 M-1958-30,WC-1958,,Sweden vs Soviet Union,quarter-finals,0,1958-06-19,19:00,S-208,T-74,T-72,2,0,0,0,0,0
@@ -135,30 +135,30 @@ M-1958-32,WC-1958,,Brazil vs France,semi-finals,0,1958-06-24,19:00,S-208,T-09,T-
 M-1958-33,WC-1958,,Sweden vs West Germany,semi-finals,0,1958-06-24,19:00,S-200,T-74,T-86,3,1,0,0,0,0
 M-1958-34,WC-1958,,France vs West Germany,third-place match,0,1958-06-28,17:00,S-200,T-30,T-86,6,3,0,0,0,0
 M-1958-35,WC-1958,,Brazil vs Sweden,final,0,1958-06-29,15:00,S-208,T-09,T-74,5,2,0,0,0,0
-M-1962-01,WC-1962,18.0,Uruguay vs Colombia,group stage,0,1962-05-30,15:00,S-030,T-84,T-16,2,1,0,0,0,0
-M-1962-02,WC-1962,19.0,Chile vs Switzerland,group stage,0,1962-05-30,15:00,S-032,T-13,T-75,3,1,0,0,0,0
-M-1962-03,WC-1962,20.0,Brazil vs Mexico,group stage,0,1962-05-30,15:00,S-033,T-09,T-46,2,0,0,0,0,0
-M-1962-04,WC-1962,21.0,Argentina vs Bulgaria,group stage,0,1962-05-30,15:00,S-031,T-03,T-10,1,0,0,0,0,0
-M-1962-05,WC-1962,18.0,Soviet Union vs Yugoslavia,group stage,0,1962-05-31,15:00,S-030,T-72,T-87,2,0,0,0,0,0
-M-1962-06,WC-1962,19.0,West Germany vs Italy,group stage,0,1962-05-31,15:00,S-032,T-86,T-41,0,0,0,0,0,0
-M-1962-07,WC-1962,20.0,Czechoslovakia vs Spain,group stage,0,1962-05-31,15:00,S-033,T-21,T-73,1,0,0,0,0,0
-M-1962-08,WC-1962,21.0,Hungary vs England,group stage,0,1962-05-31,15:00,S-031,T-36,T-28,2,1,0,0,0,0
-M-1962-09,WC-1962,18.0,Yugoslavia vs Uruguay,group stage,0,1962-06-02,15:00,S-030,T-87,T-84,3,1,0,0,0,0
-M-1962-10,WC-1962,19.0,Chile vs Italy,group stage,0,1962-06-02,15:00,S-032,T-13,T-41,2,0,0,0,0,0
-M-1962-11,WC-1962,20.0,Brazil vs Czechoslovakia,group stage,0,1962-06-02,15:00,S-033,T-09,T-21,0,0,0,0,0,0
-M-1962-12,WC-1962,21.0,England vs Argentina,group stage,0,1962-06-02,15:00,S-031,T-28,T-03,3,1,0,0,0,0
-M-1962-13,WC-1962,18.0,Soviet Union vs Colombia,group stage,0,1962-06-03,15:00,S-030,T-72,T-16,4,4,0,0,0,0
-M-1962-14,WC-1962,19.0,West Germany vs Switzerland,group stage,0,1962-06-03,15:00,S-032,T-86,T-75,2,1,0,0,0,0
-M-1962-15,WC-1962,20.0,Spain vs Mexico,group stage,0,1962-06-03,15:00,S-033,T-73,T-46,1,0,0,0,0,0
-M-1962-16,WC-1962,21.0,Hungary vs Bulgaria,group stage,0,1962-06-03,15:00,S-031,T-36,T-10,6,1,0,0,0,0
-M-1962-17,WC-1962,18.0,Soviet Union vs Uruguay,group stage,0,1962-06-06,15:00,S-030,T-72,T-84,2,1,0,0,0,0
-M-1962-18,WC-1962,19.0,West Germany vs Chile,group stage,0,1962-06-06,15:00,S-032,T-86,T-13,2,0,0,0,0,0
-M-1962-19,WC-1962,20.0,Brazil vs Spain,group stage,0,1962-06-06,15:00,S-033,T-09,T-73,2,1,0,0,0,0
-M-1962-20,WC-1962,21.0,Hungary vs Argentina,group stage,0,1962-06-06,15:00,S-031,T-36,T-03,0,0,0,0,0,0
-M-1962-21,WC-1962,18.0,Yugoslavia vs Colombia,group stage,0,1962-06-07,15:00,S-030,T-87,T-16,5,0,0,0,0,0
-M-1962-22,WC-1962,19.0,Italy vs Switzerland,group stage,0,1962-06-07,15:00,S-032,T-41,T-75,3,0,0,0,0,0
-M-1962-23,WC-1962,20.0,Mexico vs Czechoslovakia,group stage,0,1962-06-07,15:00,S-033,T-46,T-21,3,1,0,0,0,0
-M-1962-24,WC-1962,21.0,England vs Bulgaria,group stage,0,1962-06-07,15:00,S-031,T-28,T-10,0,0,0,0,0,0
+M-1962-01,WC-1962,G-18,Uruguay vs Colombia,group stage,0,1962-05-30,15:00,S-030,T-84,T-16,2,1,0,0,0,0
+M-1962-02,WC-1962,G-19,Chile vs Switzerland,group stage,0,1962-05-30,15:00,S-032,T-13,T-75,3,1,0,0,0,0
+M-1962-03,WC-1962,G-20,Brazil vs Mexico,group stage,0,1962-05-30,15:00,S-033,T-09,T-46,2,0,0,0,0,0
+M-1962-04,WC-1962,G-21,Argentina vs Bulgaria,group stage,0,1962-05-30,15:00,S-031,T-03,T-10,1,0,0,0,0,0
+M-1962-05,WC-1962,G-18,Soviet Union vs Yugoslavia,group stage,0,1962-05-31,15:00,S-030,T-72,T-87,2,0,0,0,0,0
+M-1962-06,WC-1962,G-19,West Germany vs Italy,group stage,0,1962-05-31,15:00,S-032,T-86,T-41,0,0,0,0,0,0
+M-1962-07,WC-1962,G-20,Czechoslovakia vs Spain,group stage,0,1962-05-31,15:00,S-033,T-21,T-73,1,0,0,0,0,0
+M-1962-08,WC-1962,G-21,Hungary vs England,group stage,0,1962-05-31,15:00,S-031,T-36,T-28,2,1,0,0,0,0
+M-1962-09,WC-1962,G-18,Yugoslavia vs Uruguay,group stage,0,1962-06-02,15:00,S-030,T-87,T-84,3,1,0,0,0,0
+M-1962-10,WC-1962,G-19,Chile vs Italy,group stage,0,1962-06-02,15:00,S-032,T-13,T-41,2,0,0,0,0,0
+M-1962-11,WC-1962,G-20,Brazil vs Czechoslovakia,group stage,0,1962-06-02,15:00,S-033,T-09,T-21,0,0,0,0,0,0
+M-1962-12,WC-1962,G-21,England vs Argentina,group stage,0,1962-06-02,15:00,S-031,T-28,T-03,3,1,0,0,0,0
+M-1962-13,WC-1962,G-18,Soviet Union vs Colombia,group stage,0,1962-06-03,15:00,S-030,T-72,T-16,4,4,0,0,0,0
+M-1962-14,WC-1962,G-19,West Germany vs Switzerland,group stage,0,1962-06-03,15:00,S-032,T-86,T-75,2,1,0,0,0,0
+M-1962-15,WC-1962,G-20,Spain vs Mexico,group stage,0,1962-06-03,15:00,S-033,T-73,T-46,1,0,0,0,0,0
+M-1962-16,WC-1962,G-21,Hungary vs Bulgaria,group stage,0,1962-06-03,15:00,S-031,T-36,T-10,6,1,0,0,0,0
+M-1962-17,WC-1962,G-18,Soviet Union vs Uruguay,group stage,0,1962-06-06,15:00,S-030,T-72,T-84,2,1,0,0,0,0
+M-1962-18,WC-1962,G-19,West Germany vs Chile,group stage,0,1962-06-06,15:00,S-032,T-86,T-13,2,0,0,0,0,0
+M-1962-19,WC-1962,G-20,Brazil vs Spain,group stage,0,1962-06-06,15:00,S-033,T-09,T-73,2,1,0,0,0,0
+M-1962-20,WC-1962,G-21,Hungary vs Argentina,group stage,0,1962-06-06,15:00,S-031,T-36,T-03,0,0,0,0,0,0
+M-1962-21,WC-1962,G-18,Yugoslavia vs Colombia,group stage,0,1962-06-07,15:00,S-030,T-87,T-16,5,0,0,0,0,0
+M-1962-22,WC-1962,G-19,Italy vs Switzerland,group stage,0,1962-06-07,15:00,S-032,T-41,T-75,3,0,0,0,0,0
+M-1962-23,WC-1962,G-20,Mexico vs Czechoslovakia,group stage,0,1962-06-07,15:00,S-033,T-46,T-21,3,1,0,0,0,0
+M-1962-24,WC-1962,G-21,England vs Bulgaria,group stage,0,1962-06-07,15:00,S-031,T-28,T-10,0,0,0,0,0,0
 M-1962-25,WC-1962,,Brazil vs England,quarter-finals,0,1962-06-10,14:30,S-033,T-09,T-28,3,1,0,0,0,0
 M-1962-26,WC-1962,,Chile vs Soviet Union,quarter-finals,0,1962-06-10,14:30,S-030,T-13,T-72,2,1,0,0,0,0
 M-1962-27,WC-1962,,Czechoslovakia vs Hungary,quarter-finals,0,1962-06-10,14:30,S-031,T-21,T-36,1,0,0,0,0,0
@@ -167,30 +167,30 @@ M-1962-29,WC-1962,,Brazil vs Chile,semi-finals,0,1962-06-13,14:30,S-032,T-09,T-1
 M-1962-30,WC-1962,,Czechoslovakia vs Yugoslavia,semi-finals,0,1962-06-13,14:30,S-033,T-21,T-87,3,1,0,0,0,0
 M-1962-31,WC-1962,,Chile vs Yugoslavia,third-place match,0,1962-06-16,14:30,S-032,T-13,T-87,1,0,0,0,0,0
 M-1962-32,WC-1962,,Brazil vs Czechoslovakia,final,0,1962-06-17,14:30,S-032,T-09,T-21,3,1,0,0,0,0
-M-1966-01,WC-1966,22.0,England vs Uruguay,group stage,0,1966-07-11,19:30,S-049,T-28,T-84,0,0,0,0,0,0
-M-1966-02,WC-1966,23.0,West Germany vs Switzerland,group stage,0,1966-07-12,19:30,S-053,T-86,T-75,5,0,0,0,0,0
-M-1966-03,WC-1966,24.0,Brazil vs Bulgaria,group stage,0,1966-07-12,19:30,S-048,T-09,T-10,2,0,0,0,0,0
-M-1966-04,WC-1966,25.0,Soviet Union vs North Korea,group stage,0,1966-07-12,19:30,S-052,T-72,T-51,3,0,0,0,0,0
-M-1966-05,WC-1966,22.0,France vs Mexico,group stage,0,1966-07-13,19:30,S-049,T-30,T-46,1,1,0,0,0,0
-M-1966-06,WC-1966,23.0,Argentina vs Spain,group stage,0,1966-07-13,19:30,S-047,T-03,T-73,2,1,0,0,0,0
-M-1966-07,WC-1966,24.0,Portugal vs Hungary,group stage,0,1966-07-13,19:30,S-051,T-58,T-36,3,1,0,0,0,0
-M-1966-08,WC-1966,25.0,Italy vs Chile,group stage,0,1966-07-13,19:30,S-054,T-41,T-13,2,0,0,0,0,0
-M-1966-09,WC-1966,22.0,Uruguay vs France,group stage,0,1966-07-15,19:30,S-050,T-84,T-30,2,1,0,0,0,0
-M-1966-10,WC-1966,23.0,Spain vs Switzerland,group stage,0,1966-07-15,19:30,S-053,T-73,T-75,2,1,0,0,0,0
-M-1966-11,WC-1966,24.0,Hungary vs Brazil,group stage,0,1966-07-15,19:30,S-048,T-36,T-09,3,1,0,0,0,0
-M-1966-12,WC-1966,25.0,Chile vs North Korea,group stage,0,1966-07-15,19:30,S-052,T-13,T-51,1,1,0,0,0,0
-M-1966-13,WC-1966,23.0,Argentina vs West Germany,group stage,0,1966-07-16,15:00,S-047,T-03,T-86,0,0,0,0,0,0
-M-1966-14,WC-1966,24.0,Portugal vs Bulgaria,group stage,0,1966-07-16,15:00,S-051,T-58,T-10,3,0,0,0,0,0
-M-1966-15,WC-1966,25.0,Soviet Union vs Italy,group stage,0,1966-07-16,15:00,S-054,T-72,T-41,1,0,0,0,0,0
-M-1966-16,WC-1966,22.0,England vs Mexico,group stage,0,1966-07-16,19:30,S-049,T-28,T-46,2,0,0,0,0,0
-M-1966-17,WC-1966,22.0,Mexico vs Uruguay,group stage,0,1966-07-19,16:30,S-049,T-46,T-84,0,0,0,0,0,0
-M-1966-18,WC-1966,23.0,Argentina vs Switzerland,group stage,0,1966-07-19,19:30,S-053,T-03,T-75,2,0,0,0,0,0
-M-1966-19,WC-1966,24.0,Portugal vs Brazil,group stage,0,1966-07-19,19:30,S-048,T-58,T-09,3,1,0,0,0,0
-M-1966-20,WC-1966,25.0,North Korea vs Italy,group stage,0,1966-07-19,19:30,S-052,T-51,T-41,1,0,0,0,0,0
-M-1966-21,WC-1966,22.0,England vs France,group stage,0,1966-07-20,19:30,S-049,T-28,T-30,2,0,0,0,0,0
-M-1966-22,WC-1966,23.0,West Germany vs Spain,group stage,0,1966-07-20,19:30,S-047,T-86,T-73,2,1,0,0,0,0
-M-1966-23,WC-1966,24.0,Hungary vs Bulgaria,group stage,0,1966-07-20,19:30,S-051,T-36,T-10,3,1,0,0,0,0
-M-1966-24,WC-1966,25.0,Soviet Union vs Chile,group stage,0,1966-07-20,19:30,S-054,T-72,T-13,2,1,0,0,0,0
+M-1966-01,WC-1966,G-22,England vs Uruguay,group stage,0,1966-07-11,19:30,S-049,T-28,T-84,0,0,0,0,0,0
+M-1966-02,WC-1966,G-23,West Germany vs Switzerland,group stage,0,1966-07-12,19:30,S-053,T-86,T-75,5,0,0,0,0,0
+M-1966-03,WC-1966,G-24,Brazil vs Bulgaria,group stage,0,1966-07-12,19:30,S-048,T-09,T-10,2,0,0,0,0,0
+M-1966-04,WC-1966,G-25,Soviet Union vs North Korea,group stage,0,1966-07-12,19:30,S-052,T-72,T-51,3,0,0,0,0,0
+M-1966-05,WC-1966,G-22,France vs Mexico,group stage,0,1966-07-13,19:30,S-049,T-30,T-46,1,1,0,0,0,0
+M-1966-06,WC-1966,G-23,Argentina vs Spain,group stage,0,1966-07-13,19:30,S-047,T-03,T-73,2,1,0,0,0,0
+M-1966-07,WC-1966,G-24,Portugal vs Hungary,group stage,0,1966-07-13,19:30,S-051,T-58,T-36,3,1,0,0,0,0
+M-1966-08,WC-1966,G-25,Italy vs Chile,group stage,0,1966-07-13,19:30,S-054,T-41,T-13,2,0,0,0,0,0
+M-1966-09,WC-1966,G-22,Uruguay vs France,group stage,0,1966-07-15,19:30,S-050,T-84,T-30,2,1,0,0,0,0
+M-1966-10,WC-1966,G-23,Spain vs Switzerland,group stage,0,1966-07-15,19:30,S-053,T-73,T-75,2,1,0,0,0,0
+M-1966-11,WC-1966,G-24,Hungary vs Brazil,group stage,0,1966-07-15,19:30,S-048,T-36,T-09,3,1,0,0,0,0
+M-1966-12,WC-1966,G-25,Chile vs North Korea,group stage,0,1966-07-15,19:30,S-052,T-13,T-51,1,1,0,0,0,0
+M-1966-13,WC-1966,G-23,Argentina vs West Germany,group stage,0,1966-07-16,15:00,S-047,T-03,T-86,0,0,0,0,0,0
+M-1966-14,WC-1966,G-24,Portugal vs Bulgaria,group stage,0,1966-07-16,15:00,S-051,T-58,T-10,3,0,0,0,0,0
+M-1966-15,WC-1966,G-25,Soviet Union vs Italy,group stage,0,1966-07-16,15:00,S-054,T-72,T-41,1,0,0,0,0,0
+M-1966-16,WC-1966,G-22,England vs Mexico,group stage,0,1966-07-16,19:30,S-049,T-28,T-46,2,0,0,0,0,0
+M-1966-17,WC-1966,G-22,Mexico vs Uruguay,group stage,0,1966-07-19,16:30,S-049,T-46,T-84,0,0,0,0,0,0
+M-1966-18,WC-1966,G-23,Argentina vs Switzerland,group stage,0,1966-07-19,19:30,S-053,T-03,T-75,2,0,0,0,0,0
+M-1966-19,WC-1966,G-24,Portugal vs Brazil,group stage,0,1966-07-19,19:30,S-048,T-58,T-09,3,1,0,0,0,0
+M-1966-20,WC-1966,G-25,North Korea vs Italy,group stage,0,1966-07-19,19:30,S-052,T-51,T-41,1,0,0,0,0,0
+M-1966-21,WC-1966,G-22,England vs France,group stage,0,1966-07-20,19:30,S-049,T-28,T-30,2,0,0,0,0,0
+M-1966-22,WC-1966,G-23,West Germany vs Spain,group stage,0,1966-07-20,19:30,S-047,T-86,T-73,2,1,0,0,0,0
+M-1966-23,WC-1966,G-24,Hungary vs Bulgaria,group stage,0,1966-07-20,19:30,S-051,T-36,T-10,3,1,0,0,0,0
+M-1966-24,WC-1966,G-25,Soviet Union vs Chile,group stage,0,1966-07-20,19:30,S-054,T-72,T-13,2,1,0,0,0,0
 M-1966-25,WC-1966,,England vs Argentina,quarter-finals,0,1966-07-23,15:00,S-049,T-28,T-03,1,0,0,0,0,0
 M-1966-26,WC-1966,,Portugal vs North Korea,quarter-finals,0,1966-07-23,15:00,S-048,T-58,T-51,5,3,0,0,0,0
 M-1966-27,WC-1966,,Soviet Union vs Hungary,quarter-finals,0,1966-07-23,15:00,S-054,T-72,T-36,2,1,0,0,0,0
@@ -199,30 +199,30 @@ M-1966-29,WC-1966,,West Germany vs Soviet Union,semi-finals,0,1966-07-25,19:30,S
 M-1966-30,WC-1966,,England vs Portugal,semi-finals,0,1966-07-26,19:30,S-049,T-28,T-58,2,1,0,0,0,0
 M-1966-31,WC-1966,,Portugal vs Soviet Union,third-place match,0,1966-07-28,19:30,S-049,T-58,T-72,2,1,0,0,0,0
 M-1966-32,WC-1966,,England vs West Germany,final,0,1966-07-30,15:00,S-049,T-28,T-86,4,2,1,0,0,0
-M-1970-01,WC-1970,26.0,Mexico vs Soviet Union,group stage,0,1970-05-31,12:00,S-132,T-46,T-72,0,0,0,0,0,0
-M-1970-02,WC-1970,27.0,Uruguay vs Israel,group stage,0,1970-06-02,16:00,S-137,T-84,T-40,2,0,0,0,0,0
-M-1970-03,WC-1970,28.0,England vs Romania,group stage,0,1970-06-02,16:00,S-128,T-28,T-61,1,0,0,0,0,0
-M-1970-04,WC-1970,29.0,Peru vs Bulgaria,group stage,0,1970-06-02,16:00,S-131,T-56,T-10,3,2,0,0,0,0
-M-1970-05,WC-1970,26.0,Belgium vs El Salvador,group stage,0,1970-06-03,16:00,S-132,T-06,T-27,3,0,0,0,0,0
-M-1970-06,WC-1970,27.0,Italy vs Sweden,group stage,0,1970-06-03,16:00,S-139,T-41,T-74,1,0,0,0,0,0
-M-1970-07,WC-1970,28.0,Brazil vs Czechoslovakia,group stage,0,1970-06-03,16:00,S-128,T-09,T-21,4,1,0,0,0,0
-M-1970-08,WC-1970,29.0,West Germany vs Morocco,group stage,0,1970-06-03,16:00,S-131,T-86,T-47,2,1,0,0,0,0
-M-1970-09,WC-1970,26.0,Soviet Union vs Belgium,group stage,0,1970-06-06,16:00,S-132,T-72,T-06,4,1,0,0,0,0
-M-1970-10,WC-1970,27.0,Uruguay vs Italy,group stage,0,1970-06-06,16:00,S-137,T-84,T-41,0,0,0,0,0,0
-M-1970-11,WC-1970,28.0,Romania vs Czechoslovakia,group stage,0,1970-06-06,16:00,S-128,T-61,T-21,2,1,0,0,0,0
-M-1970-12,WC-1970,29.0,Peru vs Morocco,group stage,0,1970-06-06,16:00,S-131,T-56,T-47,3,0,0,0,0,0
-M-1970-13,WC-1970,26.0,Mexico vs El Salvador,group stage,0,1970-06-07,12:00,S-132,T-46,T-27,4,0,0,0,0,0
-M-1970-14,WC-1970,27.0,Sweden vs Israel,group stage,0,1970-06-07,12:00,S-139,T-74,T-40,1,1,0,0,0,0
-M-1970-15,WC-1970,28.0,Brazil vs England,group stage,0,1970-06-07,12:00,S-128,T-09,T-28,1,0,0,0,0,0
-M-1970-16,WC-1970,29.0,West Germany vs Bulgaria,group stage,0,1970-06-07,12:00,S-131,T-86,T-10,5,2,0,0,0,0
-M-1970-17,WC-1970,26.0,Soviet Union vs El Salvador,group stage,0,1970-06-10,16:00,S-132,T-72,T-27,2,0,0,0,0,0
-M-1970-18,WC-1970,27.0,Sweden vs Uruguay,group stage,0,1970-06-10,16:00,S-137,T-74,T-84,1,0,0,0,0,0
-M-1970-19,WC-1970,28.0,Brazil vs Romania,group stage,0,1970-06-10,16:00,S-128,T-09,T-61,3,2,0,0,0,0
-M-1970-20,WC-1970,29.0,West Germany vs Peru,group stage,0,1970-06-10,16:00,S-131,T-86,T-56,3,1,0,0,0,0
-M-1970-21,WC-1970,26.0,Mexico vs Belgium,group stage,0,1970-06-11,16:00,S-132,T-46,T-06,1,0,0,0,0,0
-M-1970-22,WC-1970,27.0,Italy vs Israel,group stage,0,1970-06-11,16:00,S-139,T-41,T-40,0,0,0,0,0,0
-M-1970-23,WC-1970,28.0,England vs Czechoslovakia,group stage,0,1970-06-11,16:00,S-128,T-28,T-21,1,0,0,0,0,0
-M-1970-24,WC-1970,29.0,Bulgaria vs Morocco,group stage,0,1970-06-11,16:00,S-131,T-10,T-47,1,1,0,0,0,0
+M-1970-01,WC-1970,G-26,Mexico vs Soviet Union,group stage,0,1970-05-31,12:00,S-132,T-46,T-72,0,0,0,0,0,0
+M-1970-02,WC-1970,G-27,Uruguay vs Israel,group stage,0,1970-06-02,16:00,S-137,T-84,T-40,2,0,0,0,0,0
+M-1970-03,WC-1970,G-28,England vs Romania,group stage,0,1970-06-02,16:00,S-128,T-28,T-61,1,0,0,0,0,0
+M-1970-04,WC-1970,G-29,Peru vs Bulgaria,group stage,0,1970-06-02,16:00,S-131,T-56,T-10,3,2,0,0,0,0
+M-1970-05,WC-1970,G-26,Belgium vs El Salvador,group stage,0,1970-06-03,16:00,S-132,T-06,T-27,3,0,0,0,0,0
+M-1970-06,WC-1970,G-27,Italy vs Sweden,group stage,0,1970-06-03,16:00,S-139,T-41,T-74,1,0,0,0,0,0
+M-1970-07,WC-1970,G-28,Brazil vs Czechoslovakia,group stage,0,1970-06-03,16:00,S-128,T-09,T-21,4,1,0,0,0,0
+M-1970-08,WC-1970,G-29,West Germany vs Morocco,group stage,0,1970-06-03,16:00,S-131,T-86,T-47,2,1,0,0,0,0
+M-1970-09,WC-1970,G-26,Soviet Union vs Belgium,group stage,0,1970-06-06,16:00,S-132,T-72,T-06,4,1,0,0,0,0
+M-1970-10,WC-1970,G-27,Uruguay vs Italy,group stage,0,1970-06-06,16:00,S-137,T-84,T-41,0,0,0,0,0,0
+M-1970-11,WC-1970,G-28,Romania vs Czechoslovakia,group stage,0,1970-06-06,16:00,S-128,T-61,T-21,2,1,0,0,0,0
+M-1970-12,WC-1970,G-29,Peru vs Morocco,group stage,0,1970-06-06,16:00,S-131,T-56,T-47,3,0,0,0,0,0
+M-1970-13,WC-1970,G-26,Mexico vs El Salvador,group stage,0,1970-06-07,12:00,S-132,T-46,T-27,4,0,0,0,0,0
+M-1970-14,WC-1970,G-27,Sweden vs Israel,group stage,0,1970-06-07,12:00,S-139,T-74,T-40,1,1,0,0,0,0
+M-1970-15,WC-1970,G-28,Brazil vs England,group stage,0,1970-06-07,12:00,S-128,T-09,T-28,1,0,0,0,0,0
+M-1970-16,WC-1970,G-29,West Germany vs Bulgaria,group stage,0,1970-06-07,12:00,S-131,T-86,T-10,5,2,0,0,0,0
+M-1970-17,WC-1970,G-26,Soviet Union vs El Salvador,group stage,0,1970-06-10,16:00,S-132,T-72,T-27,2,0,0,0,0,0
+M-1970-18,WC-1970,G-27,Sweden vs Uruguay,group stage,0,1970-06-10,16:00,S-137,T-74,T-84,1,0,0,0,0,0
+M-1970-19,WC-1970,G-28,Brazil vs Romania,group stage,0,1970-06-10,16:00,S-128,T-09,T-61,3,2,0,0,0,0
+M-1970-20,WC-1970,G-29,West Germany vs Peru,group stage,0,1970-06-10,16:00,S-131,T-86,T-56,3,1,0,0,0,0
+M-1970-21,WC-1970,G-26,Mexico vs Belgium,group stage,0,1970-06-11,16:00,S-132,T-46,T-06,1,0,0,0,0,0
+M-1970-22,WC-1970,G-27,Italy vs Israel,group stage,0,1970-06-11,16:00,S-139,T-41,T-40,0,0,0,0,0,0
+M-1970-23,WC-1970,G-28,England vs Czechoslovakia,group stage,0,1970-06-11,16:00,S-128,T-28,T-21,1,0,0,0,0,0
+M-1970-24,WC-1970,G-29,Bulgaria vs Morocco,group stage,0,1970-06-11,16:00,S-131,T-10,T-47,1,1,0,0,0,0
 M-1970-25,WC-1970,,Brazil vs Peru,quarter-finals,0,1970-06-14,12:00,S-128,T-09,T-56,4,2,0,0,0,0
 M-1970-26,WC-1970,,Italy vs Mexico,quarter-finals,0,1970-06-14,12:00,S-139,T-41,T-46,4,1,0,0,0,0
 M-1970-27,WC-1970,,Soviet Union vs Uruguay,quarter-finals,0,1970-06-14,12:00,S-132,T-72,T-84,0,1,1,0,0,0
@@ -255,18 +255,18 @@ M-1974-21,WC-1974,,Bulgaria vs Netherlands,group stage,0,1974-06-23,16:00,S-083,
 M-1974-22,WC-1974,,Sweden vs Uruguay,group stage,0,1974-06-23,16:00,S-085,T-74,T-84,3,0,0,0,0,0
 M-1974-23,WC-1974,,Argentina vs Haiti,group stage,0,1974-06-23,16:00,S-096,T-03,T-34,4,1,0,0,0,0
 M-1974-24,WC-1974,,Poland vs Italy,group stage,0,1974-06-23,16:00,S-099,T-57,T-41,2,1,0,0,0,0
-M-1974-25,WC-1974,35.0,Yugoslavia vs West Germany,second group stage,0,1974-06-26,16:00,S-085,T-87,T-86,0,2,0,0,0,0
-M-1974-26,WC-1974,34.0,Brazil vs East Germany,second group stage,0,1974-06-26,19:30,S-090,T-09,T-24,1,0,0,0,0,0
-M-1974-27,WC-1974,34.0,Netherlands vs Argentina,second group stage,0,1974-06-26,19:30,S-088,T-48,T-03,4,0,0,0,0,0
-M-1974-28,WC-1974,35.0,Sweden vs Poland,second group stage,0,1974-06-26,19:30,S-099,T-74,T-57,0,1,0,0,0,0
-M-1974-29,WC-1974,34.0,Argentina vs Brazil,second group stage,0,1974-06-30,16:00,S-090,T-03,T-09,1,2,0,0,0,0
-M-1974-30,WC-1974,34.0,East Germany vs Netherlands,second group stage,0,1974-06-30,16:00,S-088,T-24,T-48,0,2,0,0,0,0
-M-1974-31,WC-1974,35.0,Poland vs Yugoslavia,second group stage,0,1974-06-30,16:00,S-086,T-57,T-87,2,1,0,0,0,0
-M-1974-32,WC-1974,35.0,West Germany vs Sweden,second group stage,0,1974-06-30,19:30,S-085,T-86,T-74,4,2,0,0,0,0
-M-1974-33,WC-1974,35.0,Poland vs West Germany,second group stage,0,1974-07-03,16:30,S-086,T-57,T-86,0,1,0,0,0,0
-M-1974-34,WC-1974,34.0,Argentina vs East Germany,second group stage,0,1974-07-03,19:30,S-088,T-03,T-24,1,1,0,0,0,0
-M-1974-35,WC-1974,34.0,Netherlands vs Brazil,second group stage,0,1974-07-03,19:30,S-083,T-48,T-09,2,0,0,0,0,0
-M-1974-36,WC-1974,35.0,Sweden vs Yugoslavia,second group stage,0,1974-07-03,19:30,S-085,T-74,T-87,2,1,0,0,0,0
+M-1974-25,WC-1974,G-35,Yugoslavia vs West Germany,second group stage,0,1974-06-26,16:00,S-085,T-87,T-86,0,2,0,0,0,0
+M-1974-26,WC-1974,G-34,Brazil vs East Germany,second group stage,0,1974-06-26,19:30,S-090,T-09,T-24,1,0,0,0,0,0
+M-1974-27,WC-1974,G-34,Netherlands vs Argentina,second group stage,0,1974-06-26,19:30,S-088,T-48,T-03,4,0,0,0,0,0
+M-1974-28,WC-1974,G-35,Sweden vs Poland,second group stage,0,1974-06-26,19:30,S-099,T-74,T-57,0,1,0,0,0,0
+M-1974-29,WC-1974,G-34,Argentina vs Brazil,second group stage,0,1974-06-30,16:00,S-090,T-03,T-09,1,2,0,0,0,0
+M-1974-30,WC-1974,G-34,East Germany vs Netherlands,second group stage,0,1974-06-30,16:00,S-088,T-24,T-48,0,2,0,0,0,0
+M-1974-31,WC-1974,G-35,Poland vs Yugoslavia,second group stage,0,1974-06-30,16:00,S-086,T-57,T-87,2,1,0,0,0,0
+M-1974-32,WC-1974,G-35,West Germany vs Sweden,second group stage,0,1974-06-30,19:30,S-085,T-86,T-74,4,2,0,0,0,0
+M-1974-33,WC-1974,G-35,Poland vs West Germany,second group stage,0,1974-07-03,16:30,S-086,T-57,T-86,0,1,0,0,0,0
+M-1974-34,WC-1974,G-34,Argentina vs East Germany,second group stage,0,1974-07-03,19:30,S-088,T-03,T-24,1,1,0,0,0,0
+M-1974-35,WC-1974,G-34,Netherlands vs Brazil,second group stage,0,1974-07-03,19:30,S-083,T-48,T-09,2,0,0,0,0,0
+M-1974-36,WC-1974,G-35,Sweden vs Yugoslavia,second group stage,0,1974-07-03,19:30,S-085,T-74,T-87,2,1,0,0,0,0
 M-1974-37,WC-1974,,Brazil vs Poland,third-place match,0,1974-07-06,16:00,S-096,T-09,T-57,0,1,0,0,0,0
 M-1974-38,WC-1974,,Netherlands vs West Germany,final,0,1974-07-07,16:00,S-096,T-48,T-86,1,2,0,0,0,0
 M-1978-01,WC-1978,,West Germany vs Poland,group stage,0,1978-06-01,15:00,S-002,T-86,T-57,0,0,0,0,0,0
@@ -293,18 +293,18 @@ M-1978-21,WC-1978,,Brazil vs Austria,group stage,0,1978-06-11,13:45,S-004,T-09,T
 M-1978-22,WC-1978,,Spain vs Sweden,group stage,0,1978-06-11,13:45,S-001,T-73,T-74,1,0,0,0,0,0
 M-1978-23,WC-1978,,Peru vs Iran,group stage,0,1978-06-11,16:45,S-003,T-56,T-38,4,1,0,0,0,0
 M-1978-24,WC-1978,,Scotland vs Netherlands,group stage,0,1978-06-11,16:45,S-005,T-64,T-48,3,2,0,0,0,0
-M-1978-25,WC-1978,40.0,Austria vs Netherlands,second group stage,0,1978-06-14,13:45,S-003,T-05,T-48,1,5,0,0,0,0
-M-1978-26,WC-1978,40.0,Italy vs West Germany,second group stage,0,1978-06-14,13:45,S-002,T-41,T-86,0,0,0,0,0,0
-M-1978-27,WC-1978,41.0,Brazil vs Peru,second group stage,0,1978-06-14,16:45,S-005,T-09,T-56,3,0,0,0,0,0
-M-1978-28,WC-1978,41.0,Argentina vs Poland,second group stage,0,1978-06-14,19:15,S-006,T-03,T-57,2,0,0,0,0,0
-M-1978-29,WC-1978,41.0,Peru vs Poland,second group stage,0,1978-06-18,13:45,S-005,T-56,T-57,0,1,0,0,0,0
-M-1978-30,WC-1978,40.0,Italy vs Austria,second group stage,0,1978-06-18,16:45,S-002,T-41,T-05,1,0,0,0,0,0
-M-1978-31,WC-1978,40.0,Netherlands vs West Germany,second group stage,0,1978-06-18,16:45,S-003,T-48,T-86,2,2,0,0,0,0
-M-1978-32,WC-1978,41.0,Argentina vs Brazil,second group stage,0,1978-06-18,19:15,S-006,T-03,T-09,0,0,0,0,0,0
-M-1978-33,WC-1978,40.0,Austria vs West Germany,second group stage,0,1978-06-21,13:45,S-003,T-05,T-86,3,2,0,0,0,0
-M-1978-34,WC-1978,40.0,Italy vs Netherlands,second group stage,0,1978-06-21,13:45,S-002,T-41,T-48,1,2,0,0,0,0
-M-1978-35,WC-1978,41.0,Brazil vs Poland,second group stage,0,1978-06-21,16:45,S-005,T-09,T-57,3,1,0,0,0,0
-M-1978-36,WC-1978,41.0,Argentina vs Peru,second group stage,0,1978-06-21,19:15,S-006,T-03,T-56,6,0,0,0,0,0
+M-1978-25,WC-1978,G-40,Austria vs Netherlands,second group stage,0,1978-06-14,13:45,S-003,T-05,T-48,1,5,0,0,0,0
+M-1978-26,WC-1978,G-40,Italy vs West Germany,second group stage,0,1978-06-14,13:45,S-002,T-41,T-86,0,0,0,0,0,0
+M-1978-27,WC-1978,G-41,Brazil vs Peru,second group stage,0,1978-06-14,16:45,S-005,T-09,T-56,3,0,0,0,0,0
+M-1978-28,WC-1978,G-41,Argentina vs Poland,second group stage,0,1978-06-14,19:15,S-006,T-03,T-57,2,0,0,0,0,0
+M-1978-29,WC-1978,G-41,Peru vs Poland,second group stage,0,1978-06-18,13:45,S-005,T-56,T-57,0,1,0,0,0,0
+M-1978-30,WC-1978,G-40,Italy vs Austria,second group stage,0,1978-06-18,16:45,S-002,T-41,T-05,1,0,0,0,0,0
+M-1978-31,WC-1978,G-40,Netherlands vs West Germany,second group stage,0,1978-06-18,16:45,S-003,T-48,T-86,2,2,0,0,0,0
+M-1978-32,WC-1978,G-41,Argentina vs Brazil,second group stage,0,1978-06-18,19:15,S-006,T-03,T-09,0,0,0,0,0,0
+M-1978-33,WC-1978,G-40,Austria vs West Germany,second group stage,0,1978-06-21,13:45,S-003,T-05,T-86,3,2,0,0,0,0
+M-1978-34,WC-1978,G-40,Italy vs Netherlands,second group stage,0,1978-06-21,13:45,S-002,T-41,T-48,1,2,0,0,0,0
+M-1978-35,WC-1978,G-41,Brazil vs Poland,second group stage,0,1978-06-21,16:45,S-005,T-09,T-57,3,1,0,0,0,0
+M-1978-36,WC-1978,G-41,Argentina vs Peru,second group stage,0,1978-06-21,19:15,S-006,T-03,T-56,6,0,0,0,0,0
 M-1978-37,WC-1978,,Brazil vs Italy,third-place match,0,1978-06-24,15:00,S-002,T-09,T-41,2,1,0,0,0,0
 M-1978-38,WC-1978,,Argentina vs Netherlands,final,0,1978-06-25,15:00,S-002,T-03,T-48,3,1,1,0,0,0
 M-1982-01,WC-1982,,Argentina vs Belgium,group stage,0,1982-06-13,20:00,S-182,T-03,T-06,0,1,0,0,0,0
@@ -359,42 +359,42 @@ M-1982-49,WC-1982,,Poland vs Italy,semi-finals,0,1982-07-08,17:15,S-182,T-57,T-4
 M-1982-50,WC-1982,,West Germany vs France,semi-finals,0,1982-07-08,21:00,S-192,T-86,T-30,3,3,1,1,5,4
 M-1982-51,WC-1982,,Poland vs France,third-place match,0,1982-07-10,20:00,S-181,T-57,T-30,3,2,0,0,0,0
 M-1982-52,WC-1982,,Italy vs West Germany,final,0,1982-07-11,20:00,S-187,T-41,T-86,3,1,0,0,0,0
-M-1986-01,WC-1986,52.0,Bulgaria vs Italy,group stage,0,1986-05-31,12:00,S-132,T-10,T-41,1,1,0,0,0,0
-M-1986-02,WC-1986,55.0,Spain vs Brazil,group stage,0,1986-06-01,12:00,S-128,T-73,T-09,0,1,0,0,0,0
-M-1986-03,WC-1986,54.0,Canada vs France,group stage,0,1986-06-01,16:00,S-131,T-12,T-30,0,1,0,0,0,0
-M-1986-04,WC-1986,52.0,Argentina vs South Korea,group stage,0,1986-06-02,12:00,S-133,T-03,T-71,3,1,0,0,0,0
-M-1986-05,WC-1986,54.0,Soviet Union vs Hungary,group stage,0,1986-06-02,12:00,S-130,T-72,T-36,6,0,0,0,0,0
-M-1986-06,WC-1986,57.0,Morocco vs Poland,group stage,0,1986-06-02,16:00,S-135,T-47,T-57,0,0,0,0,0,0
-M-1986-07,WC-1986,53.0,Belgium vs Mexico,group stage,0,1986-06-03,12:00,S-132,T-06,T-46,1,2,0,0,0,0
-M-1986-08,WC-1986,55.0,Algeria vs Northern Ireland,group stage,0,1986-06-03,12:00,S-129,T-01,T-52,1,1,0,0,0,0
-M-1986-09,WC-1986,57.0,Portugal vs England,group stage,0,1986-06-03,16:00,S-134,T-58,T-28,1,0,0,0,0,0
-M-1986-10,WC-1986,53.0,Paraguay vs Iraq,group stage,0,1986-06-04,12:00,S-139,T-55,T-39,1,0,0,0,0,0
-M-1986-11,WC-1986,56.0,Uruguay vs West Germany,group stage,0,1986-06-04,12:00,S-138,T-84,T-86,1,1,0,0,0,0
-M-1986-12,WC-1986,56.0,Scotland vs Denmark,group stage,0,1986-06-04,16:00,S-136,T-64,T-22,0,1,0,0,0,0
-M-1986-13,WC-1986,52.0,Italy vs Argentina,group stage,0,1986-06-05,12:00,S-137,T-41,T-03,1,1,0,0,0,0
-M-1986-14,WC-1986,54.0,France vs Soviet Union,group stage,0,1986-06-05,12:00,S-131,T-30,T-72,1,1,0,0,0,0
-M-1986-15,WC-1986,52.0,South Korea vs Bulgaria,group stage,0,1986-06-05,16:00,S-133,T-71,T-10,1,1,0,0,0,0
-M-1986-16,WC-1986,54.0,Hungary vs Canada,group stage,0,1986-06-06,12:00,S-130,T-36,T-12,2,0,0,0,0,0
-M-1986-17,WC-1986,55.0,Brazil vs Algeria,group stage,0,1986-06-06,12:00,S-128,T-09,T-01,1,0,0,0,0,0
-M-1986-18,WC-1986,57.0,England vs Morocco,group stage,0,1986-06-06,16:00,S-134,T-28,T-47,0,0,0,0,0,0
-M-1986-19,WC-1986,53.0,Mexico vs Paraguay,group stage,0,1986-06-07,12:00,S-132,T-46,T-55,1,1,0,0,0,0
-M-1986-20,WC-1986,55.0,Northern Ireland vs Spain,group stage,0,1986-06-07,12:00,S-129,T-52,T-73,1,2,0,0,0,0
-M-1986-21,WC-1986,57.0,Poland vs Portugal,group stage,0,1986-06-07,16:00,S-135,T-57,T-58,1,0,0,0,0,0
-M-1986-22,WC-1986,53.0,Iraq vs Belgium,group stage,0,1986-06-08,12:00,S-139,T-39,T-06,1,2,0,0,0,0
-M-1986-23,WC-1986,56.0,West Germany vs Scotland,group stage,0,1986-06-08,12:00,S-138,T-86,T-64,2,1,0,0,0,0
-M-1986-24,WC-1986,56.0,Denmark vs Uruguay,group stage,0,1986-06-08,16:00,S-136,T-22,T-84,6,1,0,0,0,0
-M-1986-25,WC-1986,54.0,Hungary vs France,group stage,0,1986-06-09,12:00,S-131,T-36,T-30,0,3,0,0,0,0
-M-1986-26,WC-1986,54.0,Soviet Union vs Canada,group stage,0,1986-06-09,12:00,S-130,T-72,T-12,2,0,0,0,0,0
-M-1986-27,WC-1986,52.0,Argentina vs Bulgaria,group stage,0,1986-06-10,12:00,S-133,T-03,T-10,2,0,0,0,0,0
-M-1986-28,WC-1986,52.0,South Korea vs Italy,group stage,0,1986-06-10,12:00,S-137,T-71,T-41,2,3,0,0,0,0
-M-1986-29,WC-1986,53.0,Iraq vs Mexico,group stage,0,1986-06-11,12:00,S-132,T-39,T-46,0,1,0,0,0,0
-M-1986-30,WC-1986,53.0,Paraguay vs Belgium,group stage,0,1986-06-11,12:00,S-139,T-55,T-06,2,2,0,0,0,0
-M-1986-31,WC-1986,57.0,England vs Poland,group stage,0,1986-06-11,16:00,S-135,T-28,T-57,3,0,0,0,0,0
-M-1986-32,WC-1986,57.0,Portugal vs Morocco,group stage,0,1986-06-11,16:00,S-129,T-58,T-47,1,3,0,0,0,0
-M-1986-33,WC-1986,55.0,Algeria vs Spain,group stage,0,1986-06-12,12:00,S-134,T-01,T-73,0,3,0,0,0,0
-M-1986-34,WC-1986,55.0,Northern Ireland vs Brazil,group stage,0,1986-06-12,12:00,S-128,T-52,T-09,0,3,0,0,0,0
-M-1986-35,WC-1986,56.0,Denmark vs West Germany,group stage,0,1986-06-13,12:00,S-138,T-22,T-86,2,0,0,0,0,0
-M-1986-36,WC-1986,56.0,Scotland vs Uruguay,group stage,0,1986-06-13,12:00,S-136,T-64,T-84,0,0,0,0,0,0
+M-1986-01,WC-1986,G-52,Bulgaria vs Italy,group stage,0,1986-05-31,12:00,S-132,T-10,T-41,1,1,0,0,0,0
+M-1986-02,WC-1986,G-55,Spain vs Brazil,group stage,0,1986-06-01,12:00,S-128,T-73,T-09,0,1,0,0,0,0
+M-1986-03,WC-1986,G-54,Canada vs France,group stage,0,1986-06-01,16:00,S-131,T-12,T-30,0,1,0,0,0,0
+M-1986-04,WC-1986,G-52,Argentina vs South Korea,group stage,0,1986-06-02,12:00,S-133,T-03,T-71,3,1,0,0,0,0
+M-1986-05,WC-1986,G-54,Soviet Union vs Hungary,group stage,0,1986-06-02,12:00,S-130,T-72,T-36,6,0,0,0,0,0
+M-1986-06,WC-1986,G-57,Morocco vs Poland,group stage,0,1986-06-02,16:00,S-135,T-47,T-57,0,0,0,0,0,0
+M-1986-07,WC-1986,G-53,Belgium vs Mexico,group stage,0,1986-06-03,12:00,S-132,T-06,T-46,1,2,0,0,0,0
+M-1986-08,WC-1986,G-55,Algeria vs Northern Ireland,group stage,0,1986-06-03,12:00,S-129,T-01,T-52,1,1,0,0,0,0
+M-1986-09,WC-1986,G-57,Portugal vs England,group stage,0,1986-06-03,16:00,S-134,T-58,T-28,1,0,0,0,0,0
+M-1986-10,WC-1986,G-53,Paraguay vs Iraq,group stage,0,1986-06-04,12:00,S-139,T-55,T-39,1,0,0,0,0,0
+M-1986-11,WC-1986,G-56,Uruguay vs West Germany,group stage,0,1986-06-04,12:00,S-138,T-84,T-86,1,1,0,0,0,0
+M-1986-12,WC-1986,G-56,Scotland vs Denmark,group stage,0,1986-06-04,16:00,S-136,T-64,T-22,0,1,0,0,0,0
+M-1986-13,WC-1986,G-52,Italy vs Argentina,group stage,0,1986-06-05,12:00,S-137,T-41,T-03,1,1,0,0,0,0
+M-1986-14,WC-1986,G-54,France vs Soviet Union,group stage,0,1986-06-05,12:00,S-131,T-30,T-72,1,1,0,0,0,0
+M-1986-15,WC-1986,G-52,South Korea vs Bulgaria,group stage,0,1986-06-05,16:00,S-133,T-71,T-10,1,1,0,0,0,0
+M-1986-16,WC-1986,G-54,Hungary vs Canada,group stage,0,1986-06-06,12:00,S-130,T-36,T-12,2,0,0,0,0,0
+M-1986-17,WC-1986,G-55,Brazil vs Algeria,group stage,0,1986-06-06,12:00,S-128,T-09,T-01,1,0,0,0,0,0
+M-1986-18,WC-1986,G-57,England vs Morocco,group stage,0,1986-06-06,16:00,S-134,T-28,T-47,0,0,0,0,0,0
+M-1986-19,WC-1986,G-53,Mexico vs Paraguay,group stage,0,1986-06-07,12:00,S-132,T-46,T-55,1,1,0,0,0,0
+M-1986-20,WC-1986,G-55,Northern Ireland vs Spain,group stage,0,1986-06-07,12:00,S-129,T-52,T-73,1,2,0,0,0,0
+M-1986-21,WC-1986,G-57,Poland vs Portugal,group stage,0,1986-06-07,16:00,S-135,T-57,T-58,1,0,0,0,0,0
+M-1986-22,WC-1986,G-53,Iraq vs Belgium,group stage,0,1986-06-08,12:00,S-139,T-39,T-06,1,2,0,0,0,0
+M-1986-23,WC-1986,G-56,West Germany vs Scotland,group stage,0,1986-06-08,12:00,S-138,T-86,T-64,2,1,0,0,0,0
+M-1986-24,WC-1986,G-56,Denmark vs Uruguay,group stage,0,1986-06-08,16:00,S-136,T-22,T-84,6,1,0,0,0,0
+M-1986-25,WC-1986,G-54,Hungary vs France,group stage,0,1986-06-09,12:00,S-131,T-36,T-30,0,3,0,0,0,0
+M-1986-26,WC-1986,G-54,Soviet Union vs Canada,group stage,0,1986-06-09,12:00,S-130,T-72,T-12,2,0,0,0,0,0
+M-1986-27,WC-1986,G-52,Argentina vs Bulgaria,group stage,0,1986-06-10,12:00,S-133,T-03,T-10,2,0,0,0,0,0
+M-1986-28,WC-1986,G-52,South Korea vs Italy,group stage,0,1986-06-10,12:00,S-137,T-71,T-41,2,3,0,0,0,0
+M-1986-29,WC-1986,G-53,Iraq vs Mexico,group stage,0,1986-06-11,12:00,S-132,T-39,T-46,0,1,0,0,0,0
+M-1986-30,WC-1986,G-53,Paraguay vs Belgium,group stage,0,1986-06-11,12:00,S-139,T-55,T-06,2,2,0,0,0,0
+M-1986-31,WC-1986,G-57,England vs Poland,group stage,0,1986-06-11,16:00,S-135,T-28,T-57,3,0,0,0,0,0
+M-1986-32,WC-1986,G-57,Portugal vs Morocco,group stage,0,1986-06-11,16:00,S-129,T-58,T-47,1,3,0,0,0,0
+M-1986-33,WC-1986,G-55,Algeria vs Spain,group stage,0,1986-06-12,12:00,S-134,T-01,T-73,0,3,0,0,0,0
+M-1986-34,WC-1986,G-55,Northern Ireland vs Brazil,group stage,0,1986-06-12,12:00,S-128,T-52,T-09,0,3,0,0,0,0
+M-1986-35,WC-1986,G-56,Denmark vs West Germany,group stage,0,1986-06-13,12:00,S-138,T-22,T-86,2,0,0,0,0,0
+M-1986-36,WC-1986,G-56,Scotland vs Uruguay,group stage,0,1986-06-13,12:00,S-136,T-64,T-84,0,0,0,0,0,0
 M-1986-37,WC-1986,,Mexico vs Bulgaria,round of 16,0,1986-06-15,12:00,S-132,T-46,T-10,2,0,0,0,0,0
 M-1986-38,WC-1986,,Soviet Union vs Belgium,round of 16,0,1986-06-15,16:00,S-131,T-72,T-06,3,4,1,0,0,0
 M-1986-39,WC-1986,,Brazil vs Poland,round of 16,0,1986-06-16,12:00,S-128,T-09,T-57,4,0,0,0,0,0
@@ -411,42 +411,42 @@ M-1986-49,WC-1986,,France vs West Germany,semi-finals,0,1986-06-25,12:00,S-128,T
 M-1986-50,WC-1986,,Argentina vs Belgium,semi-finals,0,1986-06-25,16:00,S-132,T-03,T-06,2,0,0,0,0,0
 M-1986-51,WC-1986,,Belgium vs France,third-place match,0,1986-06-28,12:00,S-137,T-06,T-30,2,4,1,0,0,0
 M-1986-52,WC-1986,,Argentina vs West Germany,final,0,1986-06-29,12:00,S-132,T-03,T-86,3,2,0,0,0,0
-M-1990-01,WC-1990,59.0,Argentina vs Cameroon,group stage,0,1990-06-08,18:00,S-107,T-03,T-11,0,1,0,0,0,0
-M-1990-02,WC-1990,59.0,Soviet Union vs Romania,group stage,0,1990-06-09,17:00,S-101,T-72,T-61,0,2,0,0,0,0
-M-1990-03,WC-1990,61.0,United Arab Emirates vs Colombia,group stage,0,1990-06-09,17:00,S-102,T-82,T-16,0,2,0,0,0,0
-M-1990-04,WC-1990,58.0,Italy vs Austria,group stage,0,1990-06-09,21:00,S-112,T-41,T-05,1,0,0,0,0,0
-M-1990-05,WC-1990,58.0,United States vs Czechoslovakia,group stage,0,1990-06-10,17:00,S-104,T-83,T-21,1,5,0,0,0,0
-M-1990-06,WC-1990,60.0,Brazil vs Sweden,group stage,0,1990-06-10,21:00,S-115,T-09,T-74,2,1,0,0,0,0
-M-1990-07,WC-1990,61.0,West Germany vs Yugoslavia,group stage,0,1990-06-10,21:00,S-107,T-86,T-87,4,1,0,0,0,0
-M-1990-08,WC-1990,60.0,Costa Rica vs Scotland,group stage,0,1990-06-11,17:00,S-106,T-17,T-64,1,0,0,0,0,0
-M-1990-09,WC-1990,63.0,England vs Republic of Ireland,group stage,0,1990-06-11,21:00,S-103,T-28,T-60,1,1,0,0,0,0
-M-1990-10,WC-1990,62.0,Belgium vs South Korea,group stage,0,1990-06-12,17:00,S-117,T-06,T-71,2,0,0,0,0,0
-M-1990-11,WC-1990,63.0,Netherlands vs Egypt,group stage,0,1990-06-12,21:00,S-110,T-48,T-26,1,1,0,0,0,0
-M-1990-12,WC-1990,62.0,Uruguay vs Spain,group stage,0,1990-06-13,17:00,S-116,T-84,T-73,0,0,0,0,0,0
-M-1990-13,WC-1990,59.0,Argentina vs Soviet Union,group stage,0,1990-06-13,21:00,S-109,T-03,T-72,2,0,0,0,0,0
-M-1990-14,WC-1990,59.0,Cameroon vs Romania,group stage,0,1990-06-14,17:00,S-101,T-11,T-61,2,1,0,0,0,0
-M-1990-15,WC-1990,61.0,Yugoslavia vs Colombia,group stage,0,1990-06-14,17:00,S-102,T-87,T-16,1,0,0,0,0,0
-M-1990-16,WC-1990,58.0,Italy vs United States,group stage,0,1990-06-14,21:00,S-112,T-41,T-83,1,0,0,0,0,0
-M-1990-17,WC-1990,58.0,Austria vs Czechoslovakia,group stage,0,1990-06-15,17:00,S-104,T-05,T-21,0,1,0,0,0,0
-M-1990-18,WC-1990,61.0,West Germany vs United Arab Emirates,group stage,0,1990-06-15,21:00,S-107,T-86,T-82,5,1,0,0,0,0
-M-1990-19,WC-1990,60.0,Brazil vs Costa Rica,group stage,0,1990-06-16,17:00,S-115,T-09,T-17,1,0,0,0,0,0
-M-1990-20,WC-1990,60.0,Sweden vs Scotland,group stage,0,1990-06-16,21:00,S-106,T-74,T-64,1,2,0,0,0,0
-M-1990-21,WC-1990,63.0,England vs Netherlands,group stage,0,1990-06-16,21:00,S-103,T-28,T-48,0,0,0,0,0,0
-M-1990-22,WC-1990,63.0,Republic of Ireland vs Egypt,group stage,0,1990-06-17,17:00,S-110,T-60,T-26,0,0,0,0,0,0
-M-1990-23,WC-1990,62.0,Belgium vs Uruguay,group stage,0,1990-06-17,21:00,S-117,T-06,T-84,3,1,0,0,0,0
-M-1990-24,WC-1990,62.0,South Korea vs Spain,group stage,0,1990-06-17,21:00,S-116,T-71,T-73,1,3,0,0,0,0
-M-1990-25,WC-1990,59.0,Argentina vs Romania,group stage,0,1990-06-18,21:00,S-109,T-03,T-61,1,1,0,0,0,0
-M-1990-26,WC-1990,59.0,Cameroon vs Soviet Union,group stage,0,1990-06-18,21:00,S-101,T-11,T-72,0,4,0,0,0,0
-M-1990-27,WC-1990,61.0,West Germany vs Colombia,group stage,0,1990-06-19,17:00,S-107,T-86,T-16,1,1,0,0,0,0
-M-1990-28,WC-1990,61.0,Yugoslavia vs United Arab Emirates,group stage,0,1990-06-19,17:00,S-102,T-87,T-82,4,1,0,0,0,0
-M-1990-29,WC-1990,58.0,Austria vs United States,group stage,0,1990-06-19,21:00,S-104,T-05,T-83,2,1,0,0,0,0
-M-1990-30,WC-1990,58.0,Italy vs Czechoslovakia,group stage,0,1990-06-19,21:00,S-112,T-41,T-21,2,0,0,0,0,0
-M-1990-31,WC-1990,60.0,Brazil vs Scotland,group stage,0,1990-06-20,21:00,S-115,T-09,T-64,1,0,0,0,0,0
-M-1990-32,WC-1990,60.0,Sweden vs Costa Rica,group stage,0,1990-06-20,21:00,S-106,T-74,T-17,1,2,0,0,0,0
-M-1990-33,WC-1990,62.0,Belgium vs Spain,group stage,0,1990-06-21,17:00,S-117,T-06,T-73,1,2,0,0,0,0
-M-1990-34,WC-1990,62.0,South Korea vs Uruguay,group stage,0,1990-06-21,17:00,S-116,T-71,T-84,0,1,0,0,0,0
-M-1990-35,WC-1990,63.0,England vs Egypt,group stage,0,1990-06-21,21:00,S-103,T-28,T-26,1,0,0,0,0,0
-M-1990-36,WC-1990,63.0,Republic of Ireland vs Netherlands,group stage,0,1990-06-21,21:00,S-110,T-60,T-48,1,1,0,0,0,0
+M-1990-01,WC-1990,G-59,Argentina vs Cameroon,group stage,0,1990-06-08,18:00,S-107,T-03,T-11,0,1,0,0,0,0
+M-1990-02,WC-1990,G-59,Soviet Union vs Romania,group stage,0,1990-06-09,17:00,S-101,T-72,T-61,0,2,0,0,0,0
+M-1990-03,WC-1990,G-61,United Arab Emirates vs Colombia,group stage,0,1990-06-09,17:00,S-102,T-82,T-16,0,2,0,0,0,0
+M-1990-04,WC-1990,G-58,Italy vs Austria,group stage,0,1990-06-09,21:00,S-112,T-41,T-05,1,0,0,0,0,0
+M-1990-05,WC-1990,G-58,United States vs Czechoslovakia,group stage,0,1990-06-10,17:00,S-104,T-83,T-21,1,5,0,0,0,0
+M-1990-06,WC-1990,G-60,Brazil vs Sweden,group stage,0,1990-06-10,21:00,S-115,T-09,T-74,2,1,0,0,0,0
+M-1990-07,WC-1990,G-61,West Germany vs Yugoslavia,group stage,0,1990-06-10,21:00,S-107,T-86,T-87,4,1,0,0,0,0
+M-1990-08,WC-1990,G-60,Costa Rica vs Scotland,group stage,0,1990-06-11,17:00,S-106,T-17,T-64,1,0,0,0,0,0
+M-1990-09,WC-1990,G-63,England vs Republic of Ireland,group stage,0,1990-06-11,21:00,S-103,T-28,T-60,1,1,0,0,0,0
+M-1990-10,WC-1990,G-62,Belgium vs South Korea,group stage,0,1990-06-12,17:00,S-117,T-06,T-71,2,0,0,0,0,0
+M-1990-11,WC-1990,G-63,Netherlands vs Egypt,group stage,0,1990-06-12,21:00,S-110,T-48,T-26,1,1,0,0,0,0
+M-1990-12,WC-1990,G-62,Uruguay vs Spain,group stage,0,1990-06-13,17:00,S-116,T-84,T-73,0,0,0,0,0,0
+M-1990-13,WC-1990,G-59,Argentina vs Soviet Union,group stage,0,1990-06-13,21:00,S-109,T-03,T-72,2,0,0,0,0,0
+M-1990-14,WC-1990,G-59,Cameroon vs Romania,group stage,0,1990-06-14,17:00,S-101,T-11,T-61,2,1,0,0,0,0
+M-1990-15,WC-1990,G-61,Yugoslavia vs Colombia,group stage,0,1990-06-14,17:00,S-102,T-87,T-16,1,0,0,0,0,0
+M-1990-16,WC-1990,G-58,Italy vs United States,group stage,0,1990-06-14,21:00,S-112,T-41,T-83,1,0,0,0,0,0
+M-1990-17,WC-1990,G-58,Austria vs Czechoslovakia,group stage,0,1990-06-15,17:00,S-104,T-05,T-21,0,1,0,0,0,0
+M-1990-18,WC-1990,G-61,West Germany vs United Arab Emirates,group stage,0,1990-06-15,21:00,S-107,T-86,T-82,5,1,0,0,0,0
+M-1990-19,WC-1990,G-60,Brazil vs Costa Rica,group stage,0,1990-06-16,17:00,S-115,T-09,T-17,1,0,0,0,0,0
+M-1990-20,WC-1990,G-60,Sweden vs Scotland,group stage,0,1990-06-16,21:00,S-106,T-74,T-64,1,2,0,0,0,0
+M-1990-21,WC-1990,G-63,England vs Netherlands,group stage,0,1990-06-16,21:00,S-103,T-28,T-48,0,0,0,0,0,0
+M-1990-22,WC-1990,G-63,Republic of Ireland vs Egypt,group stage,0,1990-06-17,17:00,S-110,T-60,T-26,0,0,0,0,0,0
+M-1990-23,WC-1990,G-62,Belgium vs Uruguay,group stage,0,1990-06-17,21:00,S-117,T-06,T-84,3,1,0,0,0,0
+M-1990-24,WC-1990,G-62,South Korea vs Spain,group stage,0,1990-06-17,21:00,S-116,T-71,T-73,1,3,0,0,0,0
+M-1990-25,WC-1990,G-59,Argentina vs Romania,group stage,0,1990-06-18,21:00,S-109,T-03,T-61,1,1,0,0,0,0
+M-1990-26,WC-1990,G-59,Cameroon vs Soviet Union,group stage,0,1990-06-18,21:00,S-101,T-11,T-72,0,4,0,0,0,0
+M-1990-27,WC-1990,G-61,West Germany vs Colombia,group stage,0,1990-06-19,17:00,S-107,T-86,T-16,1,1,0,0,0,0
+M-1990-28,WC-1990,G-61,Yugoslavia vs United Arab Emirates,group stage,0,1990-06-19,17:00,S-102,T-87,T-82,4,1,0,0,0,0
+M-1990-29,WC-1990,G-58,Austria vs United States,group stage,0,1990-06-19,21:00,S-104,T-05,T-83,2,1,0,0,0,0
+M-1990-30,WC-1990,G-58,Italy vs Czechoslovakia,group stage,0,1990-06-19,21:00,S-112,T-41,T-21,2,0,0,0,0,0
+M-1990-31,WC-1990,G-60,Brazil vs Scotland,group stage,0,1990-06-20,21:00,S-115,T-09,T-64,1,0,0,0,0,0
+M-1990-32,WC-1990,G-60,Sweden vs Costa Rica,group stage,0,1990-06-20,21:00,S-106,T-74,T-17,1,2,0,0,0,0
+M-1990-33,WC-1990,G-62,Belgium vs Spain,group stage,0,1990-06-21,17:00,S-117,T-06,T-73,1,2,0,0,0,0
+M-1990-34,WC-1990,G-62,South Korea vs Uruguay,group stage,0,1990-06-21,17:00,S-116,T-71,T-84,0,1,0,0,0,0
+M-1990-35,WC-1990,G-63,England vs Egypt,group stage,0,1990-06-21,21:00,S-103,T-28,T-26,1,0,0,0,0,0
+M-1990-36,WC-1990,G-63,Republic of Ireland vs Netherlands,group stage,0,1990-06-21,21:00,S-110,T-60,T-48,1,1,0,0,0,0
 M-1990-37,WC-1990,,Cameroon vs Colombia,round of 16,0,1990-06-23,17:00,S-109,T-11,T-16,2,1,1,0,0,0
 M-1990-38,WC-1990,,Czechoslovakia vs Costa Rica,round of 16,0,1990-06-23,21:00,S-101,T-21,T-17,4,1,0,0,0,0
 M-1990-39,WC-1990,,Brazil vs Argentina,round of 16,0,1990-06-24,17:00,S-115,T-09,T-03,0,1,0,0,0,0
@@ -463,42 +463,42 @@ M-1990-49,WC-1990,,Argentina vs Italy,semi-finals,0,1990-07-03,20:00,S-109,T-03,
 M-1990-50,WC-1990,,West Germany vs England,semi-finals,0,1990-07-04,20:00,S-115,T-86,T-28,1,1,1,1,4,3
 M-1990-51,WC-1990,,Italy vs England,third-place match,0,1990-07-07,20:00,S-101,T-41,T-28,2,1,0,0,0,0
 M-1990-52,WC-1990,,West Germany vs Argentina,final,0,1990-07-08,20:00,S-112,T-86,T-03,1,0,0,0,0,0
-M-1994-01,WC-1994,69.0,Germany vs Bolivia,group stage,0,1994-06-17,14:00,S-219,T-31,T-07,1,0,0,0,0,0
-M-1994-02,WC-1994,69.0,Spain vs South Korea,group stage,0,1994-06-17,18:30,S-221,T-73,T-71,2,2,0,0,0,0
-M-1994-03,WC-1994,67.0,United States vs Switzerland,group stage,0,1994-06-18,11:30,S-230,T-83,T-75,1,1,0,0,0,0
-M-1994-04,WC-1994,71.0,Italy vs Republic of Ireland,group stage,0,1994-06-18,16:00,S-222,T-41,T-60,0,1,0,0,0,0
-M-1994-05,WC-1994,67.0,Colombia vs Romania,group stage,0,1994-06-18,16:30,S-228,T-16,T-61,1,3,0,0,0,0
-M-1994-06,WC-1994,72.0,Belgium vs Morocco,group stage,0,1994-06-19,12:30,S-227,T-06,T-47,1,0,0,0,0,0
-M-1994-07,WC-1994,71.0,Norway vs Mexico,group stage,0,1994-06-19,16:00,S-237,T-53,T-46,1,0,0,0,0,0
-M-1994-08,WC-1994,68.0,Cameroon vs Sweden,group stage,0,1994-06-19,16:30,S-228,T-11,T-74,2,2,0,0,0,0
-M-1994-09,WC-1994,68.0,Brazil vs Russia,group stage,0,1994-06-20,13:00,S-235,T-09,T-62,2,0,0,0,0,0
-M-1994-10,WC-1994,72.0,Netherlands vs Saudi Arabia,group stage,0,1994-06-20,19:30,S-237,T-48,T-63,2,1,0,0,0,0
-M-1994-11,WC-1994,70.0,Argentina vs Greece,group stage,0,1994-06-21,12:30,S-223,T-03,T-33,4,0,0,0,0,0
-M-1994-12,WC-1994,69.0,Germany vs Spain,group stage,0,1994-06-21,15:00,S-219,T-31,T-73,1,1,0,0,0,0
-M-1994-13,WC-1994,70.0,Nigeria vs Bulgaria,group stage,0,1994-06-21,18:30,S-221,T-50,T-10,3,0,0,0,0,0
-M-1994-14,WC-1994,67.0,Romania vs Switzerland,group stage,0,1994-06-22,16:00,S-230,T-61,T-75,1,4,0,0,0,0
-M-1994-15,WC-1994,67.0,United States vs Colombia,group stage,0,1994-06-22,16:30,S-228,T-83,T-16,2,1,0,0,0,0
-M-1994-16,WC-1994,71.0,Italy vs Norway,group stage,0,1994-06-23,16:00,S-222,T-41,T-53,1,0,0,0,0,0
-M-1994-17,WC-1994,69.0,South Korea vs Bolivia,group stage,0,1994-06-23,19:30,S-223,T-71,T-07,0,0,0,0,0,0
-M-1994-18,WC-1994,71.0,Mexico vs Republic of Ireland,group stage,0,1994-06-24,12:30,S-227,T-46,T-60,2,1,0,0,0,0
-M-1994-19,WC-1994,68.0,Brazil vs Cameroon,group stage,0,1994-06-24,13:00,S-235,T-09,T-11,3,0,0,0,0,0
-M-1994-20,WC-1994,68.0,Sweden vs Russia,group stage,0,1994-06-24,19:30,S-230,T-74,T-62,3,1,0,0,0,0
-M-1994-21,WC-1994,72.0,Belgium vs Netherlands,group stage,0,1994-06-25,12:30,S-227,T-06,T-48,1,0,0,0,0,0
-M-1994-22,WC-1994,72.0,Saudi Arabia vs Morocco,group stage,0,1994-06-25,12:30,S-222,T-63,T-47,2,1,0,0,0,0
-M-1994-23,WC-1994,70.0,Argentina vs Nigeria,group stage,0,1994-06-25,16:00,S-223,T-03,T-50,2,1,0,0,0,0
-M-1994-24,WC-1994,70.0,Bulgaria vs Greece,group stage,0,1994-06-26,11:30,S-219,T-10,T-33,4,0,0,0,0,0
-M-1994-25,WC-1994,67.0,Switzerland vs Colombia,group stage,0,1994-06-26,13:00,S-235,T-75,T-16,0,2,0,0,0,0
-M-1994-26,WC-1994,67.0,United States vs Romania,group stage,0,1994-06-26,13:00,S-228,T-83,T-61,0,1,0,0,0,0
-M-1994-27,WC-1994,69.0,Bolivia vs Spain,group stage,0,1994-06-27,15:00,S-219,T-07,T-73,1,3,0,0,0,0
-M-1994-28,WC-1994,69.0,Germany vs South Korea,group stage,0,1994-06-27,15:00,S-221,T-31,T-71,3,2,0,0,0,0
-M-1994-29,WC-1994,71.0,Italy vs Mexico,group stage,0,1994-06-28,12:30,S-237,T-41,T-46,1,1,0,0,0,0
-M-1994-30,WC-1994,71.0,Republic of Ireland vs Norway,group stage,0,1994-06-28,12:30,S-222,T-60,T-53,0,0,0,0,0,0
-M-1994-31,WC-1994,68.0,Russia vs Cameroon,group stage,0,1994-06-28,13:00,S-235,T-62,T-11,6,1,0,0,0,0
-M-1994-32,WC-1994,68.0,Brazil vs Sweden,group stage,0,1994-06-28,16:00,S-230,T-09,T-74,1,1,0,0,0,0
-M-1994-33,WC-1994,72.0,Belgium vs Saudi Arabia,group stage,0,1994-06-29,12:30,S-237,T-06,T-63,0,1,0,0,0,0
-M-1994-34,WC-1994,72.0,Morocco vs Netherlands,group stage,0,1994-06-29,12:30,S-227,T-47,T-48,1,2,0,0,0,0
-M-1994-35,WC-1994,70.0,Argentina vs Bulgaria,group stage,0,1994-06-30,18:30,S-221,T-03,T-10,0,2,0,0,0,0
-M-1994-36,WC-1994,70.0,Greece vs Nigeria,group stage,0,1994-06-30,19:30,S-223,T-33,T-50,0,2,0,0,0,0
+M-1994-01,WC-1994,G-69,Germany vs Bolivia,group stage,0,1994-06-17,14:00,S-219,T-31,T-07,1,0,0,0,0,0
+M-1994-02,WC-1994,G-69,Spain vs South Korea,group stage,0,1994-06-17,18:30,S-221,T-73,T-71,2,2,0,0,0,0
+M-1994-03,WC-1994,G-67,United States vs Switzerland,group stage,0,1994-06-18,11:30,S-230,T-83,T-75,1,1,0,0,0,0
+M-1994-04,WC-1994,G-71,Italy vs Republic of Ireland,group stage,0,1994-06-18,16:00,S-222,T-41,T-60,0,1,0,0,0,0
+M-1994-05,WC-1994,G-67,Colombia vs Romania,group stage,0,1994-06-18,16:30,S-228,T-16,T-61,1,3,0,0,0,0
+M-1994-06,WC-1994,G-72,Belgium vs Morocco,group stage,0,1994-06-19,12:30,S-227,T-06,T-47,1,0,0,0,0,0
+M-1994-07,WC-1994,G-71,Norway vs Mexico,group stage,0,1994-06-19,16:00,S-237,T-53,T-46,1,0,0,0,0,0
+M-1994-08,WC-1994,G-68,Cameroon vs Sweden,group stage,0,1994-06-19,16:30,S-228,T-11,T-74,2,2,0,0,0,0
+M-1994-09,WC-1994,G-68,Brazil vs Russia,group stage,0,1994-06-20,13:00,S-235,T-09,T-62,2,0,0,0,0,0
+M-1994-10,WC-1994,G-72,Netherlands vs Saudi Arabia,group stage,0,1994-06-20,19:30,S-237,T-48,T-63,2,1,0,0,0,0
+M-1994-11,WC-1994,G-70,Argentina vs Greece,group stage,0,1994-06-21,12:30,S-223,T-03,T-33,4,0,0,0,0,0
+M-1994-12,WC-1994,G-69,Germany vs Spain,group stage,0,1994-06-21,15:00,S-219,T-31,T-73,1,1,0,0,0,0
+M-1994-13,WC-1994,G-70,Nigeria vs Bulgaria,group stage,0,1994-06-21,18:30,S-221,T-50,T-10,3,0,0,0,0,0
+M-1994-14,WC-1994,G-67,Romania vs Switzerland,group stage,0,1994-06-22,16:00,S-230,T-61,T-75,1,4,0,0,0,0
+M-1994-15,WC-1994,G-67,United States vs Colombia,group stage,0,1994-06-22,16:30,S-228,T-83,T-16,2,1,0,0,0,0
+M-1994-16,WC-1994,G-71,Italy vs Norway,group stage,0,1994-06-23,16:00,S-222,T-41,T-53,1,0,0,0,0,0
+M-1994-17,WC-1994,G-69,South Korea vs Bolivia,group stage,0,1994-06-23,19:30,S-223,T-71,T-07,0,0,0,0,0,0
+M-1994-18,WC-1994,G-71,Mexico vs Republic of Ireland,group stage,0,1994-06-24,12:30,S-227,T-46,T-60,2,1,0,0,0,0
+M-1994-19,WC-1994,G-68,Brazil vs Cameroon,group stage,0,1994-06-24,13:00,S-235,T-09,T-11,3,0,0,0,0,0
+M-1994-20,WC-1994,G-68,Sweden vs Russia,group stage,0,1994-06-24,19:30,S-230,T-74,T-62,3,1,0,0,0,0
+M-1994-21,WC-1994,G-72,Belgium vs Netherlands,group stage,0,1994-06-25,12:30,S-227,T-06,T-48,1,0,0,0,0,0
+M-1994-22,WC-1994,G-72,Saudi Arabia vs Morocco,group stage,0,1994-06-25,12:30,S-222,T-63,T-47,2,1,0,0,0,0
+M-1994-23,WC-1994,G-70,Argentina vs Nigeria,group stage,0,1994-06-25,16:00,S-223,T-03,T-50,2,1,0,0,0,0
+M-1994-24,WC-1994,G-70,Bulgaria vs Greece,group stage,0,1994-06-26,11:30,S-219,T-10,T-33,4,0,0,0,0,0
+M-1994-25,WC-1994,G-67,Switzerland vs Colombia,group stage,0,1994-06-26,13:00,S-235,T-75,T-16,0,2,0,0,0,0
+M-1994-26,WC-1994,G-67,United States vs Romania,group stage,0,1994-06-26,13:00,S-228,T-83,T-61,0,1,0,0,0,0
+M-1994-27,WC-1994,G-69,Bolivia vs Spain,group stage,0,1994-06-27,15:00,S-219,T-07,T-73,1,3,0,0,0,0
+M-1994-28,WC-1994,G-69,Germany vs South Korea,group stage,0,1994-06-27,15:00,S-221,T-31,T-71,3,2,0,0,0,0
+M-1994-29,WC-1994,G-71,Italy vs Mexico,group stage,0,1994-06-28,12:30,S-237,T-41,T-46,1,1,0,0,0,0
+M-1994-30,WC-1994,G-71,Republic of Ireland vs Norway,group stage,0,1994-06-28,12:30,S-222,T-60,T-53,0,0,0,0,0,0
+M-1994-31,WC-1994,G-68,Russia vs Cameroon,group stage,0,1994-06-28,13:00,S-235,T-62,T-11,6,1,0,0,0,0
+M-1994-32,WC-1994,G-68,Brazil vs Sweden,group stage,0,1994-06-28,16:00,S-230,T-09,T-74,1,1,0,0,0,0
+M-1994-33,WC-1994,G-72,Belgium vs Saudi Arabia,group stage,0,1994-06-29,12:30,S-237,T-06,T-63,0,1,0,0,0,0
+M-1994-34,WC-1994,G-72,Morocco vs Netherlands,group stage,0,1994-06-29,12:30,S-227,T-47,T-48,1,2,0,0,0,0
+M-1994-35,WC-1994,G-70,Argentina vs Bulgaria,group stage,0,1994-06-30,18:30,S-221,T-03,T-10,0,2,0,0,0,0
+M-1994-36,WC-1994,G-70,Greece vs Nigeria,group stage,0,1994-06-30,19:30,S-223,T-33,T-50,0,2,0,0,0,0
 M-1994-37,WC-1994,,Germany vs Belgium,round of 16,0,1994-07-02,12:00,S-219,T-31,T-06,3,2,0,0,0,0
 M-1994-38,WC-1994,,Spain vs Switzerland,round of 16,0,1994-07-02,16:30,S-237,T-73,T-75,3,0,0,0,0,0
 M-1994-39,WC-1994,,Saudi Arabia vs Sweden,round of 16,0,1994-07-03,12:00,S-221,T-63,T-74,1,3,0,0,0,0
@@ -515,54 +515,54 @@ M-1994-49,WC-1994,,Bulgaria vs Italy,semi-finals,0,1994-07-13,16:00,S-222,T-10,T
 M-1994-50,WC-1994,,Sweden vs Brazil,semi-finals,0,1994-07-13,16:30,S-228,T-74,T-09,0,1,0,0,0,0
 M-1994-51,WC-1994,,Sweden vs Bulgaria,third-place match,0,1994-07-16,12:30,S-228,T-74,T-10,4,0,0,0,0,0
 M-1994-52,WC-1994,,Brazil vs Italy,final,0,1994-07-17,12:30,S-228,T-09,T-41,0,0,1,1,3,2
-M-1998-01,WC-1998,76.0,Brazil vs Scotland,group stage,0,1998-06-10,17:30,S-073,T-09,T-64,2,1,0,0,0,0
-M-1998-02,WC-1998,76.0,Morocco vs Norway,group stage,0,1998-06-10,21:00,S-065,T-47,T-53,2,2,0,0,0,0
-M-1998-03,WC-1998,77.0,Italy vs Chile,group stage,0,1998-06-11,17:30,S-056,T-41,T-13,2,2,0,0,0,0
-M-1998-04,WC-1998,77.0,Cameroon vs Austria,group stage,0,1998-06-11,21:00,S-076,T-11,T-05,1,1,0,0,0,0
-M-1998-05,WC-1998,79.0,Paraguay vs Bulgaria,group stage,0,1998-06-12,14:30,S-065,T-55,T-10,0,0,0,0,0,0
-M-1998-06,WC-1998,78.0,Saudi Arabia vs Denmark,group stage,0,1998-06-12,17:30,S-060,T-63,T-22,0,1,0,0,0,0
-M-1998-07,WC-1998,78.0,France vs South Africa,group stage,0,1998-06-12,21:00,S-064,T-30,T-70,3,0,0,0,0,0
-M-1998-08,WC-1998,79.0,Spain vs Nigeria,group stage,0,1998-06-13,14:30,S-066,T-73,T-50,2,3,0,0,0,0
-M-1998-09,WC-1998,80.0,South Korea vs Mexico,group stage,0,1998-06-13,17:30,S-063,T-71,T-46,1,3,0,0,0,0
-M-1998-10,WC-1998,80.0,Netherlands vs Belgium,group stage,0,1998-06-13,21:00,S-073,T-48,T-06,0,0,0,0,0,0
-M-1998-11,WC-1998,83.0,Argentina vs Japan,group stage,0,1998-06-14,14:30,S-076,T-03,T-44,1,0,0,0,0,0
-M-1998-12,WC-1998,81.0,Yugoslavia vs Iran,group stage,0,1998-06-14,17:30,S-074,T-87,T-38,1,0,0,0,0,0
-M-1998-13,WC-1998,83.0,Jamaica vs Croatia,group stage,0,1998-06-14,21:00,S-060,T-43,T-18,1,3,0,0,0,0
-M-1998-14,WC-1998,82.0,England vs Tunisia,group stage,0,1998-06-15,14:30,S-064,T-28,T-79,2,0,0,0,0,0
-M-1998-15,WC-1998,82.0,Romania vs Colombia,group stage,0,1998-06-15,17:30,S-063,T-61,T-16,1,0,0,0,0,0
-M-1998-16,WC-1998,81.0,Germany vs United States,group stage,0,1998-06-15,21:00,S-068,T-31,T-83,2,0,0,0,0,0
-M-1998-17,WC-1998,76.0,Scotland vs Norway,group stage,0,1998-06-16,17:30,S-056,T-64,T-53,1,1,0,0,0,0
-M-1998-18,WC-1998,76.0,Brazil vs Morocco,group stage,0,1998-06-16,21:00,S-066,T-09,T-47,3,0,0,0,0,0
-M-1998-19,WC-1998,77.0,Chile vs Austria,group stage,0,1998-06-17,17:30,S-074,T-13,T-05,1,1,0,0,0,0
-M-1998-20,WC-1998,77.0,Italy vs Cameroon,group stage,0,1998-06-17,21:00,S-065,T-41,T-11,3,0,0,0,0,0
-M-1998-21,WC-1998,78.0,South Africa vs Denmark,group stage,0,1998-06-18,17:30,S-076,T-70,T-22,1,1,0,0,0,0
-M-1998-22,WC-1998,78.0,France vs Saudi Arabia,group stage,0,1998-06-18,21:00,S-073,T-30,T-63,4,0,0,0,0,0
-M-1998-23,WC-1998,79.0,Nigeria vs Bulgaria,group stage,0,1998-06-19,17:30,S-068,T-50,T-10,1,0,0,0,0,0
-M-1998-24,WC-1998,79.0,Spain vs Paraguay,group stage,0,1998-06-19,21:00,S-074,T-73,T-55,0,0,0,0,0,0
-M-1998-25,WC-1998,83.0,Japan vs Croatia,group stage,0,1998-06-20,14:30,S-066,T-44,T-18,0,1,0,0,0,0
-M-1998-26,WC-1998,80.0,Belgium vs Mexico,group stage,0,1998-06-20,17:30,S-056,T-06,T-46,2,2,0,0,0,0
-M-1998-27,WC-1998,80.0,Netherlands vs South Korea,group stage,0,1998-06-20,21:00,S-064,T-48,T-71,5,0,0,0,0,0
-M-1998-28,WC-1998,81.0,Germany vs Yugoslavia,group stage,0,1998-06-21,14:30,S-060,T-31,T-87,2,2,0,0,0,0
-M-1998-29,WC-1998,83.0,Argentina vs Jamaica,group stage,0,1998-06-21,17:30,S-068,T-03,T-43,5,0,0,0,0,0
-M-1998-30,WC-1998,81.0,United States vs Iran,group stage,0,1998-06-21,21:00,S-063,T-83,T-38,1,2,0,0,0,0
-M-1998-31,WC-1998,82.0,Colombia vs Tunisia,group stage,0,1998-06-22,17:30,S-065,T-16,T-79,1,0,0,0,0,0
-M-1998-32,WC-1998,82.0,Romania vs England,group stage,0,1998-06-22,21:00,S-076,T-61,T-28,2,1,0,0,0,0
-M-1998-33,WC-1998,77.0,Chile vs Cameroon,group stage,0,1998-06-23,16:00,S-066,T-13,T-11,1,1,0,0,0,0
-M-1998-34,WC-1998,77.0,Italy vs Austria,group stage,0,1998-06-23,16:00,S-073,T-41,T-05,2,1,0,0,0,0
-M-1998-35,WC-1998,76.0,Brazil vs Norway,group stage,0,1998-06-23,21:00,S-064,T-09,T-53,1,2,0,0,0,0
-M-1998-36,WC-1998,76.0,Scotland vs Morocco,group stage,0,1998-06-23,21:00,S-074,T-64,T-47,0,3,0,0,0,0
-M-1998-37,WC-1998,78.0,France vs Denmark,group stage,0,1998-06-24,16:00,S-063,T-30,T-22,2,1,0,0,0,0
-M-1998-38,WC-1998,78.0,South Africa vs Saudi Arabia,group stage,0,1998-06-24,16:00,S-056,T-70,T-63,2,2,0,0,0,0
-M-1998-39,WC-1998,79.0,Nigeria vs Paraguay,group stage,0,1998-06-24,21:00,S-076,T-50,T-55,1,3,0,0,0,0
-M-1998-40,WC-1998,79.0,Spain vs Bulgaria,group stage,0,1998-06-24,21:00,S-060,T-73,T-10,6,1,0,0,0,0
-M-1998-41,WC-1998,80.0,Belgium vs South Korea,group stage,0,1998-06-25,16:00,S-068,T-06,T-71,1,1,0,0,0,0
-M-1998-42,WC-1998,80.0,Netherlands vs Mexico,group stage,0,1998-06-25,16:00,S-074,T-48,T-46,2,2,0,0,0,0
-M-1998-43,WC-1998,81.0,Germany vs Iran,group stage,0,1998-06-25,21:00,S-065,T-31,T-38,2,0,0,0,0,0
-M-1998-44,WC-1998,81.0,United States vs Yugoslavia,group stage,0,1998-06-25,21:00,S-066,T-83,T-87,0,1,0,0,0,0
-M-1998-45,WC-1998,83.0,Argentina vs Croatia,group stage,0,1998-06-26,16:00,S-056,T-03,T-18,1,0,0,0,0,0
-M-1998-46,WC-1998,83.0,Japan vs Jamaica,group stage,0,1998-06-26,16:00,S-063,T-44,T-43,1,2,0,0,0,0
-M-1998-47,WC-1998,82.0,Colombia vs England,group stage,0,1998-06-26,21:00,S-060,T-16,T-28,0,2,0,0,0,0
-M-1998-48,WC-1998,82.0,Romania vs Tunisia,group stage,0,1998-06-26,21:00,S-073,T-61,T-79,1,1,0,0,0,0
+M-1998-01,WC-1998,G-76,Brazil vs Scotland,group stage,0,1998-06-10,17:30,S-073,T-09,T-64,2,1,0,0,0,0
+M-1998-02,WC-1998,G-76,Morocco vs Norway,group stage,0,1998-06-10,21:00,S-065,T-47,T-53,2,2,0,0,0,0
+M-1998-03,WC-1998,G-77,Italy vs Chile,group stage,0,1998-06-11,17:30,S-056,T-41,T-13,2,2,0,0,0,0
+M-1998-04,WC-1998,G-77,Cameroon vs Austria,group stage,0,1998-06-11,21:00,S-076,T-11,T-05,1,1,0,0,0,0
+M-1998-05,WC-1998,G-79,Paraguay vs Bulgaria,group stage,0,1998-06-12,14:30,S-065,T-55,T-10,0,0,0,0,0,0
+M-1998-06,WC-1998,G-78,Saudi Arabia vs Denmark,group stage,0,1998-06-12,17:30,S-060,T-63,T-22,0,1,0,0,0,0
+M-1998-07,WC-1998,G-78,France vs South Africa,group stage,0,1998-06-12,21:00,S-064,T-30,T-70,3,0,0,0,0,0
+M-1998-08,WC-1998,G-79,Spain vs Nigeria,group stage,0,1998-06-13,14:30,S-066,T-73,T-50,2,3,0,0,0,0
+M-1998-09,WC-1998,G-80,South Korea vs Mexico,group stage,0,1998-06-13,17:30,S-063,T-71,T-46,1,3,0,0,0,0
+M-1998-10,WC-1998,G-80,Netherlands vs Belgium,group stage,0,1998-06-13,21:00,S-073,T-48,T-06,0,0,0,0,0,0
+M-1998-11,WC-1998,G-83,Argentina vs Japan,group stage,0,1998-06-14,14:30,S-076,T-03,T-44,1,0,0,0,0,0
+M-1998-12,WC-1998,G-81,Yugoslavia vs Iran,group stage,0,1998-06-14,17:30,S-074,T-87,T-38,1,0,0,0,0,0
+M-1998-13,WC-1998,G-83,Jamaica vs Croatia,group stage,0,1998-06-14,21:00,S-060,T-43,T-18,1,3,0,0,0,0
+M-1998-14,WC-1998,G-82,England vs Tunisia,group stage,0,1998-06-15,14:30,S-064,T-28,T-79,2,0,0,0,0,0
+M-1998-15,WC-1998,G-82,Romania vs Colombia,group stage,0,1998-06-15,17:30,S-063,T-61,T-16,1,0,0,0,0,0
+M-1998-16,WC-1998,G-81,Germany vs United States,group stage,0,1998-06-15,21:00,S-068,T-31,T-83,2,0,0,0,0,0
+M-1998-17,WC-1998,G-76,Scotland vs Norway,group stage,0,1998-06-16,17:30,S-056,T-64,T-53,1,1,0,0,0,0
+M-1998-18,WC-1998,G-76,Brazil vs Morocco,group stage,0,1998-06-16,21:00,S-066,T-09,T-47,3,0,0,0,0,0
+M-1998-19,WC-1998,G-77,Chile vs Austria,group stage,0,1998-06-17,17:30,S-074,T-13,T-05,1,1,0,0,0,0
+M-1998-20,WC-1998,G-77,Italy vs Cameroon,group stage,0,1998-06-17,21:00,S-065,T-41,T-11,3,0,0,0,0,0
+M-1998-21,WC-1998,G-78,South Africa vs Denmark,group stage,0,1998-06-18,17:30,S-076,T-70,T-22,1,1,0,0,0,0
+M-1998-22,WC-1998,G-78,France vs Saudi Arabia,group stage,0,1998-06-18,21:00,S-073,T-30,T-63,4,0,0,0,0,0
+M-1998-23,WC-1998,G-79,Nigeria vs Bulgaria,group stage,0,1998-06-19,17:30,S-068,T-50,T-10,1,0,0,0,0,0
+M-1998-24,WC-1998,G-79,Spain vs Paraguay,group stage,0,1998-06-19,21:00,S-074,T-73,T-55,0,0,0,0,0,0
+M-1998-25,WC-1998,G-83,Japan vs Croatia,group stage,0,1998-06-20,14:30,S-066,T-44,T-18,0,1,0,0,0,0
+M-1998-26,WC-1998,G-80,Belgium vs Mexico,group stage,0,1998-06-20,17:30,S-056,T-06,T-46,2,2,0,0,0,0
+M-1998-27,WC-1998,G-80,Netherlands vs South Korea,group stage,0,1998-06-20,21:00,S-064,T-48,T-71,5,0,0,0,0,0
+M-1998-28,WC-1998,G-81,Germany vs Yugoslavia,group stage,0,1998-06-21,14:30,S-060,T-31,T-87,2,2,0,0,0,0
+M-1998-29,WC-1998,G-83,Argentina vs Jamaica,group stage,0,1998-06-21,17:30,S-068,T-03,T-43,5,0,0,0,0,0
+M-1998-30,WC-1998,G-81,United States vs Iran,group stage,0,1998-06-21,21:00,S-063,T-83,T-38,1,2,0,0,0,0
+M-1998-31,WC-1998,G-82,Colombia vs Tunisia,group stage,0,1998-06-22,17:30,S-065,T-16,T-79,1,0,0,0,0,0
+M-1998-32,WC-1998,G-82,Romania vs England,group stage,0,1998-06-22,21:00,S-076,T-61,T-28,2,1,0,0,0,0
+M-1998-33,WC-1998,G-77,Chile vs Cameroon,group stage,0,1998-06-23,16:00,S-066,T-13,T-11,1,1,0,0,0,0
+M-1998-34,WC-1998,G-77,Italy vs Austria,group stage,0,1998-06-23,16:00,S-073,T-41,T-05,2,1,0,0,0,0
+M-1998-35,WC-1998,G-76,Brazil vs Norway,group stage,0,1998-06-23,21:00,S-064,T-09,T-53,1,2,0,0,0,0
+M-1998-36,WC-1998,G-76,Scotland vs Morocco,group stage,0,1998-06-23,21:00,S-074,T-64,T-47,0,3,0,0,0,0
+M-1998-37,WC-1998,G-78,France vs Denmark,group stage,0,1998-06-24,16:00,S-063,T-30,T-22,2,1,0,0,0,0
+M-1998-38,WC-1998,G-78,South Africa vs Saudi Arabia,group stage,0,1998-06-24,16:00,S-056,T-70,T-63,2,2,0,0,0,0
+M-1998-39,WC-1998,G-79,Nigeria vs Paraguay,group stage,0,1998-06-24,21:00,S-076,T-50,T-55,1,3,0,0,0,0
+M-1998-40,WC-1998,G-79,Spain vs Bulgaria,group stage,0,1998-06-24,21:00,S-060,T-73,T-10,6,1,0,0,0,0
+M-1998-41,WC-1998,G-80,Belgium vs South Korea,group stage,0,1998-06-25,16:00,S-068,T-06,T-71,1,1,0,0,0,0
+M-1998-42,WC-1998,G-80,Netherlands vs Mexico,group stage,0,1998-06-25,16:00,S-074,T-48,T-46,2,2,0,0,0,0
+M-1998-43,WC-1998,G-81,Germany vs Iran,group stage,0,1998-06-25,21:00,S-065,T-31,T-38,2,0,0,0,0,0
+M-1998-44,WC-1998,G-81,United States vs Yugoslavia,group stage,0,1998-06-25,21:00,S-066,T-83,T-87,0,1,0,0,0,0
+M-1998-45,WC-1998,G-83,Argentina vs Croatia,group stage,0,1998-06-26,16:00,S-056,T-03,T-18,1,0,0,0,0,0
+M-1998-46,WC-1998,G-83,Japan vs Jamaica,group stage,0,1998-06-26,16:00,S-063,T-44,T-43,1,2,0,0,0,0
+M-1998-47,WC-1998,G-82,Colombia vs England,group stage,0,1998-06-26,21:00,S-060,T-16,T-28,0,2,0,0,0,0
+M-1998-48,WC-1998,G-82,Romania vs Tunisia,group stage,0,1998-06-26,21:00,S-073,T-61,T-79,1,1,0,0,0,0
 M-1998-49,WC-1998,,Italy vs Norway,round of 16,0,1998-06-27,16:30,S-064,T-41,T-53,1,0,0,0,0,0
 M-1998-50,WC-1998,,Brazil vs Chile,round of 16,0,1998-06-27,21:00,S-068,T-09,T-13,4,1,0,0,0,0
 M-1998-51,WC-1998,,France vs Paraguay,round of 16,0,1998-06-28,16:30,S-060,T-30,T-55,1,0,1,0,0,0
@@ -579,54 +579,54 @@ M-1998-61,WC-1998,,Brazil vs Netherlands,semi-finals,0,1998-07-07,21:00,S-064,T-
 M-1998-62,WC-1998,,France vs Croatia,semi-finals,0,1998-07-08,21:00,S-073,T-30,T-18,2,1,0,0,0,0
 M-1998-63,WC-1998,,Netherlands vs Croatia,third-place match,0,1998-07-11,21:00,S-068,T-48,T-18,1,2,0,0,0,0
 M-1998-64,WC-1998,,Brazil vs France,final,0,1998-07-12,21:00,S-073,T-09,T-30,0,3,0,0,0,0
-M-2002-01,WC-2002,88.0,France vs Senegal,group stage,0,2002-05-31,20:30,S-177,T-30,T-65,0,1,0,0,0,0
-M-2002-02,WC-2002,92.0,Republic of Ireland vs Cameroon,group stage,0,2002-06-01,15:30,S-121,T-60,T-11,1,1,0,0,0,0
-M-2002-03,WC-2002,88.0,Uruguay vs Denmark,group stage,0,2002-06-01,18:00,S-179,T-84,T-22,1,2,0,0,0,0
-M-2002-04,WC-2002,92.0,Germany vs Saudi Arabia,group stage,0,2002-06-01,20:30,S-125,T-31,T-63,8,0,0,0,0,0
-M-2002-05,WC-2002,93.0,Argentina vs Nigeria,group stage,0,2002-06-02,14:30,S-118,T-03,T-50,1,0,0,0,0,0
-M-2002-06,WC-2002,89.0,Paraguay vs South Africa,group stage,0,2002-06-02,16:30,S-170,T-55,T-70,2,2,0,0,0,0
-M-2002-07,WC-2002,93.0,England vs Sweden,group stage,0,2002-06-02,18:30,S-124,T-28,T-74,1,1,0,0,0,0
-M-2002-08,WC-2002,89.0,Spain vs Slovenia,group stage,0,2002-06-02,20:30,S-173,T-73,T-69,3,1,0,0,0,0
-M-2002-09,WC-2002,94.0,Croatia vs Mexico,group stage,0,2002-06-03,15:30,S-121,T-18,T-46,0,1,0,0,0,0
-M-2002-10,WC-2002,90.0,Brazil vs Turkey,group stage,0,2002-06-03,18:00,S-179,T-09,T-80,2,1,0,0,0,0
-M-2002-11,WC-2002,94.0,Italy vs Ecuador,group stage,0,2002-06-03,20:30,S-125,T-41,T-25,2,0,0,0,0,0
-M-2002-12,WC-2002,90.0,China vs Costa Rica,group stage,0,2002-06-04,15:30,S-173,T-14,T-17,0,2,0,0,0,0
-M-2002-13,WC-2002,95.0,Japan vs Belgium,group stage,0,2002-06-04,18:00,S-124,T-44,T-06,2,2,0,0,0,0
-M-2002-14,WC-2002,91.0,South Korea vs Poland,group stage,0,2002-06-04,20:30,S-170,T-71,T-57,2,0,0,0,0,0
-M-2002-15,WC-2002,95.0,Russia vs Tunisia,group stage,0,2002-06-05,15:30,S-119,T-62,T-79,2,0,0,0,0,0
-M-2002-16,WC-2002,91.0,United States vs Portugal,group stage,0,2002-06-05,18:00,S-178,T-83,T-58,3,2,0,0,0,0
-M-2002-17,WC-2002,92.0,Germany vs Republic of Ireland,group stage,0,2002-06-05,20:30,S-118,T-31,T-60,1,1,0,0,0,0
-M-2002-18,WC-2002,88.0,Denmark vs Senegal,group stage,0,2002-06-06,15:30,S-171,T-22,T-65,1,1,0,0,0,0
-M-2002-19,WC-2002,92.0,Cameroon vs Saudi Arabia,group stage,0,2002-06-06,18:00,S-124,T-11,T-63,1,0,0,0,0,0
-M-2002-20,WC-2002,88.0,France vs Uruguay,group stage,0,2002-06-06,20:30,S-170,T-30,T-84,0,0,0,0,0,0
-M-2002-21,WC-2002,93.0,Sweden vs Nigeria,group stage,0,2002-06-07,15:30,S-119,T-74,T-50,2,1,0,0,0,0
-M-2002-22,WC-2002,89.0,Spain vs Paraguay,group stage,0,2002-06-07,18:00,S-175,T-73,T-55,3,1,0,0,0,0
-M-2002-23,WC-2002,93.0,Argentina vs England,group stage,0,2002-06-07,20:30,S-125,T-03,T-28,0,1,0,0,0,0
-M-2002-24,WC-2002,89.0,South Africa vs Slovenia,group stage,0,2002-06-08,15:30,S-171,T-70,T-69,1,0,0,0,0,0
-M-2002-25,WC-2002,94.0,Italy vs Croatia,group stage,0,2002-06-08,18:00,S-118,T-41,T-18,1,2,0,0,0,0
-M-2002-26,WC-2002,90.0,Brazil vs China,group stage,0,2002-06-08,20:30,S-176,T-09,T-14,4,0,0,0,0,0
-M-2002-27,WC-2002,94.0,Mexico vs Ecuador,group stage,0,2002-06-09,15:30,S-120,T-46,T-25,2,1,0,0,0,0
-M-2002-28,WC-2002,90.0,Costa Rica vs Turkey,group stage,0,2002-06-09,18:00,S-174,T-17,T-80,1,1,0,0,0,0
-M-2002-29,WC-2002,95.0,Japan vs Russia,group stage,0,2002-06-09,20:30,S-127,T-44,T-62,1,0,0,0,0,0
-M-2002-30,WC-2002,91.0,South Korea vs United States,group stage,0,2002-06-10,15:30,S-171,T-71,T-83,1,1,0,0,0,0
-M-2002-31,WC-2002,95.0,Tunisia vs Belgium,group stage,0,2002-06-10,18:00,S-122,T-79,T-06,1,1,0,0,0,0
-M-2002-32,WC-2002,91.0,Portugal vs Poland,group stage,0,2002-06-10,20:30,S-175,T-58,T-57,4,0,0,0,0,0
-M-2002-33,WC-2002,88.0,Denmark vs France,group stage,0,2002-06-11,15:30,S-174,T-22,T-30,2,0,0,0,0,0
-M-2002-34,WC-2002,88.0,Senegal vs Uruguay,group stage,0,2002-06-11,15:30,S-178,T-65,T-84,3,3,0,0,0,0
-M-2002-35,WC-2002,92.0,Cameroon vs Germany,group stage,0,2002-06-11,20:30,S-126,T-11,T-31,0,2,0,0,0,0
-M-2002-36,WC-2002,92.0,Saudi Arabia vs Republic of Ireland,group stage,0,2002-06-11,20:30,S-127,T-63,T-60,0,3,0,0,0,0
-M-2002-37,WC-2002,93.0,Nigeria vs England,group stage,0,2002-06-12,15:30,S-123,T-50,T-28,0,0,0,0,0,0
-M-2002-38,WC-2002,93.0,Sweden vs Argentina,group stage,0,2002-06-12,15:30,S-120,T-74,T-03,1,1,0,0,0,0
-M-2002-39,WC-2002,89.0,Slovenia vs Paraguay,group stage,0,2002-06-12,20:30,S-176,T-69,T-55,1,3,0,0,0,0
-M-2002-40,WC-2002,89.0,South Africa vs Spain,group stage,0,2002-06-12,20:30,S-172,T-70,T-73,2,3,0,0,0,0
-M-2002-41,WC-2002,90.0,Costa Rica vs Brazil,group stage,0,2002-06-13,15:30,S-178,T-17,T-09,2,5,0,0,0,0
-M-2002-42,WC-2002,90.0,Turkey vs China,group stage,0,2002-06-13,15:30,S-177,T-80,T-14,3,0,0,0,0,0
-M-2002-43,WC-2002,94.0,Ecuador vs Croatia,group stage,0,2002-06-13,20:30,S-127,T-25,T-18,1,0,0,0,0,0
-M-2002-44,WC-2002,94.0,Mexico vs Italy,group stage,0,2002-06-13,20:30,S-122,T-46,T-41,1,1,0,0,0,0
-M-2002-45,WC-2002,95.0,Belgium vs Russia,group stage,0,2002-06-14,15:30,S-126,T-06,T-62,3,2,0,0,0,0
-M-2002-46,WC-2002,95.0,Tunisia vs Japan,group stage,0,2002-06-14,15:30,S-123,T-79,T-44,0,2,0,0,0,0
-M-2002-47,WC-2002,91.0,Poland vs United States,group stage,0,2002-06-14,20:30,S-172,T-57,T-83,3,1,0,0,0,0
-M-2002-48,WC-2002,91.0,Portugal vs South Korea,group stage,0,2002-06-14,20:30,S-174,T-58,T-71,0,1,0,0,0,0
+M-2002-01,WC-2002,G-88,France vs Senegal,group stage,0,2002-05-31,20:30,S-177,T-30,T-65,0,1,0,0,0,0
+M-2002-02,WC-2002,G-92,Republic of Ireland vs Cameroon,group stage,0,2002-06-01,15:30,S-121,T-60,T-11,1,1,0,0,0,0
+M-2002-03,WC-2002,G-88,Uruguay vs Denmark,group stage,0,2002-06-01,18:00,S-179,T-84,T-22,1,2,0,0,0,0
+M-2002-04,WC-2002,G-92,Germany vs Saudi Arabia,group stage,0,2002-06-01,20:30,S-125,T-31,T-63,8,0,0,0,0,0
+M-2002-05,WC-2002,G-93,Argentina vs Nigeria,group stage,0,2002-06-02,14:30,S-118,T-03,T-50,1,0,0,0,0,0
+M-2002-06,WC-2002,G-89,Paraguay vs South Africa,group stage,0,2002-06-02,16:30,S-170,T-55,T-70,2,2,0,0,0,0
+M-2002-07,WC-2002,G-93,England vs Sweden,group stage,0,2002-06-02,18:30,S-124,T-28,T-74,1,1,0,0,0,0
+M-2002-08,WC-2002,G-89,Spain vs Slovenia,group stage,0,2002-06-02,20:30,S-173,T-73,T-69,3,1,0,0,0,0
+M-2002-09,WC-2002,G-94,Croatia vs Mexico,group stage,0,2002-06-03,15:30,S-121,T-18,T-46,0,1,0,0,0,0
+M-2002-10,WC-2002,G-90,Brazil vs Turkey,group stage,0,2002-06-03,18:00,S-179,T-09,T-80,2,1,0,0,0,0
+M-2002-11,WC-2002,G-94,Italy vs Ecuador,group stage,0,2002-06-03,20:30,S-125,T-41,T-25,2,0,0,0,0,0
+M-2002-12,WC-2002,G-90,China vs Costa Rica,group stage,0,2002-06-04,15:30,S-173,T-14,T-17,0,2,0,0,0,0
+M-2002-13,WC-2002,G-95,Japan vs Belgium,group stage,0,2002-06-04,18:00,S-124,T-44,T-06,2,2,0,0,0,0
+M-2002-14,WC-2002,G-91,South Korea vs Poland,group stage,0,2002-06-04,20:30,S-170,T-71,T-57,2,0,0,0,0,0
+M-2002-15,WC-2002,G-95,Russia vs Tunisia,group stage,0,2002-06-05,15:30,S-119,T-62,T-79,2,0,0,0,0,0
+M-2002-16,WC-2002,G-91,United States vs Portugal,group stage,0,2002-06-05,18:00,S-178,T-83,T-58,3,2,0,0,0,0
+M-2002-17,WC-2002,G-92,Germany vs Republic of Ireland,group stage,0,2002-06-05,20:30,S-118,T-31,T-60,1,1,0,0,0,0
+M-2002-18,WC-2002,G-88,Denmark vs Senegal,group stage,0,2002-06-06,15:30,S-171,T-22,T-65,1,1,0,0,0,0
+M-2002-19,WC-2002,G-92,Cameroon vs Saudi Arabia,group stage,0,2002-06-06,18:00,S-124,T-11,T-63,1,0,0,0,0,0
+M-2002-20,WC-2002,G-88,France vs Uruguay,group stage,0,2002-06-06,20:30,S-170,T-30,T-84,0,0,0,0,0,0
+M-2002-21,WC-2002,G-93,Sweden vs Nigeria,group stage,0,2002-06-07,15:30,S-119,T-74,T-50,2,1,0,0,0,0
+M-2002-22,WC-2002,G-89,Spain vs Paraguay,group stage,0,2002-06-07,18:00,S-175,T-73,T-55,3,1,0,0,0,0
+M-2002-23,WC-2002,G-93,Argentina vs England,group stage,0,2002-06-07,20:30,S-125,T-03,T-28,0,1,0,0,0,0
+M-2002-24,WC-2002,G-89,South Africa vs Slovenia,group stage,0,2002-06-08,15:30,S-171,T-70,T-69,1,0,0,0,0,0
+M-2002-25,WC-2002,G-94,Italy vs Croatia,group stage,0,2002-06-08,18:00,S-118,T-41,T-18,1,2,0,0,0,0
+M-2002-26,WC-2002,G-90,Brazil vs China,group stage,0,2002-06-08,20:30,S-176,T-09,T-14,4,0,0,0,0,0
+M-2002-27,WC-2002,G-94,Mexico vs Ecuador,group stage,0,2002-06-09,15:30,S-120,T-46,T-25,2,1,0,0,0,0
+M-2002-28,WC-2002,G-90,Costa Rica vs Turkey,group stage,0,2002-06-09,18:00,S-174,T-17,T-80,1,1,0,0,0,0
+M-2002-29,WC-2002,G-95,Japan vs Russia,group stage,0,2002-06-09,20:30,S-127,T-44,T-62,1,0,0,0,0,0
+M-2002-30,WC-2002,G-91,South Korea vs United States,group stage,0,2002-06-10,15:30,S-171,T-71,T-83,1,1,0,0,0,0
+M-2002-31,WC-2002,G-95,Tunisia vs Belgium,group stage,0,2002-06-10,18:00,S-122,T-79,T-06,1,1,0,0,0,0
+M-2002-32,WC-2002,G-91,Portugal vs Poland,group stage,0,2002-06-10,20:30,S-175,T-58,T-57,4,0,0,0,0,0
+M-2002-33,WC-2002,G-88,Denmark vs France,group stage,0,2002-06-11,15:30,S-174,T-22,T-30,2,0,0,0,0,0
+M-2002-34,WC-2002,G-88,Senegal vs Uruguay,group stage,0,2002-06-11,15:30,S-178,T-65,T-84,3,3,0,0,0,0
+M-2002-35,WC-2002,G-92,Cameroon vs Germany,group stage,0,2002-06-11,20:30,S-126,T-11,T-31,0,2,0,0,0,0
+M-2002-36,WC-2002,G-92,Saudi Arabia vs Republic of Ireland,group stage,0,2002-06-11,20:30,S-127,T-63,T-60,0,3,0,0,0,0
+M-2002-37,WC-2002,G-93,Nigeria vs England,group stage,0,2002-06-12,15:30,S-123,T-50,T-28,0,0,0,0,0,0
+M-2002-38,WC-2002,G-93,Sweden vs Argentina,group stage,0,2002-06-12,15:30,S-120,T-74,T-03,1,1,0,0,0,0
+M-2002-39,WC-2002,G-89,Slovenia vs Paraguay,group stage,0,2002-06-12,20:30,S-176,T-69,T-55,1,3,0,0,0,0
+M-2002-40,WC-2002,G-89,South Africa vs Spain,group stage,0,2002-06-12,20:30,S-172,T-70,T-73,2,3,0,0,0,0
+M-2002-41,WC-2002,G-90,Costa Rica vs Brazil,group stage,0,2002-06-13,15:30,S-178,T-17,T-09,2,5,0,0,0,0
+M-2002-42,WC-2002,G-90,Turkey vs China,group stage,0,2002-06-13,15:30,S-177,T-80,T-14,3,0,0,0,0,0
+M-2002-43,WC-2002,G-94,Ecuador vs Croatia,group stage,0,2002-06-13,20:30,S-127,T-25,T-18,1,0,0,0,0,0
+M-2002-44,WC-2002,G-94,Mexico vs Italy,group stage,0,2002-06-13,20:30,S-122,T-46,T-41,1,1,0,0,0,0
+M-2002-45,WC-2002,G-95,Belgium vs Russia,group stage,0,2002-06-14,15:30,S-126,T-06,T-62,3,2,0,0,0,0
+M-2002-46,WC-2002,G-95,Tunisia vs Japan,group stage,0,2002-06-14,15:30,S-123,T-79,T-44,0,2,0,0,0,0
+M-2002-47,WC-2002,G-91,Poland vs United States,group stage,0,2002-06-14,20:30,S-172,T-57,T-83,3,1,0,0,0,0
+M-2002-48,WC-2002,G-91,Portugal vs South Korea,group stage,0,2002-06-14,20:30,S-174,T-58,T-71,0,1,0,0,0,0
 M-2002-49,WC-2002,,Germany vs Paraguay,round of 16,0,2002-06-15,15:30,S-176,T-31,T-55,1,0,0,0,0,0
 M-2002-50,WC-2002,,Denmark vs England,round of 16,0,2002-06-15,20:30,S-121,T-22,T-28,0,3,0,0,0,0
 M-2002-51,WC-2002,,Sweden vs Senegal,round of 16,0,2002-06-16,15:30,S-122,T-74,T-65,1,2,1,0,0,0
@@ -643,54 +643,54 @@ M-2002-61,WC-2002,,Germany vs South Korea,semi-finals,0,2002-06-25,20:30,S-177,T
 M-2002-62,WC-2002,,Brazil vs Turkey,semi-finals,0,2002-06-26,20:30,S-124,T-09,T-80,1,0,0,0,0,0
 M-2002-63,WC-2002,,South Korea vs Turkey,third-place match,0,2002-06-29,20:00,S-171,T-71,T-80,2,3,0,0,0,0
 M-2002-64,WC-2002,,Germany vs Brazil,final,0,2002-06-30,20:00,S-127,T-31,T-09,0,2,0,0,0,0
-M-2006-01,WC-2006,100.0,Germany vs Costa Rica,group stage,0,2006-06-09,18:00,S-095,T-31,T-17,4,2,0,0,0,0
-M-2006-02,WC-2006,100.0,Poland vs Ecuador,group stage,0,2006-06-09,21:00,S-087,T-57,T-25,0,2,0,0,0,0
-M-2006-03,WC-2006,101.0,England vs Paraguay,group stage,0,2006-06-10,15:00,S-086,T-28,T-55,1,0,0,0,0,0
-M-2006-04,WC-2006,101.0,Trinidad and Tobago vs Sweden,group stage,0,2006-06-10,18:00,S-083,T-78,T-74,0,0,0,0,0,0
-M-2006-05,WC-2006,102.0,Argentina vs Ivory Coast,group stage,0,2006-06-10,21:00,S-089,T-03,T-42,2,1,0,0,0,0
-M-2006-06,WC-2006,102.0,Serbia and Montenegro vs Netherlands,group stage,0,2006-06-11,15:00,S-092,T-67,T-48,0,1,0,0,0,0
-M-2006-07,WC-2006,103.0,Mexico vs Iran,group stage,0,2006-06-11,18:00,S-097,T-46,T-38,3,1,0,0,0,0
-M-2006-08,WC-2006,103.0,Angola vs Portugal,group stage,0,2006-06-11,21:00,S-082,T-02,T-58,0,1,0,0,0,0
-M-2006-09,WC-2006,105.0,Australia vs Japan,group stage,0,2006-06-12,15:00,S-091,T-04,T-44,3,1,0,0,0,0
-M-2006-10,WC-2006,104.0,United States vs Czech Republic,group stage,0,2006-06-12,18:00,S-087,T-83,T-20,0,3,0,0,0,0
-M-2006-11,WC-2006,104.0,Italy vs Ghana,group stage,0,2006-06-12,21:00,S-090,T-41,T-32,2,0,0,0,0,0
-M-2006-12,WC-2006,106.0,South Korea vs Togo,group stage,0,2006-06-13,15:00,S-086,T-71,T-77,2,1,0,0,0,0
-M-2006-13,WC-2006,106.0,France vs Switzerland,group stage,0,2006-06-13,18:00,S-099,T-30,T-75,0,0,0,0,0,0
-M-2006-14,WC-2006,105.0,Brazil vs Croatia,group stage,0,2006-06-13,21:00,S-080,T-09,T-18,1,0,0,0,0,0
-M-2006-15,WC-2006,107.0,Spain vs Ukraine,group stage,0,2006-06-14,15:00,S-092,T-73,T-81,4,0,0,0,0,0
-M-2006-16,WC-2006,107.0,Tunisia vs Saudi Arabia,group stage,0,2006-06-14,18:00,S-095,T-79,T-63,2,2,0,0,0,0
-M-2006-17,WC-2006,100.0,Germany vs Poland,group stage,0,2006-06-14,21:00,S-083,T-31,T-57,1,0,0,0,0,0
-M-2006-18,WC-2006,100.0,Ecuador vs Costa Rica,group stage,0,2006-06-15,15:00,S-089,T-25,T-17,3,0,0,0,0,0
-M-2006-19,WC-2006,101.0,England vs Trinidad and Tobago,group stage,0,2006-06-15,18:00,S-097,T-28,T-78,2,0,0,0,0,0
-M-2006-20,WC-2006,101.0,Sweden vs Paraguay,group stage,0,2006-06-15,21:00,S-080,T-74,T-55,1,0,0,0,0,0
-M-2006-21,WC-2006,102.0,Argentina vs Serbia and Montenegro,group stage,0,2006-06-16,15:00,S-087,T-03,T-67,6,0,0,0,0,0
-M-2006-22,WC-2006,102.0,Netherlands vs Ivory Coast,group stage,0,2006-06-16,18:00,S-099,T-48,T-42,2,1,0,0,0,0
-M-2006-23,WC-2006,103.0,Mexico vs Angola,group stage,0,2006-06-16,21:00,S-090,T-46,T-02,0,0,0,0,0,0
-M-2006-24,WC-2006,103.0,Portugal vs Iran,group stage,0,2006-06-17,15:00,S-086,T-58,T-38,2,0,0,0,0,0
-M-2006-25,WC-2006,104.0,Czech Republic vs Ghana,group stage,0,2006-06-17,18:00,S-082,T-20,T-32,0,2,0,0,0,0
-M-2006-26,WC-2006,104.0,Italy vs United States,group stage,0,2006-06-17,21:00,S-091,T-41,T-83,1,1,0,0,0,0
-M-2006-27,WC-2006,105.0,Japan vs Croatia,group stage,0,2006-06-18,15:00,S-097,T-44,T-18,0,0,0,0,0,0
-M-2006-28,WC-2006,105.0,Brazil vs Australia,group stage,0,2006-06-18,18:00,S-095,T-09,T-04,2,0,0,0,0,0
-M-2006-29,WC-2006,106.0,France vs South Korea,group stage,0,2006-06-18,21:00,S-092,T-30,T-71,1,1,0,0,0,0
-M-2006-30,WC-2006,106.0,Togo vs Switzerland,group stage,0,2006-06-19,15:00,S-083,T-77,T-75,0,2,0,0,0,0
-M-2006-31,WC-2006,107.0,Saudi Arabia vs Ukraine,group stage,0,2006-06-19,18:00,S-089,T-63,T-81,0,4,0,0,0,0
-M-2006-32,WC-2006,107.0,Spain vs Tunisia,group stage,0,2006-06-19,21:00,S-099,T-73,T-79,3,1,0,0,0,0
-M-2006-33,WC-2006,100.0,Costa Rica vs Poland,group stage,0,2006-06-20,16:00,S-090,T-17,T-57,1,2,0,0,0,0
-M-2006-34,WC-2006,100.0,Ecuador vs Germany,group stage,0,2006-06-20,16:00,S-080,T-25,T-31,0,3,0,0,0,0
-M-2006-35,WC-2006,101.0,Paraguay vs Trinidad and Tobago,group stage,0,2006-06-20,21:00,S-091,T-55,T-78,2,0,0,0,0,0
-M-2006-36,WC-2006,101.0,Sweden vs England,group stage,0,2006-06-20,21:00,S-082,T-74,T-28,2,2,0,0,0,0
-M-2006-37,WC-2006,103.0,Iran vs Angola,group stage,0,2006-06-21,16:00,S-092,T-38,T-02,1,1,0,0,0,0
-M-2006-38,WC-2006,103.0,Portugal vs Mexico,group stage,0,2006-06-21,16:00,S-087,T-58,T-46,2,1,0,0,0,0
-M-2006-39,WC-2006,102.0,Ivory Coast vs Serbia and Montenegro,group stage,0,2006-06-21,21:00,S-095,T-42,T-67,3,2,0,0,0,0
-M-2006-40,WC-2006,102.0,Netherlands vs Argentina,group stage,0,2006-06-21,21:00,S-086,T-48,T-03,0,0,0,0,0,0
-M-2006-41,WC-2006,104.0,Czech Republic vs Italy,group stage,0,2006-06-22,16:00,S-089,T-20,T-41,0,2,0,0,0,0
-M-2006-42,WC-2006,104.0,Ghana vs United States,group stage,0,2006-06-22,16:00,S-097,T-32,T-83,2,1,0,0,0,0
-M-2006-43,WC-2006,105.0,Croatia vs Australia,group stage,0,2006-06-22,21:00,S-099,T-18,T-04,2,2,0,0,0,0
-M-2006-44,WC-2006,105.0,Japan vs Brazil,group stage,0,2006-06-22,21:00,S-083,T-44,T-09,1,4,0,0,0,0
-M-2006-45,WC-2006,107.0,Saudi Arabia vs Spain,group stage,0,2006-06-23,16:00,S-091,T-63,T-73,0,1,0,0,0,0
-M-2006-46,WC-2006,107.0,Ukraine vs Tunisia,group stage,0,2006-06-23,16:00,S-080,T-81,T-79,1,0,0,0,0,0
-M-2006-47,WC-2006,106.0,Switzerland vs South Korea,group stage,0,2006-06-23,21:00,S-090,T-75,T-71,2,0,0,0,0,0
-M-2006-48,WC-2006,106.0,Togo vs France,group stage,0,2006-06-23,21:00,S-082,T-77,T-30,0,2,0,0,0,0
+M-2006-01,WC-2006,G-100,Germany vs Costa Rica,group stage,0,2006-06-09,18:00,S-095,T-31,T-17,4,2,0,0,0,0
+M-2006-02,WC-2006,G-100,Poland vs Ecuador,group stage,0,2006-06-09,21:00,S-087,T-57,T-25,0,2,0,0,0,0
+M-2006-03,WC-2006,G-101,England vs Paraguay,group stage,0,2006-06-10,15:00,S-086,T-28,T-55,1,0,0,0,0,0
+M-2006-04,WC-2006,G-101,Trinidad and Tobago vs Sweden,group stage,0,2006-06-10,18:00,S-083,T-78,T-74,0,0,0,0,0,0
+M-2006-05,WC-2006,G-102,Argentina vs Ivory Coast,group stage,0,2006-06-10,21:00,S-089,T-03,T-42,2,1,0,0,0,0
+M-2006-06,WC-2006,G-102,Serbia and Montenegro vs Netherlands,group stage,0,2006-06-11,15:00,S-092,T-67,T-48,0,1,0,0,0,0
+M-2006-07,WC-2006,G-103,Mexico vs Iran,group stage,0,2006-06-11,18:00,S-097,T-46,T-38,3,1,0,0,0,0
+M-2006-08,WC-2006,G-103,Angola vs Portugal,group stage,0,2006-06-11,21:00,S-082,T-02,T-58,0,1,0,0,0,0
+M-2006-09,WC-2006,G-105,Australia vs Japan,group stage,0,2006-06-12,15:00,S-091,T-04,T-44,3,1,0,0,0,0
+M-2006-10,WC-2006,G-104,United States vs Czech Republic,group stage,0,2006-06-12,18:00,S-087,T-83,T-20,0,3,0,0,0,0
+M-2006-11,WC-2006,G-104,Italy vs Ghana,group stage,0,2006-06-12,21:00,S-090,T-41,T-32,2,0,0,0,0,0
+M-2006-12,WC-2006,G-106,South Korea vs Togo,group stage,0,2006-06-13,15:00,S-086,T-71,T-77,2,1,0,0,0,0
+M-2006-13,WC-2006,G-106,France vs Switzerland,group stage,0,2006-06-13,18:00,S-099,T-30,T-75,0,0,0,0,0,0
+M-2006-14,WC-2006,G-105,Brazil vs Croatia,group stage,0,2006-06-13,21:00,S-080,T-09,T-18,1,0,0,0,0,0
+M-2006-15,WC-2006,G-107,Spain vs Ukraine,group stage,0,2006-06-14,15:00,S-092,T-73,T-81,4,0,0,0,0,0
+M-2006-16,WC-2006,G-107,Tunisia vs Saudi Arabia,group stage,0,2006-06-14,18:00,S-095,T-79,T-63,2,2,0,0,0,0
+M-2006-17,WC-2006,G-100,Germany vs Poland,group stage,0,2006-06-14,21:00,S-083,T-31,T-57,1,0,0,0,0,0
+M-2006-18,WC-2006,G-100,Ecuador vs Costa Rica,group stage,0,2006-06-15,15:00,S-089,T-25,T-17,3,0,0,0,0,0
+M-2006-19,WC-2006,G-101,England vs Trinidad and Tobago,group stage,0,2006-06-15,18:00,S-097,T-28,T-78,2,0,0,0,0,0
+M-2006-20,WC-2006,G-101,Sweden vs Paraguay,group stage,0,2006-06-15,21:00,S-080,T-74,T-55,1,0,0,0,0,0
+M-2006-21,WC-2006,G-102,Argentina vs Serbia and Montenegro,group stage,0,2006-06-16,15:00,S-087,T-03,T-67,6,0,0,0,0,0
+M-2006-22,WC-2006,G-102,Netherlands vs Ivory Coast,group stage,0,2006-06-16,18:00,S-099,T-48,T-42,2,1,0,0,0,0
+M-2006-23,WC-2006,G-103,Mexico vs Angola,group stage,0,2006-06-16,21:00,S-090,T-46,T-02,0,0,0,0,0,0
+M-2006-24,WC-2006,G-103,Portugal vs Iran,group stage,0,2006-06-17,15:00,S-086,T-58,T-38,2,0,0,0,0,0
+M-2006-25,WC-2006,G-104,Czech Republic vs Ghana,group stage,0,2006-06-17,18:00,S-082,T-20,T-32,0,2,0,0,0,0
+M-2006-26,WC-2006,G-104,Italy vs United States,group stage,0,2006-06-17,21:00,S-091,T-41,T-83,1,1,0,0,0,0
+M-2006-27,WC-2006,G-105,Japan vs Croatia,group stage,0,2006-06-18,15:00,S-097,T-44,T-18,0,0,0,0,0,0
+M-2006-28,WC-2006,G-105,Brazil vs Australia,group stage,0,2006-06-18,18:00,S-095,T-09,T-04,2,0,0,0,0,0
+M-2006-29,WC-2006,G-106,France vs South Korea,group stage,0,2006-06-18,21:00,S-092,T-30,T-71,1,1,0,0,0,0
+M-2006-30,WC-2006,G-106,Togo vs Switzerland,group stage,0,2006-06-19,15:00,S-083,T-77,T-75,0,2,0,0,0,0
+M-2006-31,WC-2006,G-107,Saudi Arabia vs Ukraine,group stage,0,2006-06-19,18:00,S-089,T-63,T-81,0,4,0,0,0,0
+M-2006-32,WC-2006,G-107,Spain vs Tunisia,group stage,0,2006-06-19,21:00,S-099,T-73,T-79,3,1,0,0,0,0
+M-2006-33,WC-2006,G-100,Costa Rica vs Poland,group stage,0,2006-06-20,16:00,S-090,T-17,T-57,1,2,0,0,0,0
+M-2006-34,WC-2006,G-100,Ecuador vs Germany,group stage,0,2006-06-20,16:00,S-080,T-25,T-31,0,3,0,0,0,0
+M-2006-35,WC-2006,G-101,Paraguay vs Trinidad and Tobago,group stage,0,2006-06-20,21:00,S-091,T-55,T-78,2,0,0,0,0,0
+M-2006-36,WC-2006,G-101,Sweden vs England,group stage,0,2006-06-20,21:00,S-082,T-74,T-28,2,2,0,0,0,0
+M-2006-37,WC-2006,G-103,Iran vs Angola,group stage,0,2006-06-21,16:00,S-092,T-38,T-02,1,1,0,0,0,0
+M-2006-38,WC-2006,G-103,Portugal vs Mexico,group stage,0,2006-06-21,16:00,S-087,T-58,T-46,2,1,0,0,0,0
+M-2006-39,WC-2006,G-102,Ivory Coast vs Serbia and Montenegro,group stage,0,2006-06-21,21:00,S-095,T-42,T-67,3,2,0,0,0,0
+M-2006-40,WC-2006,G-102,Netherlands vs Argentina,group stage,0,2006-06-21,21:00,S-086,T-48,T-03,0,0,0,0,0,0
+M-2006-41,WC-2006,G-104,Czech Republic vs Italy,group stage,0,2006-06-22,16:00,S-089,T-20,T-41,0,2,0,0,0,0
+M-2006-42,WC-2006,G-104,Ghana vs United States,group stage,0,2006-06-22,16:00,S-097,T-32,T-83,2,1,0,0,0,0
+M-2006-43,WC-2006,G-105,Croatia vs Australia,group stage,0,2006-06-22,21:00,S-099,T-18,T-04,2,2,0,0,0,0
+M-2006-44,WC-2006,G-105,Japan vs Brazil,group stage,0,2006-06-22,21:00,S-083,T-44,T-09,1,4,0,0,0,0
+M-2006-45,WC-2006,G-107,Saudi Arabia vs Spain,group stage,0,2006-06-23,16:00,S-091,T-63,T-73,0,1,0,0,0,0
+M-2006-46,WC-2006,G-107,Ukraine vs Tunisia,group stage,0,2006-06-23,16:00,S-080,T-81,T-79,1,0,0,0,0,0
+M-2006-47,WC-2006,G-106,Switzerland vs South Korea,group stage,0,2006-06-23,21:00,S-090,T-75,T-71,2,0,0,0,0,0
+M-2006-48,WC-2006,G-106,Togo vs France,group stage,0,2006-06-23,21:00,S-082,T-77,T-30,0,2,0,0,0,0
 M-2006-49,WC-2006,,Germany vs Sweden,round of 16,0,2006-06-24,17:00,S-095,T-31,T-74,2,0,0,0,0,0
 M-2006-50,WC-2006,,Argentina vs Mexico,round of 16,0,2006-06-24,21:00,S-092,T-03,T-46,2,1,1,0,0,0
 M-2006-51,WC-2006,,England vs Ecuador,round of 16,0,2006-06-25,17:00,S-099,T-28,T-25,1,0,0,0,0,0
@@ -707,54 +707,54 @@ M-2006-61,WC-2006,,Germany vs Italy,semi-finals,0,2006-07-04,21:00,S-083,T-31,T-
 M-2006-62,WC-2006,,Portugal vs France,semi-finals,0,2006-07-05,21:00,S-095,T-58,T-30,0,1,0,0,0,0
 M-2006-63,WC-2006,,Germany vs Portugal,third-place match,0,2006-07-08,21:00,S-099,T-31,T-58,3,1,0,0,0,0
 M-2006-64,WC-2006,,Italy vs France,final,0,2006-07-09,20:00,S-080,T-41,T-30,1,1,1,1,5,3
-M-2010-01,WC-2010,112.0,South Africa vs Mexico,group stage,0,2010-06-11,16:00,S-164,T-70,T-46,1,1,0,0,0,0
-M-2010-02,WC-2010,112.0,Uruguay vs France,group stage,0,2010-06-11,20:30,S-161,T-84,T-30,0,0,0,0,0,0
-M-2010-03,WC-2010,113.0,South Korea vs Greece,group stage,0,2010-06-12,13:30,S-167,T-71,T-33,2,0,0,0,0,0
-M-2010-04,WC-2010,113.0,Argentina vs Nigeria,group stage,0,2010-06-12,16:00,S-163,T-03,T-50,1,0,0,0,0,0
-M-2010-05,WC-2010,114.0,England vs United States,group stage,0,2010-06-12,20:30,S-169,T-28,T-83,1,1,0,0,0,0
-M-2010-06,WC-2010,114.0,Algeria vs Slovenia,group stage,0,2010-06-13,13:30,S-166,T-01,T-69,0,1,0,0,0,0
-M-2010-07,WC-2010,115.0,Serbia vs Ghana,group stage,0,2010-06-13,16:00,S-168,T-66,T-32,0,1,0,0,0,0
-M-2010-08,WC-2010,115.0,Germany vs Australia,group stage,0,2010-06-13,20:30,S-162,T-31,T-04,4,0,0,0,0,0
-M-2010-09,WC-2010,116.0,Netherlands vs Denmark,group stage,0,2010-06-14,13:30,S-164,T-48,T-22,2,0,0,0,0,0
-M-2010-10,WC-2010,116.0,Japan vs Cameroon,group stage,0,2010-06-14,16:00,S-160,T-44,T-11,1,0,0,0,0,0
-M-2010-11,WC-2010,117.0,Italy vs Paraguay,group stage,0,2010-06-14,20:30,S-161,T-41,T-55,1,1,0,0,0,0
-M-2010-12,WC-2010,117.0,New Zealand vs Slovakia,group stage,0,2010-06-15,13:30,S-169,T-49,T-68,1,1,0,0,0,0
-M-2010-13,WC-2010,118.0,Ivory Coast vs Portugal,group stage,0,2010-06-15,16:00,S-167,T-42,T-58,0,0,0,0,0,0
-M-2010-14,WC-2010,118.0,Brazil vs North Korea,group stage,0,2010-06-15,20:30,S-163,T-09,T-51,2,1,0,0,0,0
-M-2010-15,WC-2010,119.0,Honduras vs Chile,group stage,0,2010-06-16,13:30,S-165,T-35,T-13,0,1,0,0,0,0
-M-2010-16,WC-2010,119.0,Spain vs Switzerland,group stage,0,2010-06-16,16:00,S-162,T-73,T-75,0,1,0,0,0,0
-M-2010-17,WC-2010,112.0,South Africa vs Uruguay,group stage,0,2010-06-16,20:30,S-168,T-70,T-84,0,3,0,0,0,0
-M-2010-18,WC-2010,113.0,Argentina vs South Korea,group stage,0,2010-06-17,13:30,S-164,T-03,T-71,4,1,0,0,0,0
-M-2010-19,WC-2010,113.0,Greece vs Nigeria,group stage,0,2010-06-17,16:00,S-160,T-33,T-50,2,1,0,0,0,0
-M-2010-20,WC-2010,112.0,France vs Mexico,group stage,0,2010-06-17,20:30,S-166,T-30,T-46,0,2,0,0,0,0
-M-2010-21,WC-2010,115.0,Germany vs Serbia,group stage,0,2010-06-18,13:30,S-167,T-31,T-66,0,1,0,0,0,0
-M-2010-22,WC-2010,114.0,Slovenia vs United States,group stage,0,2010-06-18,16:00,S-163,T-69,T-83,2,2,0,0,0,0
-M-2010-23,WC-2010,114.0,England vs Algeria,group stage,0,2010-06-18,20:30,S-161,T-28,T-01,0,0,0,0,0,0
-M-2010-24,WC-2010,116.0,Netherlands vs Japan,group stage,0,2010-06-19,13:30,S-162,T-48,T-44,1,0,0,0,0,0
-M-2010-25,WC-2010,115.0,Ghana vs Australia,group stage,0,2010-06-19,16:00,S-169,T-32,T-04,1,1,0,0,0,0
-M-2010-26,WC-2010,116.0,Cameroon vs Denmark,group stage,0,2010-06-19,20:30,S-168,T-11,T-22,1,2,0,0,0,0
-M-2010-27,WC-2010,117.0,Slovakia vs Paraguay,group stage,0,2010-06-20,13:30,S-160,T-68,T-55,0,2,0,0,0,0
-M-2010-28,WC-2010,117.0,Italy vs New Zealand,group stage,0,2010-06-20,16:00,S-165,T-41,T-49,1,1,0,0,0,0
-M-2010-29,WC-2010,118.0,Brazil vs Ivory Coast,group stage,0,2010-06-20,20:30,S-164,T-09,T-42,3,1,0,0,0,0
-M-2010-30,WC-2010,118.0,Portugal vs North Korea,group stage,0,2010-06-21,13:30,S-161,T-58,T-51,7,0,0,0,0,0
-M-2010-31,WC-2010,119.0,Chile vs Switzerland,group stage,0,2010-06-21,16:00,S-167,T-13,T-75,1,0,0,0,0,0
-M-2010-32,WC-2010,119.0,Spain vs Honduras,group stage,0,2010-06-21,20:30,S-163,T-73,T-35,2,0,0,0,0,0
-M-2010-33,WC-2010,112.0,France vs South Africa,group stage,0,2010-06-22,16:00,S-160,T-30,T-70,1,2,0,0,0,0
-M-2010-34,WC-2010,112.0,Mexico vs Uruguay,group stage,0,2010-06-22,16:00,S-169,T-46,T-84,0,1,0,0,0,0
-M-2010-35,WC-2010,113.0,Greece vs Argentina,group stage,0,2010-06-22,20:30,S-166,T-33,T-03,0,2,0,0,0,0
-M-2010-36,WC-2010,113.0,Nigeria vs South Korea,group stage,0,2010-06-22,20:30,S-162,T-50,T-71,2,2,0,0,0,0
-M-2010-37,WC-2010,114.0,Slovenia vs England,group stage,0,2010-06-23,16:00,S-167,T-69,T-28,0,1,0,0,0,0
-M-2010-38,WC-2010,114.0,United States vs Algeria,group stage,0,2010-06-23,16:00,S-168,T-83,T-01,1,0,0,0,0,0
-M-2010-39,WC-2010,115.0,Australia vs Serbia,group stage,0,2010-06-23,20:30,S-165,T-04,T-66,2,1,0,0,0,0
-M-2010-40,WC-2010,115.0,Ghana vs Germany,group stage,0,2010-06-23,20:30,S-164,T-32,T-31,0,1,0,0,0,0
-M-2010-41,WC-2010,117.0,Paraguay vs New Zealand,group stage,0,2010-06-24,16:00,S-166,T-55,T-49,0,0,0,0,0,0
-M-2010-42,WC-2010,117.0,Slovakia vs Italy,group stage,0,2010-06-24,16:00,S-163,T-68,T-41,3,2,0,0,0,0
-M-2010-43,WC-2010,116.0,Cameroon vs Netherlands,group stage,0,2010-06-24,20:30,S-161,T-11,T-48,1,2,0,0,0,0
-M-2010-44,WC-2010,116.0,Denmark vs Japan,group stage,0,2010-06-24,20:30,S-169,T-22,T-44,1,3,0,0,0,0
-M-2010-45,WC-2010,118.0,North Korea vs Ivory Coast,group stage,0,2010-06-25,16:00,S-165,T-51,T-42,0,3,0,0,0,0
-M-2010-46,WC-2010,118.0,Portugal vs Brazil,group stage,0,2010-06-25,16:00,S-162,T-58,T-09,0,0,0,0,0,0
-M-2010-47,WC-2010,119.0,Chile vs Spain,group stage,0,2010-06-25,20:30,S-168,T-13,T-73,1,2,0,0,0,0
-M-2010-48,WC-2010,119.0,Switzerland vs Honduras,group stage,0,2010-06-25,20:30,S-160,T-75,T-35,0,0,0,0,0,0
+M-2010-01,WC-2010,G-112,South Africa vs Mexico,group stage,0,2010-06-11,16:00,S-164,T-70,T-46,1,1,0,0,0,0
+M-2010-02,WC-2010,G-112,Uruguay vs France,group stage,0,2010-06-11,20:30,S-161,T-84,T-30,0,0,0,0,0,0
+M-2010-03,WC-2010,G-113,South Korea vs Greece,group stage,0,2010-06-12,13:30,S-167,T-71,T-33,2,0,0,0,0,0
+M-2010-04,WC-2010,G-113,Argentina vs Nigeria,group stage,0,2010-06-12,16:00,S-163,T-03,T-50,1,0,0,0,0,0
+M-2010-05,WC-2010,G-114,England vs United States,group stage,0,2010-06-12,20:30,S-169,T-28,T-83,1,1,0,0,0,0
+M-2010-06,WC-2010,G-114,Algeria vs Slovenia,group stage,0,2010-06-13,13:30,S-166,T-01,T-69,0,1,0,0,0,0
+M-2010-07,WC-2010,G-115,Serbia vs Ghana,group stage,0,2010-06-13,16:00,S-168,T-66,T-32,0,1,0,0,0,0
+M-2010-08,WC-2010,G-115,Germany vs Australia,group stage,0,2010-06-13,20:30,S-162,T-31,T-04,4,0,0,0,0,0
+M-2010-09,WC-2010,G-116,Netherlands vs Denmark,group stage,0,2010-06-14,13:30,S-164,T-48,T-22,2,0,0,0,0,0
+M-2010-10,WC-2010,G-116,Japan vs Cameroon,group stage,0,2010-06-14,16:00,S-160,T-44,T-11,1,0,0,0,0,0
+M-2010-11,WC-2010,G-117,Italy vs Paraguay,group stage,0,2010-06-14,20:30,S-161,T-41,T-55,1,1,0,0,0,0
+M-2010-12,WC-2010,G-117,New Zealand vs Slovakia,group stage,0,2010-06-15,13:30,S-169,T-49,T-68,1,1,0,0,0,0
+M-2010-13,WC-2010,G-118,Ivory Coast vs Portugal,group stage,0,2010-06-15,16:00,S-167,T-42,T-58,0,0,0,0,0,0
+M-2010-14,WC-2010,G-118,Brazil vs North Korea,group stage,0,2010-06-15,20:30,S-163,T-09,T-51,2,1,0,0,0,0
+M-2010-15,WC-2010,G-119,Honduras vs Chile,group stage,0,2010-06-16,13:30,S-165,T-35,T-13,0,1,0,0,0,0
+M-2010-16,WC-2010,G-119,Spain vs Switzerland,group stage,0,2010-06-16,16:00,S-162,T-73,T-75,0,1,0,0,0,0
+M-2010-17,WC-2010,G-112,South Africa vs Uruguay,group stage,0,2010-06-16,20:30,S-168,T-70,T-84,0,3,0,0,0,0
+M-2010-18,WC-2010,G-113,Argentina vs South Korea,group stage,0,2010-06-17,13:30,S-164,T-03,T-71,4,1,0,0,0,0
+M-2010-19,WC-2010,G-113,Greece vs Nigeria,group stage,0,2010-06-17,16:00,S-160,T-33,T-50,2,1,0,0,0,0
+M-2010-20,WC-2010,G-112,France vs Mexico,group stage,0,2010-06-17,20:30,S-166,T-30,T-46,0,2,0,0,0,0
+M-2010-21,WC-2010,G-115,Germany vs Serbia,group stage,0,2010-06-18,13:30,S-167,T-31,T-66,0,1,0,0,0,0
+M-2010-22,WC-2010,G-114,Slovenia vs United States,group stage,0,2010-06-18,16:00,S-163,T-69,T-83,2,2,0,0,0,0
+M-2010-23,WC-2010,G-114,England vs Algeria,group stage,0,2010-06-18,20:30,S-161,T-28,T-01,0,0,0,0,0,0
+M-2010-24,WC-2010,G-116,Netherlands vs Japan,group stage,0,2010-06-19,13:30,S-162,T-48,T-44,1,0,0,0,0,0
+M-2010-25,WC-2010,G-115,Ghana vs Australia,group stage,0,2010-06-19,16:00,S-169,T-32,T-04,1,1,0,0,0,0
+M-2010-26,WC-2010,G-116,Cameroon vs Denmark,group stage,0,2010-06-19,20:30,S-168,T-11,T-22,1,2,0,0,0,0
+M-2010-27,WC-2010,G-117,Slovakia vs Paraguay,group stage,0,2010-06-20,13:30,S-160,T-68,T-55,0,2,0,0,0,0
+M-2010-28,WC-2010,G-117,Italy vs New Zealand,group stage,0,2010-06-20,16:00,S-165,T-41,T-49,1,1,0,0,0,0
+M-2010-29,WC-2010,G-118,Brazil vs Ivory Coast,group stage,0,2010-06-20,20:30,S-164,T-09,T-42,3,1,0,0,0,0
+M-2010-30,WC-2010,G-118,Portugal vs North Korea,group stage,0,2010-06-21,13:30,S-161,T-58,T-51,7,0,0,0,0,0
+M-2010-31,WC-2010,G-119,Chile vs Switzerland,group stage,0,2010-06-21,16:00,S-167,T-13,T-75,1,0,0,0,0,0
+M-2010-32,WC-2010,G-119,Spain vs Honduras,group stage,0,2010-06-21,20:30,S-163,T-73,T-35,2,0,0,0,0,0
+M-2010-33,WC-2010,G-112,France vs South Africa,group stage,0,2010-06-22,16:00,S-160,T-30,T-70,1,2,0,0,0,0
+M-2010-34,WC-2010,G-112,Mexico vs Uruguay,group stage,0,2010-06-22,16:00,S-169,T-46,T-84,0,1,0,0,0,0
+M-2010-35,WC-2010,G-113,Greece vs Argentina,group stage,0,2010-06-22,20:30,S-166,T-33,T-03,0,2,0,0,0,0
+M-2010-36,WC-2010,G-113,Nigeria vs South Korea,group stage,0,2010-06-22,20:30,S-162,T-50,T-71,2,2,0,0,0,0
+M-2010-37,WC-2010,G-114,Slovenia vs England,group stage,0,2010-06-23,16:00,S-167,T-69,T-28,0,1,0,0,0,0
+M-2010-38,WC-2010,G-114,United States vs Algeria,group stage,0,2010-06-23,16:00,S-168,T-83,T-01,1,0,0,0,0,0
+M-2010-39,WC-2010,G-115,Australia vs Serbia,group stage,0,2010-06-23,20:30,S-165,T-04,T-66,2,1,0,0,0,0
+M-2010-40,WC-2010,G-115,Ghana vs Germany,group stage,0,2010-06-23,20:30,S-164,T-32,T-31,0,1,0,0,0,0
+M-2010-41,WC-2010,G-117,Paraguay vs New Zealand,group stage,0,2010-06-24,16:00,S-166,T-55,T-49,0,0,0,0,0,0
+M-2010-42,WC-2010,G-117,Slovakia vs Italy,group stage,0,2010-06-24,16:00,S-163,T-68,T-41,3,2,0,0,0,0
+M-2010-43,WC-2010,G-116,Cameroon vs Netherlands,group stage,0,2010-06-24,20:30,S-161,T-11,T-48,1,2,0,0,0,0
+M-2010-44,WC-2010,G-116,Denmark vs Japan,group stage,0,2010-06-24,20:30,S-169,T-22,T-44,1,3,0,0,0,0
+M-2010-45,WC-2010,G-118,North Korea vs Ivory Coast,group stage,0,2010-06-25,16:00,S-165,T-51,T-42,0,3,0,0,0,0
+M-2010-46,WC-2010,G-118,Portugal vs Brazil,group stage,0,2010-06-25,16:00,S-162,T-58,T-09,0,0,0,0,0,0
+M-2010-47,WC-2010,G-119,Chile vs Spain,group stage,0,2010-06-25,20:30,S-168,T-13,T-73,1,2,0,0,0,0
+M-2010-48,WC-2010,G-119,Switzerland vs Honduras,group stage,0,2010-06-25,20:30,S-160,T-75,T-35,0,0,0,0,0,0
 M-2010-49,WC-2010,,Uruguay vs South Korea,round of 16,0,2010-06-26,16:00,S-167,T-84,T-71,2,1,0,0,0,0
 M-2010-50,WC-2010,,United States vs Ghana,round of 16,0,2010-06-26,20:30,S-169,T-83,T-32,1,2,1,0,0,0
 M-2010-51,WC-2010,,Germany vs England,round of 16,0,2010-06-27,16:00,S-160,T-31,T-28,4,1,0,0,0,0
@@ -771,54 +771,54 @@ M-2010-61,WC-2010,,Uruguay vs Netherlands,semi-finals,0,2010-07-06,20:30,S-161,T
 M-2010-62,WC-2010,,Germany vs Spain,semi-finals,0,2010-07-07,20:30,S-162,T-31,T-73,0,1,0,0,0,0
 M-2010-63,WC-2010,,Uruguay vs Germany,third-place match,0,2010-07-10,20:30,S-167,T-84,T-31,2,3,0,0,0,0
 M-2010-64,WC-2010,,Netherlands vs Spain,final,0,2010-07-11,20:30,S-164,T-48,T-73,0,1,1,0,0,0
-M-2014-01,WC-2014,124.0,Brazil vs Croatia,group stage,0,2014-06-12,17:00,S-022,T-09,T-18,3,1,0,0,0,0
-M-2014-02,WC-2014,124.0,Mexico vs Cameroon,group stage,0,2014-06-13,13:00,S-015,T-46,T-11,1,0,0,0,0,0
-M-2014-03,WC-2014,125.0,Spain vs Netherlands,group stage,0,2014-06-13,16:00,S-021,T-73,T-48,1,5,0,0,0,0
-M-2014-04,WC-2014,125.0,Chile vs Australia,group stage,0,2014-06-13,18:00,S-010,T-13,T-04,3,1,0,0,0,0
-M-2014-05,WC-2014,126.0,Colombia vs Greece,group stage,0,2014-06-14,13:00,S-008,T-16,T-33,3,0,0,0,0,0
-M-2014-06,WC-2014,127.0,Uruguay vs Costa Rica,group stage,0,2014-06-14,16:00,S-013,T-84,T-17,1,3,0,0,0,0
-M-2014-07,WC-2014,127.0,England vs Italy,group stage,0,2014-06-14,18:00,S-014,T-28,T-41,1,2,0,0,0,0
-M-2014-08,WC-2014,126.0,Ivory Coast vs Japan,group stage,0,2014-06-14,22:00,S-018,T-42,T-44,2,1,0,0,0,0
-M-2014-09,WC-2014,128.0,Switzerland vs Ecuador,group stage,0,2014-06-15,13:00,S-009,T-75,T-25,2,1,0,0,0,0
-M-2014-10,WC-2014,128.0,France vs Honduras,group stage,0,2014-06-15,16:00,S-016,T-30,T-35,3,0,0,0,0,0
-M-2014-11,WC-2014,129.0,Argentina vs Bosnia and Herzegovina,group stage,0,2014-06-15,19:00,S-020,T-03,T-08,2,1,0,0,0,0
-M-2014-12,WC-2014,130.0,Germany vs Portugal,group stage,0,2014-06-16,13:00,S-021,T-31,T-58,4,0,0,0,0,0
-M-2014-13,WC-2014,129.0,Iran vs Nigeria,group stage,0,2014-06-16,16:00,S-011,T-38,T-50,0,0,0,0,0,0
-M-2014-14,WC-2014,130.0,Ghana vs United States,group stage,0,2014-06-16,19:00,S-015,T-32,T-83,1,2,0,0,0,0
-M-2014-15,WC-2014,131.0,Belgium vs Algeria,group stage,0,2014-06-17,13:00,S-008,T-06,T-01,2,1,0,0,0,0
-M-2014-16,WC-2014,124.0,Brazil vs Mexico,group stage,0,2014-06-17,16:00,S-013,T-09,T-46,0,0,0,0,0,0
-M-2014-17,WC-2014,131.0,Russia vs South Korea,group stage,0,2014-06-17,18:00,S-010,T-62,T-71,1,1,0,0,0,0
-M-2014-18,WC-2014,125.0,Australia vs Netherlands,group stage,0,2014-06-18,13:00,S-016,T-04,T-48,2,3,0,0,0,0
-M-2014-19,WC-2014,125.0,Spain vs Chile,group stage,0,2014-06-18,16:00,S-020,T-73,T-13,0,2,0,0,0,0
-M-2014-20,WC-2014,124.0,Cameroon vs Croatia,group stage,0,2014-06-18,18:00,S-014,T-11,T-18,0,4,0,0,0,0
-M-2014-21,WC-2014,126.0,Colombia vs Ivory Coast,group stage,0,2014-06-19,13:00,S-009,T-16,T-42,2,1,0,0,0,0
-M-2014-22,WC-2014,127.0,Uruguay vs England,group stage,0,2014-06-19,16:00,S-022,T-84,T-28,2,1,0,0,0,0
-M-2014-23,WC-2014,126.0,Japan vs Greece,group stage,0,2014-06-19,19:00,S-015,T-44,T-33,0,0,0,0,0,0
-M-2014-24,WC-2014,127.0,Italy vs Costa Rica,group stage,0,2014-06-20,13:00,S-018,T-41,T-17,0,1,0,0,0,0
-M-2014-25,WC-2014,128.0,Switzerland vs France,group stage,0,2014-06-20,16:00,S-021,T-75,T-30,2,5,0,0,0,0
-M-2014-26,WC-2014,128.0,Honduras vs Ecuador,group stage,0,2014-06-20,19:00,S-011,T-35,T-25,1,2,0,0,0,0
-M-2014-27,WC-2014,129.0,Argentina vs Iran,group stage,0,2014-06-21,13:00,S-008,T-03,T-38,1,0,0,0,0,0
-M-2014-28,WC-2014,130.0,Germany vs Ghana,group stage,0,2014-06-21,16:00,S-013,T-31,T-32,2,2,0,0,0,0
-M-2014-29,WC-2014,129.0,Nigeria vs Bosnia and Herzegovina,group stage,0,2014-06-21,18:00,S-010,T-50,T-08,1,0,0,0,0,0
-M-2014-30,WC-2014,131.0,Belgium vs Russia,group stage,0,2014-06-22,13:00,S-020,T-06,T-62,1,0,0,0,0,0
-M-2014-31,WC-2014,131.0,South Korea vs Algeria,group stage,0,2014-06-22,16:00,S-016,T-71,T-01,2,4,0,0,0,0
-M-2014-32,WC-2014,130.0,United States vs Portugal,group stage,0,2014-06-22,18:00,S-014,T-83,T-58,2,2,0,0,0,0
-M-2014-33,WC-2014,125.0,Australia vs Spain,group stage,0,2014-06-23,13:00,S-011,T-04,T-73,0,3,0,0,0,0
-M-2014-34,WC-2014,125.0,Netherlands vs Chile,group stage,0,2014-06-23,13:00,S-022,T-48,T-13,2,0,0,0,0,0
-M-2014-35,WC-2014,124.0,Cameroon vs Brazil,group stage,0,2014-06-23,17:00,S-009,T-11,T-09,1,4,0,0,0,0
-M-2014-36,WC-2014,124.0,Croatia vs Mexico,group stage,0,2014-06-23,17:00,S-018,T-18,T-46,1,3,0,0,0,0
-M-2014-37,WC-2014,127.0,Costa Rica vs England,group stage,0,2014-06-24,13:00,S-008,T-17,T-28,0,0,0,0,0,0
-M-2014-38,WC-2014,127.0,Italy vs Uruguay,group stage,0,2014-06-24,13:00,S-015,T-41,T-84,0,1,0,0,0,0
-M-2014-39,WC-2014,126.0,Japan vs Colombia,group stage,0,2014-06-24,16:00,S-010,T-44,T-16,1,4,0,0,0,0
-M-2014-40,WC-2014,126.0,Greece vs Ivory Coast,group stage,0,2014-06-24,17:00,S-013,T-33,T-42,2,1,0,0,0,0
-M-2014-41,WC-2014,129.0,Bosnia and Herzegovina vs Iran,group stage,0,2014-06-25,13:00,S-021,T-08,T-38,3,1,0,0,0,0
-M-2014-42,WC-2014,129.0,Nigeria vs Argentina,group stage,0,2014-06-25,13:00,S-016,T-50,T-03,2,3,0,0,0,0
-M-2014-43,WC-2014,128.0,Honduras vs Switzerland,group stage,0,2014-06-25,16:00,S-014,T-35,T-75,0,3,0,0,0,0
-M-2014-44,WC-2014,128.0,Ecuador vs France,group stage,0,2014-06-25,17:00,S-020,T-25,T-30,0,0,0,0,0,0
-M-2014-45,WC-2014,130.0,Portugal vs Ghana,group stage,0,2014-06-26,13:00,S-009,T-58,T-32,2,1,0,0,0,0
-M-2014-46,WC-2014,130.0,United States vs Germany,group stage,0,2014-06-26,13:00,S-018,T-83,T-31,0,1,0,0,0,0
-M-2014-47,WC-2014,131.0,Algeria vs Russia,group stage,0,2014-06-26,17:00,S-011,T-01,T-62,1,1,0,0,0,0
-M-2014-48,WC-2014,131.0,South Korea vs Belgium,group stage,0,2014-06-26,17:00,S-022,T-71,T-06,0,1,0,0,0,0
+M-2014-01,WC-2014,G-124,Brazil vs Croatia,group stage,0,2014-06-12,17:00,S-022,T-09,T-18,3,1,0,0,0,0
+M-2014-02,WC-2014,G-124,Mexico vs Cameroon,group stage,0,2014-06-13,13:00,S-015,T-46,T-11,1,0,0,0,0,0
+M-2014-03,WC-2014,G-125,Spain vs Netherlands,group stage,0,2014-06-13,16:00,S-021,T-73,T-48,1,5,0,0,0,0
+M-2014-04,WC-2014,G-125,Chile vs Australia,group stage,0,2014-06-13,18:00,S-010,T-13,T-04,3,1,0,0,0,0
+M-2014-05,WC-2014,G-126,Colombia vs Greece,group stage,0,2014-06-14,13:00,S-008,T-16,T-33,3,0,0,0,0,0
+M-2014-06,WC-2014,G-127,Uruguay vs Costa Rica,group stage,0,2014-06-14,16:00,S-013,T-84,T-17,1,3,0,0,0,0
+M-2014-07,WC-2014,G-127,England vs Italy,group stage,0,2014-06-14,18:00,S-014,T-28,T-41,1,2,0,0,0,0
+M-2014-08,WC-2014,G-126,Ivory Coast vs Japan,group stage,0,2014-06-14,22:00,S-018,T-42,T-44,2,1,0,0,0,0
+M-2014-09,WC-2014,G-128,Switzerland vs Ecuador,group stage,0,2014-06-15,13:00,S-009,T-75,T-25,2,1,0,0,0,0
+M-2014-10,WC-2014,G-128,France vs Honduras,group stage,0,2014-06-15,16:00,S-016,T-30,T-35,3,0,0,0,0,0
+M-2014-11,WC-2014,G-129,Argentina vs Bosnia and Herzegovina,group stage,0,2014-06-15,19:00,S-020,T-03,T-08,2,1,0,0,0,0
+M-2014-12,WC-2014,G-130,Germany vs Portugal,group stage,0,2014-06-16,13:00,S-021,T-31,T-58,4,0,0,0,0,0
+M-2014-13,WC-2014,G-129,Iran vs Nigeria,group stage,0,2014-06-16,16:00,S-011,T-38,T-50,0,0,0,0,0,0
+M-2014-14,WC-2014,G-130,Ghana vs United States,group stage,0,2014-06-16,19:00,S-015,T-32,T-83,1,2,0,0,0,0
+M-2014-15,WC-2014,G-131,Belgium vs Algeria,group stage,0,2014-06-17,13:00,S-008,T-06,T-01,2,1,0,0,0,0
+M-2014-16,WC-2014,G-124,Brazil vs Mexico,group stage,0,2014-06-17,16:00,S-013,T-09,T-46,0,0,0,0,0,0
+M-2014-17,WC-2014,G-131,Russia vs South Korea,group stage,0,2014-06-17,18:00,S-010,T-62,T-71,1,1,0,0,0,0
+M-2014-18,WC-2014,G-125,Australia vs Netherlands,group stage,0,2014-06-18,13:00,S-016,T-04,T-48,2,3,0,0,0,0
+M-2014-19,WC-2014,G-125,Spain vs Chile,group stage,0,2014-06-18,16:00,S-020,T-73,T-13,0,2,0,0,0,0
+M-2014-20,WC-2014,G-124,Cameroon vs Croatia,group stage,0,2014-06-18,18:00,S-014,T-11,T-18,0,4,0,0,0,0
+M-2014-21,WC-2014,G-126,Colombia vs Ivory Coast,group stage,0,2014-06-19,13:00,S-009,T-16,T-42,2,1,0,0,0,0
+M-2014-22,WC-2014,G-127,Uruguay vs England,group stage,0,2014-06-19,16:00,S-022,T-84,T-28,2,1,0,0,0,0
+M-2014-23,WC-2014,G-126,Japan vs Greece,group stage,0,2014-06-19,19:00,S-015,T-44,T-33,0,0,0,0,0,0
+M-2014-24,WC-2014,G-127,Italy vs Costa Rica,group stage,0,2014-06-20,13:00,S-018,T-41,T-17,0,1,0,0,0,0
+M-2014-25,WC-2014,G-128,Switzerland vs France,group stage,0,2014-06-20,16:00,S-021,T-75,T-30,2,5,0,0,0,0
+M-2014-26,WC-2014,G-128,Honduras vs Ecuador,group stage,0,2014-06-20,19:00,S-011,T-35,T-25,1,2,0,0,0,0
+M-2014-27,WC-2014,G-129,Argentina vs Iran,group stage,0,2014-06-21,13:00,S-008,T-03,T-38,1,0,0,0,0,0
+M-2014-28,WC-2014,G-130,Germany vs Ghana,group stage,0,2014-06-21,16:00,S-013,T-31,T-32,2,2,0,0,0,0
+M-2014-29,WC-2014,G-129,Nigeria vs Bosnia and Herzegovina,group stage,0,2014-06-21,18:00,S-010,T-50,T-08,1,0,0,0,0,0
+M-2014-30,WC-2014,G-131,Belgium vs Russia,group stage,0,2014-06-22,13:00,S-020,T-06,T-62,1,0,0,0,0,0
+M-2014-31,WC-2014,G-131,South Korea vs Algeria,group stage,0,2014-06-22,16:00,S-016,T-71,T-01,2,4,0,0,0,0
+M-2014-32,WC-2014,G-130,United States vs Portugal,group stage,0,2014-06-22,18:00,S-014,T-83,T-58,2,2,0,0,0,0
+M-2014-33,WC-2014,G-125,Australia vs Spain,group stage,0,2014-06-23,13:00,S-011,T-04,T-73,0,3,0,0,0,0
+M-2014-34,WC-2014,G-125,Netherlands vs Chile,group stage,0,2014-06-23,13:00,S-022,T-48,T-13,2,0,0,0,0,0
+M-2014-35,WC-2014,G-124,Cameroon vs Brazil,group stage,0,2014-06-23,17:00,S-009,T-11,T-09,1,4,0,0,0,0
+M-2014-36,WC-2014,G-124,Croatia vs Mexico,group stage,0,2014-06-23,17:00,S-018,T-18,T-46,1,3,0,0,0,0
+M-2014-37,WC-2014,G-127,Costa Rica vs England,group stage,0,2014-06-24,13:00,S-008,T-17,T-28,0,0,0,0,0,0
+M-2014-38,WC-2014,G-127,Italy vs Uruguay,group stage,0,2014-06-24,13:00,S-015,T-41,T-84,0,1,0,0,0,0
+M-2014-39,WC-2014,G-126,Japan vs Colombia,group stage,0,2014-06-24,16:00,S-010,T-44,T-16,1,4,0,0,0,0
+M-2014-40,WC-2014,G-126,Greece vs Ivory Coast,group stage,0,2014-06-24,17:00,S-013,T-33,T-42,2,1,0,0,0,0
+M-2014-41,WC-2014,G-129,Bosnia and Herzegovina vs Iran,group stage,0,2014-06-25,13:00,S-021,T-08,T-38,3,1,0,0,0,0
+M-2014-42,WC-2014,G-129,Nigeria vs Argentina,group stage,0,2014-06-25,13:00,S-016,T-50,T-03,2,3,0,0,0,0
+M-2014-43,WC-2014,G-128,Honduras vs Switzerland,group stage,0,2014-06-25,16:00,S-014,T-35,T-75,0,3,0,0,0,0
+M-2014-44,WC-2014,G-128,Ecuador vs France,group stage,0,2014-06-25,17:00,S-020,T-25,T-30,0,0,0,0,0,0
+M-2014-45,WC-2014,G-130,Portugal vs Ghana,group stage,0,2014-06-26,13:00,S-009,T-58,T-32,2,1,0,0,0,0
+M-2014-46,WC-2014,G-130,United States vs Germany,group stage,0,2014-06-26,13:00,S-018,T-83,T-31,0,1,0,0,0,0
+M-2014-47,WC-2014,G-131,Algeria vs Russia,group stage,0,2014-06-26,17:00,S-011,T-01,T-62,1,1,0,0,0,0
+M-2014-48,WC-2014,G-131,South Korea vs Belgium,group stage,0,2014-06-26,17:00,S-022,T-71,T-06,0,1,0,0,0,0
 M-2014-49,WC-2014,,Brazil vs Chile,round of 16,0,2014-06-28,13:00,S-008,T-09,T-13,1,1,1,1,3,2
 M-2014-50,WC-2014,,Colombia vs Uruguay,round of 16,0,2014-06-28,17:00,S-020,T-16,T-84,2,0,0,0,0,0
 M-2014-51,WC-2014,,Netherlands vs Mexico,round of 16,0,2014-06-29,13:00,S-013,T-48,T-46,2,1,0,0,0,0
@@ -835,54 +835,54 @@ M-2014-61,WC-2014,,Brazil vs Germany,semi-finals,0,2014-07-08,17:00,S-008,T-09,T
 M-2014-62,WC-2014,,Netherlands vs Argentina,semi-finals,0,2014-07-09,17:00,S-022,T-48,T-03,0,0,1,1,2,4
 M-2014-63,WC-2014,,Brazil vs Netherlands,third-place match,0,2014-07-12,17:00,S-009,T-09,T-48,0,3,0,0,0,0
 M-2014-64,WC-2014,,Germany vs Argentina,final,0,2014-07-13,16:00,S-020,T-31,T-03,1,0,1,0,0,0
-M-2018-01,WC-2018,138.0,Russia vs Saudi Arabia,group stage,0,2018-06-14,18:00,S-150,T-62,T-63,5,0,0,0,0,0
-M-2018-02,WC-2018,138.0,Egypt vs Uruguay,group stage,0,2018-06-15,17:00,S-159,T-26,T-84,0,1,0,0,0,0
-M-2018-03,WC-2018,139.0,Morocco vs Iran,group stage,0,2018-06-15,18:00,S-154,T-47,T-38,0,1,0,0,0,0
-M-2018-04,WC-2018,139.0,Portugal vs Spain,group stage,0,2018-06-15,21:00,S-157,T-58,T-73,3,3,0,0,0,0
-M-2018-05,WC-2018,140.0,France vs Australia,group stage,0,2018-06-16,13:00,S-149,T-30,T-04,2,1,0,0,0,0
-M-2018-06,WC-2018,141.0,Argentina vs Iceland,group stage,0,2018-06-16,16:00,S-151,T-03,T-37,1,1,0,0,0,0
-M-2018-07,WC-2018,140.0,Peru vs Denmark,group stage,0,2018-06-16,19:00,S-156,T-56,T-22,0,1,0,0,0,0
-M-2018-08,WC-2018,141.0,Croatia vs Nigeria,group stage,0,2018-06-16,21:00,S-148,T-18,T-50,2,0,0,0,0,0
-M-2018-09,WC-2018,142.0,Costa Rica vs Serbia,group stage,0,2018-06-17,16:00,S-155,T-17,T-66,0,1,0,0,0,0
-M-2018-10,WC-2018,143.0,Germany vs Mexico,group stage,0,2018-06-17,18:00,S-150,T-31,T-46,0,1,0,0,0,0
-M-2018-11,WC-2018,142.0,Brazil vs Switzerland,group stage,0,2018-06-17,21:00,S-153,T-09,T-75,1,1,0,0,0,0
-M-2018-12,WC-2018,143.0,Sweden vs South Korea,group stage,0,2018-06-18,15:00,S-152,T-74,T-71,1,0,0,0,0,0
-M-2018-13,WC-2018,144.0,Belgium vs Panama,group stage,0,2018-06-18,18:00,S-157,T-06,T-54,3,0,0,0,0,0
-M-2018-14,WC-2018,144.0,Tunisia vs England,group stage,0,2018-06-18,21:00,S-158,T-79,T-28,1,2,0,0,0,0
-M-2018-15,WC-2018,145.0,Colombia vs Japan,group stage,0,2018-06-19,15:00,S-156,T-16,T-44,1,2,0,0,0,0
-M-2018-16,WC-2018,145.0,Poland vs Senegal,group stage,0,2018-06-19,18:00,S-151,T-57,T-65,1,2,0,0,0,0
-M-2018-17,WC-2018,138.0,Russia vs Egypt,group stage,0,2018-06-19,21:00,S-154,T-62,T-26,3,1,0,0,0,0
-M-2018-18,WC-2018,139.0,Portugal vs Morocco,group stage,0,2018-06-20,15:00,S-150,T-58,T-47,1,0,0,0,0,0
-M-2018-19,WC-2018,138.0,Uruguay vs Saudi Arabia,group stage,0,2018-06-20,18:00,S-153,T-84,T-63,1,0,0,0,0,0
-M-2018-20,WC-2018,139.0,Iran vs Spain,group stage,0,2018-06-20,21:00,S-149,T-38,T-73,0,1,0,0,0,0
-M-2018-21,WC-2018,140.0,Denmark vs Australia,group stage,0,2018-06-21,16:00,S-155,T-22,T-04,1,1,0,0,0,0
-M-2018-22,WC-2018,140.0,France vs Peru,group stage,0,2018-06-21,20:00,S-159,T-30,T-56,1,0,0,0,0,0
-M-2018-23,WC-2018,141.0,Argentina vs Croatia,group stage,0,2018-06-21,21:00,S-152,T-03,T-18,0,3,0,0,0,0
-M-2018-24,WC-2018,142.0,Brazil vs Costa Rica,group stage,0,2018-06-22,15:00,S-154,T-09,T-17,2,0,0,0,0,0
-M-2018-25,WC-2018,141.0,Nigeria vs Iceland,group stage,0,2018-06-22,18:00,S-158,T-50,T-37,2,0,0,0,0,0
-M-2018-26,WC-2018,142.0,Serbia vs Switzerland,group stage,0,2018-06-22,20:00,S-148,T-66,T-75,1,2,0,0,0,0
-M-2018-27,WC-2018,144.0,Belgium vs Tunisia,group stage,0,2018-06-23,15:00,S-151,T-06,T-79,5,2,0,0,0,0
-M-2018-28,WC-2018,143.0,South Korea vs Mexico,group stage,0,2018-06-23,18:00,S-153,T-71,T-46,1,2,0,0,0,0
-M-2018-29,WC-2018,143.0,Germany vs Sweden,group stage,0,2018-06-23,21:00,S-157,T-31,T-74,2,1,0,0,0,0
-M-2018-30,WC-2018,144.0,England vs Panama,group stage,0,2018-06-24,15:00,S-152,T-28,T-54,6,1,0,0,0,0
-M-2018-31,WC-2018,145.0,Japan vs Senegal,group stage,0,2018-06-24,20:00,S-159,T-44,T-65,2,2,0,0,0,0
-M-2018-32,WC-2018,145.0,Poland vs Colombia,group stage,0,2018-06-24,21:00,S-149,T-57,T-16,0,3,0,0,0,0
-M-2018-33,WC-2018,138.0,Saudi Arabia vs Egypt,group stage,0,2018-06-25,17:00,S-158,T-63,T-26,2,1,0,0,0,0
-M-2018-34,WC-2018,138.0,Uruguay vs Russia,group stage,0,2018-06-25,18:00,S-155,T-84,T-62,3,0,0,0,0,0
-M-2018-35,WC-2018,139.0,Spain vs Morocco,group stage,0,2018-06-25,20:00,S-148,T-73,T-47,2,2,0,0,0,0
-M-2018-36,WC-2018,139.0,Iran vs Portugal,group stage,0,2018-06-25,21:00,S-156,T-38,T-58,1,1,0,0,0,0
-M-2018-37,WC-2018,140.0,Australia vs Peru,group stage,0,2018-06-26,17:00,S-157,T-04,T-56,0,2,0,0,0,0
-M-2018-38,WC-2018,140.0,Denmark vs France,group stage,0,2018-06-26,17:00,S-150,T-22,T-30,0,0,0,0,0,0
-M-2018-39,WC-2018,141.0,Iceland vs Croatia,group stage,0,2018-06-26,21:00,S-153,T-37,T-18,1,2,0,0,0,0
-M-2018-40,WC-2018,141.0,Nigeria vs Argentina,group stage,0,2018-06-26,21:00,S-154,T-50,T-03,1,2,0,0,0,0
-M-2018-41,WC-2018,143.0,South Korea vs Germany,group stage,0,2018-06-27,17:00,S-149,T-71,T-31,2,0,0,0,0,0
-M-2018-42,WC-2018,143.0,Mexico vs Sweden,group stage,0,2018-06-27,19:00,S-159,T-46,T-74,0,3,0,0,0,0
-M-2018-43,WC-2018,142.0,Serbia vs Brazil,group stage,0,2018-06-27,21:00,S-151,T-66,T-09,0,2,0,0,0,0
-M-2018-44,WC-2018,142.0,Switzerland vs Costa Rica,group stage,0,2018-06-27,21:00,S-152,T-75,T-17,2,2,0,0,0,0
-M-2018-45,WC-2018,145.0,Japan vs Poland,group stage,0,2018-06-28,17:00,S-158,T-44,T-57,0,1,0,0,0,0
-M-2018-46,WC-2018,145.0,Senegal vs Colombia,group stage,0,2018-06-28,18:00,S-155,T-65,T-16,0,1,0,0,0,0
-M-2018-47,WC-2018,144.0,England vs Belgium,group stage,0,2018-06-28,20:00,S-148,T-28,T-06,0,1,0,0,0,0
-M-2018-48,WC-2018,144.0,Panama vs Tunisia,group stage,0,2018-06-28,21:00,S-156,T-54,T-79,1,2,0,0,0,0
+M-2018-01,WC-2018,G-138,Russia vs Saudi Arabia,group stage,0,2018-06-14,18:00,S-150,T-62,T-63,5,0,0,0,0,0
+M-2018-02,WC-2018,G-138,Egypt vs Uruguay,group stage,0,2018-06-15,17:00,S-159,T-26,T-84,0,1,0,0,0,0
+M-2018-03,WC-2018,G-139,Morocco vs Iran,group stage,0,2018-06-15,18:00,S-154,T-47,T-38,0,1,0,0,0,0
+M-2018-04,WC-2018,G-139,Portugal vs Spain,group stage,0,2018-06-15,21:00,S-157,T-58,T-73,3,3,0,0,0,0
+M-2018-05,WC-2018,G-140,France vs Australia,group stage,0,2018-06-16,13:00,S-149,T-30,T-04,2,1,0,0,0,0
+M-2018-06,WC-2018,G-141,Argentina vs Iceland,group stage,0,2018-06-16,16:00,S-151,T-03,T-37,1,1,0,0,0,0
+M-2018-07,WC-2018,G-140,Peru vs Denmark,group stage,0,2018-06-16,19:00,S-156,T-56,T-22,0,1,0,0,0,0
+M-2018-08,WC-2018,G-141,Croatia vs Nigeria,group stage,0,2018-06-16,21:00,S-148,T-18,T-50,2,0,0,0,0,0
+M-2018-09,WC-2018,G-142,Costa Rica vs Serbia,group stage,0,2018-06-17,16:00,S-155,T-17,T-66,0,1,0,0,0,0
+M-2018-10,WC-2018,G-143,Germany vs Mexico,group stage,0,2018-06-17,18:00,S-150,T-31,T-46,0,1,0,0,0,0
+M-2018-11,WC-2018,G-142,Brazil vs Switzerland,group stage,0,2018-06-17,21:00,S-153,T-09,T-75,1,1,0,0,0,0
+M-2018-12,WC-2018,G-143,Sweden vs South Korea,group stage,0,2018-06-18,15:00,S-152,T-74,T-71,1,0,0,0,0,0
+M-2018-13,WC-2018,G-144,Belgium vs Panama,group stage,0,2018-06-18,18:00,S-157,T-06,T-54,3,0,0,0,0,0
+M-2018-14,WC-2018,G-144,Tunisia vs England,group stage,0,2018-06-18,21:00,S-158,T-79,T-28,1,2,0,0,0,0
+M-2018-15,WC-2018,G-145,Colombia vs Japan,group stage,0,2018-06-19,15:00,S-156,T-16,T-44,1,2,0,0,0,0
+M-2018-16,WC-2018,G-145,Poland vs Senegal,group stage,0,2018-06-19,18:00,S-151,T-57,T-65,1,2,0,0,0,0
+M-2018-17,WC-2018,G-138,Russia vs Egypt,group stage,0,2018-06-19,21:00,S-154,T-62,T-26,3,1,0,0,0,0
+M-2018-18,WC-2018,G-139,Portugal vs Morocco,group stage,0,2018-06-20,15:00,S-150,T-58,T-47,1,0,0,0,0,0
+M-2018-19,WC-2018,G-138,Uruguay vs Saudi Arabia,group stage,0,2018-06-20,18:00,S-153,T-84,T-63,1,0,0,0,0,0
+M-2018-20,WC-2018,G-139,Iran vs Spain,group stage,0,2018-06-20,21:00,S-149,T-38,T-73,0,1,0,0,0,0
+M-2018-21,WC-2018,G-140,Denmark vs Australia,group stage,0,2018-06-21,16:00,S-155,T-22,T-04,1,1,0,0,0,0
+M-2018-22,WC-2018,G-140,France vs Peru,group stage,0,2018-06-21,20:00,S-159,T-30,T-56,1,0,0,0,0,0
+M-2018-23,WC-2018,G-141,Argentina vs Croatia,group stage,0,2018-06-21,21:00,S-152,T-03,T-18,0,3,0,0,0,0
+M-2018-24,WC-2018,G-142,Brazil vs Costa Rica,group stage,0,2018-06-22,15:00,S-154,T-09,T-17,2,0,0,0,0,0
+M-2018-25,WC-2018,G-141,Nigeria vs Iceland,group stage,0,2018-06-22,18:00,S-158,T-50,T-37,2,0,0,0,0,0
+M-2018-26,WC-2018,G-142,Serbia vs Switzerland,group stage,0,2018-06-22,20:00,S-148,T-66,T-75,1,2,0,0,0,0
+M-2018-27,WC-2018,G-144,Belgium vs Tunisia,group stage,0,2018-06-23,15:00,S-151,T-06,T-79,5,2,0,0,0,0
+M-2018-28,WC-2018,G-143,South Korea vs Mexico,group stage,0,2018-06-23,18:00,S-153,T-71,T-46,1,2,0,0,0,0
+M-2018-29,WC-2018,G-143,Germany vs Sweden,group stage,0,2018-06-23,21:00,S-157,T-31,T-74,2,1,0,0,0,0
+M-2018-30,WC-2018,G-144,England vs Panama,group stage,0,2018-06-24,15:00,S-152,T-28,T-54,6,1,0,0,0,0
+M-2018-31,WC-2018,G-145,Japan vs Senegal,group stage,0,2018-06-24,20:00,S-159,T-44,T-65,2,2,0,0,0,0
+M-2018-32,WC-2018,G-145,Poland vs Colombia,group stage,0,2018-06-24,21:00,S-149,T-57,T-16,0,3,0,0,0,0
+M-2018-33,WC-2018,G-138,Saudi Arabia vs Egypt,group stage,0,2018-06-25,17:00,S-158,T-63,T-26,2,1,0,0,0,0
+M-2018-34,WC-2018,G-138,Uruguay vs Russia,group stage,0,2018-06-25,18:00,S-155,T-84,T-62,3,0,0,0,0,0
+M-2018-35,WC-2018,G-139,Spain vs Morocco,group stage,0,2018-06-25,20:00,S-148,T-73,T-47,2,2,0,0,0,0
+M-2018-36,WC-2018,G-139,Iran vs Portugal,group stage,0,2018-06-25,21:00,S-156,T-38,T-58,1,1,0,0,0,0
+M-2018-37,WC-2018,G-140,Australia vs Peru,group stage,0,2018-06-26,17:00,S-157,T-04,T-56,0,2,0,0,0,0
+M-2018-38,WC-2018,G-140,Denmark vs France,group stage,0,2018-06-26,17:00,S-150,T-22,T-30,0,0,0,0,0,0
+M-2018-39,WC-2018,G-141,Iceland vs Croatia,group stage,0,2018-06-26,21:00,S-153,T-37,T-18,1,2,0,0,0,0
+M-2018-40,WC-2018,G-141,Nigeria vs Argentina,group stage,0,2018-06-26,21:00,S-154,T-50,T-03,1,2,0,0,0,0
+M-2018-41,WC-2018,G-143,South Korea vs Germany,group stage,0,2018-06-27,17:00,S-149,T-71,T-31,2,0,0,0,0,0
+M-2018-42,WC-2018,G-143,Mexico vs Sweden,group stage,0,2018-06-27,19:00,S-159,T-46,T-74,0,3,0,0,0,0
+M-2018-43,WC-2018,G-142,Serbia vs Brazil,group stage,0,2018-06-27,21:00,S-151,T-66,T-09,0,2,0,0,0,0
+M-2018-44,WC-2018,G-142,Switzerland vs Costa Rica,group stage,0,2018-06-27,21:00,S-152,T-75,T-17,2,2,0,0,0,0
+M-2018-45,WC-2018,G-145,Japan vs Poland,group stage,0,2018-06-28,17:00,S-158,T-44,T-57,0,1,0,0,0,0
+M-2018-46,WC-2018,G-145,Senegal vs Colombia,group stage,0,2018-06-28,18:00,S-155,T-65,T-16,0,1,0,0,0,0
+M-2018-47,WC-2018,G-144,England vs Belgium,group stage,0,2018-06-28,20:00,S-148,T-28,T-06,0,1,0,0,0,0
+M-2018-48,WC-2018,G-144,Panama vs Tunisia,group stage,0,2018-06-28,21:00,S-156,T-54,T-79,1,2,0,0,0,0
 M-2018-49,WC-2018,,France vs Argentina,round of 16,0,2018-06-30,17:00,S-149,T-30,T-03,4,3,0,0,0,0
 M-2018-50,WC-2018,,Uruguay vs Portugal,round of 16,0,2018-06-30,21:00,S-157,T-84,T-58,2,1,0,0,0,0
 M-2018-51,WC-2018,,Spain vs Russia,round of 16,0,2018-07-01,17:00,S-150,T-73,T-62,1,1,1,1,3,4
@@ -899,54 +899,54 @@ M-2018-61,WC-2018,,France vs Belgium,semi-finals,0,2018-07-10,21:00,S-154,T-30,T
 M-2018-62,WC-2018,,Croatia vs England,semi-finals,0,2018-07-11,21:00,S-150,T-18,T-28,2,1,1,0,0,0
 M-2018-63,WC-2018,,Belgium vs England,third-place match,0,2018-07-14,17:00,S-154,T-06,T-28,2,0,0,0,0,0
 M-2018-64,WC-2018,,France vs Croatia,final,0,2018-07-15,18:00,S-150,T-30,T-18,4,2,0,0,0,0
-M-2022-01,WC-2022,152.0,Qatar vs Ecuador,group stage,0,2022-11-20,19:00,S-140,T-59,T-25,0,2,0,0,0,0
-M-2022-02,WC-2022,153.0,England vs Iran,group stage,0,2022-11-21,16:00,S-143,T-28,T-38,6,2,0,0,0,0
-M-2022-03,WC-2022,152.0,Senegal vs Netherlands,group stage,0,2022-11-21,19:00,S-145,T-65,T-48,0,2,0,0,0,0
-M-2022-04,WC-2022,153.0,United States vs Wales,group stage,0,2022-11-21,22:00,S-141,T-83,T-85,1,1,0,0,0,0
-M-2022-05,WC-2022,154.0,Argentina vs Saudi Arabia,group stage,0,2022-11-22,13:00,S-147,T-03,T-63,1,2,0,0,0,0
-M-2022-06,WC-2022,155.0,Denmark vs Tunisia,group stage,0,2022-11-22,16:00,S-142,T-22,T-79,0,0,0,0,0,0
-M-2022-07,WC-2022,154.0,Mexico vs Poland,group stage,0,2022-11-22,19:00,S-146,T-46,T-57,0,0,0,0,0,0
-M-2022-08,WC-2022,155.0,France vs Australia,group stage,0,2022-11-22,22:00,S-144,T-30,T-04,4,1,0,0,0,0
-M-2022-09,WC-2022,157.0,Morocco vs Croatia,group stage,0,2022-11-23,13:00,S-140,T-47,T-18,0,0,0,0,0,0
-M-2022-10,WC-2022,156.0,Germany vs Japan,group stage,0,2022-11-23,16:00,S-143,T-31,T-44,1,2,0,0,0,0
-M-2022-11,WC-2022,156.0,Spain vs Costa Rica,group stage,0,2022-11-23,19:00,S-145,T-73,T-17,7,0,0,0,0,0
-M-2022-12,WC-2022,157.0,Belgium vs Canada,group stage,0,2022-11-23,22:00,S-141,T-06,T-12,1,0,0,0,0,0
-M-2022-13,WC-2022,158.0,Switzerland vs Cameroon,group stage,0,2022-11-24,13:00,S-144,T-75,T-11,1,0,0,0,0,0
-M-2022-14,WC-2022,159.0,Uruguay vs South Korea,group stage,0,2022-11-24,16:00,S-142,T-84,T-71,0,0,0,0,0,0
-M-2022-15,WC-2022,159.0,Portugal vs Ghana,group stage,0,2022-11-24,19:00,S-146,T-58,T-32,3,2,0,0,0,0
-M-2022-16,WC-2022,158.0,Brazil vs Serbia,group stage,0,2022-11-24,22:00,S-147,T-09,T-66,2,0,0,0,0,0
-M-2022-17,WC-2022,153.0,Wales vs Iran,group stage,0,2022-11-25,13:00,S-141,T-85,T-38,0,2,0,0,0,0
-M-2022-18,WC-2022,152.0,Qatar vs Senegal,group stage,0,2022-11-25,16:00,S-145,T-59,T-65,1,3,0,0,0,0
-M-2022-19,WC-2022,152.0,Netherlands vs Ecuador,group stage,0,2022-11-25,19:00,S-143,T-48,T-25,1,1,0,0,0,0
-M-2022-20,WC-2022,153.0,England vs United States,group stage,0,2022-11-25,22:00,S-140,T-28,T-83,0,0,0,0,0,0
-M-2022-21,WC-2022,155.0,Tunisia vs Australia,group stage,0,2022-11-26,13:00,S-144,T-79,T-04,0,1,0,0,0,0
-M-2022-22,WC-2022,154.0,Poland vs Saudi Arabia,group stage,0,2022-11-26,16:00,S-142,T-57,T-63,2,0,0,0,0,0
-M-2022-23,WC-2022,155.0,France vs Denmark,group stage,0,2022-11-26,19:00,S-146,T-30,T-22,2,1,0,0,0,0
-M-2022-24,WC-2022,154.0,Argentina vs Mexico,group stage,0,2022-11-26,22:00,S-147,T-03,T-46,2,0,0,0,0,0
-M-2022-25,WC-2022,156.0,Japan vs Costa Rica,group stage,0,2022-11-27,13:00,S-141,T-44,T-17,0,1,0,0,0,0
-M-2022-26,WC-2022,157.0,Belgium vs Morocco,group stage,0,2022-11-27,16:00,S-145,T-06,T-47,0,2,0,0,0,0
-M-2022-27,WC-2022,157.0,Croatia vs Canada,group stage,0,2022-11-27,19:00,S-143,T-18,T-12,4,1,0,0,0,0
-M-2022-28,WC-2022,156.0,Spain vs Germany,group stage,0,2022-11-27,22:00,S-140,T-73,T-31,1,1,0,0,0,0
-M-2022-29,WC-2022,158.0,Cameroon vs Serbia,group stage,0,2022-11-28,13:00,S-144,T-11,T-66,3,3,0,0,0,0
-M-2022-30,WC-2022,159.0,South Korea vs Ghana,group stage,0,2022-11-28,16:00,S-142,T-71,T-32,2,3,0,0,0,0
-M-2022-31,WC-2022,158.0,Brazil vs Switzerland,group stage,0,2022-11-28,19:00,S-146,T-09,T-75,1,0,0,0,0,0
-M-2022-32,WC-2022,159.0,Portugal vs Uruguay,group stage,0,2022-11-28,22:00,S-147,T-58,T-84,2,0,0,0,0,0
-M-2022-33,WC-2022,152.0,Ecuador vs Senegal,group stage,0,2022-11-29,18:00,S-143,T-25,T-65,1,2,0,0,0,0
-M-2022-34,WC-2022,152.0,Netherlands vs Qatar,group stage,0,2022-11-29,18:00,S-140,T-48,T-59,2,0,0,0,0,0
-M-2022-35,WC-2022,153.0,Iran vs United States,group stage,0,2022-11-29,22:00,S-145,T-38,T-83,0,1,0,0,0,0
-M-2022-36,WC-2022,153.0,Wales vs England,group stage,0,2022-11-29,22:00,S-141,T-85,T-28,0,3,0,0,0,0
-M-2022-37,WC-2022,155.0,Australia vs Denmark,group stage,0,2022-11-30,18:00,S-144,T-04,T-22,1,0,0,0,0,0
-M-2022-38,WC-2022,155.0,Tunisia vs France,group stage,0,2022-11-30,18:00,S-142,T-79,T-30,1,0,0,0,0,0
-M-2022-39,WC-2022,154.0,Poland vs Argentina,group stage,0,2022-11-30,22:00,S-146,T-57,T-03,0,2,0,0,0,0
-M-2022-40,WC-2022,154.0,Saudi Arabia vs Mexico,group stage,0,2022-11-30,22:00,S-147,T-63,T-46,1,2,0,0,0,0
-M-2022-41,WC-2022,157.0,Canada vs Morocco,group stage,0,2022-12-01,18:00,S-145,T-12,T-47,1,2,0,0,0,0
-M-2022-42,WC-2022,157.0,Croatia vs Belgium,group stage,0,2022-12-01,18:00,S-141,T-18,T-06,0,0,0,0,0,0
-M-2022-43,WC-2022,156.0,Costa Rica vs Germany,group stage,0,2022-12-01,22:00,S-140,T-17,T-31,2,4,0,0,0,0
-M-2022-44,WC-2022,156.0,Japan vs Spain,group stage,0,2022-12-01,22:00,S-143,T-44,T-73,2,1,0,0,0,0
-M-2022-45,WC-2022,159.0,Ghana vs Uruguay,group stage,0,2022-12-02,18:00,S-144,T-32,T-84,0,2,0,0,0,0
-M-2022-46,WC-2022,159.0,South Korea vs Portugal,group stage,0,2022-12-02,18:00,S-142,T-71,T-58,2,1,0,0,0,0
-M-2022-47,WC-2022,158.0,Cameroon vs Brazil,group stage,0,2022-12-02,22:00,S-147,T-11,T-09,1,0,0,0,0,0
-M-2022-48,WC-2022,158.0,Serbia vs Switzerland,group stage,0,2022-12-02,22:00,S-146,T-66,T-75,2,3,0,0,0,0
+M-2022-01,WC-2022,G-152,Qatar vs Ecuador,group stage,0,2022-11-20,19:00,S-140,T-59,T-25,0,2,0,0,0,0
+M-2022-02,WC-2022,G-153,England vs Iran,group stage,0,2022-11-21,16:00,S-143,T-28,T-38,6,2,0,0,0,0
+M-2022-03,WC-2022,G-152,Senegal vs Netherlands,group stage,0,2022-11-21,19:00,S-145,T-65,T-48,0,2,0,0,0,0
+M-2022-04,WC-2022,G-153,United States vs Wales,group stage,0,2022-11-21,22:00,S-141,T-83,T-85,1,1,0,0,0,0
+M-2022-05,WC-2022,G-154,Argentina vs Saudi Arabia,group stage,0,2022-11-22,13:00,S-147,T-03,T-63,1,2,0,0,0,0
+M-2022-06,WC-2022,G-155,Denmark vs Tunisia,group stage,0,2022-11-22,16:00,S-142,T-22,T-79,0,0,0,0,0,0
+M-2022-07,WC-2022,G-154,Mexico vs Poland,group stage,0,2022-11-22,19:00,S-146,T-46,T-57,0,0,0,0,0,0
+M-2022-08,WC-2022,G-155,France vs Australia,group stage,0,2022-11-22,22:00,S-144,T-30,T-04,4,1,0,0,0,0
+M-2022-09,WC-2022,G-157,Morocco vs Croatia,group stage,0,2022-11-23,13:00,S-140,T-47,T-18,0,0,0,0,0,0
+M-2022-10,WC-2022,G-156,Germany vs Japan,group stage,0,2022-11-23,16:00,S-143,T-31,T-44,1,2,0,0,0,0
+M-2022-11,WC-2022,G-156,Spain vs Costa Rica,group stage,0,2022-11-23,19:00,S-145,T-73,T-17,7,0,0,0,0,0
+M-2022-12,WC-2022,G-157,Belgium vs Canada,group stage,0,2022-11-23,22:00,S-141,T-06,T-12,1,0,0,0,0,0
+M-2022-13,WC-2022,G-158,Switzerland vs Cameroon,group stage,0,2022-11-24,13:00,S-144,T-75,T-11,1,0,0,0,0,0
+M-2022-14,WC-2022,G-159,Uruguay vs South Korea,group stage,0,2022-11-24,16:00,S-142,T-84,T-71,0,0,0,0,0,0
+M-2022-15,WC-2022,G-159,Portugal vs Ghana,group stage,0,2022-11-24,19:00,S-146,T-58,T-32,3,2,0,0,0,0
+M-2022-16,WC-2022,G-158,Brazil vs Serbia,group stage,0,2022-11-24,22:00,S-147,T-09,T-66,2,0,0,0,0,0
+M-2022-17,WC-2022,G-153,Wales vs Iran,group stage,0,2022-11-25,13:00,S-141,T-85,T-38,0,2,0,0,0,0
+M-2022-18,WC-2022,G-152,Qatar vs Senegal,group stage,0,2022-11-25,16:00,S-145,T-59,T-65,1,3,0,0,0,0
+M-2022-19,WC-2022,G-152,Netherlands vs Ecuador,group stage,0,2022-11-25,19:00,S-143,T-48,T-25,1,1,0,0,0,0
+M-2022-20,WC-2022,G-153,England vs United States,group stage,0,2022-11-25,22:00,S-140,T-28,T-83,0,0,0,0,0,0
+M-2022-21,WC-2022,G-155,Tunisia vs Australia,group stage,0,2022-11-26,13:00,S-144,T-79,T-04,0,1,0,0,0,0
+M-2022-22,WC-2022,G-154,Poland vs Saudi Arabia,group stage,0,2022-11-26,16:00,S-142,T-57,T-63,2,0,0,0,0,0
+M-2022-23,WC-2022,G-155,France vs Denmark,group stage,0,2022-11-26,19:00,S-146,T-30,T-22,2,1,0,0,0,0
+M-2022-24,WC-2022,G-154,Argentina vs Mexico,group stage,0,2022-11-26,22:00,S-147,T-03,T-46,2,0,0,0,0,0
+M-2022-25,WC-2022,G-156,Japan vs Costa Rica,group stage,0,2022-11-27,13:00,S-141,T-44,T-17,0,1,0,0,0,0
+M-2022-26,WC-2022,G-157,Belgium vs Morocco,group stage,0,2022-11-27,16:00,S-145,T-06,T-47,0,2,0,0,0,0
+M-2022-27,WC-2022,G-157,Croatia vs Canada,group stage,0,2022-11-27,19:00,S-143,T-18,T-12,4,1,0,0,0,0
+M-2022-28,WC-2022,G-156,Spain vs Germany,group stage,0,2022-11-27,22:00,S-140,T-73,T-31,1,1,0,0,0,0
+M-2022-29,WC-2022,G-158,Cameroon vs Serbia,group stage,0,2022-11-28,13:00,S-144,T-11,T-66,3,3,0,0,0,0
+M-2022-30,WC-2022,G-159,South Korea vs Ghana,group stage,0,2022-11-28,16:00,S-142,T-71,T-32,2,3,0,0,0,0
+M-2022-31,WC-2022,G-158,Brazil vs Switzerland,group stage,0,2022-11-28,19:00,S-146,T-09,T-75,1,0,0,0,0,0
+M-2022-32,WC-2022,G-159,Portugal vs Uruguay,group stage,0,2022-11-28,22:00,S-147,T-58,T-84,2,0,0,0,0,0
+M-2022-33,WC-2022,G-152,Ecuador vs Senegal,group stage,0,2022-11-29,18:00,S-143,T-25,T-65,1,2,0,0,0,0
+M-2022-34,WC-2022,G-152,Netherlands vs Qatar,group stage,0,2022-11-29,18:00,S-140,T-48,T-59,2,0,0,0,0,0
+M-2022-35,WC-2022,G-153,Iran vs United States,group stage,0,2022-11-29,22:00,S-145,T-38,T-83,0,1,0,0,0,0
+M-2022-36,WC-2022,G-153,Wales vs England,group stage,0,2022-11-29,22:00,S-141,T-85,T-28,0,3,0,0,0,0
+M-2022-37,WC-2022,G-155,Australia vs Denmark,group stage,0,2022-11-30,18:00,S-144,T-04,T-22,1,0,0,0,0,0
+M-2022-38,WC-2022,G-155,Tunisia vs France,group stage,0,2022-11-30,18:00,S-142,T-79,T-30,1,0,0,0,0,0
+M-2022-39,WC-2022,G-154,Poland vs Argentina,group stage,0,2022-11-30,22:00,S-146,T-57,T-03,0,2,0,0,0,0
+M-2022-40,WC-2022,G-154,Saudi Arabia vs Mexico,group stage,0,2022-11-30,22:00,S-147,T-63,T-46,1,2,0,0,0,0
+M-2022-41,WC-2022,G-157,Canada vs Morocco,group stage,0,2022-12-01,18:00,S-145,T-12,T-47,1,2,0,0,0,0
+M-2022-42,WC-2022,G-157,Croatia vs Belgium,group stage,0,2022-12-01,18:00,S-141,T-18,T-06,0,0,0,0,0,0
+M-2022-43,WC-2022,G-156,Costa Rica vs Germany,group stage,0,2022-12-01,22:00,S-140,T-17,T-31,2,4,0,0,0,0
+M-2022-44,WC-2022,G-156,Japan vs Spain,group stage,0,2022-12-01,22:00,S-143,T-44,T-73,2,1,0,0,0,0
+M-2022-45,WC-2022,G-159,Ghana vs Uruguay,group stage,0,2022-12-02,18:00,S-144,T-32,T-84,0,2,0,0,0,0
+M-2022-46,WC-2022,G-159,South Korea vs Portugal,group stage,0,2022-12-02,18:00,S-142,T-71,T-58,2,1,0,0,0,0
+M-2022-47,WC-2022,G-158,Cameroon vs Brazil,group stage,0,2022-12-02,22:00,S-147,T-11,T-09,1,0,0,0,0,0
+M-2022-48,WC-2022,G-158,Serbia vs Switzerland,group stage,0,2022-12-02,22:00,S-146,T-66,T-75,2,3,0,0,0,0
 M-2022-49,WC-2022,,Netherlands vs United States,round of 16,0,2022-12-03,18:00,S-143,T-48,T-83,3,1,0,0,0,0
 M-2022-50,WC-2022,,Argentina vs Australia,round of 16,0,2022-12-03,22:00,S-141,T-03,T-04,2,1,0,0,0,0
 M-2022-51,WC-2022,,France vs Poland,round of 16,0,2022-12-04,18:00,S-145,T-30,T-57,3,1,0,0,0,0

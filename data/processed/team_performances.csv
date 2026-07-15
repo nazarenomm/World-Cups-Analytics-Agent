@@ -1,0 +1,490 @@
+team_performance_id,tournament_id,team_id,count_matches,performance
+TP-1,WC-1930,T-03,5,final
+TP-2,WC-1930,T-06,2,group stage
+TP-3,WC-1930,T-07,2,group stage
+TP-4,WC-1930,T-09,2,group stage
+TP-5,WC-1930,T-13,3,group stage
+TP-6,WC-1930,T-30,3,group stage
+TP-7,WC-1930,T-46,3,group stage
+TP-8,WC-1930,T-55,2,group stage
+TP-9,WC-1930,T-56,2,group stage
+TP-10,WC-1930,T-61,2,group stage
+TP-11,WC-1930,T-83,3,semi-finals
+TP-12,WC-1930,T-84,4,final
+TP-13,WC-1930,T-87,3,semi-finals
+TP-14,WC-1934,T-03,1,round of 16
+TP-15,WC-1934,T-05,4,third-place match
+TP-16,WC-1934,T-06,1,round of 16
+TP-17,WC-1934,T-09,1,round of 16
+TP-18,WC-1934,T-21,4,final
+TP-19,WC-1934,T-26,1,round of 16
+TP-20,WC-1934,T-30,1,round of 16
+TP-21,WC-1934,T-31,4,third-place match
+TP-22,WC-1934,T-36,2,quarter-finals
+TP-23,WC-1934,T-41,5,final
+TP-24,WC-1934,T-48,1,round of 16
+TP-25,WC-1934,T-61,1,round of 16
+TP-26,WC-1934,T-73,3,quarter-finals
+TP-27,WC-1934,T-74,2,quarter-finals
+TP-28,WC-1934,T-75,2,quarter-finals
+TP-29,WC-1934,T-83,1,round of 16
+TP-30,WC-1938,T-06,1,round of 16
+TP-31,WC-1938,T-09,5,third-place match
+TP-32,WC-1938,T-19,3,quarter-finals
+TP-33,WC-1938,T-21,3,quarter-finals
+TP-34,WC-1938,T-23,1,round of 16
+TP-35,WC-1938,T-30,2,quarter-finals
+TP-36,WC-1938,T-31,2,round of 16
+TP-37,WC-1938,T-36,4,final
+TP-38,WC-1938,T-41,4,final
+TP-39,WC-1938,T-48,1,round of 16
+TP-40,WC-1938,T-53,1,round of 16
+TP-41,WC-1938,T-57,1,round of 16
+TP-42,WC-1938,T-61,2,round of 16
+TP-43,WC-1938,T-74,3,third-place match
+TP-44,WC-1938,T-75,3,quarter-finals
+TP-45,WC-1950,T-07,1,group stage
+TP-46,WC-1950,T-09,6,final round
+TP-47,WC-1950,T-13,3,group stage
+TP-48,WC-1950,T-28,3,group stage
+TP-49,WC-1950,T-41,2,group stage
+TP-50,WC-1950,T-46,3,group stage
+TP-51,WC-1950,T-55,2,group stage
+TP-52,WC-1950,T-73,6,final round
+TP-53,WC-1950,T-74,5,final round
+TP-54,WC-1950,T-75,3,group stage
+TP-55,WC-1950,T-83,3,group stage
+TP-56,WC-1950,T-84,4,final round
+TP-57,WC-1950,T-87,3,group stage
+TP-58,WC-1954,T-05,5,third-place match
+TP-59,WC-1954,T-06,2,group stage
+TP-60,WC-1954,T-09,3,quarter-finals
+TP-61,WC-1954,T-21,2,group stage
+TP-62,WC-1954,T-28,3,quarter-finals
+TP-63,WC-1954,T-30,2,group stage
+TP-64,WC-1954,T-36,5,final
+TP-65,WC-1954,T-41,3,group stage
+TP-66,WC-1954,T-46,2,group stage
+TP-67,WC-1954,T-64,2,group stage
+TP-68,WC-1954,T-71,2,group stage
+TP-69,WC-1954,T-75,4,quarter-finals
+TP-70,WC-1954,T-80,3,group stage
+TP-71,WC-1954,T-84,5,third-place match
+TP-72,WC-1954,T-86,6,final
+TP-73,WC-1954,T-87,3,quarter-finals
+TP-74,WC-1958,T-03,3,group stage
+TP-75,WC-1958,T-05,3,group stage
+TP-76,WC-1958,T-09,6,final
+TP-77,WC-1958,T-21,4,group stage
+TP-78,WC-1958,T-28,4,group stage
+TP-79,WC-1958,T-30,6,third-place match
+TP-80,WC-1958,T-36,4,group stage
+TP-81,WC-1958,T-46,3,group stage
+TP-82,WC-1958,T-52,5,quarter-finals
+TP-83,WC-1958,T-55,3,group stage
+TP-84,WC-1958,T-64,3,group stage
+TP-85,WC-1958,T-72,5,quarter-finals
+TP-86,WC-1958,T-74,6,final
+TP-87,WC-1958,T-85,5,quarter-finals
+TP-88,WC-1958,T-86,6,third-place match
+TP-89,WC-1958,T-87,4,quarter-finals
+TP-90,WC-1962,T-03,3,group stage
+TP-91,WC-1962,T-09,6,final
+TP-92,WC-1962,T-10,3,group stage
+TP-93,WC-1962,T-13,6,third-place match
+TP-94,WC-1962,T-16,3,group stage
+TP-95,WC-1962,T-21,6,final
+TP-96,WC-1962,T-28,4,quarter-finals
+TP-97,WC-1962,T-36,4,quarter-finals
+TP-98,WC-1962,T-41,3,group stage
+TP-99,WC-1962,T-46,3,group stage
+TP-100,WC-1962,T-72,4,quarter-finals
+TP-101,WC-1962,T-73,3,group stage
+TP-102,WC-1962,T-75,3,group stage
+TP-103,WC-1962,T-84,3,group stage
+TP-104,WC-1962,T-86,4,quarter-finals
+TP-105,WC-1962,T-87,6,third-place match
+TP-106,WC-1966,T-03,4,quarter-finals
+TP-107,WC-1966,T-09,3,group stage
+TP-108,WC-1966,T-10,3,group stage
+TP-109,WC-1966,T-13,3,group stage
+TP-110,WC-1966,T-28,6,final
+TP-111,WC-1966,T-30,3,group stage
+TP-112,WC-1966,T-36,4,quarter-finals
+TP-113,WC-1966,T-41,3,group stage
+TP-114,WC-1966,T-46,3,group stage
+TP-115,WC-1966,T-51,4,quarter-finals
+TP-116,WC-1966,T-58,6,third-place match
+TP-117,WC-1966,T-72,6,third-place match
+TP-118,WC-1966,T-73,3,group stage
+TP-119,WC-1966,T-75,3,group stage
+TP-120,WC-1966,T-84,4,quarter-finals
+TP-121,WC-1966,T-86,6,final
+TP-122,WC-1970,T-06,3,group stage
+TP-123,WC-1970,T-09,6,final
+TP-124,WC-1970,T-10,3,group stage
+TP-125,WC-1970,T-21,3,group stage
+TP-126,WC-1970,T-27,3,group stage
+TP-127,WC-1970,T-28,4,quarter-finals
+TP-128,WC-1970,T-40,3,group stage
+TP-129,WC-1970,T-41,6,final
+TP-130,WC-1970,T-46,4,quarter-finals
+TP-131,WC-1970,T-47,3,group stage
+TP-132,WC-1970,T-56,4,quarter-finals
+TP-133,WC-1970,T-61,3,group stage
+TP-134,WC-1970,T-72,4,quarter-finals
+TP-135,WC-1970,T-74,3,group stage
+TP-136,WC-1970,T-84,6,third-place match
+TP-137,WC-1970,T-86,6,third-place match
+TP-138,WC-1974,T-03,6,second group stage
+TP-139,WC-1974,T-04,3,group stage
+TP-140,WC-1974,T-09,7,third-place match
+TP-141,WC-1974,T-10,3,group stage
+TP-142,WC-1974,T-13,3,group stage
+TP-143,WC-1974,T-24,6,second group stage
+TP-144,WC-1974,T-34,3,group stage
+TP-145,WC-1974,T-41,3,group stage
+TP-146,WC-1974,T-48,7,final
+TP-147,WC-1974,T-57,7,third-place match
+TP-148,WC-1974,T-64,3,group stage
+TP-149,WC-1974,T-74,6,second group stage
+TP-150,WC-1974,T-84,3,group stage
+TP-151,WC-1974,T-86,7,final
+TP-152,WC-1974,T-87,6,second group stage
+TP-153,WC-1974,T-88,3,group stage
+TP-154,WC-1978,T-03,7,final
+TP-155,WC-1978,T-05,6,second group stage
+TP-156,WC-1978,T-09,7,third-place match
+TP-157,WC-1978,T-30,3,group stage
+TP-158,WC-1978,T-36,3,group stage
+TP-159,WC-1978,T-38,3,group stage
+TP-160,WC-1978,T-41,7,third-place match
+TP-161,WC-1978,T-46,3,group stage
+TP-162,WC-1978,T-48,7,final
+TP-163,WC-1978,T-56,6,second group stage
+TP-164,WC-1978,T-57,6,second group stage
+TP-165,WC-1978,T-64,3,group stage
+TP-166,WC-1978,T-73,3,group stage
+TP-167,WC-1978,T-74,3,group stage
+TP-168,WC-1978,T-79,3,group stage
+TP-169,WC-1978,T-86,6,second group stage
+TP-170,WC-1982,T-01,3,group stage
+TP-171,WC-1982,T-03,5,second group stage
+TP-172,WC-1982,T-05,5,second group stage
+TP-173,WC-1982,T-06,5,second group stage
+TP-174,WC-1982,T-09,5,second group stage
+TP-175,WC-1982,T-11,3,group stage
+TP-176,WC-1982,T-13,3,group stage
+TP-177,WC-1982,T-21,3,group stage
+TP-178,WC-1982,T-27,3,group stage
+TP-179,WC-1982,T-28,5,second group stage
+TP-180,WC-1982,T-30,7,third-place match
+TP-181,WC-1982,T-35,3,group stage
+TP-182,WC-1982,T-36,3,group stage
+TP-183,WC-1982,T-41,7,final
+TP-184,WC-1982,T-45,3,group stage
+TP-185,WC-1982,T-49,3,group stage
+TP-186,WC-1982,T-52,5,second group stage
+TP-187,WC-1982,T-56,3,group stage
+TP-188,WC-1982,T-57,7,third-place match
+TP-189,WC-1982,T-64,3,group stage
+TP-190,WC-1982,T-72,5,second group stage
+TP-191,WC-1982,T-73,5,second group stage
+TP-192,WC-1982,T-86,7,final
+TP-193,WC-1982,T-87,3,group stage
+TP-194,WC-1986,T-01,3,group stage
+TP-195,WC-1986,T-03,7,final
+TP-196,WC-1986,T-06,7,third-place match
+TP-197,WC-1986,T-09,5,quarter-finals
+TP-198,WC-1986,T-10,4,round of 16
+TP-199,WC-1986,T-12,3,group stage
+TP-200,WC-1986,T-22,4,round of 16
+TP-201,WC-1986,T-28,5,quarter-finals
+TP-202,WC-1986,T-30,7,third-place match
+TP-203,WC-1986,T-36,3,group stage
+TP-204,WC-1986,T-39,3,group stage
+TP-205,WC-1986,T-41,4,round of 16
+TP-206,WC-1986,T-46,5,quarter-finals
+TP-207,WC-1986,T-47,4,round of 16
+TP-208,WC-1986,T-52,3,group stage
+TP-209,WC-1986,T-55,4,round of 16
+TP-210,WC-1986,T-57,4,round of 16
+TP-211,WC-1986,T-58,3,group stage
+TP-212,WC-1986,T-64,3,group stage
+TP-213,WC-1986,T-71,3,group stage
+TP-214,WC-1986,T-72,4,round of 16
+TP-215,WC-1986,T-73,5,quarter-finals
+TP-216,WC-1986,T-84,4,round of 16
+TP-217,WC-1986,T-86,7,final
+TP-218,WC-1990,T-03,7,final
+TP-219,WC-1990,T-05,3,group stage
+TP-220,WC-1990,T-06,4,round of 16
+TP-221,WC-1990,T-09,4,round of 16
+TP-222,WC-1990,T-11,5,quarter-finals
+TP-223,WC-1990,T-16,4,round of 16
+TP-224,WC-1990,T-17,4,round of 16
+TP-225,WC-1990,T-21,5,quarter-finals
+TP-226,WC-1990,T-26,3,group stage
+TP-227,WC-1990,T-28,7,third-place match
+TP-228,WC-1990,T-41,7,third-place match
+TP-229,WC-1990,T-48,4,round of 16
+TP-230,WC-1990,T-60,5,quarter-finals
+TP-231,WC-1990,T-61,4,round of 16
+TP-232,WC-1990,T-64,3,group stage
+TP-233,WC-1990,T-71,3,group stage
+TP-234,WC-1990,T-72,3,group stage
+TP-235,WC-1990,T-73,4,round of 16
+TP-236,WC-1990,T-74,3,group stage
+TP-237,WC-1990,T-82,3,group stage
+TP-238,WC-1990,T-83,3,group stage
+TP-239,WC-1990,T-84,4,round of 16
+TP-240,WC-1990,T-86,7,final
+TP-241,WC-1990,T-87,5,quarter-finals
+TP-254,WC-1994,T-03,4,round of 16
+TP-255,WC-1994,T-06,4,round of 16
+TP-256,WC-1994,T-07,3,group stage
+TP-257,WC-1994,T-09,7,final
+TP-258,WC-1994,T-10,7,third-place match
+TP-259,WC-1994,T-11,3,group stage
+TP-260,WC-1994,T-16,3,group stage
+TP-261,WC-1994,T-31,5,quarter-finals
+TP-262,WC-1994,T-33,3,group stage
+TP-263,WC-1994,T-41,7,final
+TP-264,WC-1994,T-46,4,round of 16
+TP-265,WC-1994,T-47,3,group stage
+TP-266,WC-1994,T-48,5,quarter-finals
+TP-267,WC-1994,T-50,4,round of 16
+TP-268,WC-1994,T-53,3,group stage
+TP-269,WC-1994,T-60,4,round of 16
+TP-270,WC-1994,T-61,5,quarter-finals
+TP-271,WC-1994,T-62,3,group stage
+TP-272,WC-1994,T-63,4,round of 16
+TP-273,WC-1994,T-71,3,group stage
+TP-274,WC-1994,T-73,5,quarter-finals
+TP-275,WC-1994,T-74,7,third-place match
+TP-276,WC-1994,T-75,4,round of 16
+TP-277,WC-1994,T-83,4,round of 16
+TP-290,WC-1998,T-03,5,quarter-finals
+TP-291,WC-1998,T-05,3,group stage
+TP-292,WC-1998,T-06,3,group stage
+TP-293,WC-1998,T-09,7,final
+TP-294,WC-1998,T-10,3,group stage
+TP-295,WC-1998,T-11,3,group stage
+TP-296,WC-1998,T-13,4,round of 16
+TP-297,WC-1998,T-16,3,group stage
+TP-298,WC-1998,T-18,7,third-place match
+TP-299,WC-1998,T-22,5,quarter-finals
+TP-300,WC-1998,T-28,4,round of 16
+TP-301,WC-1998,T-30,7,final
+TP-302,WC-1998,T-31,5,quarter-finals
+TP-303,WC-1998,T-38,3,group stage
+TP-304,WC-1998,T-41,5,quarter-finals
+TP-305,WC-1998,T-43,3,group stage
+TP-306,WC-1998,T-44,3,group stage
+TP-307,WC-1998,T-46,4,round of 16
+TP-308,WC-1998,T-47,3,group stage
+TP-309,WC-1998,T-48,7,third-place match
+TP-310,WC-1998,T-50,4,round of 16
+TP-311,WC-1998,T-53,4,round of 16
+TP-312,WC-1998,T-55,4,round of 16
+TP-313,WC-1998,T-61,4,round of 16
+TP-314,WC-1998,T-63,3,group stage
+TP-315,WC-1998,T-64,3,group stage
+TP-316,WC-1998,T-70,3,group stage
+TP-317,WC-1998,T-71,3,group stage
+TP-318,WC-1998,T-73,3,group stage
+TP-319,WC-1998,T-79,3,group stage
+TP-320,WC-1998,T-83,3,group stage
+TP-321,WC-1998,T-87,4,round of 16
+TP-338,WC-2002,T-03,3,group stage
+TP-339,WC-2002,T-06,4,round of 16
+TP-340,WC-2002,T-09,7,final
+TP-341,WC-2002,T-11,3,group stage
+TP-342,WC-2002,T-14,3,group stage
+TP-343,WC-2002,T-17,3,group stage
+TP-344,WC-2002,T-18,3,group stage
+TP-345,WC-2002,T-22,4,round of 16
+TP-346,WC-2002,T-25,3,group stage
+TP-347,WC-2002,T-28,5,quarter-finals
+TP-348,WC-2002,T-30,3,group stage
+TP-349,WC-2002,T-31,7,final
+TP-350,WC-2002,T-41,4,round of 16
+TP-351,WC-2002,T-44,4,round of 16
+TP-352,WC-2002,T-46,4,round of 16
+TP-353,WC-2002,T-50,3,group stage
+TP-354,WC-2002,T-55,4,round of 16
+TP-355,WC-2002,T-57,3,group stage
+TP-356,WC-2002,T-58,3,group stage
+TP-357,WC-2002,T-60,4,round of 16
+TP-358,WC-2002,T-62,3,group stage
+TP-359,WC-2002,T-63,3,group stage
+TP-360,WC-2002,T-65,5,quarter-finals
+TP-361,WC-2002,T-69,3,group stage
+TP-362,WC-2002,T-70,3,group stage
+TP-363,WC-2002,T-71,7,third-place match
+TP-364,WC-2002,T-73,5,quarter-finals
+TP-365,WC-2002,T-74,4,round of 16
+TP-366,WC-2002,T-79,3,group stage
+TP-367,WC-2002,T-80,7,third-place match
+TP-368,WC-2002,T-83,5,quarter-finals
+TP-369,WC-2002,T-84,3,group stage
+TP-386,WC-2006,T-02,3,group stage
+TP-387,WC-2006,T-03,5,quarter-finals
+TP-388,WC-2006,T-04,4,round of 16
+TP-389,WC-2006,T-09,5,quarter-finals
+TP-390,WC-2006,T-17,3,group stage
+TP-391,WC-2006,T-18,3,group stage
+TP-392,WC-2006,T-20,3,group stage
+TP-393,WC-2006,T-25,4,round of 16
+TP-394,WC-2006,T-28,5,quarter-finals
+TP-395,WC-2006,T-30,7,final
+TP-396,WC-2006,T-31,7,third-place match
+TP-397,WC-2006,T-32,4,round of 16
+TP-398,WC-2006,T-38,3,group stage
+TP-399,WC-2006,T-41,7,final
+TP-400,WC-2006,T-42,3,group stage
+TP-401,WC-2006,T-44,3,group stage
+TP-402,WC-2006,T-46,4,round of 16
+TP-403,WC-2006,T-48,4,round of 16
+TP-404,WC-2006,T-55,3,group stage
+TP-405,WC-2006,T-57,3,group stage
+TP-406,WC-2006,T-58,7,third-place match
+TP-407,WC-2006,T-63,3,group stage
+TP-408,WC-2006,T-67,3,group stage
+TP-409,WC-2006,T-71,3,group stage
+TP-410,WC-2006,T-73,4,round of 16
+TP-411,WC-2006,T-74,4,round of 16
+TP-412,WC-2006,T-75,4,round of 16
+TP-413,WC-2006,T-77,3,group stage
+TP-414,WC-2006,T-78,3,group stage
+TP-415,WC-2006,T-79,3,group stage
+TP-416,WC-2006,T-81,5,quarter-finals
+TP-417,WC-2006,T-83,3,group stage
+TP-434,WC-2010,T-01,3,group stage
+TP-435,WC-2010,T-03,5,quarter-finals
+TP-436,WC-2010,T-04,3,group stage
+TP-437,WC-2010,T-09,5,quarter-finals
+TP-438,WC-2010,T-11,3,group stage
+TP-439,WC-2010,T-13,4,round of 16
+TP-440,WC-2010,T-22,3,group stage
+TP-441,WC-2010,T-28,4,round of 16
+TP-442,WC-2010,T-30,3,group stage
+TP-443,WC-2010,T-31,7,third-place match
+TP-444,WC-2010,T-32,5,quarter-finals
+TP-445,WC-2010,T-33,3,group stage
+TP-446,WC-2010,T-35,3,group stage
+TP-447,WC-2010,T-41,3,group stage
+TP-448,WC-2010,T-42,3,group stage
+TP-449,WC-2010,T-44,4,round of 16
+TP-450,WC-2010,T-46,4,round of 16
+TP-451,WC-2010,T-48,7,final
+TP-452,WC-2010,T-49,3,group stage
+TP-453,WC-2010,T-50,3,group stage
+TP-454,WC-2010,T-51,3,group stage
+TP-455,WC-2010,T-55,5,quarter-finals
+TP-456,WC-2010,T-58,4,round of 16
+TP-457,WC-2010,T-66,3,group stage
+TP-458,WC-2010,T-68,4,round of 16
+TP-459,WC-2010,T-69,3,group stage
+TP-460,WC-2010,T-70,3,group stage
+TP-461,WC-2010,T-71,4,round of 16
+TP-462,WC-2010,T-73,7,final
+TP-463,WC-2010,T-75,3,group stage
+TP-464,WC-2010,T-83,4,round of 16
+TP-465,WC-2010,T-84,7,third-place match
+TP-482,WC-2014,T-01,4,round of 16
+TP-483,WC-2014,T-03,7,final
+TP-484,WC-2014,T-04,3,group stage
+TP-485,WC-2014,T-06,5,quarter-finals
+TP-486,WC-2014,T-08,3,group stage
+TP-487,WC-2014,T-09,7,third-place match
+TP-488,WC-2014,T-11,3,group stage
+TP-489,WC-2014,T-13,4,round of 16
+TP-490,WC-2014,T-16,5,quarter-finals
+TP-491,WC-2014,T-17,5,quarter-finals
+TP-492,WC-2014,T-18,3,group stage
+TP-493,WC-2014,T-25,3,group stage
+TP-494,WC-2014,T-28,3,group stage
+TP-495,WC-2014,T-30,5,quarter-finals
+TP-496,WC-2014,T-31,7,final
+TP-497,WC-2014,T-32,3,group stage
+TP-498,WC-2014,T-33,4,round of 16
+TP-499,WC-2014,T-35,3,group stage
+TP-500,WC-2014,T-38,3,group stage
+TP-501,WC-2014,T-41,3,group stage
+TP-502,WC-2014,T-42,3,group stage
+TP-503,WC-2014,T-44,3,group stage
+TP-504,WC-2014,T-46,4,round of 16
+TP-505,WC-2014,T-48,7,third-place match
+TP-506,WC-2014,T-50,4,round of 16
+TP-507,WC-2014,T-58,3,group stage
+TP-508,WC-2014,T-62,3,group stage
+TP-509,WC-2014,T-71,3,group stage
+TP-510,WC-2014,T-73,3,group stage
+TP-511,WC-2014,T-75,4,round of 16
+TP-512,WC-2014,T-83,4,round of 16
+TP-513,WC-2014,T-84,4,round of 16
+TP-538,WC-2018,T-03,4,round of 16
+TP-539,WC-2018,T-04,3,group stage
+TP-540,WC-2018,T-06,7,third-place match
+TP-541,WC-2018,T-09,5,quarter-finals
+TP-542,WC-2018,T-16,4,round of 16
+TP-543,WC-2018,T-17,3,group stage
+TP-544,WC-2018,T-18,7,final
+TP-545,WC-2018,T-22,4,round of 16
+TP-546,WC-2018,T-26,3,group stage
+TP-547,WC-2018,T-28,7,third-place match
+TP-548,WC-2018,T-30,7,final
+TP-549,WC-2018,T-31,3,group stage
+TP-550,WC-2018,T-37,3,group stage
+TP-551,WC-2018,T-38,3,group stage
+TP-552,WC-2018,T-44,4,round of 16
+TP-553,WC-2018,T-46,4,round of 16
+TP-554,WC-2018,T-47,3,group stage
+TP-555,WC-2018,T-50,3,group stage
+TP-556,WC-2018,T-54,3,group stage
+TP-557,WC-2018,T-56,3,group stage
+TP-558,WC-2018,T-57,3,group stage
+TP-559,WC-2018,T-58,4,round of 16
+TP-560,WC-2018,T-62,5,quarter-finals
+TP-561,WC-2018,T-63,3,group stage
+TP-562,WC-2018,T-65,3,group stage
+TP-563,WC-2018,T-66,3,group stage
+TP-564,WC-2018,T-71,3,group stage
+TP-565,WC-2018,T-73,4,round of 16
+TP-566,WC-2018,T-74,5,quarter-finals
+TP-567,WC-2018,T-75,4,round of 16
+TP-568,WC-2018,T-79,3,group stage
+TP-569,WC-2018,T-84,5,quarter-finals
+TP-594,WC-2022,T-03,7,final
+TP-595,WC-2022,T-04,4,round of 16
+TP-596,WC-2022,T-06,3,group stage
+TP-597,WC-2022,T-09,5,quarter-finals
+TP-598,WC-2022,T-11,3,group stage
+TP-599,WC-2022,T-12,3,group stage
+TP-600,WC-2022,T-17,3,group stage
+TP-601,WC-2022,T-18,7,third-place match
+TP-602,WC-2022,T-22,3,group stage
+TP-603,WC-2022,T-25,3,group stage
+TP-604,WC-2022,T-28,5,quarter-finals
+TP-605,WC-2022,T-30,7,final
+TP-606,WC-2022,T-31,3,group stage
+TP-607,WC-2022,T-32,3,group stage
+TP-608,WC-2022,T-38,3,group stage
+TP-609,WC-2022,T-44,4,round of 16
+TP-610,WC-2022,T-46,3,group stage
+TP-611,WC-2022,T-47,7,third-place match
+TP-612,WC-2022,T-48,5,quarter-finals
+TP-613,WC-2022,T-57,4,round of 16
+TP-614,WC-2022,T-58,5,quarter-finals
+TP-615,WC-2022,T-59,3,group stage
+TP-616,WC-2022,T-63,3,group stage
+TP-617,WC-2022,T-65,4,round of 16
+TP-618,WC-2022,T-66,3,group stage
+TP-619,WC-2022,T-71,4,round of 16
+TP-620,WC-2022,T-73,4,round of 16
+TP-621,WC-2022,T-75,4,round of 16
+TP-622,WC-2022,T-79,3,group stage
+TP-623,WC-2022,T-83,4,round of 16
+TP-624,WC-2022,T-84,3,group stage
+TP-625,WC-2022,T-85,3,group stage

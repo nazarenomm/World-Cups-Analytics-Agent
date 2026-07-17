@@ -324,7 +324,7 @@ CREATE TABLE tournament_standings(
   tournament_standing_id TEXT NOT NULL,
   tournament_id TEXT NOT NULL,
   team_id TEXT NOT NULL,
-  position INTEGER,
+  position INTEGER, -- 1 for winner, 2 for runner-up, 3 for third place, 4 for fourth place
   PRIMARY KEY (tournament_standing_id),
   FOREIGN KEY (tournament_id) REFERENCES tournaments (tournament_id),
   FOREIGN KEY (team_id) REFERENCES teams (team_id)

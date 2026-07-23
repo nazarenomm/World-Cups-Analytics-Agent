@@ -4,14 +4,14 @@ Orquesta el flujo completo: prompt del usuario -> SQL generado -> ejecución de 
 """
 import os
 from google import genai
+import psycopg2
 from dotenv import load_dotenv
 
-from config import USE_SCHEMA_PRUNING, GEMINI_MODEL, SCHEMA_PRUNING_TOP_K, SCHEMA_FULL_TOP_K, MAX_SQL_RETRIES
-from prompts import build_followup_prompt, build_text_to_sql_prompt, build_retry_prompt
-from schema_format import format_schema_for_prompt
-from schema_pruning import get_relevant_tables
-from db import execute_query, UnsafeQueryError
-import psycopg2
+from .config import USE_SCHEMA_PRUNING, GEMINI_MODEL, SCHEMA_PRUNING_TOP_K, SCHEMA_FULL_TOP_K, MAX_SQL_RETRIES
+from .prompts import build_followup_prompt, build_text_to_sql_prompt, build_retry_prompt
+from .schema_format import format_schema_for_prompt
+from .schema_pruning import get_relevant_tables
+from .db import execute_query, UnsafeQueryError
 
 load_dotenv()
 

@@ -6,10 +6,10 @@ import os
 from google import genai
 from dotenv import load_dotenv
 
-from config import USE_SCHEMA_PRUNING, GEMINI_MODEL, SCHEMA_PRUNING_TOP_K, SCHEMA_FULL_TOP_K
-from prompts import build_text_to_sql_prompt
-from schema_format import format_schema_for_prompt
-from schema_pruning import get_relevant_tables
+from .config import USE_SCHEMA_PRUNING, GEMINI_MODEL, SCHEMA_PRUNING_TOP_K, SCHEMA_FULL_TOP_K
+from .prompts import build_text_to_sql_prompt
+from .schema_format import format_schema_for_prompt
+from .schema_pruning import get_relevant_tables
 
 load_dotenv()
 

@@ -48,3 +48,36 @@ def build_text_to_sql_prompt(user_prompt: str, schema_injection: str) -> str:
     devolvé únicamente el código SQL, sin backticks ni bloques de markdown.
     No cometas errores.
     """
+
+def build_retry_prompt(failed_sql: str, error_message: str) -> str:
+    return f"""
+    La consulta SQL que generaste falló al ejecutarse contra la base de datos.
+    
+    Consulta que falló:
+    {failed_sql}
+    
+    Error de PostgreSQL:
+    {error_message}
+    
+    Corregí la consulta para que se ejecute correctamente, manteniendo el objetivo 
+    original de la pregunta. Devolvé únicamente el SQL corregido, sin backticks 
+    ni bloques de markdown, sin explicaciones.
+    """
+
+def build_followup_prompt(user_prompt: str, schema_injection: str) -> str:
+    return f"""
+    El usuario hizo un nuevo pedido o una corrección del pedido anterior.
+
+    Nuevo pedido del usuario:
+    {user_prompt}
+
+    tablas disponibles:
+    {schema_injection}
+
+    {GENERAL_SQL_RULES}
+
+    instrucciones: Genera la consulta SQL que responda al nuevo pedido, teniendo en cuenta
+    el contexto de la conversación anterior si es relevante. Si el pedido es independiente
+    y no se relaciona con lo anterior, respondé solo a este nuevo pedido.
+    Devolvé únicamente el código SQL, sin backticks ni bloques de markdown, sin explicaciones.
+    """

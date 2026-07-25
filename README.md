@@ -1,4 +1,4 @@
-# ⚽ World Cup Analytics Agent
+# ⚽ World Cups Analytics Agent
 
 Un agente conversacional que responde preguntas en lenguaje natural (español) sobre la historia completa de los Mundiales de fútbol (1930–2022), usando un pipeline **Text-to-SQL** sobre una base de datos relacional.
 
@@ -141,13 +141,14 @@ world-cups-analytics-agent/
 │   ├── pipeline.py            # Orquestación: prompt → SQL → ejecución → retry
 │   └── chart_detector.py      # Heurística de selección de gráfico
 ├── schema/
+│   ├── DDL.sql                # Creación de la estructura de la base de datos
 │   ├── schema_metadata.json   # Descripciones, columnas, enums, ejemplos por tabla/vista
 │   ├── embeddings_cache.pkl   # Embeddings precalculados (gitignored, regenerable)
 │   ├── local_model/           # Modelo de embeddings local (gitignored, se descarga una vez)
 │   ├── download_model.py
 │   └── views/                 # Consultas SQL usadas para crear las vistas en la base de datos
-├── python/                    # scripts de carga a supabase, calculo de embedding y testeo del rol agent_readonly
-├── wikipedia/                 # scripts para scrapear wikipedia en busca de tablas adicionales y ampliar el corpus
+├── python/                    # Scripts de carga a supabase, calculo de embedding y testeo del rol agent_readonly
+├── wikipedia/                 # Scripts para scrapear wikipedia en busca de tablas adicionales y ampliar el corpus
 └── corpus/                    # (en construcción) corpus para la capa de RAG
 ```
 

@@ -1,7 +1,8 @@
 import streamlit as st
 import pandas as pd
+import plotly.express as px
 
-from src import run_pipeline
+from src import run_pipeline, resolve_chart_type, get_chart_columns, normalize_dtypes
 
 st.set_page_config(page_title="World Cup Analytics Agent", page_icon="⚽", layout="wide")
 st.title("⚽ World Cup Analytics Agent")
@@ -15,17 +16,73 @@ if "messages" not in st.session_state:
     st.session_state.messages = []  # lista de dicts: {role, content, sql?, df?}
 
 # --- Render del historial ---
+def render_chart(chart_type: str, df: pd.DataFrame):
+    if chart_type is None:
+        return
+
+    cols = get_chart_columns(df, chart_type)
+
+    if chart_type == "metric":
+        label = df.iloc[0][cols["label_col"]] if cols["label_col"] != cols["value_col"] else cols["value_col"]
+        st.metric(label=str(label), value=df.iloc[0][cols["value_col"]])
+        return
+
+    if chart_type == "bar_h":
+        chart_df = df[[cols["category_col"], cols["value_col"]]].sort_values(
+            cols["value_col"], ascending=True
+        )
+        fig = px.bar(
+            chart_df,
+            x=cols["value_col"],
+            y=cols["category_col"],
+            orientation="h",
+        )
+        fig.update_layout(margin=dict(l=10, r=20, t=20, b=20))
+        st.plotly_chart(fig, use_container_width=True)
+        return
+
+    if chart_type == "line":
+        if cols["x_col"] not in df.columns:
+            st.dataframe(df, use_container_width=True)
+            return
+        chart_df = df.sort_values(cols["x_col"])
+        fig = px.line(
+            chart_df,
+            x=cols["x_col"],
+            y=cols["y_col"],
+            markers=True,
+        )
+        fig.update_layout(margin=dict(l=40, r=40, t=20, b=40))
+        st.plotly_chart(fig, use_container_width=True)
+        return
+
+    if chart_type == "scatter":
+        fig = px.scatter(
+            df,
+            x=cols["x_col"],
+            y=cols["y_col"],
+            hover_name=cols["label_col"],
+            text=cols["label_col"] if len(df) <= 15 else None,
+        )
+        fig.update_traces(marker=dict(size=10), textposition="top center")
+        fig.update_layout(margin=dict(l=40, r=40, t=40, b=40))
+        st.plotly_chart(fig, use_container_width=True)
+        return
+
 for msg in st.session_state.messages:
     with st.chat_message(msg["role"]):
         st.markdown(msg["content"])
         if msg.get("df") is not None:
-            st.dataframe(msg["df"], use_container_width=True)
+            if msg.get("chart_type"):
+                render_chart(msg["chart_type"], msg["df"])
+            with st.expander("Ver tabla de resultados"):
+                st.dataframe(msg["df"], use_container_width=True)
         if msg.get("sql"):
             with st.expander("Ver consulta SQL generada"):
                 st.code(msg["sql"], language="sql")
 
 # --- Input del usuario ---
-user_prompt = st.chat_input("Ej: ¿Quién es el máximo goleador histórico de los mundiales?")
+user_prompt = st.chat_input("Ej: ¿Quién es el máximo goleador histórico?")
 
 if user_prompt:
     st.session_state.messages.append({"role": "user", "content": user_prompt})
@@ -40,9 +97,17 @@ if user_prompt:
 
         if result["success"]:
             df = pd.DataFrame(result["rows"], columns=result["columns"])
+            df = normalize_dtypes(df)
+            chart_type = resolve_chart_type(user_prompt, df)
+
             response_text = f"Encontré {len(df)} resultado(s)."
             st.markdown(response_text)
-            st.dataframe(df, use_container_width=True)
+
+            chart_type = resolve_chart_type(user_prompt, df)
+            render_chart(chart_type, df)
+
+            with st.expander("Ver tabla de resultados"):
+                st.dataframe(df, use_container_width=True)
             with st.expander("Ver consulta SQL generada"):
                 st.code(result["sql"], language="sql")
 
@@ -50,6 +115,7 @@ if user_prompt:
                 "role": "assistant",
                 "content": response_text,
                 "df": df,
+                "chart_type": chart_type,
                 "sql": result["sql"],
             })
         else:

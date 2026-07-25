@@ -27,6 +27,9 @@ Reglas generales importantes a tener en cuenta al generar la consulta:
    preferí tomar UN equipo representativo por persona (ej. usando 
    DISTINCT ON (player_id) ordenado por tournament_id DESC para tomar el más 
    reciente) en vez de agrupar o unir de forma que divida o duplique el total.
+
+2. Cuando el usuario pida un ranking top-N, evita usar LIMIT,
+   usar FETCH FIRST N ROWS WITH TIES en su lugar para incluir empates en el último lugar del ranking.
 """
 
 SYSTEM_ROLE = "especialista en PostgreSQL"

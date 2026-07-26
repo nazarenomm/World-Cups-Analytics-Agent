@@ -7,7 +7,7 @@ Reglas generales importantes a tener en cuenta al generar la consulta:
 
 1. Entidades históricas divididas: algunos países aparecen como múltiples filas 
    distintas en `teams` (team_id distintos) debido a cambios políticos históricos:
-   - Alemania: 'West Germany' y 'East Germany' (1954-1990) y 'Germany' (1994-presente)
+   - Alemania: 'West Germany' y 'East Germany' (1954-1990) y 'Germany' (1930-1950 y 1994-presente)
    - URSS/Rusia: 'Soviet Union' (hasta 1990) y 'Russia' (desde 1994)
    - Yugoslavia: 'Yugoslavia' (hasta 1992), 'Serbia and Montenegro' (1992-2006), 'Serbia' (desde 2006), 'Croatia', etc.
    - Czechoslovakia: 'Czechoslovakia' (hasta 1992), 'Czech Republic' (desde 1994), 'Slovakia' (desde 1994)
@@ -30,9 +30,27 @@ Reglas generales importantes a tener en cuenta al generar la consulta:
 
 2. Cuando el usuario pida un ranking top-N, evita usar LIMIT,
    usar FETCH FIRST N ROWS WITH TIES en su lugar para incluir empates en el último lugar del ranking.
+
+3. Asigná alias explicativos a las columnas de la consulta SQL para que el resultado sea más legible en el idioma del prompt.
+
+4. Si la pregunta pide un dato que NO EXISTE en el schema disponible (ej. asistencias 
+   de gol, valor de mercado, altura de los jugadores, lesiones), marcá 
+   answerable=false y explicá en "reason" qué dato falta específicamente. No inventes 
+   ni aproximes ese dato con columnas que midan algo distinto.
 """
 
 SYSTEM_ROLE = "especialista en PostgreSQL"
+
+RESPONSE_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "answerable": {"type": "boolean"},
+        "reason": {"type": "string"},
+        "sql_query": {"type": "string"},
+    },
+    "required": ["answerable", "reason", "sql_query"],
+}
+
 
 def build_text_to_sql_prompt(user_prompt: str, schema_injection: str) -> str:
     return f"""
@@ -46,11 +64,14 @@ def build_text_to_sql_prompt(user_prompt: str, schema_injection: str) -> str:
     
     {GENERAL_SQL_RULES}
     
-    instrucciones: Genera la consulta SQL que responda a la pregunta del prompt 
-    usando las tablas disponibles. No agregues explicaciones ni comentarios, 
-    devolvé únicamente el código SQL, sin backticks ni bloques de markdown.
-    No cometas errores.
+    instrucciones: Analizá si la pregunta del usuario puede responderse con las tablas 
+    disponibles. Si es así, generá la consulta SQL correspondiente. Si no es así 
+    (porque pide un dato que no existe en el schema), explicá brevemente por qué en 
+    el campo "reason" y dejá "sql_query" como string vacío.
+    
+    Respondé siguiendo estrictamente el formato JSON solicitado.
     """
+
 
 def build_retry_prompt(failed_sql: str, error_message: str) -> str:
     return f"""
@@ -63,9 +84,13 @@ def build_retry_prompt(failed_sql: str, error_message: str) -> str:
     {error_message}
     
     Corregí la consulta para que se ejecute correctamente, manteniendo el objetivo 
-    original de la pregunta. Devolvé únicamente el SQL corregido, sin backticks 
-    ni bloques de markdown, sin explicaciones.
+    original de la pregunta. Si al analizar el error concluís que la pregunta en 
+    realidad no es respondible con las tablas disponibles, marcá answerable=false 
+    y explicá por qué en "reason".
+    
+    Respondé siguiendo estrictamente el formato JSON solicitado.
     """
+
 
 def build_followup_prompt(user_prompt: str, schema_injection: str) -> str:
     return f"""
@@ -79,8 +104,11 @@ def build_followup_prompt(user_prompt: str, schema_injection: str) -> str:
 
     {GENERAL_SQL_RULES}
 
-    instrucciones: Genera la consulta SQL que responda al nuevo pedido, teniendo en cuenta
-    el contexto de la conversación anterior si es relevante. Si el pedido es independiente
-    y no se relaciona con lo anterior, respondé solo a este nuevo pedido.
-    Devolvé únicamente el código SQL, sin backticks ni bloques de markdown, sin explicaciones.
+    instrucciones: Analizá si este nuevo pedido puede responderse con las tablas 
+    disponibles, teniendo en cuenta el contexto de la conversación anterior si es 
+    relevante. Si el pedido es independiente y no se relaciona con lo anterior, 
+    respondé solo a este nuevo pedido. Si no es respondible con las tablas 
+    disponibles, marcá answerable=false y explicá por qué en "reason".
+    
+    Respondé siguiendo estrictamente el formato JSON solicitado.
     """

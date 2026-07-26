@@ -102,8 +102,6 @@ if user_prompt:
 
             response_text = f"Encontré {len(df)} resultado(s)."
             st.markdown(response_text)
-
-            chart_type = resolve_chart_type(user_prompt, df)
             render_chart(chart_type, df)
 
             with st.expander("Ver tabla de resultados"):
@@ -118,12 +116,20 @@ if user_prompt:
                 "chart_type": chart_type,
                 "sql": result["sql"],
             })
+
+        elif not result.get("answerable", True):
+            warning_text = f"No tengo esa información disponible. {result['reason']}"
+            st.warning(warning_text)
+            st.session_state.messages.append({
+                "role": "assistant",
+                "content": warning_text,
+            })
+
         else:
             error_text = f"No pude generar una consulta válida después de {result['attempts']} intento(s).\n\nError: `{result['error']}`"
             st.error(error_text)
             with st.expander("Ver última consulta SQL intentada"):
                 st.code(result["sql"], language="sql")
-
             st.session_state.messages.append({
                 "role": "assistant",
                 "content": error_text,

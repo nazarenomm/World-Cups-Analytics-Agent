@@ -24,9 +24,7 @@ def _get_schema_injection(user_prompt: str) -> str:
 
 def generate_sql(user_prompt: str) -> str:
     """
-    Devuelve el texto de la consulta SQL generada por el LLM para el prompt dado.
-    No ejecuta la query ni valida sintaxis — eso es responsabilidad de la capa
-    de ejecución (ver src/db.py, próximo paso).
+    Devuelve el texto de la consulta SQL generada por el LLM para el prompt dado..
     """
     schema_injection = _get_schema_injection(user_prompt)
     full_prompt = build_text_to_sql_prompt(user_prompt, schema_injection)

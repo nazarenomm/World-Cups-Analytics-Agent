@@ -1,8 +1,12 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+import sqlparse
 
 from src import run_pipeline, resolve_chart_type, get_chart_columns, normalize_dtypes
+
+def format_sql_for_display(sql: str) -> str:
+    return sqlparse.format(sql, reindent=True, keyword_case="upper")
 
 st.set_page_config(page_title="World Cup Analytics Agent", page_icon="⚽", layout="wide")
 st.title("⚽ World Cup Analytics Agent")
@@ -79,7 +83,7 @@ for msg in st.session_state.messages:
                 st.dataframe(msg["df"], use_container_width=True)
         if msg.get("sql"):
             with st.expander("Ver consulta SQL generada"):
-                st.code(msg["sql"], language="sql")
+                st.code(format_sql_for_display(msg["sql"]), language="sql")
 
 # --- Input del usuario ---
 user_prompt = st.chat_input("Ej: ¿Quién es el máximo goleador histórico?")
@@ -107,7 +111,7 @@ if user_prompt:
             with st.expander("Ver tabla de resultados"):
                 st.dataframe(df, use_container_width=True)
             with st.expander("Ver consulta SQL generada"):
-                st.code(result["sql"], language="sql")
+                st.code(format_sql_for_display(result["sql"]), language="sql")
 
             st.session_state.messages.append({
                 "role": "assistant",
@@ -129,7 +133,7 @@ if user_prompt:
             error_text = f"No pude generar una consulta válida después de {result['attempts']} intento(s).\n\nError: `{result['error']}`"
             st.error(error_text)
             with st.expander("Ver última consulta SQL intentada"):
-                st.code(result["sql"], language="sql")
+                st.code(format_sql_for_display(result["sql"]), language="sql")
             st.session_state.messages.append({
                 "role": "assistant",
                 "content": error_text,

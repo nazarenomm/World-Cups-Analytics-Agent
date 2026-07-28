@@ -120,6 +120,8 @@ def run_pipeline(user_prompt: str, chat_session=None) -> dict:
                 "rows": rows,
                 "attempts": attempt,
                 "chat_session": chat_session,
+                "llm_chart_type": parsed.get("chart_type", "none"),
+                "llm_chart_color_by": parsed.get("chart_color_by", "") or None,
             }
         except UnsafeQueryError as e:
             last_error = str(e)

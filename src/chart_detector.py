@@ -49,20 +49,53 @@ def suggest_chart_type(df: pd.DataFrame) -> str | None:
     return None
 
 
-def resolve_chart_type(user_prompt: str, df: pd.DataFrame) -> str | None:
+def resolve_chart_type(
+    user_prompt: str,
+    df: pd.DataFrame,
+    llm_suggestion: str | None = None,
+) -> str | None:
+    """
+    Prioridad: pedido explícito del usuario (keyword) > sugerencia del LLM
+    (si es válida para la forma real del resultado) > heurística automática.
+    """
     explicit = detect_explicit_chart_request(user_prompt)
     if explicit == "none":
         return None
     if explicit is not None:
-        # Verificación defensiva: si el usuario pidió un tipo de gráfico que
-        # no aplica a la forma real del resultado, caemos a la heurística automática.
-        if explicit == "line" and not _find_year_column(df):
-            return suggest_chart_type(df)
-        if explicit == "scatter" and len(df.select_dtypes(include="number").columns) < 2:
-            return suggest_chart_type(df)
-        return explicit
+        if _chart_type_fits_data(explicit, df):
+            return explicit
+        return suggest_chart_type(df)
+
+    if llm_suggestion and llm_suggestion != "none":
+        if _chart_type_fits_data(llm_suggestion, df):
+            return llm_suggestion
+        # el LLM sugirió algo que no calza con los datos reales -> fallback a heurística
+        return suggest_chart_type(df)
+
+    if llm_suggestion == "none":
+        return None  # el LLM decidió explícitamente que no aporta un gráfico
+
     return suggest_chart_type(df)
 
+
+def _chart_type_fits_data(chart_type: str, df: pd.DataFrame) -> bool:
+    """Valida que el tipo de gráfico propuesto sea técnicamente viable con este resultado."""
+    if df.empty:
+        return False
+
+    numeric_cols = df.select_dtypes(include="number").columns.tolist()
+    text_cols = df.select_dtypes(include="object").columns.tolist()
+
+    if chart_type == "metric":
+        return len(df) == 1 and bool(numeric_cols)
+    if chart_type == "bar_h":
+        return bool(text_cols) and bool(numeric_cols)
+    if chart_type == "line":
+        return bool(_find_year_column(df)) and bool(numeric_cols)
+    if chart_type == "scatter":
+        return len(numeric_cols) >= 2
+
+    return False
 
 def _find_year_column(df: pd.DataFrame) -> str | None:
     """Busca una columna que represente año/edición, devuelve su nombre real (no hardcodeado)."""
@@ -93,13 +126,14 @@ def normalize_dtypes(df: pd.DataFrame) -> pd.DataFrame:
 
     return df
 
-def get_chart_columns(df: pd.DataFrame, chart_type: str) -> dict:
+def get_chart_columns(df: pd.DataFrame, chart_type: str, color_by: str | None = None) -> dict:
     numeric_cols = df.select_dtypes(include="number").columns.tolist()
     text_cols = df.select_dtypes(include="object").columns.tolist()
     year_col = _find_year_column(df)
-
-    # Excluir la columna de año de las candidatas a "valor numérico a graficar"
     non_year_numeric_cols = [c for c in numeric_cols if c != year_col]
+
+    # Validar que la columna de color exista realmente en el resultado (por si el LLM alucina)
+    valid_color_by = color_by if color_by in df.columns else None
 
     if chart_type == "metric":
         value_col = non_year_numeric_cols[0] if non_year_numeric_cols else numeric_cols[0]
@@ -107,21 +141,24 @@ def get_chart_columns(df: pd.DataFrame, chart_type: str) -> dict:
         return {"value_col": value_col, "label_col": label_col}
 
     if chart_type == "bar_h":
-        return {"category_col": text_cols[0], "value_col": non_year_numeric_cols[0]}
+        return {
+            "category_col": text_cols[0],
+            "value_col": non_year_numeric_cols[0],
+            "color_col": valid_color_by,
+        }
 
     if chart_type == "line":
         x_col = year_col or df.columns[0]
-        y_candidates = non_year_numeric_cols if non_year_numeric_cols else numeric_cols
-        y_col = y_candidates[0]
-        return {"x_col": x_col, "y_col": y_col}
+        y_col = (non_year_numeric_cols or numeric_cols)[0]
+        return {"x_col": x_col, "y_col": y_col, "color_col": valid_color_by}
 
     if chart_type == "scatter":
-        # también excluimos año de los ejes del scatter, no tiene sentido graficar año vs año
         scatter_numeric = non_year_numeric_cols if len(non_year_numeric_cols) >= 2 else numeric_cols
         return {
             "x_col": scatter_numeric[0],
             "y_col": scatter_numeric[1],
             "label_col": text_cols[0] if text_cols else None,
+            "color_col": valid_color_by,
         }
 
     return {}

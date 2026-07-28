@@ -39,7 +39,24 @@ Reglas generales importantes a tener en cuenta al generar la consulta:
    ni aproximes ese dato con columnas que midan algo distinto.
 """
 
-SYSTEM_ROLE = "especialista en PostgreSQL"
+CHART_RULES = """
+Además de la consulta SQL, sugerí el tipo de gráfico más apropiado para visualizar
+el resultado, considerando la intención de la pregunta (no solo la forma de los datos):
+
+- "metric": un solo valor destacado (ej. "¿cuántos goles hizo X?").
+- "bar_h": comparar una métrica numérica entre pocas categorías (ej. rankings, top-N).
+- "line": evolución de una métrica a través del tiempo/ediciones de mundiales.
+- "scatter": relación entre dos variables numéricas.
+- "none": cuando un gráfico no aporta valor (ej. listas de nombres sin métrica clara, demasiadas variables, etc.).
+
+Si el usuario pidió explícitamente "colorear por" o "agrupar por" alguna variable 
+(ej. "coloreá por país", "agrupar por confederación"), indicá el nombre EXACTO de la 
+columna correspondiente (tal como aparece en el resultado de tu propia consulta SQL,
+usando el alias que le hayas dado) en "chart_color_by". Si no se pidió coloreado o 
+no aplica, dejá "chart_color_by" como string vacío "".
+"""
+
+SYSTEM_ROLE = "especialista en PostgreSQL y visualización de datos"
 
 RESPONSE_SCHEMA = {
     "type": "object",
@@ -47,8 +64,13 @@ RESPONSE_SCHEMA = {
         "answerable": {"type": "boolean"},
         "reason": {"type": "string"},
         "sql_query": {"type": "string"},
+        "chart_type": {
+            "type": "string",
+            "enum": ["none", "metric", "bar_h", "line", "scatter"],
+        },
+        "chart_color_by": {"type": "string"},
     },
-    "required": ["answerable", "reason", "sql_query"],
+    "required": ["answerable", "reason", "sql_query", "chart_type", "chart_color_by"],
 }
 
 
@@ -63,6 +85,8 @@ def build_text_to_sql_prompt(user_prompt: str, schema_injection: str) -> str:
     {schema_injection}
     
     {GENERAL_SQL_RULES}
+
+    {CHART_RULES}
     
     instrucciones: Analizá si la pregunta del usuario puede responderse con las tablas 
     disponibles. Si es así, generá la consulta SQL correspondiente. Si no es así 
@@ -103,6 +127,8 @@ def build_followup_prompt(user_prompt: str, schema_injection: str) -> str:
     {schema_injection}
 
     {GENERAL_SQL_RULES}
+
+    {CHART_RULES}
 
     instrucciones: Analizá si este nuevo pedido puede responderse con las tablas 
     disponibles, teniendo en cuenta el contexto de la conversación anterior si es 

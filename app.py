@@ -20,11 +20,11 @@ if "messages" not in st.session_state:
     st.session_state.messages = []  # lista de dicts: {role, content, sql?, df?}
 
 # --- Render del historial ---
-def render_chart(chart_type: str, df: pd.DataFrame):
+def render_chart(chart_type: str, df: pd.DataFrame, color_by: str | None = None, key: str = None):
     if chart_type is None:
         return
 
-    cols = get_chart_columns(df, chart_type)
+    cols = get_chart_columns(df, chart_type, color_by=color_by)
 
     if chart_type == "metric":
         label = df.iloc[0][cols["label_col"]] if cols["label_col"] != cols["value_col"] else cols["value_col"]
@@ -32,17 +32,41 @@ def render_chart(chart_type: str, df: pd.DataFrame):
         return
 
     if chart_type == "bar_h":
-        chart_df = df[[cols["category_col"], cols["value_col"]]].sort_values(
-            cols["value_col"], ascending=True
-        )
         fig = px.bar(
-            chart_df,
-            x=cols["value_col"],
-            y=cols["category_col"],
-            orientation="h",
+            df, x=cols["value_col"], y=cols["category_col"],
+            orientation="h", color=cols["color_col"],
+            category_orders={cols["category_col"]: df[cols["category_col"]].tolist()},
         )
         fig.update_layout(margin=dict(l=10, r=20, t=20, b=20))
-        st.plotly_chart(fig, use_container_width=True)
+        st.plotly_chart(fig, use_container_width=True, key=key)
+        return
+
+    if chart_type == "bar_v":
+        fig = px.bar(
+            df, x=cols["category_col"], y=cols["value_col"],
+            color=cols["color_col"],
+            category_orders={cols["category_col"]: df[cols["category_col"]].tolist()},
+        )
+        fig.update_layout(margin=dict(l=20, r=20, t=20, b=60))
+        st.plotly_chart(fig, use_container_width=True, key=key)
+        return
+
+    if chart_type == "pie":
+        fig = px.pie(df, names=cols["category_col"], values=cols["value_col"])
+        fig.update_layout(margin=dict(l=20, r=20, t=20, b=20))
+        st.plotly_chart(fig, use_container_width=True, key=key)
+        return
+
+    if chart_type == "map":
+        fig = px.choropleth(
+            df,
+            locations=cols["category_col"],
+            locationmode="country names",
+            color=cols["value_col"],
+            color_continuous_scale="Cividis",
+        )
+        fig.update_layout(margin=dict(l=0, r=0, t=20, b=0))
+        st.plotly_chart(fig, use_container_width=True, key=key)
         return
 
     if chart_type == "line":
@@ -50,35 +74,27 @@ def render_chart(chart_type: str, df: pd.DataFrame):
             st.dataframe(df, use_container_width=True)
             return
         chart_df = df.sort_values(cols["x_col"])
-        fig = px.line(
-            chart_df,
-            x=cols["x_col"],
-            y=cols["y_col"],
-            markers=True,
-        )
+        fig = px.line(chart_df, x=cols["x_col"], y=cols["y_col"], color=cols["color_col"], markers=True)
         fig.update_layout(margin=dict(l=40, r=40, t=20, b=40))
-        st.plotly_chart(fig, use_container_width=True)
+        st.plotly_chart(fig, use_container_width=True, key=key)
         return
 
     if chart_type == "scatter":
         fig = px.scatter(
-            df,
-            x=cols["x_col"],
-            y=cols["y_col"],
-            hover_name=cols["label_col"],
-            text=cols["label_col"] if len(df) <= 15 else None,
+            df, x=cols["x_col"], y=cols["y_col"], hover_name=cols["label_col"],
+            color=cols["color_col"], text=cols["label_col"] if len(df) <= 15 else None,
         )
         fig.update_traces(marker=dict(size=10), textposition="top center")
         fig.update_layout(margin=dict(l=40, r=40, t=40, b=40))
-        st.plotly_chart(fig, use_container_width=True)
+        st.plotly_chart(fig, use_container_width=True, key=key)
         return
-
-for msg in st.session_state.messages:
+    
+for i, msg in enumerate(st.session_state.messages):
     with st.chat_message(msg["role"]):
         st.markdown(msg["content"])
         if msg.get("df") is not None:
             if msg.get("chart_type"):
-                render_chart(msg["chart_type"], msg["df"])
+                render_chart(msg["chart_type"], msg["df"], color_by=msg.get("chart_color_by"), key=f"chart_history_{i}")
             with st.expander("Ver tabla de resultados"):
                 st.dataframe(msg["df"], use_container_width=True)
         if msg.get("sql"):
@@ -102,11 +118,12 @@ if user_prompt:
         if result["success"]:
             df = pd.DataFrame(result["rows"], columns=result["columns"])
             df = normalize_dtypes(df)
-            chart_type = resolve_chart_type(user_prompt, df)
+            chart_type = resolve_chart_type(user_prompt, df, llm_suggestion=result.get("llm_chart_type"))
+            color_by = result.get("llm_chart_color_by")
 
             response_text = f"Encontré {len(df)} resultado(s)."
             st.markdown(response_text)
-            render_chart(chart_type, df)
+            render_chart(chart_type, df, color_by=color_by, key=f"chart_new_{len(st.session_state.messages)}")
 
             with st.expander("Ver tabla de resultados"):
                 st.dataframe(df, use_container_width=True)
@@ -119,6 +136,7 @@ if user_prompt:
                 "df": df,
                 "chart_type": chart_type,
                 "sql": result["sql"],
+                "chart_color_by": color_by,
             })
 
         elif not result.get("answerable", True):

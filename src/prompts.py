@@ -7,7 +7,7 @@ Reglas generales importantes a tener en cuenta al generar la consulta:
 
 1. Entidades históricas divididas: algunos países aparecen como múltiples filas 
    distintas en `teams` (team_id distintos) debido a cambios políticos históricos:
-   - Alemania: 'West Germany' y 'East Germany' (1954-1990) y 'Germany' (1930-1950 y 1994-presente)
+   - Alemania: 'West Germany',  'East Germany' (1954-1990) y 'Germany' (1930-1950 y 1994-presente)
    - URSS/Rusia: 'Soviet Union' (hasta 1990) y 'Russia' (desde 1994)
    - Yugoslavia: 'Yugoslavia' (hasta 1992), 'Serbia and Montenegro' (1992-2006), 'Serbia' (desde 2006), 'Croatia', etc.
    - Czechoslovakia: 'Czechoslovakia' (hasta 1992), 'Czech Republic' (desde 1994), 'Slovakia' (desde 1994)
@@ -22,6 +22,9 @@ Reglas generales importantes a tener en cuenta al generar la consulta:
       jugador) con player_appointments/team para obtener el nombre del equipo, 
       un jugador con apariciones bajo ambas entidades genera FILAS DUPLICADAS 
       con el mismo total.
+   c) En un top de equipos por cantidad de goles, victorias, etc., un país histórico puede
+      aparecer como dos filas separadas (ej. Alemania Occidental y Alemania, cuando actualmente 
+      se las considera la misma entidad).
    
    Si la pregunta pide totales de carrera de un jugador/DT junto con su país,
    preferí tomar UN equipo representativo por persona (ej. usando 
@@ -37,6 +40,11 @@ Reglas generales importantes a tener en cuenta al generar la consulta:
    de gol, valor de mercado, altura de los jugadores, lesiones), marcá 
    answerable=false y explicá en "reason" qué dato falta específicamente. No inventes 
    ni aproximes ese dato con columnas que midan algo distinto.
+
+5. Ordená los resultados de ser necesario según la intención real de la pregunta: si pide "más", "mayor", 
+   "top" (sin calificar dirección), usá ORDER BY ... DESC. Si pide "menos", "menor", 
+   "mínimo" (ej. "equipos con menos goles recibidos"), usá ORDER BY ... ASC. El primer 
+   resultado de la consulta debe ser siempre el que mejor responde la pregunta.
 """
 
 CHART_RULES = """
@@ -49,11 +57,10 @@ el resultado, considerando la intención de la pregunta (no solo la forma de los
 - "scatter": relación entre dos variables numéricas.
 - "none": cuando un gráfico no aporta valor (ej. listas de nombres sin métrica clara, demasiadas variables, etc.).
 
-Si el usuario pidió explícitamente "colorear por" o "agrupar por" alguna variable 
-(ej. "coloreá por país", "agrupar por confederación"), indicá el nombre EXACTO de la 
+Si el usuario pidió explícitamente "colorear por" o "agrupar por" alguna variable, indicá el nombre EXACTO de la 
 columna correspondiente (tal como aparece en el resultado de tu propia consulta SQL,
-usando el alias que le hayas dado) en "chart_color_by". Si no se pidió coloreado o 
-no aplica, dejá "chart_color_by" como string vacío "".
+usando el alias que le hayas dado) en "chart_color_by". Solo colorear si se pide. 
+En caso contrario, dejá "chart_color_by" como string vacío "".
 """
 
 SYSTEM_ROLE = "especialista en PostgreSQL y visualización de datos"
@@ -66,7 +73,7 @@ RESPONSE_SCHEMA = {
         "sql_query": {"type": "string"},
         "chart_type": {
             "type": "string",
-            "enum": ["none", "metric", "bar_h", "line", "scatter"],
+            "enum": ["none", "metric", "bar_h", "line", "scatter", "pie", "bar_v", "map"],
         },
         "chart_color_by": {"type": "string"},
     },

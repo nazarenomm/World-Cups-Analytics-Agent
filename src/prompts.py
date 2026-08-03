@@ -45,6 +45,9 @@ Reglas generales importantes a tener en cuenta al generar la consulta:
    "top" (sin calificar dirección), usá ORDER BY ... DESC. Si pide "menos", "menor", 
    "mínimo" (ej. "equipos con menos goles recibidos"), usá ORDER BY ... ASC. El primer 
    resultado de la consulta debe ser siempre el que mejor responde la pregunta.
+
+6. Si el usuario pide por un mapa, debes incluir una columna numerica que represente la magnitud de la variable a mostrar en el mapa.
+   Si la pregunta es binaria que la columna numerica es 1 para los que cumplen la condición y 0 para los que no cumplen la condición.
 """
 
 CHART_RULES = """

@@ -6,3 +6,4 @@ GEMINI_MODELS_FALLBACK = [
     "gemini-3.1-flash-lite",
     "gemini-3.5-flash" # generalmente está saturado, pero lo dejo como fallback por si acaso
 ]
+QUERY_PREFIX = "query: " # prefijo obligatorio para queries en retrieval asimétrico

@@ -64,7 +64,11 @@ def flatten_sections(sections, parent_path=None, min_chars=40):
         "véase también", "referencias", "enlaces externos",
         "notas", "bibliografía", "fuentes",
         # tournaments: resultados y reconocimientos que ya están en tablas, no son texto útil
-        # "estadísticas finales", "resultados", "goleadores", "reconocimientos", "premios y reconocimientos",
+        "estadísticas finales", "resultados", "goleadores", "reconocimientos", "premios y reconocimientos",
+        "estadísticas"
+        # teams: palmarés, jugadores, sponsors, inferiores, etc. que no son contenido útil para RAG
+        "palmarés", "jugadores", "plantel", "plantilla",
+        "patrocinadores", "transmisión televisiva", "categorías inferiores", "entrenadores", "directores técnicos",
     }
     for section in sections:
         header_path = parent_path + [section.title]

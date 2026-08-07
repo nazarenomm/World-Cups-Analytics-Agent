@@ -1,4 +1,3 @@
-# schema/download_model.py
 """
 Correr UNA SOLA VEZ para descargar el modelo localmente al proyecto.
 Después de esto, nunca más hace falta token ni internet para cargarlo.
@@ -10,7 +9,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-MODEL_NAME = "paraphrase-multilingual-MiniLM-L12-v2"
+MODEL_NAME = os.environ.get("MODEL_NAME")
 LOCAL_PATH = Path(__file__).parent / "local_model"
 HF_TOKEN = os.environ.get("HF_TOKEN")
 

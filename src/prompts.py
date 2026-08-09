@@ -7,11 +7,11 @@ Reglas generales importantes a tener en cuenta al generar la consulta:
 
 1. Entidades históricas divididas: algunos países aparecen como múltiples filas 
    distintas en `teams` (team_id distintos) debido a cambios políticos históricos:
-   - Alemania: 'West Germany',  'East Germany' (1954-1990) y 'Germany' (1930-1950 y 1994-presente)
+   - Alemania: 'West Germany', (1954-1990) y 'Germany' (1930-1950 y 1994-presente)
    - URSS/Rusia: 'Soviet Union' (hasta 1990) y 'Russia' (desde 1994)
    - Yugoslavia: 'Yugoslavia' (hasta 1992), 'Serbia and Montenegro' (1992-2006), 'Serbia' (desde 2006), 'Croatia', etc.
    - Czechoslovakia: 'Czechoslovakia' (hasta 1992), 'Czech Republic' (desde 1994), 'Slovakia' (desde 1994)
-   - Considerar otros casos que puedan surgir en los datos...
+   - Considerar otros casos que puedan surgir en los datos usando conocimientos de historia y geopolítica...
 
    Esto puede causar dos problemas si no se maneja con cuidado:
    a) Al hacer GROUP BY team_id/team_name sobre estadísticas de carrera de un 
@@ -45,6 +45,9 @@ Reglas generales importantes a tener en cuenta al generar la consulta:
    "top" (sin calificar dirección), usá ORDER BY ... DESC. Si pide "menos", "menor", 
    "mínimo" (ej. "equipos con menos goles recibidos"), usá ORDER BY ... ASC. El primer 
    resultado de la consulta debe ser siempre el que mejor responde la pregunta.
+
+6. Si el usuario pide por un mapa, debes incluir una columna numerica que represente la magnitud de la variable a mostrar en el mapa.
+   Si la pregunta es binaria que la columna numerica es 1 para los que cumplen la condición y 0 para los que no cumplen la condición.
 """
 
 CHART_RULES = """

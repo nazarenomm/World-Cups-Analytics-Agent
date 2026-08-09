@@ -11,7 +11,7 @@ import numpy as np
 from sentence_transformers import SentenceTransformer
 
 SCHEMA_PATH = Path(__file__).parent.parent / "schema" / "schema_metadata.json"
-CACHE_PATH = Path(__file__).parent.parent / "schema" / "embeddings_cache.pkl"
+CACHE_PATH = Path(__file__).parent.parent / "schema" / "schema_embeddings_cache.pkl"
 MODEL_PATH = Path(__file__).parent.parent / "schema" / "local_model"
 
 

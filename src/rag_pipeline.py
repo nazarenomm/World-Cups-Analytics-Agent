@@ -10,9 +10,9 @@ from google.genai import types
 from google.genai import errors as genai_errors
 from dotenv import load_dotenv
 
-from config import GEMINI_MODELS_FALLBACK, TOP_K_CHUNKS
-from rag_prompts import build_rag_prompt, build_rag_followup_prompt, RESPONSE_SCHEMA
-from retrieval import retrieve
+from .config import GEMINI_MODELS_FALLBACK, TOP_K_CHUNKS
+from .rag_prompts import build_rag_prompt, build_rag_followup_prompt, RESPONSE_SCHEMA
+from .retrieval import retrieve
 
 load_dotenv()
 

@@ -12,7 +12,7 @@ from supabase import create_client
 
 from dotenv import load_dotenv
 
-from config import TOP_K_CHUNKS
+from .config import TOP_K_CHUNKS
 
 load_dotenv()
 

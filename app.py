@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 import sqlparse
 
-from src import run_pipeline, resolve_chart_type, get_chart_columns, normalize_dtypes
+from src import run_pipeline, resolve_chart_type, get_chart_columns, normalize_dtypes, run_rag_pipeline
 
 def format_sql_for_display(sql: str) -> str:
     return sqlparse.format(sql, reindent=True, keyword_case="upper")
@@ -13,11 +13,36 @@ st.title("⚽ World Cup Analytics Agent")
 st.caption("Preguntá sobre estadísticas históricas de los Mundiales de fútbol (1930 a 2022)")
 
 # --- Estado de sesión ---
-if "chat_session" not in st.session_state:
-    st.session_state.chat_session = None
+# Dos chat_session separadas: cada pipeline mantiene su propia conversación con Gemini.
+if "sql_chat_session" not in st.session_state:
+    st.session_state.sql_chat_session = None
+
+if "rag_chat_session" not in st.session_state:
+    st.session_state.rag_chat_session = None
 
 if "messages" not in st.session_state:
-    st.session_state.messages = []  # lista de dicts: {role, content, sql?, df?}
+    st.session_state.messages = []  # lista de dicts: {role, content, mode, sql?/df?/sources?}
+
+if "mode" not in st.session_state:
+    st.session_state.mode = "SQL (estadísticas)"
+
+# --- Sidebar: selector de modo + nuevo chat ---
+with st.sidebar:
+    st.header("Opciones")
+    st.session_state.mode = st.radio(
+        "Modo de consulta",
+        options=["SQL (estadísticas)", "RAG (historia y contexto)"],
+        index=0 if st.session_state.mode == "SQL (estadísticas)" else 1,
+        help=(
+            "SQL: preguntas numéricas/estadísticas (rankings, totales, comparaciones). "
+            "RAG: preguntas históricas o contextuales (por qué, cómo, repercusiones)."
+        ),
+    )
+    if st.button("🔄 Nueva conversación"):
+        st.session_state.sql_chat_session = None
+        st.session_state.rag_chat_session = None
+        st.session_state.messages = []
+        st.rerun()
 
 # --- Render del historial ---
 def render_chart(chart_type: str, df: pd.DataFrame, color_by: str | None = None, key: str = None):
@@ -88,7 +113,17 @@ def render_chart(chart_type: str, df: pd.DataFrame, color_by: str | None = None,
         fig.update_layout(margin=dict(l=40, r=40, t=40, b=40))
         st.plotly_chart(fig, use_container_width=True, key=key)
         return
-    
+
+
+def render_sources(sources: list[dict]):
+    if not sources:
+        return
+    with st.expander(f"Ver fuentes citadas ({len(sources)})"):
+        for s in sources:
+            header = " > ".join(s["header_path"]) if s.get("header_path") else ""
+            st.markdown(f"**[Fuente {s['n']}]** [{s['title']}]({s['url']})  \n_{header}_")
+
+
 for i, msg in enumerate(st.session_state.messages):
     with st.chat_message(msg["role"]):
         st.markdown(msg["content"])
@@ -100,9 +135,16 @@ for i, msg in enumerate(st.session_state.messages):
         if msg.get("sql"):
             with st.expander("Ver consulta SQL generada"):
                 st.code(format_sql_for_display(msg["sql"]), language="sql")
+        if msg.get("sources"):
+            render_sources(msg["sources"])
 
 # --- Input del usuario ---
-user_prompt = st.chat_input("Ej: ¿Quién es el máximo goleador histórico?")
+placeholder = (
+    "Ej: ¿Quién es el máximo goleador histórico?"
+    if st.session_state.mode == "SQL (estadísticas)"
+    else "Ej: ¿Por qué Uruguay se negó a jugar el mundial de 1934?"
+)
+user_prompt = st.chat_input(placeholder)
 
 if user_prompt:
     st.session_state.messages.append({"role": "user", "content": user_prompt})
@@ -110,58 +152,90 @@ if user_prompt:
         st.markdown(user_prompt)
 
     with st.chat_message("assistant"):
-        with st.spinner("Generando y ejecutando consulta..."):
-            result = run_pipeline(user_prompt, chat_session=st.session_state.chat_session)
 
-        st.session_state.chat_session = result["chat_session"]
+        # ============================================================
+        # MODO SQL
+        # ============================================================
+        if st.session_state.mode == "SQL (estadísticas)":
+            with st.spinner("Generando y ejecutando consulta..."):
+                result = run_pipeline(user_prompt, chat_session=st.session_state.sql_chat_session)
 
-        if result["success"]:
-            df = pd.DataFrame(result["rows"], columns=result["columns"])
-            df = normalize_dtypes(df)
-            chart_type = resolve_chart_type(user_prompt, df, llm_suggestion=result.get("llm_chart_type"))
-            color_by = result.get("llm_chart_color_by")
+            st.session_state.sql_chat_session = result["chat_session"]
 
-            response_text = f"Encontré {len(df)} resultado(s)."
-            st.markdown(response_text)
-            render_chart(chart_type, df, color_by=color_by, key=f"chart_new_{len(st.session_state.messages)}")
+            if result["success"]:
+                df = pd.DataFrame(result["rows"], columns=result["columns"])
+                df = normalize_dtypes(df)
+                chart_type = resolve_chart_type(user_prompt, df, llm_suggestion=result.get("llm_chart_type"))
+                color_by = result.get("llm_chart_color_by")
 
-            with st.expander("Ver tabla de resultados"):
-                st.dataframe(df, use_container_width=True)
-            with st.expander("Ver consulta SQL generada"):
-                st.code(format_sql_for_display(result["sql"]), language="sql")
+                response_text = f"Encontré {len(df)} resultado(s)."
+                st.markdown(response_text)
+                render_chart(chart_type, df, color_by=color_by, key=f"chart_new_{len(st.session_state.messages)}")
 
-            st.session_state.messages.append({
-                "role": "assistant",
-                "content": response_text,
-                "df": df,
-                "chart_type": chart_type,
-                "sql": result["sql"],
-                "chart_color_by": color_by,
-            })
+                with st.expander("Ver tabla de resultados"):
+                    st.dataframe(df, use_container_width=True)
+                with st.expander("Ver consulta SQL generada"):
+                    st.code(format_sql_for_display(result["sql"]), language="sql")
 
-        elif not result.get("answerable", True):
-            warning_text = f"No tengo esa información disponible. {result['reason']}"
-            st.warning(warning_text)
-            st.session_state.messages.append({
-                "role": "assistant",
-                "content": warning_text,
-            })
+                st.session_state.messages.append({
+                    "role": "assistant",
+                    "content": response_text,
+                    "df": df,
+                    "chart_type": chart_type,
+                    "sql": result["sql"],
+                    "chart_color_by": color_by,
+                })
 
+            elif not result.get("answerable", True):
+                warning_text = f"No tengo esa información disponible. {result['reason']}"
+                st.warning(warning_text)
+                st.session_state.messages.append({
+                    "role": "assistant",
+                    "content": warning_text,
+                })
+
+            else:
+                error_text = f"No pude generar una consulta válida después de {result['attempts']} intento(s).\n\nError: `{result['error']}`"
+                st.error(error_text)
+                with st.expander("Ver última consulta SQL intentada"):
+                    st.code(format_sql_for_display(result["sql"]), language="sql")
+                st.session_state.messages.append({
+                    "role": "assistant",
+                    "content": error_text,
+                    "sql": result["sql"],
+                })
+
+        # ============================================================
+        # MODO RAG
+        # ============================================================
         else:
-            error_text = f"No pude generar una consulta válida después de {result['attempts']} intento(s).\n\nError: `{result['error']}`"
-            st.error(error_text)
-            with st.expander("Ver última consulta SQL intentada"):
-                st.code(format_sql_for_display(result["sql"]), language="sql")
-            st.session_state.messages.append({
-                "role": "assistant",
-                "content": error_text,
-                "sql": result["sql"],
-            })
+            with st.spinner("Buscando en fuentes históricas..."):
+                result = run_rag_pipeline(user_prompt, chat_session=st.session_state.rag_chat_session)
 
-# --- Sidebar: nuevo chat ---
-with st.sidebar:
-    st.header("Opciones")
-    if st.button("🔄 Nueva conversación"):
-        st.session_state.chat_session = None
-        st.session_state.messages = []
-        st.rerun()
+            st.session_state.rag_chat_session = result["chat_session"]
+
+            if result["success"]:
+                st.markdown(result["answer"])
+                render_sources(result["cited_sources"])
+
+                st.session_state.messages.append({
+                    "role": "assistant",
+                    "content": result["answer"],
+                    "sources": result["cited_sources"],
+                })
+
+            elif not result.get("answerable", True):
+                warning_text = f"No tengo esa información disponible. {result['reason']}"
+                st.warning(warning_text)
+                st.session_state.messages.append({
+                    "role": "assistant",
+                    "content": warning_text,
+                })
+
+            else:
+                error_text = f"No pude generar una respuesta.\n\nError: `{result.get('error', 'desconocido')}`"
+                st.error(error_text)
+                st.session_state.messages.append({
+                    "role": "assistant",
+                    "content": error_text,
+                })

@@ -2,15 +2,20 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import sqlparse
+import plotly.io as pio
+pio.templates.default = "presentation"
 
 from src import run_pipeline, resolve_chart_type, get_chart_columns, normalize_dtypes, run_rag_pipeline
 
 def format_sql_for_display(sql: str) -> str:
     return sqlparse.format(sql, reindent=True, keyword_case="upper")
 
-st.set_page_config(page_title="World Cup Analytics Agent", page_icon="⚽", layout="wide")
-st.title("⚽ World Cup Analytics Agent")
-st.caption("Preguntá sobre estadísticas históricas de los Mundiales de fútbol (1930 a 2022)")
+st.set_page_config(page_title="World Cup Analytics Agent", layout="wide")
+st.title("World Cup Analytics Agent")
+st.caption("#### Pregunta lo que quieras sobre los Mundiales de fútbol (1930 a 2022).  \n"
+"Selecciona el modo de consulta que prefieras en la barra lateral:  \n"
+"- Estadísticas, Tablas y Gráficos (SQL): preguntas sobre estadísticas, para explorar/descargar gráficos y tablas  \n"
+"- Historia y Contexto (RAG): para consultas históricas o contextuales") # TODO: expandir, explicar que hay dos modos: SQL y RAG, y que se puede cambiar en la barra lateral.
 
 # --- Estado de sesión ---
 # Dos chat_session separadas: cada pipeline mantiene su propia conversación con Gemini.
@@ -24,18 +29,17 @@ if "messages" not in st.session_state:
     st.session_state.messages = []  # lista de dicts: {role, content, mode, sql?/df?/sources?}
 
 if "mode" not in st.session_state:
-    st.session_state.mode = "SQL (estadísticas)"
+    st.session_state.mode = "Estadísticas, Tablas y Gráficos (SQL)"
 
 # --- Sidebar: selector de modo + nuevo chat ---
 with st.sidebar:
     st.header("Opciones")
     st.session_state.mode = st.radio(
         "Modo de consulta",
-        options=["SQL (estadísticas)", "RAG (historia y contexto)"],
-        index=0 if st.session_state.mode == "SQL (estadísticas)" else 1,
+        options=["Estadísticas, Tablas y Gráficos (SQL)", "Historia y Contexto (RAG)"],
+        index=0 if st.session_state.mode == "Estadísticas, Tablas y Gráficos (SQL)" else 1,
         help=(
-            "SQL: preguntas numéricas/estadísticas (rankings, totales, comparaciones). "
-            "RAG: preguntas históricas o contextuales (por qué, cómo, repercusiones)."
+            "SQL: preguntas numéricas/estadísticas (rankings, totales, comparaciones).\n RAG: preguntas históricas o contextuales (por qué, cómo, repercusiones)."
         ),
     )
     if st.button("🔄 Nueva conversación"):
@@ -62,7 +66,10 @@ def render_chart(chart_type: str, df: pd.DataFrame, color_by: str | None = None,
             orientation="h", color=cols["color_col"],
             category_orders={cols["category_col"]: df[cols["category_col"]].tolist()},
         )
-        fig.update_layout(margin=dict(l=10, r=20, t=20, b=20))
+        fig.update_layout(
+            margin=dict(l=10, r=20, t=20, b=20),
+            xaxis_title=cols["value_col"].replace("_", " ").title(),
+            yaxis_title=cols["category_col"].replace("_", " ").title())
         st.plotly_chart(fig, use_container_width=True, key=key)
         return
 
@@ -72,7 +79,11 @@ def render_chart(chart_type: str, df: pd.DataFrame, color_by: str | None = None,
             color=cols["color_col"],
             category_orders={cols["category_col"]: df[cols["category_col"]].tolist()},
         )
-        fig.update_layout(margin=dict(l=20, r=20, t=20, b=60))
+        fig.update_layout(
+            margin=dict(l=20, r=20, t=20, b=60),
+            xaxis_title=cols["category_col"].replace("_", " ").title(),
+            yaxis_title=cols["value_col"].replace("_", " ").title()
+        )
         st.plotly_chart(fig, use_container_width=True, key=key)
         return
 
@@ -100,7 +111,11 @@ def render_chart(chart_type: str, df: pd.DataFrame, color_by: str | None = None,
             return
         chart_df = df.sort_values(cols["x_col"])
         fig = px.line(chart_df, x=cols["x_col"], y=cols["y_col"], color=cols["color_col"], markers=True)
-        fig.update_layout(margin=dict(l=40, r=40, t=20, b=40))
+        fig.update_layout(
+            margin=dict(l=40, r=40, t=20, b=40),
+            xaxis_title=cols["x_col"].replace("_", " ").title(),
+            yaxis_title=cols["y_col"].replace("_", " ").title()
+        )
         st.plotly_chart(fig, use_container_width=True, key=key)
         return
 
@@ -110,7 +125,11 @@ def render_chart(chart_type: str, df: pd.DataFrame, color_by: str | None = None,
             color=cols["color_col"], text=cols["label_col"] if len(df) <= 15 else None,
         )
         fig.update_traces(marker=dict(size=10), textposition="top center")
-        fig.update_layout(margin=dict(l=40, r=40, t=40, b=40))
+        fig.update_layout(
+            margin=dict(l=40, r=40, t=40, b=40),
+            xaxis_title=cols["x_col"].replace("_", " ").title(),
+            yaxis_title=cols["y_col"].replace("_", " ").title()
+        )
         st.plotly_chart(fig, use_container_width=True, key=key)
         return
 
@@ -140,9 +159,9 @@ for i, msg in enumerate(st.session_state.messages):
 
 # --- Input del usuario ---
 placeholder = (
-    "Ej: ¿Quién es el máximo goleador histórico?"
-    if st.session_state.mode == "SQL (estadísticas)"
-    else "Ej: ¿Por qué Uruguay se negó a jugar el mundial de 1934?"
+    "Ej: Dame el top 10 goleadores de la historia de los mundiales"
+    if st.session_state.mode == "Estadísticas, Tablas y Gráficos (SQL)"
+    else "Ej: ¿Qué fue el Maracanazo?"
 )
 user_prompt = st.chat_input(placeholder)
 
@@ -156,8 +175,8 @@ if user_prompt:
         # ============================================================
         # MODO SQL
         # ============================================================
-        if st.session_state.mode == "SQL (estadísticas)":
-            with st.spinner("Generando y ejecutando consulta..."):
+        if st.session_state.mode == "Estadísticas, Tablas y Gráficos (SQL)":
+            with st.spinner("Consultando base de datos..."):
                 result = run_pipeline(user_prompt, chat_session=st.session_state.sql_chat_session)
 
             st.session_state.sql_chat_session = result["chat_session"]
@@ -168,7 +187,7 @@ if user_prompt:
                 chart_type = resolve_chart_type(user_prompt, df, llm_suggestion=result.get("llm_chart_type"))
                 color_by = result.get("llm_chart_color_by")
 
-                response_text = f"Encontré {len(df)} resultado(s)."
+                response_text = f"Encontré {len(df)} fila(s)."
                 st.markdown(response_text)
                 render_chart(chart_type, df, color_by=color_by, key=f"chart_new_{len(st.session_state.messages)}")
 
@@ -209,7 +228,7 @@ if user_prompt:
         # MODO RAG
         # ============================================================
         else:
-            with st.spinner("Buscando en fuentes históricas..."):
+            with st.spinner("Buscando en fuentes..."):
                 result = run_rag_pipeline(user_prompt, chat_session=st.session_state.rag_chat_session)
 
             st.session_state.rag_chat_session = result["chat_session"]

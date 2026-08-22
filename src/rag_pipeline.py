@@ -16,43 +16,38 @@ from .retrieval import retrieve
 
 load_dotenv()
 
-_client = genai.Client(api_key=os.environ["GOOGLE_KEY"])
-
 _GENERATE_CONFIG = types.GenerateContentConfig(
     response_mime_type="application/json",
     response_schema=RESPONSE_SCHEMA,
 )
 
 
-def _send_with_fallback(prompt_to_send: str, chat_session=None) -> tuple[dict, object]:
+def _send_with_fallback(prompt_to_send: str, history: list[dict] | None = None) -> tuple[dict, list[dict]]:
     """
-    Envía el prompt probando cada modelo de la lista de fallback en orden,
-    hasta que uno responda exitosamente.
-
-    Idéntico al de pipeline.py (SQL). Se duplica en vez de compartir porque
-    cada pipeline usa su propio RESPONSE_SCHEMA en _GENERATE_CONFIG.
+    history: lista de mensajes previos [{"role": "user"/"model", "parts": [...]}]
+    en vez de un objeto chat_session vivo. Se reconstruye un client + chat
+    frescos en cada llamada, evitando reusar transporte httpx potencialmente cerrado.
     """
     last_exception = None
-    session_to_try = chat_session
+    history = history or []
 
     for model_name in GEMINI_MODELS_FALLBACK:
         try:
-            if session_to_try is None:
-                session_to_try = _client.chats.create(model=model_name)
-            response = session_to_try.send_message(prompt_to_send, config=_GENERATE_CONFIG)
-            return json.loads(response.text), session_to_try
-        except genai_errors.ClientError as e:
+            client = genai.Client(api_key=os.environ["GOOGLE_KEY"])  # cliente nuevo, sin estado viejo
+            chat = client.chats.create(model=model_name, history=history)
+            response = chat.send_message(prompt_to_send, config=_GENERATE_CONFIG)
+            new_history = chat.get_history()  # lista serializable de Content
+            return json.loads(response.text), new_history
+        except (genai_errors.ClientError, genai_errors.ServerError) as e:
             last_exception = e
-            session_to_try = None
             continue
 
     raise RuntimeError(f"Todos los modelos de fallback fallaron. Último error: {last_exception}")
 
-
-def run_rag_pipeline(user_prompt: str, chat_session=None, category: str | None = None) -> dict:
+def run_rag_pipeline(user_prompt: str, history: list | None = None, category: str | None = None) -> dict:
     """
-    chat_session: sesión de chat existente (para mantener contexto conversacional
-    entre preguntas). Si es None, se crea una nueva (primera pregunta de la sesión).
+    history: historial de mensajes previos (lista serializable), para mantener
+    contexto conversacional entre preguntas. Si es None, es la primera pregunta.
     category: filtro opcional de categoría para el retrieval (confederations,
               editions, famous_matches, stadiums, teams, etc.)
     """
@@ -68,10 +63,10 @@ def run_rag_pipeline(user_prompt: str, chat_session=None, category: str | None =
             "answer": None,
             "cited_sources": [],
             "attempts": 0,
-            "chat_session": chat_session,
+            "history": history,
         }
 
-    is_first_message = chat_session is None
+    is_first_message = history is None
     prompt_to_send = (
         build_rag_prompt(user_prompt, chunks)
         if is_first_message
@@ -79,7 +74,7 @@ def run_rag_pipeline(user_prompt: str, chat_session=None, category: str | None =
     )
 
     try:
-        parsed, chat_session = _send_with_fallback(prompt_to_send, chat_session)
+        parsed, history = _send_with_fallback(prompt_to_send, history)
     except RuntimeError as e:
         return {
             "success": False,
@@ -88,7 +83,7 @@ def run_rag_pipeline(user_prompt: str, chat_session=None, category: str | None =
             "error": f"No se pudo contactar a ningún modelo disponible. {e}",
             "cited_sources": [],
             "attempts": 0,
-            "chat_session": chat_session,
+            "history": history,
         }
 
     if not parsed.get("answerable", False):
@@ -99,7 +94,7 @@ def run_rag_pipeline(user_prompt: str, chat_session=None, category: str | None =
             "answer": None,
             "cited_sources": [],
             "attempts": 1,
-            "chat_session": chat_session,
+            "history": history,
         }
 
     # mapear los índices de sources_used -> chunks reales (título + URL) para que la UI pueda mostrar links
@@ -121,7 +116,7 @@ def run_rag_pipeline(user_prompt: str, chat_session=None, category: str | None =
         "answer": parsed["answer"],
         "cited_sources": cited_sources,
         "attempts": 1,
-        "chat_session": chat_session,
+        "history": history,
     }
 
 

@@ -2,823 +2,823 @@
   "tables": [
     {
       "name": "award_winners",
-      "description": "winners of individual awards per tournament, including their team and if the award was shared with another player",
+      "description": "ganadores de premios individuales por torneo, incluyendo su equipo y si el premio fue compartido con otro jugador",
       "columns": {
-        "award_winner_id": "unique identifier for the row",
-        "tournament_id": "unique identifier for the tournament",
-        "award_id": "unique identifier for the award",
-        "player_id": "unique identifier for the player",
-        "team_id": "unique identifier for the team",
-        "shared": "boolean indicating if the award was shared with another player"
+        "award_winner_id": "identificador único de la fila",
+        "tournament_id": "identificador único del torneo",
+        "award_id": "identificador único del premio",
+        "player_id": "identificador único del jugador",
+        "team_id": "identificador único del equipo",
+        "shared": "booleano que indica si el premio fue compartido con otro jugador"
       },
       "example_questions": [
-        "Who won the Golden Boot award in the 2018 World Cup?",
-        "Which team won the most awards in the 2022 World Cup?",
-        "List all young player award winners in the history of the World Cup.",
-        "Who was the best player in the 2002 World Cup?",
-        "Which player won the Golden Glove award in the 2010 World Cup?",
-        "List all Golden Ball winners in the history of the World Cup."
+        "¿Quién ganó el premio Bota de Oro en el Mundial 2018?",
+        "¿Qué equipo ganó más premios en el Mundial 2022?",
+        "Lista todos los ganadores del premio a mejor jugador joven en la historia de los Mundiales.",
+        "¿Quién fue el mejor jugador del Mundial 2002?",
+        "¿Quién ganó el premio Guante de Oro en el Mundial 2010?",
+        "Lista todos los ganadores del Balón de Oro en la historia de los Mundiales."
       ]
     },
     {
       "name": "awards",
-      "description": "description of the individual awards available in the database",
+      "description": "descripción de los premios individuales disponibles en la base de datos",
       "columns": {
-        "award_id": "unique identifier for the award",
+        "award_id": "identificador único del premio",
         "award_name": {
-          "description": "award name",
+          "description": "nombre del premio",
           "enum_values": ["Golden Ball", "Silver Ball", "Bronze Ball", "Golden Boot", "Silver Boot", "Bronze Boot", "Golden Glove", "Best Young Player"]
         },
-        "award_description": "description of who is the award given to and what it represents",
-        "year_introduced": "year the award was first introduced"
+        "award_description": "descripción de a quién se le otorga el premio y qué representa",
+        "year_introduced": "año en que se introdujo el premio por primera vez"
       },
       "example_questions": [
-        "List all the awards available in the World Cup.",
-        "What award gets the top scorer of the tournament?",
-        "Which award is given to the best goalkeeper in the tournament?",
-        "Who wins the Golden Ball award?",
-        "When was the Golden Glove award first introduced?"
+        "Lista todos los premios disponibles en el Mundial.",
+        "¿Qué premio recibe el goleador del torneo?",
+        "¿Qué premio se le da al mejor arquero del torneo?",
+        "¿Quién gana el premio Balón de Oro?",
+        "¿Cuándo se introdujo por primera vez el premio Guante de Oro?"
       ]
     },
     {
       "name": "bookings",
-      "description": "records of yellow and red cards given to players during matches, including the minute in which the card was given an their team. Starts from the 1970 World Cup.",
+      "description": "registros de tarjetas amarillas y rojas mostradas a jugadores durante los partidos, incluyendo el minuto en que se mostró la tarjeta y su equipo. Comienza desde el Mundial de 1970.",
       "columns": {
-        "booking_id": "unique identifier for the booking",
-        "match_id": "unique identifier for the match",
-        "player_id": "unique identifier for the player",
-        "team_id": "unique identifier for the team",
-        "minute_label": "minute in which the card was given, e.g. '45+2' for a card given in the second minute of stoppage time in the first half",
-        "minute_regulation": "minute in which the card was given, e.g. '45' for a card given in the 45th minute of the first half",
-        "minute_stoppage": "minute of stoppage time in which the card was given, e.g. '2' for a card given in the second minute of stoppage time in the first half",
+        "booking_id": "identificador único de la amonestación",
+        "match_id": "identificador único del partido",
+        "player_id": "identificador único del jugador",
+        "team_id": "identificador único del equipo",
+        "minute_label": "minuto en que se mostró la tarjeta, ej. '45+2' para una tarjeta en el segundo minuto de descuento del primer tiempo",
+        "minute_regulation": "minuto en que se mostró la tarjeta, ej. '45' para una tarjeta en el minuto 45 del primer tiempo",
+        "minute_stoppage": "minuto de descuento en que se mostró la tarjeta, ej. '2' para una tarjeta en el segundo minuto de descuento del primer tiempo",
         "match_period": {
-          "description": "period of the match in which the card was given",
+          "description": "período del partido en que se mostró la tarjeta",
           "enum_values": ["first half", "first half, stoppage time", "second half", "second half, stoppage time", "extra time, first half", "extra time, second half", "extra time, first half, stoppage time", "extra time, second half, stoppage time"]
         },
-        "yellow_card": "boolean indicating if the card was a yellow card",
-        "red_card": "boolean indicating if the card was a red card",
-        "second_yellow_card": "boolean indicating if the card was a second yellow card",
-        "sending_off": "boolean indicating if the player was sent off as a result of the card"
+        "yellow_card": "booleano que indica si la tarjeta fue amarilla",
+        "red_card": "booleano que indica si la tarjeta fue roja",
+        "second_yellow_card": "booleano que indica si la tarjeta fue una segunda amarilla",
+        "sending_off": "booleano que indica si el jugador fue expulsado como resultado de la tarjeta"
       },
       "example_questions": [
-        "Which player received the most yellow cards in the 2018 World Cup?",
-        "List the 10 players with the most red cards in World Cup history.",
-        "How many yellow cards did Brazil receive in the 2014 World Cup?",
-        "Who received a red card in the final match of the 2010 World Cup?",
-        "Which team had the most bookings in the World Cup history?",
-        "List the most booked players in the history of the World Cup."
+        "¿Qué jugador recibió más tarjetas amarillas en el Mundial 2018?",
+        "Lista los 10 jugadores con más tarjetas rojas en la historia de los Mundiales.",
+        "¿Cuántas tarjetas amarillas recibió Brasil en el Mundial 2014?",
+        "¿Quién recibió una tarjeta roja en la final del Mundial 2010?",
+        "¿Qué equipo tuvo más tarjetas en la historia de los Mundiales?",
+        "Lista los jugadores más amonestados en la historia de los Mundiales."
       ]
     },
     {
       "name": "confederations",
-      "description": "list of the confederations that the teams belong to",
+      "description": "lista de las confederaciones a las que pertenecen los equipos",
       "columns": {
-        "confederation_id": "unique identifier for the confederation",
-        "confederation_name": "full name of the confederation",
+        "confederation_id": "identificador único de la confederación",
+        "confederation_name": "nombre completo de la confederación",
         "confederation_code": {
-          "description": "abbreviation of the confederation name. Commonly used. Use this column when not asked about full name of the confederation",
+          "description": "abreviatura del nombre de la confederación. De uso común. Usar esta columna cuando no se pregunte por el nombre completo de la confederación",
           "enum_values": ["UEFA", "CONMEBOL", "CONCACAF", "CAF", "AFC", "OFC"]
         }
       },
       "example_questions": [
-        "Which confederation does Brazil belong to?",
-        "List all the confederations in the World Cup.",
-        "What is the african confederation called?",
-        "Which confederation has the most teams in the World Cup?",
-        "List all teams from the CONCACAF confederation."
+        "¿A qué confederación pertenece Brasil?",
+        "Lista todas las confederaciones del Mundial.",
+        "¿Cómo se llama la confederación africana?",
+        "¿Qué confederación tiene más equipos en el Mundial?",
+        "Lista todos los equipos de la confederación CONCACAF."
       ]
     },
     {
       "name": "goals",
-      "description": "records of goals scored in matches, including the minute in which the goal was scored, the player who scored it, the team that scored it, if it was a penalty, and if it was an own goal",
+      "description": "registros de goles marcados en los partidos, incluyendo el minuto en que se marcó el gol, el jugador que lo marcó, el equipo que lo marcó, si fue de penal, y si fue en contra",
       "columns": {
-        "goal_id": "unique identifier for the goal",
-        "match_id": "unique identifier for the match",
-        "player_id": "unique identifier for the player",
-        "team_id": "unique identifier for the team",
-        "minute_label": "minute in which the goal was scored, e.g. '45+2' for a goal scored in the second minute of stoppage time in the first half",
-        "minute_regulation": "minute in which the goal was scored, e.g. '45' for a goal scored in the 45th minute of the first half",
-        "minute_stoppage": "minute of stoppage time in which the goal was scored, e.g. '2' for a goal scored in the second minute of stoppage time in the first half",
+        "goal_id": "identificador único del gol",
+        "match_id": "identificador único del partido",
+        "player_id": "identificador único del jugador",
+        "team_id": "identificador único del equipo",
+        "minute_label": "minuto en que se marcó el gol, ej. '45+2' para un gol en el segundo minuto de descuento del primer tiempo",
+        "minute_regulation": "minuto en que se marcó el gol, ej. '45' para un gol en el minuto 45 del primer tiempo",
+        "minute_stoppage": "minuto de descuento en que se marcó el gol, ej. '2' para un gol en el segundo minuto de descuento del primer tiempo",
         "match_period": {
-          "description": "period of the match in which the goal was scored",
+          "description": "período del partido en que se marcó el gol",
           "enum_values": ["first half", "first half, stoppage time", "second half", "second half, stoppage time", "extra time, first half", "extra time, second half", "extra time, first half, stoppage time", "extra time, second half, stoppage time"]
         },
-        "penalty_goal": "boolean indicating if the goal was a penalty",
-        "own_goal": "boolean indicating if the goal was an own goal"
+        "penalty_goal": "booleano que indica si el gol fue de penal",
+        "own_goal": "booleano que indica si el gol fue en contra"
       },
       "example_questions": [
-        "Which player scored the most goals in the World Cup history?",
-        "List all goals scored in the final match of the 2010 World Cup.",
-        "What is the total number of goals scored in the 2022 World Cup?",
-        "Who are the 10 top goal scorers in the history of the World Cup?",
-        "How many players scored a hat-trick in the history of the World Cup?",
-        "Who scored more penalty goals in the 2018 World Cup?",
-        "List all own goals scored in the history of the World Cup."
+        "¿Qué jugador marcó más goles en la historia de los Mundiales?",
+        "Lista todos los goles marcados en la final del Mundial 2010.",
+        "¿Cuál es el total de goles marcados en el Mundial 2022?",
+        "¿Quiénes son los 10 máximos goleadores en la historia de los Mundiales?",
+        "¿Cuántos jugadores marcaron un hat-trick en la historia de los Mundiales?",
+        "¿Quién marcó más goles de penal en el Mundial 2018?",
+        "Lista todos los goles en contra marcados en la historia de los Mundiales."
       ]
     },
     {
       "name": "group_standings",
-      "description": "records of the standings of the teams in the group stage of the tournament, including the number of matches played, won, drawn, lost, goals for, goals against, goal difference, points, position in the group, and if the team advanced to the knockout stage",
+      "description": "registros de las posiciones de los equipos en la fase de grupos del torneo, incluyendo cantidad de partidos jugados, ganados, empatados, perdidos, goles a favor, goles en contra, diferencia de gol, puntos, posición en el grupo, y si el equipo avanzó a la siguiente fase",
       "columns": {
-        "group_standing_id": "unique identifier for the group standing",
-        "group_id": "unique identifier for the group",
-        "team_id": "unique identifier for the team",
-        "played": "number of matches played by the team in the group stage",
-        "wins": "number of matches won by the team in the group stage",
-        "draws": "number of matches drawn by the team in the group stage",
-        "losses": "number of matches lost by the team in the group stage",
-        "goals_for": "number of goals scored by the team in the group stage",
-        "goals_against": "number of goals conceded by the team in the group stage",
-        "goal_difference": "difference between goals scored and goals conceded by the team in the group stage",
-        "points": "total number of points earned by the team in the group stage",
+        "group_standing_id": "identificador único de la posición en el grupo",
+        "group_id": "identificador único del grupo",
+        "team_id": "identificador único del equipo",
+        "played": "cantidad de partidos jugados por el equipo en la fase de grupos",
+        "wins": "cantidad de partidos ganados por el equipo en la fase de grupos",
+        "draws": "cantidad de partidos empatados por el equipo en la fase de grupos",
+        "losses": "cantidad de partidos perdidos por el equipo en la fase de grupos",
+        "goals_for": "cantidad de goles marcados por el equipo en la fase de grupos",
+        "goals_against": "cantidad de goles recibidos por el equipo en la fase de grupos",
+        "goal_difference": "diferencia entre goles marcados y goles recibidos por el equipo en la fase de grupos",
+        "points": "total de puntos obtenidos por el equipo en la fase de grupos",
         "position": {
-          "description": "position of the team in the group standings",
+          "description": "posición del equipo en la tabla del grupo",
           "note": "columna INTEGER (1, 2, 3, 4...), no es texto/enum"
         },
-        "advanced": "boolean indicating if the team advanced to the next stage"
+        "advanced": "booleano que indica si el equipo avanzó a la siguiente fase"
       },
       "example_questions": [
-        "Which team finished first in Group A in the 2018 World Cup?",
-        "List all teams that advanced to the knockout stage in the 2022 World Cup.",
-        "What was the goal difference for Brazil in the 2014 World Cup group stage?",
-        "How many points did Germany earn in the 2010 World Cup group stage?",
-        "Which team had the most wins in the 2006 World Cup group stage?",
-        "List all teams that finished last in their group in the history of the World Cup."
+        "¿Qué equipo terminó primero en el Grupo A en el Mundial 2018?",
+        "Lista todos los equipos que avanzaron a la siguiente fase en el Mundial 2022.",
+        "¿Cuál fue la diferencia de gol de Brasil en la fase de grupos del Mundial 2014?",
+        "¿Cuántos puntos hizo Alemania en la fase de grupos del Mundial 2010?",
+        "¿Qué equipo tuvo más victorias en la fase de grupos del Mundial 2006?",
+        "Lista todos los equipos que terminaron últimos en su grupo en la historia de los Mundiales."
       ]
     },
     {
       "name": "groups",
-      "description": "list of all the groups in the tournaments history, including the tournament they belong to, the group name, the stage of the tournament, and the amount of teams in the group",
+      "description": "lista de todos los grupos en la historia de los torneos, incluyendo el torneo al que pertenecen, el nombre del grupo, la fase del torneo, y la cantidad de equipos en el grupo",
       "columns": {
-        "group_id": "unique identifier for the group",
-        "tournament_id": "unique identifier for the tournament",
+        "group_id": "identificador único del grupo",
+        "tournament_id": "identificador único del torneo",
         "group_name": {
-          "description": "name of the group",
+          "description": "nombre del grupo",
           "note": "formato típico 'Group A', 'Group B', 'Grupo 1', 'Grupo 2', etc."
         },
         "stage_name": {
-          "description": "stage of the tournament",
+          "description": "fase del torneo",
           "enum_values": ["group stage", "first group stage", "second group stage", "final round"]
         },
-        "stage_number": "number of the stage in the tournament, e.g. 1 for first stage, 2 for second stage, etc.",
-        "count_teams": "number of teams in the group"
+        "stage_number": "número de la fase en el torneo, ej. 1 para la primera fase, 2 para la segunda fase, etc.",
+        "count_teams": "cantidad de equipos en el grupo"
       },
       "example_questions": [
-        "List all groups in the 2022 World Cup.",
-        "How many groups there were in the 1950 World Cup?",
-        "What World Cup had more than one group stage?",
-        "What was the name of the group that contained Brazil in the 2014 World Cup?"
+        "Lista todos los grupos del Mundial 2022.",
+        "¿Cuántos grupos hubo en el Mundial de 1950?",
+        "¿Qué Mundial tuvo más de una fase de grupos?",
+        "¿Cómo se llamó el grupo que tenía a Brasil en el Mundial 2014?"
       ]
     },
     {
       "name": "host_countries",
-      "description": "list of the countries that hosted the tournaments, including the tournament they hosted, their team, and their performance",
+      "description": "lista de los países que fueron sede de los torneos, incluyendo el torneo que organizaron, su equipo, y su desempeño",
       "columns": {
-        "host_country_id": "unique identifier for the host country",
-        "tournament_id": "unique identifier for the tournament",
-        "team_id": "unique identifier for the team",
+        "host_country_id": "identificador único del país sede",
+        "tournament_id": "identificador único del torneo",
+        "team_id": "identificador único del equipo",
         "performance": {
-          "description": "performance or finishing position of the host country in the tournament",
+          "description": "desempeño o posición final del país sede en el torneo",
           "enum_values": ["group stage", "second group stage", "round of 16", "quarter-finals", "quarter-final", "fourth place", "third-place", "runners-up", "champions"],
-          "note": "there was a typo in the original data: 'quarter-final' should be 'quarter-finals', in case needed use LIKE '%quarter-final%' to filter"
+          "note": "había un error de tipeo en los datos originales: 'quarter-final' debería ser 'quarter-finals'; si hace falta, usar LIKE '%quarter-final%' para filtrar"
         }
       },
       "example_questions": [
-        "Which country hosted the 2018 World Cup?",
-        "List all host countries in the history of the World Cup.",
-        "What was the performance of South Africa in the 2010 World Cup?",
-        "Which host country won the World Cup?",
-        "How many times has Brazil hosted the World Cup?"
+        "¿Qué país fue sede del Mundial 2018?",
+        "Lista todos los países sede en la historia de los Mundiales.",
+        "¿Cuál fue el desempeño de Sudáfrica en el Mundial 2010?",
+        "¿Qué país sede ganó el Mundial?",
+        "¿Cuántas veces Brasil fue sede del Mundial?"
       ]
     },
     {
       "name": "manager_appearances",
-      "description": "records of the appearances of managers in matches, including the match they managed, and the team they managed.",
+      "description": "registros de las presencias de los directores técnicos en los partidos, incluyendo el partido que dirigieron, y el equipo que dirigieron",
       "columns": {
-        "manager_appearance_id": "unique identifier for the manager appearance",
-        "match_id": "unique identifier for the match",
-        "team_id": "unique identifier for the team",
-        "manager_id": "unique identifier for the manager"
+        "manager_appearance_id": "identificador único de la presencia del director técnico",
+        "match_id": "identificador único del partido",
+        "team_id": "identificador único del equipo",
+        "manager_id": "identificador único del director técnico"
       },
       "example_questions": [
-        "List all managers who have appeared in matches.",
-        "Which manager has appeared in the most matches?",
-        "List all matches where a specific manager was the coach.",
-        "What teams has a specific manager coached?"
+        "Lista todos los directores técnicos que dirigieron partidos.",
+        "¿Qué director técnico dirigió más partidos?",
+        "Lista todos los partidos donde un director técnico específico fue el entrenador.",
+        "¿Qué equipos dirigió un director técnico específico?"
       ]
     },
     {
       "name": "manager_appointments",
-      "description": "records of the appointments of managers, meaning the tournaments they were appointed to manage, and the team they managed.",
+      "description": "registros de las designaciones de directores técnicos, es decir, los torneos en los que fueron designados para dirigir, y el equipo que dirigieron",
       "columns": {
-        "manager_appointment_id": "unique identifier for the manager appointment",
-        "tournament_id": "unique identifier for the tournament",
-        "team_id": "unique identifier for the team",
-        "manager_id": "unique identifier for the manager"
+        "manager_appointment_id": "identificador único de la designación del director técnico",
+        "tournament_id": "identificador único del torneo",
+        "team_id": "identificador único del equipo",
+        "manager_id": "identificador único del director técnico"
       },
       "example_questions": [
-        "List all managers who have managed in more than one tournament.",
-        "What managers have managed multiple teams?",
-        "List all tournaments where a specific manager was appointed.",
-        "What teams has a specific manager been appointed to manage?"
+        "Lista todos los directores técnicos que dirigieron en más de un torneo.",
+        "¿Qué directores técnicos dirigieron a varios equipos?",
+        "Lista todos los torneos donde un director técnico específico fue designado.",
+        "¿Qué equipos ha dirigido un director técnico específico?"
       ]
     },
     {
       "name": "managers",
-      "description": "list of all the managers in the tournaments history, including their name, nationality, and gender.",
+      "description": "lista de todos los directores técnicos en la historia de los torneos, incluyendo su nombre, nacionalidad, y género",
       "columns": {
-        "manager_id": "unique identifier for the manager",
-        "family_name": "Last name of the manager",
+        "manager_id": "identificador único del director técnico",
+        "family_name": "apellido del director técnico",
         "given_name": {
-          "description": "First name of the manager",
-          "note": "NULL if not available, care when concatenating with family_name, use TRIM(CONCAT(given_name, ' ', family_name to avoid NULL values"
+          "description": "nombre de pila del director técnico",
+          "note": "NULL si no está disponible; cuidado al concatenar con family_name, usar TRIM(CONCAT(given_name, ' ', family_name)) para evitar valores NULL"
         },
-        "country_name": "Nationality of the manager",
-        "female": "boolean indicating if the manager is female"
+        "country_name": "nacionalidad del director técnico",
+        "female": "booleano que indica si el director técnico es mujer"
       },
       "example_questions": [
-        "List all english managers in world cup history.",
-        "What managers have managed a team different from their nationality?",
-        "List all the women that managed in the world cup."
+        "Lista todos los directores técnicos ingleses en la historia del Mundial.",
+        "¿Qué directores técnicos dirigieron un equipo distinto al de su nacionalidad?",
+        "Lista todas las mujeres que dirigieron en el Mundial."
       ]
     },
     {
       "name": "match_balls",
-      "description": "list of all the match balls used in the tournaments history, including their name, manufacturer, and the tournament they were used in.",
+      "description": "lista de todos los balones oficiales usados en la historia de los torneos, incluyendo su nombre, fabricante, y el torneo en el que se usaron",
       "columns": {
-        "ball_id": "unique identifier for the ball",
-        "tournament_id": "unique identifier for the tournament",
-        "ball_name": "name of the ball",
-        "manufacturer": "manufacturer of the ball"
+        "ball_id": "identificador único del balón",
+        "tournament_id": "identificador único del torneo",
+        "ball_name": "nombre del balón",
+        "manufacturer": "fabricante del balón"
       },
       "example_questions": [
-        "What was the name of the match ball used in the 2014 World Cup?",
-        "Which manufacturer produced the match ball for the 2006 World Cup?",
-        "List all match balls used in the history of the World Cup.",
-        "List all manufacturers that have produced match balls for the World Cup.",
-        "What tournament was the Jabulani ball used in?"
+        "¿Cómo se llamó el balón oficial del Mundial 2014?",
+        "¿Qué fabricante produjo el balón oficial del Mundial 2006?",
+        "Lista todos los balones oficiales usados en la historia de los Mundiales.",
+        "Lista todos los fabricantes que produjeron balones oficiales para el Mundial.",
+        "¿En qué torneo se usó el balón Jabulani?"
       ]
     },
     {
       "name": "matches",
-      "description": "records of the matches played in the tournaments history, including the teams that played, the group if applicable, the stage, the score, the date and time, the stadium, if there were a penalty shootout or extra time, if the match was a replay, and a match name for representation purposes.",
+      "description": "registros de los partidos jugados en la historia de los torneos, incluyendo los equipos que jugaron, el grupo si corresponde, la fase, el resultado, la fecha y hora, el estadio, si hubo definición por penales o tiempo extra, si el partido fue una repetición, y un nombre representativo del partido",
       "columns": {
-        "match_id": "unique identifier for the match",
-        "tournament_id": "unique identifier for the tournament",
-        "group_id": "unique identifier for the group if applicable",
-        "home_team_id": "unique identifier for the first team",
-        "away_team_id": "unique identifier for the second team",
-        "group_name": "name of the group if applicable, e.g. 'Group A'",
+        "match_id": "identificador único del partido",
+        "tournament_id": "identificador único del torneo",
+        "group_id": "identificador único del grupo, si corresponde",
+        "home_team_id": "identificador único del primer equipo",
+        "away_team_id": "identificador único del segundo equipo",
+        "group_name": "nombre del grupo si corresponde, ej. 'Group A'",
         "stage_name": {
-          "description": "stage of the tournament",
+          "description": "fase del torneo",
           "enum_values": ["group stage", "second group stage", "round of 16", "quarter-finals", "semi-finals", "third-place match", "final", "final round"],
-          "note": "some World Cups had a two group stages and the 1950 World Cup had a final round instead of a final match."
+          "note": "algunos Mundiales tuvieron dos fases de grupos y el Mundial de 1950 tuvo una ronda final en vez de una final."
         },
-        "match_date": "date of the match in YYYY-MM-DD format",
-        "match_time": "time of the match in HH:MM format",
-        "home_team_score": "score of the first team",
-        "away_team_score": "score of the second team",
-        "stadium": "stadium where the match was played",
-        "penalty_shootout": "boolean indicating if there was a penalty shootout",
-        "extra_time": "boolean indicating if there was extra time",
-        "home_team_score_penalties": "score of the first team in the penalty shootout if applicable",
-        "away_team_score_penalties": "score of the second team in the penalty shootout if applicable",
-        "replay": "boolean indicating if the match was a replay",
-        "match_name": "name of the match for representation purposes"
+        "match_date": "fecha del partido en formato YYYY-MM-DD",
+        "match_time": "hora del partido en formato HH:MM",
+        "home_team_score": "goles del primer equipo",
+        "away_team_score": "goles del segundo equipo",
+        "stadium": "estadio donde se jugó el partido",
+        "penalty_shootout": "booleano que indica si hubo definición por penales",
+        "extra_time": "booleano que indica si hubo tiempo extra",
+        "home_team_score_penalties": "goles del primer equipo en la definición por penales, si corresponde",
+        "away_team_score_penalties": "goles del segundo equipo en la definición por penales, si corresponde",
+        "replay": "booleano que indica si el partido fue una repetición",
+        "match_name": "nombre del partido con fines de representación"
       },
       "example_questions": [
-        "List all matches in the 2014 World Cup.",
-        "What was the score of the final match in the 2014 World Cup?",
-        "Which teams played in the semi-finals of the 2014 World Cup?",
-        "List all matches that went to extra time in the 2014 World Cup.",
-        "How many matches were played in the 1930 World Cup?",
-        "What was the highest scoring match in the history of the World Cup?",
-        "List all matches that went to a penalty shootout in the 2018 World Cup.",
-        "Which match had the most goals scored in the 2018 World Cup?"
+        "Lista todos los partidos del Mundial 2014.",
+        "¿Cuál fue el resultado de la final del Mundial 2014?",
+        "¿Qué equipos jugaron las semifinales del Mundial 2014?",
+        "Lista todos los partidos que fueron a tiempo extra en el Mundial 2014.",
+        "¿Cuántos partidos se jugaron en el Mundial de 1930?",
+        "¿Cuál fue el partido con más goles en la historia de los Mundiales?",
+        "Lista todos los partidos que fueron a definición por penales en el Mundial 2018.",
+        "¿Qué partido tuvo más goles en el Mundial 2018?"
       ]
     },
     {
       "name": "penalty_kicks",
-      "description": "records of the penalty kicks taken during penalty shootouts in matches, including the match they were taken in, the player who took the kick, the team that took the kick, if the kick was successful (converted) or not. Starts from the 1982 World Cup.",
+      "description": "registros de los penales pateados durante las definiciones por penales en los partidos, incluyendo el partido en que se patearon, el jugador que pateó, el equipo que pateó, y si el penal fue convertido o no. Comienza desde el Mundial de 1982.",
       "columns": {
-        "penalty_kick_id": "unique identifier for the penalty kick",
-        "match_id": "unique identifier for the match",
-        "player_id": "unique identifier for the player",
-        "team_id": "unique identifier for the team",
-        "converted": "boolean indicating if the penalty kick was successful (converted) or not"
+        "penalty_kick_id": "identificador único del penal",
+        "match_id": "identificador único del partido",
+        "player_id": "identificador único del jugador",
+        "team_id": "identificador único del equipo",
+        "converted": "booleano que indica si el penal fue convertido (exitoso) o no"
       },
       "example_questions": [
-        "List all penalty kicks taken in the 2018 World Cup.",
-        "Which player took the most penalty during shootouts in the World Cup?",
-        "How many missed penalties were there in the 2014 World Cup penalty shootouts?",
-        "Which team scored the most penalties in the 2006 World Cup penalty shootouts?"
+        "Lista todos los penales pateados en el Mundial 2018.",
+        "¿Qué jugador pateó más penales en definiciones del Mundial?",
+        "¿Cuántos penales fallados hubo en las definiciones por penales del Mundial 2014?",
+        "¿Qué equipo convirtió más penales en las definiciones del Mundial 2006?"
       ]
     },
     {
       "name": "player_appearances",
-      "description": "records of the appearances of players in matches, including the match they played in, the team they played for, if they were a starter or a substitute, and his shirt number.",
+      "description": "registros de las presencias de jugadores en los partidos, incluyendo el partido en que jugaron, el equipo con el que jugaron, si fueron titulares o suplentes, y su número de camiseta",
       "columns": {
-        "player_appearance_id": "unique identifier for the player appearance",
-        "match_id": "unique identifier for the match",
-        "team_id": "unique identifier for the team",
-        "player_id": "unique identifier for the player",
-        "starter": "boolean indicating if the player was a starter",
-        "substitute": "boolean indicating if the player was a substitute",
-        "shirt_number": "shirt number of the player in the match"
+        "player_appearance_id": "identificador único de la presencia del jugador",
+        "match_id": "identificador único del partido",
+        "team_id": "identificador único del equipo",
+        "player_id": "identificador único del jugador",
+        "starter": "booleano que indica si el jugador fue titular",
+        "substitute": "booleano que indica si el jugador fue suplente",
+        "shirt_number": "número de camiseta del jugador en el partido"
       },
       "example_questions": [
-        "List all players who played in the 2018 World Cup.",
-        "Which player appeared in the most matches in the history of the World Cup?",
-        "List all matches where Messi played."
+        "Lista todos los jugadores que jugaron en el Mundial 2018.",
+        "¿Qué jugador jugó más partidos en la historia de los Mundiales?",
+        "Lista todos los partidos donde jugó Messi."
       ]
     },
     {
       "name": "player_appointments",
-      "description": "records of the appointments of players, meaning the tournaments they were called up to play in, the team they played for, and their assigned shirt numbers.",
+      "description": "registros de las convocatorias de jugadores, es decir, los torneos a los que fueron convocados, el equipo con el que jugaron, y su número de camiseta asignado",
       "columns": {
-        "player_appointment_id": "unique identifier for the player appointment",
-        "tournament_id": "unique identifier for the tournament",
-        "team_id": "unique identifier for the team",
-        "player_id": "unique identifier for the player",
+        "player_appointment_id": "identificador único de la convocatoria del jugador",
+        "tournament_id": "identificador único del torneo",
+        "team_id": "identificador único del equipo",
+        "player_id": "identificador único del jugador",
         "shirt_number": {
-            "description": "shirt number of the player in the tournament",
-            "note": "In the old days players didn't have a fixed shirt number for the whole tournament, in those cases the shirt number is 0"
+            "description": "número de camiseta del jugador en el torneo",
+            "note": "en épocas antiguas los jugadores no tenían un número de camiseta fijo durante todo el torneo; en esos casos el número de camiseta es 0"
         }
     },
       "example_questions": [
-        "List all players who were called up to play in the 2018 World Cup.",
-        "Which player was called up to play in the most tournaments?",
-        "List all tournaments where Harry Kane was called up.",
-        "What was the shirt number of Cristiano Ronaldo in the 2006 World Cup?"
+        "Lista todos los jugadores convocados para el Mundial 2018.",
+        "¿Qué jugador fue convocado a más torneos?",
+        "Lista todos los torneos a los que fue convocado Harry Kane.",
+        "¿Cuál fue el número de camiseta de Cristiano Ronaldo en el Mundial 2006?"
       ]
     },
     {
       "name": "players",
-      "description": "list of all the players in the tournaments history, including their name, birth date, position (goalkeeper, defender, midfielder, forward), amount of tournaments they participated in., and the years they participated in.",
+      "description": "lista de todos los jugadores en la historia de los torneos, incluyendo su nombre, fecha de nacimiento, posición (arquero, defensor, mediocampista, delantero), cantidad de torneos en los que participó, y los años en los que participó",
       "columns": {
-        "player_id": "unique identifier for the player",
-        "family_name": "Last name of the player",
+        "player_id": "identificador único del jugador",
+        "family_name": "apellido del jugador",
         "given_name": {
-          "description": "First name of the player",
-          "note": "NULL if not available, care when concatenating with family_name, use TRIM(CONCAT(given_name, ' ', family_name to avoid NULL values"
+          "description": "nombre de pila del jugador",
+          "note": "NULL si no está disponible; cuidado al concatenar con family_name, usar TRIM(CONCAT(given_name, ' ', family_name)) para evitar valores NULL"
         },
-        "birth_date": "Birth date of the player in YYYY-MM-DD format",
-        "goalkeeper": "boolean indicating if the player is a goalkeeper",
-        "defender": "boolean indicating if the player is a defender",
-        "midfielder": "boolean indicating if the player is a midfielder",
-        "forward": "boolean indicating if the player is a forward",
-        "count_tournaments": "Number of tournaments the player participated in",
+        "birth_date": "fecha de nacimiento del jugador en formato YYYY-MM-DD",
+        "goalkeeper": "booleano que indica si el jugador es arquero",
+        "defender": "booleano que indica si el jugador es defensor",
+        "midfielder": "booleano que indica si el jugador es mediocampista",
+        "forward": "booleano que indica si el jugador es delantero",
+        "count_tournaments": "cantidad de torneos en los que participó el jugador",
         "list_tournaments": {
-          "description": "Years the player participated in tournaments",
-          "note": "free text with years separated by commas, e.g. '2006, 2010, 2014'. Do NOT use '=' to filter; use LIKE '%2014%' or similar."
+          "description": "años en que el jugador participó en los torneos",
+          "note": "texto libre con años separados por comas, ej. '2006, 2010, 2014'. NO usar '=' para filtrar; usar LIKE '%2014%' o similar."
         }
       },
       "example_questions": [
-        "List all players who participated in the 2018 World Cup.",
-        "In which years did Ariel Ortega participate in the World Cup?",
-        "Which player has participated in the most World Cups?",
-        "What is the birthdate of Lionel Messi?"
+        "Lista todos los jugadores que participaron en el Mundial 2018.",
+        "¿En qué años participó Ariel Ortega en el Mundial?",
+        "¿Qué jugador participó en más Mundiales?",
+        "¿Cuál es la fecha de nacimiento de Lionel Messi?"
       ]
     },
     {
       "name": "referee_appearances",
-      "description": "records of the appearances of referees in matches, including the match they officiated.",
+      "description": "registros de las presencias de árbitros en los partidos, incluyendo el partido que dirigieron",
       "columns": {
-        "referee_appearance_id": "unique identifier for the referee appearance",
-        "match_id": "unique identifier for the match",
-        "referee_id": "unique identifier for the referee"
+        "referee_appearance_id": "identificador único de la presencia del árbitro",
+        "match_id": "identificador único del partido",
+        "referee_id": "identificador único del árbitro"
       },
       "example_questions": [
-        "Which referee officiated the most matches in the 2018 World Cup?",
-        "What is the name of the referee who officiated the final of the 2018 World Cup?"
+        "¿Qué árbitro dirigió más partidos en el Mundial 2018?",
+        "¿Cómo se llama el árbitro que dirigió la final del Mundial 2018?"
       ]
     },
     {
       "name": "referee_appointments",
-      "description": "records of the appointments of referees, meaning the tournaments they were appointed to officiate.",
+      "description": "registros de las designaciones de árbitros, es decir, los torneos en los que fueron designados para arbitrar",
       "columns": {
-        "referee_appointment_id": "unique identifier for the referee appointment",
-        "tournament_id": "unique identifier for the tournament",
-        "referee_id": "unique identifier for the referee"
+        "referee_appointment_id": "identificador único de la designación del árbitro",
+        "tournament_id": "identificador único del torneo",
+        "referee_id": "identificador único del árbitro"
       },
       "example_questions": [
-        "List all referees who officiated in the 2018 World Cup.",
-        "Which referee has officiated in the most tournaments?",
-        "List all tournaments where Javier Castrilli was appointed."
+        "Lista todos los árbitros que dirigieron en el Mundial 2018.",
+        "¿Qué árbitro fue designado en más torneos?",
+        "Lista todos los torneos en los que fue designado Javier Castrilli."
       ]
     },
     {
       "name": "referees",
-      "description": "list of all the referees in the tournaments history, including their name, nationality, gender, and confederation.",
+      "description": "lista de todos los árbitros en la historia de los torneos, incluyendo su nombre, nacionalidad, género, y confederación",
       "columns": {
-        "referee_id": "unique identifier for the referee",
-        "family_name": "Last name of the referee",
+        "referee_id": "identificador único del árbitro",
+        "family_name": "apellido del árbitro",
         "given_name": {
-          "description": "First name of the referee",
-          "note": "NULL if not available, care when concatenating with family_name, use TRIM(CONCAT(given_name, ' ', family_name to avoid NULL values"
+          "description": "nombre de pila del árbitro",
+          "note": "NULL si no está disponible; cuidado al concatenar con family_name, usar TRIM(CONCAT(given_name, ' ', family_name)) para evitar valores NULL"
         },
-        "female": "boolean indicating if the referee is female",
-        "country_name": "Nationality of the referee",
-        "confederation_id": "unique identifier for the confederation"
+        "female": "booleano que indica si el árbitro es mujer",
+        "country_name": "nacionalidad del árbitro",
+        "confederation_id": "identificador único de la confederación"
       },
       "example_questions": [
-        "What is the name of the referee who officiated the final of the 2018 World Cup?",
-        "Which referee has officiated in the most tournaments?",
-        "List all referees from Spain.",
-        "List all female referees in the history of the World Cup.",
-        "Which confederation does the referee Mark Geiger belong to?",
-        "Which confederation had more referees officiating in the 2018 World Cup?"
+        "¿Cómo se llama el árbitro que dirigió la final del Mundial 2018?",
+        "¿Qué árbitro dirigió en más torneos?",
+        "Lista todos los árbitros de España.",
+        "Lista todas las árbitras mujeres en la historia de los Mundiales.",
+        "¿A qué confederación pertenece el árbitro Mark Geiger?",
+        "¿Qué confederación tuvo más árbitros dirigiendo en el Mundial 2018?"
       ]
     },
     {
       "name": "stadiums",
-      "description": "list of all the stadiums used in the tournaments history, including their name, city, country, and capacity.",
+      "description": "lista de todos los estadios usados en la historia de los torneos, incluyendo su nombre, ciudad, país, y capacidad",
       "columns": {
-        "stadium_id": "unique identifier for the stadium",
-        "stadium_name": "name of the stadium",
-        "city_name": "city where the stadium is located",
-        "country_name": "country where the stadium is located",
-        "stadium_capacity": "capacity of the stadium"
+        "stadium_id": "identificador único del estadio",
+        "stadium_name": "nombre del estadio",
+        "city_name": "ciudad donde está ubicado el estadio",
+        "country_name": "país donde está ubicado el estadio",
+        "stadium_capacity": "capacidad del estadio"
       },
       "example_questions": [
-        "List all stadiums used in the 1986 World Cup.",
-        "What is the capacity of the Maracanã stadium?",
-        "Which stadium hosted the final match of the 2014 World Cup?",
-        "List all stadiums located in Brazil."
+        "Lista todos los estadios usados en el Mundial 1986.",
+        "¿Cuál es la capacidad del estadio Maracaná?",
+        "¿Qué estadio fue sede de la final del Mundial 2014?",
+        "Lista todos los estadios ubicados en Brasil."
       ]
     },
     {
       "name": "substitutions",
-      "description": "records of the substitutions made during matches, including the match they were made in, the team that made the substitution, the player involved, minute of the substitution, and if it was a substitution in or out.",
+      "description": "registros de las sustituciones realizadas durante los partidos, incluyendo el partido en que se hicieron, el equipo que hizo el cambio, el jugador involucrado, el minuto del cambio, y si fue una entrada o salida",
       "columns": {
-        "substitution_id": "unique identifier for the substitution",
-        "match_id": "unique identifier for the match",
-        "team_id": "unique identifier for the team",
-        "player_id": "unique identifier for the player involved (either coming on or going off, see going_off/coming_on flags)",
-        "minute_label": "minute in which the substitution was made, e.g. '45+2' for a substitution made in the second minute of stoppage time in the first half",
-        "minute_regulation": "minute in which the substitution was made, e.g. '45' for a substitution made in the 45th minute of the first half",
-        "minute_stoppage": "minute of stoppage time in which the substitution was made, e.g. '2' for a substitution made in the second minute of stoppage time in the first half",
+        "substitution_id": "identificador único de la sustitución",
+        "match_id": "identificador único del partido",
+        "team_id": "identificador único del equipo",
+        "player_id": "identificador único del jugador involucrado (ya sea el que entra o el que sale, ver flags going_off/coming_on)",
+        "minute_label": "minuto en que se hizo la sustitución, ej. '45+2' para una sustitución en el segundo minuto de descuento del primer tiempo",
+        "minute_regulation": "minuto en que se hizo la sustitución, ej. '45' para una sustitución en el minuto 45 del primer tiempo",
+        "minute_stoppage": "minuto de descuento en que se hizo la sustitución, ej. '2' para una sustitución en el segundo minuto de descuento del primer tiempo",
         "match_period": {
-          "description": "period of the match in which the substitution was made",
+          "description": "período del partido en que se hizo la sustitución",
           "enum_values": ["first half", "first half, stoppage time", "second half", "second half, stoppage time", "extra time, first half", "extra time, second half", "extra time, first half, stoppage time", "extra time, second half, stoppage time"]
         },
-        "going_off": "boolean indicating if the player in this row is the one leaving the pitch",
-        "coming_on": "boolean indicating if the player in this row is the one entering the pitch"
+        "going_off": "booleano que indica si el jugador de esta fila es el que sale de la cancha",
+        "coming_on": "booleano que indica si el jugador de esta fila es el que entra a la cancha"
       },
       "example_questions": [
-        "List all substitutions made in the 2002 World Cup.",
-        "Which player was substituted the most times in the history of the World Cup?",
-        "How many substitutions did France make in the 2006 World Cup final match?",
-        "List all substitutions made by Brazil in the 2014 World Cup semi-final match.",
-        "List all first half substitutions made in the history of the World Cup per country."
+        "Lista todas las sustituciones hechas en el Mundial 2002.",
+        "¿Qué jugador fue sustituido más veces en la historia de los Mundiales?",
+        "¿Cuántas sustituciones hizo Francia en la final del Mundial 2006?",
+        "Lista todas las sustituciones hechas por Brasil en la semifinal del Mundial 2014.",
+        "Lista todas las sustituciones del primer tiempo en la historia de los Mundiales por país."
       ]
     },
     {
       "name": "team_performances",
-      "description": "records of the performances of the teams per tournament, including amount of matches played, and their highest stage reached in the tournament.",
+      "description": "registros del desempeño de los equipos por torneo, incluyendo cantidad de partidos jugados, y la fase más alta alcanzada en el torneo",
       "columns": {
-        "team_performance_id": "unique identifier for the team performance",
-        "tournament_id": "unique identifier for the tournament",
-        "team_id": "unique identifier for the team",
-        "count_matches": "number of matches played by the team in the tournament",
+        "team_performance_id": "identificador único del desempeño del equipo",
+        "tournament_id": "identificador único del torneo",
+        "team_id": "identificador único del equipo",
+        "count_matches": "cantidad de partidos jugados por el equipo en el torneo",
         "performance": {
-          "description": "highest stage reached by the team in the tournament",
+          "description": "fase más alta alcanzada por el equipo en el torneo",
           "enum_values": ["group stage", "second group stage", "round of 16", "quarter-finals", "semi-finals", "third-place match", "final", "final round"],
-          "note": "some World Cups had two group stages and the 1950 World Cup had a final round instead of a final match. If we are looking for teams that reached the semi-finals, we need to consider third-place match."
+          "note": "algunos Mundiales tuvieron dos fases de grupos y el Mundial de 1950 tuvo una ronda final en vez de una final. Si se buscan equipos que llegaron a semifinales, hay que considerar también third-place match."
 
         }
       },
       "example_questions": [
-        "What was the performance of Brazil in the 2014 World Cup?",
-        "List all teams that reached the semi-finals in the 2018 World Cup.",
-        "How many matches did Germany play in the 2010 World Cup?"
+        "¿Cuál fue el desempeño de Brasil en el Mundial 2014?",
+        "Lista todos los equipos que llegaron a semifinales en el Mundial 2018.",
+        "¿Cuántos partidos jugó Alemania en el Mundial 2010?"
       ]
     },
     {
       "name": "teams",
-      "description": "list of all the teams/nations that participated in the tournaments history, including their name, code, federation, region, and confederation.",
-      "note": "Historical note: West Germany ('West Germany', active 1954-1990) and reunified Germany ('Germany', active 1930-1950 and 1994-present) are stored as separate team_id/team_name entries. When a user asks about 'Germany' without specifying which era, consider whether the question implies combining both entities (e.g. 'career top scorers' style questions) using team_name LIKE '%Germany%' or explicit team_name IN ('Germany', 'West Germany'), versus questions about a specific tournament year where only one entity applies naturally.",
+      "description": "lista de todos los equipos/selecciones que participaron en la historia de los torneos, incluyendo su nombre, código, federación, región, y confederación",
+      "note": "Nota histórica: Alemania Occidental ('West Germany', activa 1954-1990) y la Alemania reunificada ('Germany', activa 1930-1950 y 1994-presente) están almacenadas como entradas separadas de team_id/team_name. Cuando un usuario pregunta por 'Alemania' sin especificar la era, considerar si la pregunta implica combinar ambas entidades (ej. preguntas tipo 'goleadores históricos') usando team_name LIKE '%Germany%' o explícitamente team_name IN ('Germany', 'West Germany'), versus preguntas sobre un año de torneo específico donde solo una entidad aplica naturalmente.",
       "columns": {
-        "team_id": "unique identifier for the team",
-        "team_name": "name of the team/nation",
-        "team_code": "code of the team/nation, e.g. 'BRA' for Brazil",
-        "federation_name": "name of the federation the team belongs to",
+        "team_id": "identificador único del equipo",
+        "team_name": "nombre del equipo/selección",
+        "team_code": "código del equipo/selección, ej. 'BRA' para Brasil",
+        "federation_name": "nombre de la federación a la que pertenece el equipo",
         "region_name": {
-          "description": "name of the region the team belongs to",
+          "description": "nombre de la región a la que pertenece el equipo",
           "enum_values": ["South America", "East Asia", "North America", "Oceania", "South East Asia", "Africa", "Central America", "Middle East", "Europe", "Europe, Asia", "Caribbean"]
         },
-        "confederation_id": "unique identifier for the confederation"
+        "confederation_id": "identificador único de la confederación"
       },
       "example_questions": [
-        "What is the name of the brazilian federation of football?",
-        "What is the region of the team 'Brazil'?",
-        "Has Haiti ever played in the World Cup?",
-        "List all teams that have played in the World Cup.",
-        "List all east asian countries that have played in the World Cup."
+        "¿Cómo se llama la federación brasileña de fútbol?",
+        "¿Cuál es la región del equipo 'Brasil'?",
+        "¿Haití jugó alguna vez el Mundial?",
+        "Lista todos los equipos que jugaron el Mundial.",
+        "Lista todos los países del este asiático que jugaron el Mundial."
       ]
     },
     {
       "name": "tournament_standings",
-      "description": "records of the standings of the teams in the tournament, including their final position (only top 4 positions are recorded).",
+      "description": "registros de las posiciones de los equipos en el torneo, incluyendo su posición final (solo se registran las primeras 4 posiciones)",
       "columns": {
-        "tournament_standing_id": "unique identifier for the tournament standing",
-        "tournament_id": "unique identifier for the tournament",
-        "team_id": "unique identifier for the team",
+        "tournament_standing_id": "identificador único de la posición en el torneo",
+        "tournament_id": "identificador único del torneo",
+        "team_id": "identificador único del equipo",
         "position": {
-          "description": "final position of the team in the tournament",
+          "description": "posición final del equipo en el torneo",
           "enum_values": [1, 2, 3, 4],
-          "note": "1=champion, 2=runner-up, 3=third place, 4=fourth place. Only the top 4 positions are recorded, there are no rows for the rest of the teams."
+          "note": "1=campeón, 2=subcampeón, 3=tercer puesto, 4=cuarto puesto. Solo se registran las primeras 4 posiciones, no hay filas para el resto de los equipos."
         }
       },
       "example_questions": [
-        "Which team won the 2018 World Cup?",
-        "List all teams that finished in the top 4 in World Cup history."
+        "¿Qué equipo ganó el Mundial 2018?",
+        "Lista todos los equipos que terminaron entre los 4 primeros en la historia de los Mundiales."
       ]
     },
     {
       "name": "tournaments",
-      "description": "list of all the tournaments in the history of the World Cup, including their year, start date, end date, host country, winner, amount of teams, if there was a group stage, if there was a second group stage, if there was a final round, if there was a round of 16, if there was a quarter-finals, if there was a semi-finals, if there was a third place match, if there was a final.",
+      "description": "lista de todos los torneos en la historia del Mundial, incluyendo su año, fecha de inicio, fecha de fin, país sede, ganador, cantidad de equipos, y si hubo fase de grupos, segunda fase de grupos, ronda final, octavos de final, cuartos de final, semifinales, partido por el tercer puesto, y final",
       "columns": {
-        "tournament_id": "unique identifier for the tournament",
-        "tournament_name": "name of the tournament",
-        "year": "year of the tournament",
-        "start_date": "start date of the tournament in YYYY-MM-DD format",
-        "end_date": "end date of the tournament in YYYY-MM-DD format",
+        "tournament_id": "identificador único del torneo",
+        "tournament_name": "nombre del torneo",
+        "year": "año del torneo",
+        "start_date": "fecha de inicio del torneo en formato YYYY-MM-DD",
+        "end_date": "fecha de fin del torneo en formato YYYY-MM-DD",
         "host_country": {
-          "description": "name of the host country",
-          "note": "can be a compound string for multiple hosts, e.g. 'Korea, Japan'. Do NOT use '=' to filter for a single country if there could be co-hosts; consider using LIKE '%country%'."
+          "description": "nombre del país sede",
+          "note": "puede ser un string compuesto para múltiples sedes, ej. 'Korea, Japan'. NO usar '=' para filtrar por un solo país si podría haber co-sedes; considerar usar LIKE '%country%'."
         },
-        "winner": "name of the winning team",
-        "host_won": "boolean indicating if the host country won the tournament",
-        "count_teams": "number of teams that participated in the tournament",
-        "group_stage": "boolean indicating if there was a group stage in the tournament",
-        "second_group_stage": "boolean indicating if there was a second group stage in the tournament",
-        "final_round": "boolean indicating if there was a final round in the tournament",
-        "round_of_16": "boolean indicating if there was a round of 16 in the tournament",
-        "quarter_finals": "boolean indicating if there were quarter-finals in the tournament",
-        "semi_finals": "boolean indicating if there were semi-finals in the tournament",
-        "third_place_match": "boolean indicating if there was a third place match in the tournament",
-        "final": "boolean indicating if there was a final in the tournament"
+        "winner": "nombre del equipo ganador",
+        "host_won": "booleano que indica si el país sede ganó el torneo",
+        "count_teams": "cantidad de equipos que participaron en el torneo",
+        "group_stage": "booleano que indica si hubo fase de grupos en el torneo",
+        "second_group_stage": "booleano que indica si hubo una segunda fase de grupos en el torneo",
+        "final_round": "booleano que indica si hubo una ronda final en el torneo",
+        "round_of_16": "booleano que indica si hubo octavos de final en el torneo",
+        "quarter_finals": "booleano que indica si hubo cuartos de final en el torneo",
+        "semi_finals": "booleano que indica si hubo semifinales en el torneo",
+        "third_place_match": "booleano que indica si hubo partido por el tercer puesto en el torneo",
+        "final": "booleano que indica si hubo final en el torneo"
       }
     },
     {
       "name": "v_manager_stats_career",
-      "description": "view of the statistics of the managers in the tournaments history, including their name, matches managed, wins, draws, losses, goals for, goals against, amount of tournaments managed, times they won the tournament, times they were runners-up, times they got third place, times they got fourth place, times they reached the semi-finals, times they reached the quarter-finals, and times they reached the round of 16. Made to reduce the need for joins when querying for manager statistics.",
+      "description": "vista de las estadísticas de los directores técnicos en la historia de los torneos, incluyendo su nombre, partidos dirigidos, victorias, empates, derrotas, goles a favor, goles en contra, cantidad de torneos dirigidos, cantidad de veces campeón, cantidad de veces subcampeón, cantidad de veces tercer puesto, cantidad de veces cuarto puesto, cantidad de veces llegó a semifinales, cantidad de veces llegó a cuartos de final, y cantidad de veces llegó a octavos de final. Hecha para reducir la necesidad de joins al consultar estadísticas de directores técnicos.",
       "columns": {
-        "manager_id": "unique identifier for the manager",
-        "family_name": "Last name of the manager",
+        "manager_id": "identificador único del director técnico",
+        "family_name": "apellido del director técnico",
         "given_name": {
-          "description": "First name of the manager",
-          "note": "NULL if not available, care when concatenating with family_name, use TRIM(CONCAT(given_name, ' ', family_name to avoid NULL values"
+          "description": "nombre de pila del director técnico",
+          "note": "NULL si no está disponible; cuidado al concatenar con family_name, usar TRIM(CONCAT(given_name, ' ', family_name)) para evitar valores NULL"
         },
-        "matches_managed": "number of matches managed by the manager in the tournaments history",
-        "wins": "number of matches won by the manager in the tournaments history",
-        "draws": "number of matches drawn by the manager in the tournaments history",
-        "losses": "number of matches lost by the manager in the tournaments history",
-        "goals": "number of goals scored by the teams managed by the manager in the tournaments history",
-        "goals_against": "number of goals conceded by the teams managed by the manager in the tournaments history",
-        "tournament_count": "number of tournaments managed by the manager in the tournaments history",
-        "times_final": "number of times the manager reached the final in the tournaments history",
-        "times_semifinals": "number of times the manager reached the semi-finals in the tournaments history",
-        "times_quarterfinals": "number of times the manager reached the quarter-finals in the tournaments history",
-        "times_round_of_16": "number of times the manager reached the round of 16 in the tournaments history",
-        "titles_won": "number of times the manager won the tournament in the tournaments history",
-        "second_place": "number of times the manager was runners-up in the tournaments history",
-        "third_place": "number of times the manager got third place in the tournaments history",
-        "fourth_place": "number of times the manager got fourth place in the tournaments history"
+        "matches_managed": "cantidad de partidos dirigidos por el director técnico en la historia de los torneos",
+        "wins": "cantidad de partidos ganados por el director técnico en la historia de los torneos",
+        "draws": "cantidad de partidos empatados por el director técnico en la historia de los torneos",
+        "losses": "cantidad de partidos perdidos por el director técnico en la historia de los torneos",
+        "goals": "cantidad de goles marcados por los equipos dirigidos por el director técnico en la historia de los torneos",
+        "goals_against": "cantidad de goles recibidos por los equipos dirigidos por el director técnico en la historia de los torneos",
+        "tournament_count": "cantidad de torneos dirigidos por el director técnico en la historia de los torneos",
+        "times_final": "cantidad de veces que el director técnico llegó a la final en la historia de los torneos",
+        "times_semifinals": "cantidad de veces que el director técnico llegó a semifinales en la historia de los torneos",
+        "times_quarterfinals": "cantidad de veces que el director técnico llegó a cuartos de final en la historia de los torneos",
+        "times_round_of_16": "cantidad de veces que el director técnico llegó a octavos de final en la historia de los torneos",
+        "titles_won": "cantidad de veces que el director técnico ganó el torneo en la historia de los torneos",
+        "second_place": "cantidad de veces que el director técnico fue subcampeón en la historia de los torneos",
+        "third_place": "cantidad de veces que el director técnico obtuvo el tercer puesto en la historia de los torneos",
+        "fourth_place": "cantidad de veces que el director técnico obtuvo el cuarto puesto en la historia de los torneos"
       },
       "example_questions": [
-        "Which manager has managed the most matches in World Cup history?",
-        "List all managers who have won the World Cup.",
-        "Which manager has reached the most semi-finals in World Cup history?",
-        "List all the managers that won the World Cup along with their wins, draws, losses record",
-        "How many managers won more than 10 world cup matches in their career?",
-        "List all managers that have managed more than 2 world cup tournaments."
+        "¿Qué director técnico dirigió más partidos en la historia de los Mundiales?",
+        "Lista todos los directores técnicos que ganaron el Mundial.",
+        "¿Qué director técnico llegó a más semifinales en la historia de los Mundiales?",
+        "Lista todos los directores técnicos que ganaron el Mundial junto con su récord de victorias, empates y derrotas",
+        "¿Cuántos directores técnicos ganaron más de 10 partidos de Mundial en su carrera?",
+        "Lista todos los directores técnicos que dirigieron más de 2 torneos mundiales."
       ]
     },
     {
       "name": "v_manager_stats_by_tournament",
-      "description": "view of the statistics of the managers in each tournament, including their name, matches managed, wins, draws, losses, goals for, goals against, furthest stage reached, if is the champion, and the tournament year. Made to reduce the need for joins when querying for manager statistics for a specific tournament.",
+      "description": "vista de las estadísticas de los directores técnicos en cada torneo, incluyendo su nombre, partidos dirigidos, victorias, empates, derrotas, goles a favor, goles en contra, fase más alta alcanzada, si fue campeón, y el año del torneo. Hecha para reducir la necesidad de joins al consultar estadísticas de directores técnicos para un torneo específico.",
       "columns": {
-        "manager_id": "unique identifier for the manager",
-        "family_name": "Last name of the manager",
+        "manager_id": "identificador único del director técnico",
+        "family_name": "apellido del director técnico",
         "given_name": {
-          "description": "First name of the manager",
-          "note": "NULL if not available, care when concatenating with family_name, use TRIM(CONCAT(given_name, ' ', family_name to avoid NULL values"
+          "description": "nombre de pila del director técnico",
+          "note": "NULL si no está disponible; cuidado al concatenar con family_name, usar TRIM(CONCAT(given_name, ' ', family_name)) para evitar valores NULL"
         },
-        "tournament_id": "unique identifier for the tournament",
-        "year": "year of the tournament",
-        "matches_managed": "number of matches managed by the manager in the tournament",
-        "wins": "number of matches won by the manager in the tournament",
-        "draws": "number of matches drawn by the manager in the tournament",
-        "losses": "number of matches lost by the manager in the tournament",
-        "goals": "number of goals scored by the teams managed by the manager in the tournament",
-        "goals_against": "number of goals conceded by the teams managed by the manager in the tournament",
+        "tournament_id": "identificador único del torneo",
+        "year": "año del torneo",
+        "matches_managed": "cantidad de partidos dirigidos por el director técnico en el torneo",
+        "wins": "cantidad de partidos ganados por el director técnico en el torneo",
+        "draws": "cantidad de partidos empatados por el director técnico en el torneo",
+        "losses": "cantidad de partidos perdidos por el director técnico en el torneo",
+        "goals": "cantidad de goles marcados por los equipos dirigidos por el director técnico en el torneo",
+        "goals_against": "cantidad de goles recibidos por los equipos dirigidos por el director técnico en el torneo",
         "furthest_stage": {
-          "description": "furthest stage reached by the manager in the tournament",
+          "description": "fase más lejana alcanzada por el director técnico en el torneo",
           "enum_values": ["round of 16", "semi-finals", "quarter-finals", "third-place match", "final", "second group stage", "group stage", "final round"]
         },
-        "is_champion": "boolean indicating if the manager won the tournament"
+        "is_champion": "booleano que indica si el director técnico ganó el torneo"
       },
       "example_questions": [
-        "Which manager managed the most matches in the 2018 World Cup?",
-        "List all managers who won the 2014 World Cup.",
-        "Which managers reached the furthest stage in the 2006 World Cup?",
-        "List all managers that managed more than 3 matches in the 2010 World Cup."
+        "¿Qué director técnico dirigió más partidos en el Mundial 2018?",
+        "Lista todos los directores técnicos que ganaron el Mundial 2014.",
+        "¿Qué directores técnicos llegaron más lejos en el Mundial 2006?",
+        "Lista todos los directores técnicos que dirigieron más de 3 partidos en el Mundial 2010."
       ]
     },
     {
       "name": "v_player_stats_career",
-      "description": "view of the statistics of the players in the tournaments history, including their name, position (goalkeeper, defender, midfielder, forward), matches played, wins, draws, losses, goals scored, penalty goals scored, yellow cards received, red cards received, amount of times substituted in, amount of times substituted out, times he reached the round of 16, times he reached the quarter-finals, times he reached the semi-finals, times he reached the final, and amount of tournaments won. Made to reduce the need for joins when querying for player statistics.",
+      "description": "vista de las estadísticas de los jugadores en la historia de los torneos, incluyendo su nombre, posición (arquero, defensor, mediocampista, delantero), partidos jugados, victorias, empates, derrotas, goles marcados, goles de penal marcados, tarjetas amarillas recibidas, tarjetas rojas recibidas, cantidad de veces que entró desde el banco, cantidad de veces que fue sustituido, cantidad de veces que llegó a octavos de final, cantidad de veces que llegó a cuartos de final, cantidad de veces que llegó a semifinales, cantidad de veces que llegó a la final, y cantidad de torneos ganados. Hecha para reducir la necesidad de joins al consultar estadísticas de jugadores.",
       "columns": {
-        "player_id": "unique identifier for the player",
-        "family_name": "Last name of the player",
+        "player_id": "identificador único del jugador",
+        "family_name": "apellido del jugador",
         "given_name": {
-          "description": "First name of the player",
-          "note": "NULL if not available, care when concatenating with family_name, use TRIM(CONCAT(given_name, ' ', family_name to avoid NULL values"
+          "description": "nombre de pila del jugador",
+          "note": "NULL si no está disponible; cuidado al concatenar con family_name, usar TRIM(CONCAT(given_name, ' ', family_name)) para evitar valores NULL"
         },
-        "is_goalkeeper": "boolean indicating if the player is a goalkeeper",
-        "is_defender": "boolean indicating if the player is a defender",
-        "is_midfielder": "boolean indicating if the player is a midfielder",
-        "is_forward": "boolean indicating if the player is a forward",
+        "is_goalkeeper": "booleano que indica si el jugador es arquero",
+        "is_defender": "booleano que indica si el jugador es defensor",
+        "is_midfielder": "booleano que indica si el jugador es mediocampista",
+        "is_forward": "booleano que indica si el jugador es delantero",
         "matches_played": {
-          "description": "number of matches played by the player world cup history.",
-          "note": "NULL if before 1970, be carefull when ordering by this column (use NULLS LAST or NULLS FIRST to control the order)."
+          "description": "cantidad de partidos jugados por el jugador en la historia del Mundial.",
+          "note": "NULL si es anterior a 1970; cuidado al ordenar por esta columna (usar NULLS LAST o NULLS FIRST para controlar el orden)."
         },
         "wins": {
-          "description": "number of matches won by the player in world cup history.",
-          "note": "NULL if before 1970, be carefull when ordering by this column (use NULLS LAST or NULLS FIRST to control the order)."
+          "description": "cantidad de partidos ganados por el jugador en la historia del Mundial.",
+          "note": "NULL si es anterior a 1970; cuidado al ordenar por esta columna (usar NULLS LAST o NULLS FIRST para controlar el orden)."
         },
         "draws": {
-          "description": "number of matches drawn by the player in world cup history.",
-          "note": "NULL if before 1970, be carefull when ordering by this column (use NULLS LAST or NULLS FIRST to control the order)."
+          "description": "cantidad de partidos empatados por el jugador en la historia del Mundial.",
+          "note": "NULL si es anterior a 1970; cuidado al ordenar por esta columna (usar NULLS LAST o NULLS FIRST para controlar el orden)."
         },
         "losses": {
-          "description": "number of matches lost by the player in world cup history.",
-          "note": "NULL if before 1970, be carefull when ordering by this column (use NULLS LAST or NULLS FIRST to control the order)."
+          "description": "cantidad de partidos perdidos por el jugador en la historia del Mundial.",
+          "note": "NULL si es anterior a 1970; cuidado al ordenar por esta columna (usar NULLS LAST o NULLS FIRST para controlar el orden)."
         },
-        "total_goals": "total of goals scored by the player in world cup history",
-        "penalty_goals": "number of penalty goals scored by the player in world cup history",
+        "total_goals": "total de goles marcados por el jugador en la historia del Mundial",
+        "penalty_goals": "cantidad de goles de penal marcados por el jugador en la historia del Mundial",
         "total_yellow_cards": {
-          "description": "number of yellow cards received by the player in the world cup history.",
-          "note": "NULL if before 1970, be carefull when ordering by this column (use NULLS LAST or NULLS FIRST to control the order)."
+          "description": "cantidad de tarjetas amarillas recibidas por el jugador en la historia del Mundial.",
+          "note": "NULL si es anterior a 1970; cuidado al ordenar por esta columna (usar NULLS LAST o NULLS FIRST para controlar el orden)."
         },
         "total_red_cards": {
-          "description": "number of red cards received by the player in the world cup history.",
-          "note": "NULL if before 1970, be carefull when ordering by this column (use NULLS LAST or NULLS FIRST to control the order)."
+          "description": "cantidad de tarjetas rojas recibidas por el jugador en la historia del Mundial.",
+          "note": "NULL si es anterior a 1970; cuidado al ordenar por esta columna (usar NULLS LAST o NULLS FIRST para controlar el orden)."
         },
         "subbed_in": {
-          "description": "number of times the player was substituted in during matches in the world cup history.",
-          "note": "NULL if before 1970, be carefull when ordering by this column (use NULLS LAST or NULLS FIRST to control the order)."
+          "description": "cantidad de veces que el jugador entró desde el banco durante partidos en la historia del Mundial.",
+          "note": "NULL si es anterior a 1970; cuidado al ordenar por esta columna (usar NULLS LAST o NULLS FIRST para controlar el orden)."
         },
         "subbed_out": {
-          "description": "number of times the player was substituted out during matches in the world cup history.",
-          "note": "NULL if before 1970, be carefull when ordering by this column (use NULLS LAST or NULLS FIRST to control the order)."
+          "description": "cantidad de veces que el jugador fue sustituido durante partidos en la historia del Mundial.",
+          "note": "NULL si es anterior a 1970; cuidado al ordenar por esta columna (usar NULLS LAST o NULLS FIRST para controlar el orden)."
         },
-        "times_reached_round_of_16": "number of tournaments in which the player's team reached at least the round of 16 while the player was called up (does not confirm the player played that specific match)",
-        "times_reached_quarterfinals": "number of tournaments in which the player's team reached at least the quarter-finals while the player was called up",
-        "times_reached_semifinals": "number of tournaments in which the player's team reached at least the semi-finals while the player was called up",
-        "times_reached_final": "number of tournaments in which the player's team reached the final while the player was called up",
-        "titles_won": "number of tournaments won by the player's team while the player was called up"
+        "times_reached_round_of_16": "cantidad de torneos en los que el equipo del jugador llegó al menos a octavos de final mientras el jugador estaba convocado (no confirma que el jugador haya jugado ese partido específico)",
+        "times_reached_quarterfinals": "cantidad de torneos en los que el equipo del jugador llegó al menos a cuartos de final mientras el jugador estaba convocado",
+        "times_reached_semifinals": "cantidad de torneos en los que el equipo del jugador llegó al menos a semifinales mientras el jugador estaba convocado",
+        "times_reached_final": "cantidad de torneos en los que el equipo del jugador llegó a la final mientras el jugador estaba convocado",
+        "titles_won": "cantidad de torneos ganados por el equipo del jugador mientras el jugador estaba convocado"
       },
       "example_questions": [
-        "Which player has played the most matches in World Cup history?",
-        "List all players who have won the World Cup.",
-        "Which player has scored the most goals in World Cup history?",
-        "List all the players that won the World Cup along with their wins, draws, losses record",
-        "How many players won more than 10 world cup matches in their career?",
-        "Top 10 top scorers in World Cup history."
+        "¿Qué jugador jugó más partidos en la historia de los Mundiales?",
+        "Lista todos los jugadores que ganaron el Mundial.",
+        "¿Qué jugador marcó más goles en la historia de los Mundiales?",
+        "Lista todos los jugadores que ganaron el Mundial junto con su récord de victorias, empates y derrotas",
+        "¿Cuántos jugadores ganaron más de 10 partidos de Mundial en su carrera?",
+        "Top 10 goleadores en la historia de los Mundiales."
       ]
     },
     {
       "name": "v_player_stats_by_tournament",
-      "description": "view of the statistics of the players in each tournament, including their name, position (goalkeeper, defender, midfielder, forward), matches played, wins, draws, losses, goals scored, penalty goals scored, yellow cards received, red cards received, amount of times substituted in, amount of times substituted out, furthest stage reached, if is the champion, and the tournament year. Made to reduce the need for joins when querying for player statistics for a specific tournament.",
+      "description": "vista de las estadísticas de los jugadores en cada torneo, incluyendo su nombre, posición (arquero, defensor, mediocampista, delantero), partidos jugados, victorias, empates, derrotas, goles marcados, goles de penal marcados, tarjetas amarillas recibidas, tarjetas rojas recibidas, cantidad de veces que entró desde el banco, cantidad de veces que fue sustituido, fase más alta alcanzada, si fue campeón, y el año del torneo. Hecha para reducir la necesidad de joins al consultar estadísticas de jugadores para un torneo específico.",
       "columns": {
-        "player_id": "unique identifier for the player",
-        "family_name": "Last name of the player",
+        "player_id": "identificador único del jugador",
+        "family_name": "apellido del jugador",
         "given_name": {
-          "description": "First name of the player",
-          "note": "NULL if not available, care when concatenating with family_name, use TRIM(CONCAT(given_name, ' ', family_name to avoid NULL values"
+          "description": "nombre de pila del jugador",
+          "note": "NULL si no está disponible; cuidado al concatenar con family_name, usar TRIM(CONCAT(given_name, ' ', family_name)) para evitar valores NULL"
         },
-        "is_goalkeeper": "boolean indicating if the player is a goalkeeper",
-        "is_defender": "boolean indicating if the player is a defender",
-        "is_midfielder": "boolean indicating if the player is a midfielder",
-        "is_forward": "boolean indicating if the player is a forward",
-        "tournament_id": "unique identifier for the tournament",
-        "year": "year of the tournament",
+        "is_goalkeeper": "booleano que indica si el jugador es arquero",
+        "is_defender": "booleano que indica si el jugador es defensor",
+        "is_midfielder": "booleano que indica si el jugador es mediocampista",
+        "is_forward": "booleano que indica si el jugador es delantero",
+        "tournament_id": "identificador único del torneo",
+        "year": "año del torneo",
         "matches_played": {
-          "description": "number of matches played by the player in the tournament. NULL if the tournament is from before 1970 (no match-by-match data available)",
-          "note": "NULL if before 1970, be carefull when ordering by this column (use NULLS LAST or NULLS FIRST to control the order)."
+          "description": "cantidad de partidos jugados por el jugador en el torneo. NULL si el torneo es anterior a 1970 (no hay datos partido por partido disponibles)",
+          "note": "NULL si es anterior a 1970; cuidado al ordenar por esta columna (usar NULLS LAST o NULLS FIRST para controlar el orden)."
         },
         "wins": {
-          "description": "number of matches won by the player in the tournament. NULL if before 1970, be carefull when ordering by this column (use NULLS LAST or NULLS FIRST to control the order).",
-          "note": "NULL if before 1970, be carefull when ordering by this column (use NULLS LAST or NULLS FIRST to control the order)."
+          "description": "cantidad de partidos ganados por el jugador en el torneo. NULL si es anterior a 1970; cuidado al ordenar por esta columna (usar NULLS LAST o NULLS FIRST para controlar el orden).",
+          "note": "NULL si es anterior a 1970; cuidado al ordenar por esta columna (usar NULLS LAST o NULLS FIRST para controlar el orden)."
         },
         "draws": {
-          "description": "number of matches drawn by the player in the tournament. NULL if before 1970, be carefull when ordering by this column (use NULLS LAST or NULLS FIRST to control the order).",
-          "note": "NULL if before 1970, be carefull when ordering by this column (use NULLS LAST or NULLS FIRST to control the order)."
+          "description": "cantidad de partidos empatados por el jugador en el torneo. NULL si es anterior a 1970; cuidado al ordenar por esta columna (usar NULLS LAST o NULLS FIRST para controlar el orden).",
+          "note": "NULL si es anterior a 1970; cuidado al ordenar por esta columna (usar NULLS LAST o NULLS FIRST para controlar el orden)."
         },
         "losses": {
-          "description": "number of matches lost by the player in the tournament. NULL if before 1970, be carefull when ordering by this column (use NULLS LAST or NULLS FIRST to control the order).",
-          "note": "NULL if before 1970, be carefull when ordering by this column (use NULLS LAST or NULLS FIRST to control the order)."
+          "description": "cantidad de partidos perdidos por el jugador en el torneo. NULL si es anterior a 1970; cuidado al ordenar por esta columna (usar NULLS LAST o NULLS FIRST para controlar el orden).",
+          "note": "NULL si es anterior a 1970; cuidado al ordenar por esta columna (usar NULLS LAST o NULLS FIRST para controlar el orden)."
         },
-        "total_goals": "number of goals scored by the player in the tournament",
-        "penalty_goals": "number of penalty goals scored by the player in the tournament",
+        "total_goals": "cantidad de goles marcados por el jugador en el torneo",
+        "penalty_goals": "cantidad de goles de penal marcados por el jugador en el torneo",
         "total_yellow_cards": {
-          "description": "number of yellow cards received by the player in the tournament. NULL if before 1970, be carefull when ordering by this column (use NULLS LAST or NULLS FIRST to control the order).",
-          "note": "NULL if before 1970, be carefull when ordering by this column (use NULLS LAST or NULLS FIRST to control the order)."
+          "description": "cantidad de tarjetas amarillas recibidas por el jugador en el torneo. NULL si es anterior a 1970; cuidado al ordenar por esta columna (usar NULLS LAST o NULLS FIRST para controlar el orden).",
+          "note": "NULL si es anterior a 1970; cuidado al ordenar por esta columna (usar NULLS LAST o NULLS FIRST para controlar el orden)."
         },
         "total_red_cards": {
-          "description": "number of red cards received by the player in the tournament. NULL if before 1970, be carefull when ordering by this column (use NULLS LAST or NULLS FIRST to control the order).",
-          "note": "NULL if before 1970, be carefull when ordering by this column (use NULLS LAST or NULLS FIRST to control the order)."
+          "description": "cantidad de tarjetas rojas recibidas por el jugador en el torneo. NULL si es anterior a 1970; cuidado al ordenar por esta columna (usar NULLS LAST o NULLS FIRST para controlar el orden).",
+          "note": "NULL si es anterior a 1970; cuidado al ordenar por esta columna (usar NULLS LAST o NULLS FIRST para controlar el orden)."
         },
         "subbed_in": {
-          "description": "number of times the player was substituted in during the tournament. NULL if before 1970, be carefull when ordering by this column (use NULLS LAST or NULLS FIRST to control the order).",
-          "note": "NULL if before 1970, be carefull when ordering by this column (use NULLS LAST or NULLS FIRST to control the order)."
+          "description": "cantidad de veces que el jugador entró desde el banco durante el torneo. NULL si es anterior a 1970; cuidado al ordenar por esta columna (usar NULLS LAST o NULLS FIRST para controlar el orden).",
+          "note": "NULL si es anterior a 1970; cuidado al ordenar por esta columna (usar NULLS LAST o NULLS FIRST para controlar el orden)."
         },
         "subbed_out": {
-          "description": "number of times the player was substituted out during the tournament. NULL if before 1970, be carefull when ordering by this column (use NULLS LAST or NULLS FIRST to control the order).",
-          "note": "NULL if before 1970, be carefull when ordering by this column (use NULLS LAST or NULLS FIRST to control the order)."
+          "description": "cantidad de veces que el jugador fue sustituido durante el torneo. NULL si es anterior a 1970; cuidado al ordenar por esta columna (usar NULLS LAST o NULLS FIRST para controlar el orden).",
+          "note": "NULL si es anterior a 1970; cuidado al ordenar por esta columna (usar NULLS LAST o NULLS FIRST para controlar el orden)."
         },
         "furthest_stage": {
-          "description": "furthest stage reached by the player's team in the tournament while the player was called up",
+          "description": "fase más lejana alcanzada por el equipo del jugador en el torneo mientras el jugador estaba convocado",
           "enum_values": ["group stage", "second group stage", "round of 16", "quarter-finals", "third-place match", "final"],
-          "note": "since this table starts from 1970, semifinals are not directly included because the furthest stage reached is always either the final or the third-place match."
+          "note": "como esta tabla comienza desde 1970, las semifinales no están incluidas directamente porque la fase más lejana siempre es la final o el partido por el tercer puesto."
         },
-        "is_champion": "boolean indicating if the player's team won the tournament"
+        "is_champion": "booleano que indica si el equipo del jugador ganó el torneo"
       },
       "example_questions": [
-        "Which players played the most matches in the 2018 World Cup?",
-        "List all players who won the 2014 World Cup.",
-        "Which players scored the most goals in the 2006 World Cup?",
-        "List all players that played more than 3 matches in the 2010 World Cup."
+        "¿Qué jugadores jugaron más partidos en el Mundial 2018?",
+        "Lista todos los jugadores que ganaron el Mundial 2014.",
+        "¿Qué jugadores marcaron más goles en el Mundial 2006?",
+        "Lista todos los jugadores que jugaron más de 3 partidos en el Mundial 2010."
       ]
     },
     {
       "name": "v_team_stats_career",
-      "description": "view of the statistics of the teams in the tournaments history, including their name, confederation, matches played, wins, draws, losses, goals scored, goals conceded, amount of times they reached the round of 16, amount of times they reached the quarter-finals, amount of times they reached the semi-finals, amount of times they reached the final, amount of tournaments won, amount of times they were runners-up, amount of times they were third place, amount of times they were fourth place, and tournament apearances. Made to reduce the need for joins when querying for team statistics.",
-      "note": "Historical note: West Germany ('West Germany', active 1954-1990) and reunified Germany ('Germany', active 1930-1950 and 1994-present) are stored as separate team_id/team_name entries. When a user asks about 'Germany' without specifying which era, consider whether the question implies combining both entities (e.g. 'career top scorers' style questions) using team_name LIKE '%Germany%' or explicit team_name IN ('Germany', 'West Germany'), versus questions about a specific tournament year where only one entity applies naturally.",
+      "description": "vista de las estadísticas de los equipos en la historia de los torneos, incluyendo su nombre, confederación, partidos jugados, victorias, empates, derrotas, goles marcados, goles recibidos, cantidad de veces que llegó a octavos de final, cantidad de veces que llegó a cuartos de final, cantidad de veces que llegó a semifinales, cantidad de veces que llegó a la final, cantidad de torneos ganados, cantidad de veces subcampeón, cantidad de veces tercer puesto, cantidad de veces cuarto puesto, y cantidad de apariciones en torneos. Hecha para reducir la necesidad de joins al consultar estadísticas de equipos.",
+      "note": "Nota histórica: Alemania Occidental ('West Germany', activa 1954-1990) y la Alemania reunificada ('Germany', activa 1930-1950 y 1994-presente) están almacenadas como entradas separadas de team_id/team_name. Cuando un usuario pregunta por 'Alemania' sin especificar la era, considerar si la pregunta implica combinar ambas entidades (ej. preguntas tipo 'goleadores históricos') usando team_name LIKE '%Germany%' o explícitamente team_name IN ('Germany', 'West Germany'), versus preguntas sobre un año de torneo específico donde solo una entidad aplica naturalmente.",
       "columns": {
-        "team_id": "unique identifier for the team",
-        "team_name": "name of the team/nation",
-        "confederation_code": "confederation code, e.g. 'UEFA'",
-        "matches_played": "number of matches played by the team in the tournaments history",
-        "wins": "number of matches won by the team in the tournaments history",
-        "draws": "number of matches drawn by the team in the tournaments history",
-        "losses": "number of matches lost by the team in the tournaments history",
-        "goals_scored": "number of goals scored by the team in the tournaments history",
-        "goals_against": "number of goals conceded by the team in the tournaments history",
-        "times_reached_round_of_16": "number of tournaments in which the team reached at least the round of 16",
-        "times_reached_quarterfinals": "number of tournaments in which the team reached at least the quarter-finals",
-        "times_reached_semifinals": "number of tournaments in which the team reached at least the semi-finals",
-        "times_reached_final": "number of tournaments in which the team reached the final",
-        "titles_won": "number of tournaments won by the team (based on tournament_standings.position = 1)",
-        "second_place": "number of times the team was runners-up in the tournaments history",
-        "third_place": "number of times the team got third place in the tournaments history",
-        "fourth_place": "number of times the team got fourth place in the tournaments history",
-        "tournament_appearances": "number of tournaments the team has participated in"
+        "team_id": "identificador único del equipo",
+        "team_name": "nombre del equipo/selección",
+        "confederation_code": "código de confederación, ej. 'UEFA'",
+        "matches_played": "cantidad de partidos jugados por el equipo en la historia de los torneos",
+        "wins": "cantidad de partidos ganados por el equipo en la historia de los torneos",
+        "draws": "cantidad de partidos empatados por el equipo en la historia de los torneos",
+        "losses": "cantidad de partidos perdidos por el equipo en la historia de los torneos",
+        "goals_scored": "cantidad de goles marcados por el equipo en la historia de los torneos",
+        "goals_against": "cantidad de goles recibidos por el equipo en la historia de los torneos",
+        "times_reached_round_of_16": "cantidad de torneos en los que el equipo llegó al menos a octavos de final",
+        "times_reached_quarterfinals": "cantidad de torneos en los que el equipo llegó al menos a cuartos de final",
+        "times_reached_semifinals": "cantidad de torneos en los que el equipo llegó al menos a semifinales",
+        "times_reached_final": "cantidad de torneos en los que el equipo llegó a la final",
+        "titles_won": "cantidad de torneos ganados por el equipo (basado en tournament_standings.position = 1)",
+        "second_place": "cantidad de veces que el equipo fue subcampeón en la historia de los torneos",
+        "third_place": "cantidad de veces que el equipo obtuvo el tercer puesto en la historia de los torneos",
+        "fourth_place": "cantidad de veces que el equipo obtuvo el cuarto puesto en la historia de los torneos",
+        "tournament_appearances": "cantidad de torneos en los que participó el equipo"
       },
       "example_questions": [
-        "Which team has played the most matches in World Cup history?",
-        "List all teams who have won the World Cup.",
-        "Which team has scored the most goals in World Cup history?",
-        "List all the teams that won the World Cup along with their wins, draws, losses record",
-        "How many teams won more than 10 world cup matches in their history?",
-        "Top 10 top scoring teams in World Cup history."
+        "¿Qué equipo jugó más partidos en la historia de los Mundiales?",
+        "Lista todos los equipos que ganaron el Mundial.",
+        "¿Qué equipo marcó más goles en la historia de los Mundiales?",
+        "Lista todos los equipos que ganaron el Mundial junto con su récord de victorias, empates y derrotas",
+        "¿Cuántos equipos ganaron más de 10 partidos de Mundial en su historia?",
+        "Top 10 equipos más goleadores en la historia de los Mundiales."
       ]
     },
     {
       "name": "v_team_stats_by_tournament",
-      "description": "view of the statistics of the teams in each tournament, including their name, confederation, matches played, wins, draws, losses, goals scored, goals conceded, furthest stage reached, if is the champion, second place, third place, fourth place, and the tournament year. Made to reduce the need for joins when querying for team statistics for a specific tournament.",
-      "note": "Historical note: West Germany ('West Germany', active 1954-1990) and reunified Germany ('Germany', active 1930-1950 and 1994-present) are stored as separate team_id/team_name entries. When a user asks about 'Germany' without specifying which era, consider whether the question implies combining both entities (e.g. 'career top scorers' style questions) using team_name LIKE '%Germany%' or explicit team_name IN ('Germany', 'West Germany'), versus questions about a specific tournament year where only one entity applies naturally.",
+      "description": "vista de las estadísticas de los equipos en cada torneo, incluyendo su nombre, confederación, partidos jugados, victorias, empates, derrotas, goles marcados, goles recibidos, fase más alta alcanzada, si fue campeón, subcampeón, tercer puesto, cuarto puesto, y el año del torneo. Hecha para reducir la necesidad de joins al consultar estadísticas de equipos para un torneo específico.",
+      "note": "Nota histórica: Alemania Occidental ('West Germany', activa 1954-1990) y la Alemania reunificada ('Germany', activa 1930-1950 y 1994-presente) están almacenadas como entradas separadas de team_id/team_name. Cuando un usuario pregunta por 'Alemania' sin especificar la era, considerar si la pregunta implica combinar ambas entidades (ej. preguntas tipo 'goleadores históricos') usando team_name LIKE '%Germany%' o explícitamente team_name IN ('Germany', 'West Germany'), versus preguntas sobre un año de torneo específico donde solo una entidad aplica naturalmente.",
       "columns": {
-        "team_id": "unique identifier for the team",
-        "team_name": "name of the team/nation",
-        "confederation_code": "confederation code, e.g. 'UEFA'",
-        "tournament_id": "unique identifier for the tournament",
-        "year": "year of the tournament",
-        "matches_played": "number of matches played by the team in the tournament",
-        "wins": "number of matches won by the team in the tournament",
-        "draws": "number of matches drawn by the team in the tournament",
-        "losses": "number of matches lost by the team in the tournament",
-        "goals_scored": "number of goals scored by the team in the tournament",
-        "goals_against": "number of goals conceded by the team in the tournament",
+        "team_id": "identificador único del equipo",
+        "team_name": "nombre del equipo/selección",
+        "confederation_code": "código de confederación, ej. 'UEFA'",
+        "tournament_id": "identificador único del torneo",
+        "year": "año del torneo",
+        "matches_played": "cantidad de partidos jugados por el equipo en el torneo",
+        "wins": "cantidad de partidos ganados por el equipo en el torneo",
+        "draws": "cantidad de partidos empatados por el equipo en el torneo",
+        "losses": "cantidad de partidos perdidos por el equipo en el torneo",
+        "goals_scored": "cantidad de goles marcados por el equipo en el torneo",
+        "goals_against": "cantidad de goles recibidos por el equipo en el torneo",
         "furthest_stage": {
-          "description": "furthest stage reached by the team in the tournament",
+          "description": "fase más lejana alcanzada por el equipo en el torneo",
           "enum_values": ["group stage", "second group stage", "round of 16", "quarter-finals", "semi-finals", "third-place match", "final", "final round"],
-          "note": "some World Cups had two group stages and the 1950 World Cup had a final round instead of a final match. If we are looking for teams that reached the semi-finals, we need to consider third-place match."
+          "note": "algunos Mundiales tuvieron dos fases de grupos y el Mundial de 1950 tuvo una ronda final en vez de una final. Si se buscan equipos que llegaron a semifinales, hay que considerar también third-place match."
         },
-        "champion": "boolean indicating if the team won the tournament",
-        "second_place": "boolean indicating if the team was runners-up in the tournament",
-        "third_place": "boolean indicating if the team got third place in the tournament",
-        "fourth_place": "boolean indicating if the team got fourth place in the tournament"
+        "champion": "booleano que indica si el equipo ganó el torneo",
+        "second_place": "booleano que indica si el equipo fue subcampeón en el torneo",
+        "third_place": "booleano que indica si el equipo obtuvo el tercer puesto en el torneo",
+        "fourth_place": "booleano que indica si el equipo obtuvo el cuarto puesto en el torneo"
       },
       "example_questions": [
-        "How many matches did Germany play in the 2010 World Cup?",
-        "How many matches did Argentina won in the 2014 World Cup?",
-        "Which team scored the most goals in the 2006 World Cup?",
-        "List all teams that played more than 3 matches in the 2010 World Cup.",
-        "In which world cup did Brazil scored the most goals in?"
+        "¿Cuántos partidos jugó Alemania en el Mundial 2010?",
+        "¿Cuántos partidos ganó Argentina en el Mundial 2014?",
+        "¿Qué equipo marcó más goles en el Mundial 2006?",
+        "Lista todos los equipos que jugaron más de 3 partidos en el Mundial 2010.",
+        "¿En qué Mundial Brasil marcó más goles?"
       ]
     }
   ]

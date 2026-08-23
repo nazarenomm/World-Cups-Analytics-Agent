@@ -26,11 +26,12 @@ SUPABASE_KEY = os.environ["SUPABASE_KEY"]
 _model = None
 _client = None
 
+MODEL_NAME = "intfloat/multilingual-e5-base"
 
 def get_model():
     global _model
     if _model is None:
-        _model = SentenceTransformer(str(MODEL_PATH))
+        _model = SentenceTransformer(MODEL_NAME)
     return _model
 
 

@@ -186,7 +186,8 @@ Este proyecto, en tanto obra derivada, se distribuye también bajo licencia **CC
 ```
 world-cups-analytics-agent/
 ├── app.py                     # Entrypoint de Streamlit
-├── requirements.txt
+├── requirements_local.txt     # Requerimientos para instalación local
+├── requirements.txt           # Requerimientos para deploy en Streamlit Cloud
 ├── corpus/                    # Artículos extraídos de Wikipedia, en JSON
 ├── data/
 │   └── processed/             # Archivos .csv cargados a Supabase (base de datos)
@@ -222,7 +223,7 @@ world-cups-analytics-agent/
 ```bash
 git clone https://github.com/nazarenomm/World-Cups-Analytics-Agent
 cd World-Cups-Analytics-Agent
-pip install -r requirements.txt
+pip install -r requirements_local.txt
 
 # Descargar el modelo de embeddings localmente (una sola vez, usado tanto por schema pruning como por RAG)
 python schema/download_model.py
@@ -252,14 +253,6 @@ Correr la app:
 ```bash
 streamlit run app.py
 ```
-
----
-
-## Roadmap
-
-- [ ] Ruteo híbrido automático entre Text-to-SQL y RAG (actualmente selección manual del usuario)
-- [ ] Ampliar cobertura del corpus RAG (jugadores individuales, curiosidades por edición)
-- [ ] Deploy público (Streamlit Community Cloud u otra alternativa)
 
 ---
 

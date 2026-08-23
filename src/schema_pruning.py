@@ -16,17 +16,27 @@ MODEL_PATH = Path(__file__).parent.parent / "schema" / "local_model"
 
 
 @lru_cache(maxsize=1)
-def _load_resources():
-    """Carga schema, embeddings y modelo una sola vez (cacheado en memoria)."""
+def _load_schema_metadata():
+    """Carga solo la metadata del schema (JSON). Liviano, siempre necesario."""
     with open(SCHEMA_PATH, encoding="utf-8") as f:
         schema = json.load(f)
+
+    return {t["name"]: t for t in schema["tables"]}
+
+
+@lru_cache(maxsize=1)
+def _load_resources():
+    """
+    Carga schema, embeddings y modelo una sola vez (cacheado en memoria).
+    Solo se llama cuando USE_SCHEMA_PRUNING=True — requiere el modelo local
+    de sentence-transformers disponible en el filesystem.
+    """
+    tables_by_name = _load_schema_metadata()
 
     with open(CACHE_PATH, "rb") as f:
         cache = pickle.load(f)
 
     model = SentenceTransformer(str(MODEL_PATH))  # local, sin token
-
-    tables_by_name = {t["name"]: t for t in schema["tables"]}
 
     return {
         "tables_by_name": tables_by_name,
@@ -69,6 +79,19 @@ def get_relevant_tables(user_prompt: str, top_k: int = 4) -> list[dict]:
 
     return results
 
+
+def get_all_tables() -> list[dict]:
+    """
+    Devuelve la metadata completa de todas las tablas/vistas, sin embeddings
+    ni cálculo de similitud. Usado cuando USE_SCHEMA_PRUNING=False, evitando
+    cargar el modelo de sentence-transformers en producción.
+    """
+    tables_by_name = _load_schema_metadata()
+
+    return [
+        {"name": name, "similarity": None, "metadata": meta}
+        for name, meta in tables_by_name.items()
+    ]
 
 if __name__ == "__main__":
     from schema_format import format_schema_for_prompt

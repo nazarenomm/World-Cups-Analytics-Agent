@@ -19,7 +19,7 @@ from .config import (
 )
 from .prompts import build_followup_prompt, build_text_to_sql_prompt, build_retry_prompt, RESPONSE_SCHEMA
 from .schema_format import format_schema_for_prompt
-from .schema_pruning import get_relevant_tables
+from .schema_pruning import get_relevant_tables, get_all_tables
 from .db import execute_query, UnsafeQueryError
 
 load_dotenv()
@@ -31,8 +31,10 @@ _GENERATE_CONFIG = types.GenerateContentConfig(
 
 
 def _get_schema_injection(user_prompt: str) -> str:
-    top_k = SCHEMA_PRUNING_TOP_K if USE_SCHEMA_PRUNING else SCHEMA_FULL_TOP_K
-    relevant = get_relevant_tables(user_prompt, top_k=top_k)
+    if USE_SCHEMA_PRUNING:
+        relevant = get_relevant_tables(user_prompt, top_k=SCHEMA_PRUNING_TOP_K)
+    else:
+        relevant = get_all_tables()
     return format_schema_for_prompt(relevant)
 
 

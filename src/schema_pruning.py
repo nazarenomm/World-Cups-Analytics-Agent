@@ -12,8 +12,9 @@ from sentence_transformers import SentenceTransformer
 
 SCHEMA_PATH = Path(__file__).parent.parent / "schema" / "schema_metadata.json"
 CACHE_PATH = Path(__file__).parent.parent / "schema" / "schema_embeddings_cache.pkl"
-MODEL_PATH = Path(__file__).parent.parent / "schema" / "local_model"
+# MODEL_PATH = Path(__file__).parent.parent / "schema" / "local_model"
 
+MODEL_NAME = "intfloat/multilingual-e5-base"
 
 @lru_cache(maxsize=1)
 def _load_schema_metadata():
@@ -36,7 +37,7 @@ def _load_resources():
     with open(CACHE_PATH, "rb") as f:
         cache = pickle.load(f)
 
-    model = SentenceTransformer(str(MODEL_PATH))  # local, sin token
+    model = SentenceTransformer(MODEL_NAME)
 
     return {
         "tables_by_name": tables_by_name,

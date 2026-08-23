@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-MODEL_NAME = os.environ.get("MODEL_NAME")
+MODEL_NAME = "intfloat/multilingual-e5-base"
 LOCAL_PATH = Path(__file__).parent / "local_model"
 HF_TOKEN = os.environ.get("HF_TOKEN")
 

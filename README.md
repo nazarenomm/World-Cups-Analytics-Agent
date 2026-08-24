@@ -7,18 +7,60 @@ Un agente conversacional que responde preguntas en lenguaje natural (español) s
 
 Este proyecto es un ejercicio de portfolio enfocado en decisiones de ingeniería production-minded — no solo "que funcione", sino documentar por qué se tomó cada decisión, qué alternativas se descartaron, y qué limitaciones son conscientes vs. accidentales.
 
-> 🚧 **Estado: ambos pipelines funcionales end-to-end, integrados en la misma interfaz con selector manual de modo.** El ruteo híbrido automático (que el sistema elija SQL o RAG sin intervención del usuario) está pendiente.
-
 ---
 
-## Demo
+## Demo en vivo: [[streamlit](https://wc-analytics-agent.streamlit.app/)]
 
-- Preguntás en lenguaje natural, eligiendo el modo según el tipo de pregunta:
-  - **SQL**: estadísticas de jugadores, DTs, selecciones, partidos, árbitros, pelotas oficiales, etc. Devuelve tabla + gráfico automático + la consulta SQL generada (visible para debug/transparencia; el dataset origen es público, así que no hay riesgo de seguridad en mostrarla).
-  - **RAG**: contexto histórico, motivaciones, repercusiones de eventos puntuales. Devuelve una respuesta narrativa con **citas a las fuentes usadas**, cada una linkeada al artículo de Wikipedia correspondiente.
-- Ambos modos mantienen contexto conversacional de forma independiente (podés hacer preguntas de seguimiento sin repetir contexto, dentro del mismo modo).
+> ⚠️ **Nota**: la app está deployada en Streamlit Community Cloud. Si estuvo inactiva, Streamlit "duerme" la aplicación. Si ves un mensaje del tipo "Zzzz: This app has gone to sleep due to inactivity", hacé click en "Yes, get this app back up!".
 
-*(Deploy público pendiente. Por ahora, instrucciones de corrida local más abajo.)*
+Preguntás en lenguaje natural, eligiendo el modo según el tipo de pregunta:
+
+Ambos modos mantienen contexto conversacional de forma independiente (podés hacer preguntas de seguimiento sin repetir contexto, dentro del mismo modo).
+
+
+### SQL:
+Estadísticas de jugadores, DTs, selecciones, partidos, árbitros, pelotas oficiales, etc. Devuelve tabla + gráfico automático + la consulta SQL generada (visible para debug/transparencia; el dataset origen es público).
+
+**Visualizaciones disponibles:**
+
+#### - Gráfico de dispersión (scatter)
+
+<img src="imagenes_demo/scatter.png" width="800">  
+
+Además del gráfico, se muestra una tabla ordenable con los datos solicitados:  
+<img src="imagenes_demo/scatter_tabla.png" width="800">
+
+El chatbot tiene memoria y puede realizar modificaciones:  
+<img src="imagenes_demo/scatter_2.png" width="800">
+
+#### - Gráfico de barras  
+<img src="imagenes_demo/barchart.png" width="800">
+
+#### - Gráfico de líneas  
+<img src="imagenes_demo/linechart.png" width="800">  
+
+<img src="imagenes_demo/linechart_2.png" width="800">
+
+#### - Gráfico de torta (piechart)
+Este tipo de gráfico debe ser pedido explícitamente, el default es el gráfico de barras  
+
+<img src="imagenes_demo/piechart.png" width="800">
+
+#### - Mapa  
+Este tipo de gráfico debe ser pedido explícitamente, el default es el gráfico de barras  
+<img src="imagenes_demo/mapa.png" width="800">
+
+#### - Métrica
+Cuando se solicite un dato específico se devuelve una tarjeta con el valor encontrado  
+<img src="imagenes_demo/metrica.png" width="800">
+
+### RAG:
+Contexto histórico, motivaciones, repercusiones de eventos puntuales. Devuelve una respuesta narrativa con **citas a las fuentes usadas**, cada una linkeada al artículo de Wikipedia correspondiente.
+
+**Ejemplos:**  
+<img src="imagenes_demo/rag_0.png" width="800">  
+
+<img src="imagenes_demo/rag_1.png" width="800">
 
 ---
 
@@ -27,9 +69,65 @@ Este proyecto es un ejercicio de portfolio enfocado en decisiones de ingeniería
 - **UI**: Streamlit
 - **Base de datos**: Supabase (PostgreSQL + pgvector)
 - **LLM**: Google Gemini (free tier vía AI Studio)
-- **Embeddings**: `intfloat/multilingual-e5-base`, corriendo localmente, **modelo único compartido** entre schema pruning y RAG
+- **Embeddings**: `intfloat/multilingual-e5-base`
 - **Gráficos**: Plotly
 
+---
+
+## Fuentes de datos
+
+### Datos estructurados
+
+La base estructurada (torneos, partidos, jugadores, goles, etc.) parte del dataset [**Fjelstul World Cup Database**](https://www.github.com/jfjelstul/worldcup), creado por Joshua C. Fjelstul, Ph.D.
+
+> © 2023 Joshua C. Fjelstul, Ph.D. La estructura y organización original de la Fjelstul World Cup Database, así como toda su documentación, están publicadas bajo licencia [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode).
+>
+> **Modificaciones realizadas sobre el dataset original:** los datos fueron reprocesados y cargados bajo un **schema relacional propio** (claves primarias sustitutas de tipo TEXT, normalización y organización de tablas distinta a la original), diseñado específicamente para este proyecto. La estructura de tablas, las vistas agregadas, y todo el código de este repositorio son trabajo propio derivado del dataset original, y se publican bajo la misma licencia CC-BY-SA 4.0, según lo requerido.
+
+Este proyecto, en tanto obra derivada, se distribuye también bajo licencia **CC-BY-SA 4.0**.
+
+### Datos adicionales
+
+- Pelotas oficiales de cada Mundial (`match_balls`): scrapeadas de Wikipedia.
+- **Corpus RAG**: artículos seleccionados manualmente de Wikipedia en español (confederaciones, ediciones de Mundiales, partidos históricos, estadios, selecciones nacionales, e historia general del torneo).
+
+---
+
+## Estructura del repo
+
+```
+world-cups-analytics-agent/
+├── app.py                     # Entrypoint de Streamlit
+├── requirements_local.txt     # Requerimientos para instalación local
+├── requirements.txt           # Requerimientos para deploy en Streamlit Cloud
+├── corpus/                    # Artículos extraídos de Wikipedia, en JSON
+├── data/
+│   └── processed/             # Archivos .csv cargados a Supabase (base de datos)
+├── processing/
+│ └── data_processing.ipynb    # Notebook con el procesado del dataset origen
+├── python/                    # Scripts varios de carga a Supabase, cálculo de embeddings, chunking, etc.
+├── schema/
+│ ├── DDL.sql                  # Creación de la estructura de la base de datos
+│ ├── schema_metadata.json     # Descripciones, columnas, enums, ejemplos por tabla/vista
+│ ├── embeddings_cache.pkl     # Embeddings del schema, precalculados
+│ ├── local_model/             # Modelo E5 local, compartido entre schema pruning y RAG (gitignored)
+│ ├── download_model.py
+│ └── views/                   # Consultas SQL usadas para crear las vistas en la base de datos
+├── src/
+│ ├── config.py                # Flags y constantes
+│ ├── prompts.py               # Prompts y reglas de dominio (Text-to-SQL)
+│ ├── rag_prompts.py           # Prompts y reglas de dominio (RAG)
+│ ├── schema_format.py         # Formateo de metadata de schema para el LLM
+│ ├── schema_pruning.py        # Selección de tablas relevantes por embeddings (inactivo)
+│ ├── retrieval.py             # Embedding de query + similarity search en Supabase (RAG)
+│ ├── text_to_sql.py           # Generación de SQL vía Gemini
+│ ├── db.py                    # Validación + ejecución contra Postgres (rol solo lectura)
+│ ├── pipeline.py              # Orquestación Text-to-SQL: prompt → SQL → ejecución → retry
+│ ├── rag_pipeline.py          # Orquestación RAG: prompt → retrieval → respuesta con citas
+│ └── chart_detector.py        # Heurística de selección de gráfico
+├── wikipedia/                 # Funciones para extraer artículos de Wikipedia
+└── wikipedia_links/           # Listas curadas de URLs de Wikipedia por categoría (input del corpus)
+```
 ---
 
 ## Arquitectura del pipeline Text-to-SQL
@@ -160,62 +258,6 @@ En vez de pedirle al LLM que además de generar SQL elija un tipo de gráfico, l
 - **Cobertura del corpus es manual y finita.** Preguntas sobre eventos, jugadores o ediciones no cubiertos por los artículos curados no van a tener fuente — el sistema debería responder `answerable=false` en ese caso en vez de alucinar, pero esto depende de que el LLM siga bien la instrucción.
 - **El corpus está en español; no se probó retrieval cross-lingual.** Preguntas en otros idiomas no fueron validadas end-to-end (aunque el modelo E5 es multilingüe y en teoría debería sostenerlo razonablemente).
 
----
-
-## Fuentes de datos
-
-### Datos estructurados
-
-La base estructurada (torneos, partidos, jugadores, goles, etc.) parte del dataset [**Fjelstul World Cup Database**](https://www.github.com/jfjelstul/worldcup), creado por Joshua C. Fjelstul, Ph.D.
-
-> © 2023 Joshua C. Fjelstul, Ph.D. La estructura y organización original de la Fjelstul World Cup Database, así como toda su documentación, están publicadas bajo licencia [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode).
->
-> **Modificaciones realizadas sobre el dataset original:** los datos fueron reprocesados y cargados bajo un **schema relacional propio** (claves primarias sustitutas de tipo TEXT, normalización y organización de tablas distinta a la original), diseñado específicamente para este proyecto. La estructura de tablas, las vistas agregadas, y todo el código de este repositorio son trabajo propio derivado del dataset original, y se publican bajo la misma licencia CC-BY-SA 4.0, según lo requerido.
-
-Este proyecto, en tanto obra derivada, se distribuye también bajo licencia **CC-BY-SA 4.0**.
-
-### Datos adicionales
-
-- Pelotas oficiales de cada Mundial (`match_balls`): scrapeadas de Wikipedia.
-- **Corpus RAG**: artículos seleccionados manualmente de Wikipedia en español (confederaciones, ediciones de Mundiales, partidos históricos, estadios, selecciones nacionales, e historia general del torneo).
-
----
-
-## Estructura del repo
-
-```
-world-cups-analytics-agent/
-├── app.py                     # Entrypoint de Streamlit
-├── requirements_local.txt     # Requerimientos para instalación local
-├── requirements.txt           # Requerimientos para deploy en Streamlit Cloud
-├── corpus/                    # Artículos extraídos de Wikipedia, en JSON
-├── data/
-│   └── processed/             # Archivos .csv cargados a Supabase (base de datos)
-├── processing/
-│ └── data_processing.ipynb    # Notebook con el procesado del dataset origen
-├── python/                    # Scripts varios de carga a Supabase, cálculo de embeddings, chunking, etc.
-├── schema/
-│ ├── DDL.sql                  # Creación de la estructura de la base de datos
-│ ├── schema_metadata.json     # Descripciones, columnas, enums, ejemplos por tabla/vista
-│ ├── embeddings_cache.pkl     # Embeddings del schema, precalculados
-│ ├── local_model/             # Modelo E5 local, compartido entre schema pruning y RAG (gitignored)
-│ ├── download_model.py
-│ └── views/                   # Consultas SQL usadas para crear las vistas en la base de datos
-├── src/
-│ ├── config.py                # Flags y constantes
-│ ├── prompts.py               # Prompts y reglas de dominio (Text-to-SQL)
-│ ├── rag_prompts.py           # Prompts y reglas de dominio (RAG)
-│ ├── schema_format.py         # Formateo de metadata de schema para el LLM
-│ ├── schema_pruning.py        # Selección de tablas relevantes por embeddings (inactivo)
-│ ├── retrieval.py             # Embedding de query + similarity search en Supabase (RAG)
-│ ├── text_to_sql.py           # Generación de SQL vía Gemini
-│ ├── db.py                    # Validación + ejecución contra Postgres (rol solo lectura)
-│ ├── pipeline.py              # Orquestación Text-to-SQL: prompt → SQL → ejecución → retry
-│ ├── rag_pipeline.py          # Orquestación RAG: prompt → retrieval → respuesta con citas
-│ └── chart_detector.py        # Heurística de selección de gráfico
-├── wikipedia/                 # Funciones para extraer artículos de Wikipedia
-└── wikipedia_links/           # Listas curadas de URLs de Wikipedia por categoría (input del corpus)
-```
 ---
 
 ## Cómo correrlo localmente
